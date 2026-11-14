@@ -1,0 +1,12 @@
+[book]
+title = "Teacher LLM Training: Expanded Core Curriculum"
+authors = ["Teacher LLM Training Project"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/mrhunsaker/Teacher_LLM_Training"
+edit-url-template = "https://github.com/mrhunsaker/Teacher_LLM_Training/edit/main/{path}"

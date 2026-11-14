@@ -147,18 +147,20 @@ For every item, enter one rating (0, 1, 2, or N/O) and a brief evidence note.
 
 ## Summary and coaching record
 
-| Area | Demonstrated (2) | Emerging (1) | Not demonstrated (0) | Not observed (N/O) |
+| Area | Items | Score sum (0–2 each) | Maximum for observed items | N/O count |
 |---|---:|---:|---:|---:|
-| 1. Bounded prompt design (5 items) | | | | |
-| 2. Privacy and responsible use (4 items) | | | | |
-| 3. Learner-centered analysis (4 items) | | | | |
-| 4. Goal and measurement quality (5 items) | | | | |
-| 5. Data interpretation (5 items) | | | | |
-| 6. Iterative design and testing (5 items) | | | | |
-| 7. Email triage (5 items; if applicable) | | | | |
-| 8. Professional judgment and accessibility (4 items) | | | | |
-| 9. AI literacy and failure detection (5 items) | | | | |
-| 10. Independent verification and decision-making (5 items) | | | | |
+| 1. Bounded prompt design | 5 | | | |
+| 2. Privacy and responsible use | 4 | | | |
+| 3. Learner-centered analysis | 4 | | | |
+| 4. Goal and measurement quality | 5 | | | |
+| 5. Data interpretation | 5 | | | |
+| 6. Iterative design and testing | 5 | | | |
+| 7. Email triage (if applicable) | 5 | | | |
+| 8. Professional judgment and accessibility | 4 | | | |
+| 9. AI literacy and failure detection | 5 | | | |
+| 10. Independent verification and decision-making | 5 | | | |
+
+To calculate an area subtotal, add its 0, 1, and 2 ratings. The maximum for observed items is 2 multiplied by the number of items rated 0, 1, or 2. Count N/O separately; never include N/O as zero. Do not compare area subtotals when the number of observed items differs.
 
 **Strongest demonstrated behaviors:**  
 [Record item numbers and specific evidence.]
@@ -178,6 +180,6 @@ This checklist uses a **0–2 item-level formative scale** and is intended for r
 
 ## Suggested readiness interpretation
 
-For a supported pilot, review all relevant core items in Areas 1–6 and 8–10. A suggested local threshold is a rating of 2 on each safety-critical behavior and no unresolved concern in privacy or professional judgment. Any N/O item requires another valid opportunity before making a readiness judgment. Email triage (Area 7) is optional when the participant's role or course path does not include that workflow.
+For a supported pilot, review all relevant core items in Areas 1–6 and 8–10. A suggested local threshold is a rating of 2 on all privacy items (Area 2) and the reserved-decision item (Area 8, item 2), with no unresolved concern in professional judgment. Any core item rated 0 or marked N/O requires coaching or another valid observation before a readiness judgment. Email triage (Area 7) is optional when the participant's role or course path does not include that workflow.
 
 This is a local training suggestion, not a credential, employment evaluation, legal standard, or substitute for district approval. A participant may demonstrate strong judgment by choosing not to use AI when risk, privacy, accessibility, or task value makes it inappropriate.

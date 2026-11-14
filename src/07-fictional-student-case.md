@@ -4,11 +4,11 @@
 
 ## Case snapshot
 
-Aureliano Buendia is a student with **ocular albinism and photophobia**. With corrective lenses, her measured visual acuity is **20/175**. She wears her glasses and requires a **brimmed hat** to reduce the impact of overhead lighting. She is highly sensitive to glare. Her academic performance is solidly in the **B range**; academic achievement is generally good.
+Aureliano Buendia is a student with **ocular albinism and photophobia**. With corrective lenses, his measured visual acuity is **20/175**. He wears his glasses and requires a **brimmed hat** to reduce the impact of overhead lighting. He is highly sensitive to glare. His academic performance is solidly in the **B range**; academic achievement is generally good.
 
-Aureliano Buendia receives orientation and mobility (O&M) instruction. She is learning braille as a second literacy medium so that she can become a **dual-media reader**. For visual access, she is learning to use **Windows Magnifier** (with ZoomText as a possible alternative if the team determines that its features are needed and funding is available). She also uses an **iPad in class**.
+Aureliano Buendia receives orientation and mobility (O&M) instruction. He is learning braille as a second literacy medium so that he can become a **dual-media reader**. For visual access, he is learning to use **Windows Magnifier** (with ZoomText as a possible alternative if the team determines that its features are needed and funding is available). He also uses an **iPad in class**.
 
-The instructional question is not “How do we fix Aureliano Buendia's grades?” Her grades are good. The question is: **How can the team make access efficient, comfortable, independent, and sustainable across environments, materials, and tasks—while developing literacy and technology options for the future?**
+The instructional question is not “How do we fix Aureliano Buendia's grades?” His grades are good. The question is: **How can the team make access efficient, comfortable, independent, and sustainable across environments, materials, and tasks—while developing literacy and technology options for the future?**
 
 ## Known information and information still to collect
 
@@ -46,10 +46,10 @@ A useful starting focus is **access to digital classroom materials using Windows
 The teacher first defines the task in observable terms. For example:
 
 - Aureliano Buendia opens an assigned digital document on a Windows device.
-- She turns on or accesses Windows Magnifier using the agreed method.
-- She adjusts magnification and, when needed, the view so that the relevant content is visible.
-- She navigates to the assigned section and completes the classroom task.
-- She uses her glasses and brimmed hat and follows agreed glare-reduction arrangements.
+- He turns on or accesses Windows Magnifier using the agreed method.
+- He adjusts magnification and, when needed, the view so that the relevant content is visible.
+- He navigates to the assigned section and completes the classroom task.
+- He uses his glasses and brimmed hat and follows agreed glare-reduction arrangements.
 - The teacher records the level of prompting, time or effort when relevant, and any access barriers.
 
 This is a **candidate task analysis**, not a claim that Aureliano Buendia currently performs or struggles with any of these steps. The TVI should confirm the actual workflow with Aureliano Buendia and classroom staff.
@@ -58,7 +58,7 @@ This is a **candidate task analysis**, not a claim that Aureliano Buendia curren
 
 > Act as a collaborative planning assistant for a teacher of students with visual impairments. Use only the fictional case facts in this chapter. We are considering a short instructional cycle for Aureliano Buendia's use of Windows Magnifier to access classroom documents. Do not write a goal or lesson yet.  
 >   
-> Return: (1) the instructional problem stated neutrally in two sentences; (2) known facts; (3) information we need to observe before selecting a target; and (4) up to five possible observable task components. Mark every unknown as “not yet observed.” Do not infer a deficit from Aureliano Buendia's B-range grades or her visual acuity. Stop after these four sections.
+> Return: (1) the instructional problem stated neutrally in two sentences; (2) known facts; (3) information we need to observe before selecting a target; and (4) up to five possible observable task components. Mark every unknown as “not yet observed.” Do not infer a deficit from Aureliano Buendia's B-range grades or his visual acuity. Stop after these four sections.
 
 ### 2. Refine: challenge the first plan
 
@@ -75,7 +75,7 @@ The teacher reviews the response and asks:
 
 > Review the proposed task components as a critical colleague. Identify ambiguities, hidden assumptions, and steps that may not be necessary for Aureliano Buendia. Separate questions that require observation from questions the teacher can answer from existing records. Do not add new case facts. Suggest a leaner task analysis with no more than six steps. Do not write a goal, lesson, or data sheet.
 
-The teacher edits the task analysis. For example, if Aureliano Buendia's device is already configured and she only needs to select a suitable magnification level and navigate a document, the team should not measure unnecessary setup steps. Conversely, if opening a file, changing the view, or returning to the relevant location is part of the real classroom barrier, those steps may belong in the analysis.
+The teacher edits the task analysis. For example, if Aureliano Buendia's device is already configured and he only needs to select a suitable magnification level and navigate a document, the team should not measure unnecessary setup steps. Conversely, if opening a file, changing the view, or returning to the relevant location is part of the real classroom barrier, those steps may belong in the analysis.
 
 ### 3. Build: create one small classroom-ready artifact
 
@@ -111,8 +111,8 @@ These are planning avenues, not predetermined deficits or goals.
 
 - Develop functional use of Windows Magnifier for digital classroom materials.
 - Compare built-in magnification with ZoomText only when an observed access need justifies evaluating the additional software.
-- Document how Aureliano Buendia uses her iPad and whether workflows transfer across apps, file types, and classroom tasks.
-- Teach Aureliano Buendia to describe and request the display, contrast, magnification, and document-access conditions that work for her.
+- Document how Aureliano Buendia uses his iPad and whether workflows transfer across apps, file types, and classroom tasks.
+- Teach Aureliano Buendia to describe and request the display, contrast, magnification, and document-access conditions that work for his.
 
 ### Sensory efficiency and visual access
 
@@ -136,7 +136,7 @@ These are planning avenues, not predetermined deficits or goals.
 
 ### Self-determination and self-advocacy
 
-- Support Aureliano Buendia in explaining her access needs, requesting agreed accommodations, and evaluating whether tools are working.
+- Support Aureliano Buendia in explaining his access needs, requesting agreed accommodations, and evaluating whether tools are working.
 - Include student feedback about comfort, fatigue, efficiency, and preference.
 - Teach the student to identify when a different medium or tool is more effective for a particular task.
 
@@ -147,8 +147,8 @@ Use these as observation questions before drafting any IEP goal:
 1. Under what lighting and glare conditions does Aureliano Buendia report comfortable and effective visual access?
 2. Which classroom materials are accessible through print, digital magnification, braille, or a combination?
 3. What steps can Aureliano Buendia complete independently when using Windows Magnifier for a real classroom task?
-4. Which Magnifier settings and navigation strategies does she select and use consistently?
-5. How does her access differ across Windows devices, iPad applications, document formats, and classroom environments?
+4. Which Magnifier settings and navigation strategies does he select and use consistently?
+5. How does his access differ across Windows devices, iPad applications, document formats, and classroom environments?
 6. What braille skills are emerging, and in which instructional contexts is braille currently being used?
 7. What does the O&M specialist observe about access and travel in relevant environments?
 8. How does Aureliano Buendia describe the effort, comfort, and efficiency of each access method?
@@ -157,7 +157,7 @@ Do not answer these questions by guessing from the case profile. Collect observa
 
 ## Practice dataset: explicitly synthetic
 
-The following values are **illustrative only**. They are not measurements of Aureliano Buendia and must not be presented as her baseline. They show how a team might structure a record after defining a task analysis.
+The following values are **illustrative only**. They are not measurements of Aureliano Buendia and must not be presented as his baseline. They show how a team might structure a record after defining a task analysis.
 
 | Session | Task | Independent steps completed | Steps in task analysis | Prompting | Environment note |
 |---|---|---:|---:|---|---|

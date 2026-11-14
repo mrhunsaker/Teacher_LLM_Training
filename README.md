@@ -52,15 +52,9 @@ The professional remains responsible for decisions within their role. AI does no
 
 ## Selecting a case
 
-Use one case as a continuing practice context:
+Choose one of the six fictional cases in the [unified Buendía-family case collection](src/multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), or Arcadio (reading). These are equal options, not six required assignments. Use one case throughout the modules and workbook. Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries.
 
-- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](src/07-fictional-student-case.md).
-- [Multidisciplinary Special Education Case Studies](src/multidisciplinary-case-studies.md): deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading.
-- [Additional Fictional Student Cases](src/practice-student-cases.md).
-
-Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries. Participants work within their professional scope and identify when consultation or team decisions are required. All profiles and practice data are fictional.
-
-## Participant and facilitator resources
+## Participant and facilitator resources/
 
 - [Participant Lesson Handouts](src/participant-lesson-handouts.md)
 - [Participant Pre- and Post-Assessment](src/participant-assessments.md)

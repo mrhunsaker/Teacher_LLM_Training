@@ -68,9 +68,15 @@ This guide provides Sessions 7–10 of the ten-session course. The six applied s
 - 5–50 min: Independent capstone work.
 - 50–65 min: Participant demonstration and explanation.
 - 65–80 min: Facilitator scoring and targeted feedback.
-- 80–90 min: Complete both post-assessments, reflect on the capstone, and identify a follow-up plan. The applied-course and AI-literacy post-assessments are both administered after Session 10.
+- 80–90 min: Capstone reflection and next-step plan.
 
-**Evidence:** Capstone portfolio, scored rubric, and post-assessment.
+**Evidence:** Capstone portfolio, scored rubric, and reflection.
+
+**After Session 10 — administer both post-assessments in a separate block (35–45 minutes total):**
+- Applied-course post-assessment: 20–25 minutes.
+- AI-literacy post-assessment: 15–20 minutes.
+
+Do not compress both assessments into the final ten minutes of Session 10. The [Course Map and Assessment Plan](course-map-and-assessment-plan.md) and each assessment's administration instructions specify that both post-assessments occur after the capstone. Schedule sufficient time after the session or at a separate follow-up meeting.
 
 ## Facilitation principles
 

@@ -21,9 +21,9 @@ The [Course Map and Assessment Plan](course-map-and-assessment-plan.md) is the d
 ### Sessions 1–6: Applied workflows
 
 1. **Prompting:** Define a bounded task, role, context, constraints, output, and stop condition.
-2. **Plan and Refine:** Separate facts, hypotheses, unknowns, and needed student/team input using a selected case.
-3. **Goal development and measurement:** Draft and review an observable, individualized educational or related-service target.
-4. **Data collection and Excel monitoring:** Build aligned observation tools, work with synthetic data, and verify calculations.
+2. **Plan, Refine, and goal brainstorming:** Separate facts, hypotheses, and unknowns; identify student/team questions; draft role-appropriate target options for review.
+3. **Data collection:** Define observable behaviors or outcomes, valid opportunities, prompt/support levels, and aligned data-collection tools.
+4. **Excel progress monitoring:** Enter synthetic data, verify formulas and calculations, and interpret the graph in text.
 5. **Data-based decisions:** Examine data quality, level, trend, variability, access conditions, and competing explanations.
 6. **Copilot email triage:** Produce a human-reviewed action report from simulated email; verify original messages and dates.
 

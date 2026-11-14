@@ -8,4 +8,5 @@
 - [Module 4: Excel Progress Monitoring and Criterion Flags](04-excel-monitoring.md)
 - [Module 5: Interpreting Progress, Growth, and Possible Plateaus](05-data-based-decisions.md)
 - [Module 6: Microsoft Copilot Morning Email Triage](06-copilot-email.md)
+- [Case Study: Maya — Access, Independence, and Dual-Media Learning](07-fictional-student-case.md)
 - [References and Further Learning](references.md)

@@ -50,9 +50,9 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Evidence:** The prompt has one task, relevant context, explicit limits, an accessible output format, and a stop condition.
 
-## Lesson 2: Plan and Refine
+## Lesson 2: Plan, Refine, and goal brainstorming
 
-**Objectives:** Separate facts, hypotheses, and unknowns; use an LLM to surface questions; narrow an instructional problem to an observable task.
+**Objectives:** Separate facts, hypotheses, and unknowns; use an LLM to surface questions; narrow an educational or service problem to an observable task; brainstorm and professionally review candidate target language within the participant's role.
 
 **Preparation:** Use Aureliano Buendia's vision case or select a relevant fictional case from the multidisciplinary case-study chapter.
 
@@ -61,30 +61,31 @@ Do not require participants to connect personal or district email accounts. The 
 - 10–25: Demonstrate a facts / hypotheses / unknowns analysis.
 - 25–45: Participants write a Plan prompt.
 - 45–65: Participants write a Refine prompt requesting missing observations and competing explanations.
-- 65–80: Select one meaningful task and define needed evidence.
-- 80–90: Exit ticket: what question remains and who can answer it?
+- 65–75: Select one meaningful task and define needed evidence.
+- 75–85: Draft up to three candidate target statements or outcome descriptions; mark all missing information and decisions reserved to the educator/team.
+- 85–90: Exit ticket: what question remains and who can answer it?
 
-**Artifact:** Planning brief containing strengths, known facts, unknowns, task, setting, and student-perspective questions.
+**Artifact:** Planning brief and role-appropriate candidate target options, with missing information and team decisions clearly marked.
 
 **Evidence:** No inference about functional vision, literacy medium, motivation, or independence is made from diagnosis, acuity, grades, or device ownership alone.
 
-## Lesson 3: Goal development and measurement
+## Lesson 3: Data collection and operational measurement
 
-**Objectives:** Define an observable target; specify conditions, opportunities, prompt definitions, and measurement; review candidate goal language.
+**Objectives:** Translate a selected target or service outcome into an operational definition; specify valid opportunities, prompt/support levels, conditions, and aligned data fields.
 
-**Preparation:** Read Modules 2–3 and use fictional baseline data.
+**Preparation:** Read Module 3 and use the target options and fictional baseline from Lesson 2.
 
 **Agenda:**
-- 0–15: Demonstrate a broad aspiration versus measurable target.
-- 15–30: Define behavior, conditions, opportunities, prompt levels, and data method.
-- 30–50: Use the goal prompt to brainstorm up to three options.
-- 50–70: Peer review and revise one option.
-- 70–85: Discuss why criteria must be individualized.
+- 0–15: Compare vague and operationally defined measures.
+- 15–30: Define behavior/outcome, conditions, valid opportunities, and scoring rules.
+- 30–50: Build a data-collection tool matched to the selected discipline and task.
+- 50–70: Peer review the tool for alignment, usability, and consistent scoring.
+- 70–85: Discuss why measures and criteria must be individualized and construct-valid.
 - 85–90: Exit ticket: what would make the measure invalid in another setting?
 
-**Artifact:** Draft target, operational definition, measurement plan, and professional review notes.
+**Artifact:** Operational definition, aligned data-collection tool, and professional review notes.
 
-**Evidence:** The target is observable and measurable. Greater than 90% on at least three sessions is treated as a configurable practice example, not a universal standard.
+**Evidence:** The measure fits the selected skill or outcome, distinguishes independent and supported performance where relevant, and records conditions. Greater than 90% across three sessions is a configurable training convention, not a universal standard.
 
 ## Lesson 4: Build data tools and monitor progress
 

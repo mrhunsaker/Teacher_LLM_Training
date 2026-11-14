@@ -1,6 +1,6 @@
 # AI Literacy and Misconception Assessment
 
-Use this short assessment alongside the participant pre/post assessment. Administer before Module 7 and after Module 10. Use fictional scenarios only. The goal is to assess reasoning, not memorization of AI terminology.
+Use this short assessment alongside the applied-course [Participant Pre- and Post-Assessment](participant-assessments.md). Administer the pre-assessment immediately before Session 7 and the post-assessment after the Session 10 capstone. Use fictional scenarios only. The goal is to assess reasoning, not memorization of AI terminology. See the [Course Map and Assessment Plan](course-map-and-assessment-plan.md) for the unified schedule.
 
 ## Pre-assessment
 
@@ -38,4 +38,4 @@ A participant's post-assessment score is one indicator of learning. It does not 
 
 ## Review and coaching
 
-Compare item-level responses, not only totals. Select one misconception that remains and assign a short practice activity from [Module 8 — AI Misconceptions and Failure Analysis](10-misconceptions-and-failure-analysis.md) or [Module 9 — Critical Evaluation Lab](11-critical-evaluation-lab.md).
+Compare item-level responses, not only totals. Compare this assessment only with its own parallel form; do not combine its 0–2 item scores with the applied assessment or the capstone's separate 0–3 rubric. Select one misconception that remains and assign a short practice activity from [Module 8 — AI Misconceptions and Failure Analysis](10-misconceptions-and-failure-analysis.md) or [Module 9 — Critical Evaluation Lab](11-critical-evaluation-lab.md).

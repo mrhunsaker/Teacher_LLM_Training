@@ -41,11 +41,11 @@ Detailed agendas are in the [six-session applied facilitator guide](facilitator-
 The course does not require every participant to study the same disability area. Select one case as a continuing practice context:
 
 - [Aureliano Buendia — Vision, Access, and Dual-Media Learning](07-fictional-student-case.md): the detailed vision/ECC case.
-- [Elena Rivera — Deaf and hard-of-hearing education](multidisciplinary-case-studies.md#case-2-elena-rivera--deaf-and-hard-of-hearing-education).
-- [Jordan Lee — School psychology and problem-solving](multidisciplinary-case-studies.md#case-3-jordan-lee--school-psychology-and-problem-solving).
-- [Samira Patel — Speech-language pathology and functional communication](multidisciplinary-case-studies.md#case-4-samira-patel--speech-language-pathology-and-functional-communication).
-- [Marcus Chen — Mathematics reasoning specific learning disability](multidisciplinary-case-studies.md#case-5-marcus-chen--specific-learning-disability-in-mathematics-reasoning).
-- [Nia Williams — Reading specific learning disability](multidisciplinary-case-studies.md#case-6-nia-williams--specific-learning-disability-in-reading).
+- [Elena Rivera — Deaf and hard-of-hearing education](multidisciplinary-case-studies.md#case-2-elena-rivera-deaf-and-hard-of-hearing-education).
+- [Jordan Lee — School psychology and problem-solving](multidisciplinary-case-studies.md#case-3-jordan-lee-school-psychology-and-problem-solving).
+- [Samira Patel — Speech-language pathology and functional communication](multidisciplinary-case-studies.md#case-4-samira-patel-speech-language-pathology-and-functional-communication).
+- [Marcus Chen — Mathematics reasoning specific learning disability](multidisciplinary-case-studies.md#case-5-marcus-chen-specific-learning-disability-in-mathematics-reasoning).
+- [Nia Williams — Reading specific learning disability](multidisciplinary-case-studies.md#case-6-nia-williams-specific-learning-disability-in-reading).
 
 Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries. Participants work within their scope of practice and identify when consultation or team decisions are required. All profiles and practice data are fictional.
 

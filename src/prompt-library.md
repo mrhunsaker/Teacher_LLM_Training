@@ -1,6 +1,20 @@
 # Reusable Prompt Library
 
-Use these prompts with fictional or district-approved information only. Replace bracketed text. Each prompt is intentionally limited to one task and asks the model to stop before making a professional decision.
+Use these prompts with fictional or district-approved information only. Replace bracketed text before use. Each prompt is limited to a defined task and requires professional review before any decision or implementation. Do not paste identifiable student or staff information into an unapproved system.
+
+## Choose a prompt
+
+1. **Bounded prompt template:** establish role, task, context, constraints, output, and stop condition.
+2. **Student and task analysis:** separate known facts, unknowns, hypotheses, and questions.
+3. **Goal development and measurement:** brainstorm measurable options for professional review.
+4. **Task analysis:** draft observable steps and identify what requires observation.
+5. **Data analysis:** verify calculations and describe patterns without overclaiming.
+6. **Instructional refinement:** compare an artifact with test evidence and propose small revisions.
+7. **Email action report:** summarize possible actions without changing mailbox content.
+8. **Refinement prompt:** challenge an existing response before rewriting it.
+9. **Universal review checklist:** verify quality before retaining or sharing an output.
+
+Use one prompt at a time. Do not ask the model to complete the entire Plan → Refine → Build → Refine cycle in a single response.
 
 ## 1. Bounded prompt template
 
@@ -198,7 +212,7 @@ Identify possible duplicate requests. Return a concise numbered list.
 Stop after the report and wait for my review.
 ```
 
-## Refinement prompt
+## 8. Refinement prompt
 
 After reviewing any model response, ask:
 
@@ -213,7 +227,7 @@ Do not rewrite the response yet. First identify:
 Ask me which changes to make. Do not move to another task.
 ```
 
-## Universal review checklist
+## 9. Universal review checklist
 
 - Is this one bounded task?
 - Is the input fictional or approved?

@@ -11,7 +11,7 @@ This is a working document. Complete it in stages; do not ask an LLM to fill it 
 ## How to use the workbook
 
 1. Work with fictional or district-approved de-identified information only when using an LLM.
-2. Complete the teacher planning sections before asking the model to help.
+2. Complete the professional planning sections before asking the model to help.
 3. Use one bounded prompt at a time. Tell the model what it must not do and where to stop.
 4. Treat model output as a draft. Correct errors, reject unsuitable suggestions, and document decisions.
 5. Test tools with the student and team. Revise based on observations, student feedback, and data.
@@ -27,7 +27,7 @@ This is a working document. Complete it in stages; do not ask an LLM to fill it 
 
 Use strengths-based, neutral language. Include only information relevant to the instructional question.
 
-| Planning field | Teacher notes |
+| Planning field | Professional notes |
 |---|---|
 | Student's strengths, interests, and preferred activities | |
 | Student's own priorities and concerns | |
@@ -54,7 +54,7 @@ Check only areas that are relevant for this planning cycle. A checked area means
 
 **Which instructional or related-service area or combination of areas is the focus of this cycle?**
 
-Teacher notes:
+Professional notes:
 
 ____________________________________________________________________
 
@@ -98,11 +98,11 @@ Copy and adapt this prompt only after you have prepared a de-identified summary.
 >
 > **Boundaries:** Do not infer functional vision, communication, literacy, behavior, cognition, eligibility, services, placement, or a diagnosis. Do not treat grades, a clinical measurement, or a disability label as a complete description of educational performance or access. Do not invent information or write an IEP goal. If information is missing, label it “not provided.”
 >
-> **Output:** A four-column table: category, information supplied, what it may mean for the task (clearly labeled as a hypothesis), and what the teacher should verify.
+> **Output:** A four-column table: category, information supplied, what it may mean for the task (clearly labeled as a hypothesis), and what the responsible professional should verify.
 >
 > **Stop:** Do not recommend interventions or create instructional materials.
 
-### Record the teacher's decision
+### Record the professional's decision
 
 What did the LLM organize accurately?
 
@@ -124,7 +124,7 @@ ____________________________________________________________________
 
 Avoid broad labels such as “needs technology,” “has low vision,” or “needs independence.” Describe what the student is expected to do in a real context.
 
-| Question | Teacher notes |
+| Question | Professional notes |
 |---|---|
 | What is the activity or routine? | |
 | Where and when does it occur? | |
@@ -163,9 +163,9 @@ ____________________________________________________________________
 >
 > Do not select the target for me, write a goal, prescribe a tool, or invent student characteristics. Separate facts from hypotheses. Ask no more than three essential clarification questions, then stop.
 >
-> [Paste the teacher's task description.]
+> [Paste the professional's task description.]
 
-### Teacher decision gate
+### Professional decision gate
 
 - [ ] The task is meaningful to the student.
 - [ ] The focus is observable.
@@ -236,7 +236,7 @@ ____________________________________________________________________
 >
 > [Paste the de-identified measurement plan.]
 
-### Teacher edits and approval
+### Professional edits and approval
 
 Changes made:
 
@@ -685,11 +685,11 @@ Use this rubric to assess the quality of the educator's process, not the student
 |---|---|---|---|
 | Student-centered planning | Focus is deficit-only or adult-selected | Some strengths / student input included | Meaningful task, strengths, preferences, and student voice guide the plan |
 | Evidence quality | Assumptions presented as facts | Some facts and unknowns separated | Verified information, observations, and unknowns clearly distinguished |
-| Prompt boundaries | Broad one-shot prompt | Some constraints and output limits | Staged prompts with explicit scope, stop conditions, and teacher review |
+| Prompt boundaries | Broad one-shot prompt | Some constraints and output limits | Staged prompts with explicit scope, stop conditions, and professional review |
 | Measurement | Target or scoring unclear | Partially observable; prompt levels incomplete | Observable measure, opportunities, independence, conditions, and roles defined |
 | Tool design | Tool does not match the target | Tool mostly aligned but cumbersome or incomplete | Practical, accessible, aligned tool tested with users |
 | Data interpretation | Conclusion exceeds evidence | Some attention to data quality and context | Level, trend, variability, prompting, access conditions, and generalization considered |
-| Professional judgment | AI output accepted as decision | Teacher review evident but rationale limited | Educator documents edits, rejected suggestions, and team decisions |
+| Professional judgment | AI output accepted as decision | Professional review evident but rationale limited | Educator documents edits, rejected suggestions, and team decisions |
 | Iteration | No revision after implementation | Revision planned but not evidence-linked | Revision log shows how testing and student feedback changed the plan |
 
 **Suggested completion standard:** A participant should reach “Ready to use” on student-centered planning, evidence quality, measurement, and professional judgment before applying the workflow to live student work. Local professional learning teams may adapt the rubric.

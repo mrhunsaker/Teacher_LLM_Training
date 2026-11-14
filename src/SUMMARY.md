@@ -2,6 +2,7 @@
 
 - [Course Overview and Participant Pathway](summary.md)
 - [Course Map and Assessment Plan — Ten Sessions](course-map-and-assessment-plan.md)
+- [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)
 - [Getting Started](getting-started.md)
 
 ## Applied workflows: Sessions 1–6

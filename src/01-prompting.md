@@ -5,6 +5,18 @@
 - Build a prompt with a defined task, context, constraints, output format, and stop condition.
 - Prevent the model from expanding the task or inventing facts.
 - Review the output before using it.
+- Use prompting as part of a collaborative design cycle rather than a one-time request for a finished plan.
+
+## The course design cycle: Plan → Refine → Build → Refine
+
+A prompt is one move in a professional workflow, not a substitute for planning. The teacher owns the sequence and approves each transition.
+
+1. **Plan:** State the instructional question, ECC context, meaningful task, student strengths, known facts, and unknowns. Ask the model to organize the problem—not solve every adjacent problem.
+2. **Refine:** Ask the model to challenge assumptions, identify missing observations, and compare possible task definitions. Correct errors and approve a narrow direction.
+3. **Build:** Request one concrete artifact, such as a task analysis, data sheet, checklist, or draft lesson component.
+4. **Refine:** Test the artifact in context, collect evidence and student feedback, then ask the model to help identify needed revisions. Repeat as needed.
+
+Do not let the model move from brainstorming to goal writing, service recommendations, or instructional programming unless the teacher explicitly requests that next step. A useful collaboration includes teacher edits, rejected suggestions, and a brief record of why the plan changed.
 
 ## The six-part prompt
 
@@ -64,7 +76,8 @@ Use a separate prompt for each step:
 - Is the output format specific?
 - Is there a stop condition?
 - Does the response avoid invented facts and unrequested sections?
+- Did the teacher review and revise the output before using it?
 
 ## Practice assignment
 
-Write a prompt that asks an LLM to convert a short, synthetic observation into a neutral list of observable skill components. Test it twice. Revise the prompt if the model adds diagnosis, eligibility conclusions, or recommendations you did not request.
+Write a prompt that asks an LLM to convert a short, synthetic observation into a neutral list of observable skill components. Test it twice. Revise the prompt if the model adds diagnosis, eligibility conclusions, or recommendations you did not request. Then use a second prompt to critique the first output and record which suggestions you accepted or rejected.

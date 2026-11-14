@@ -17,6 +17,7 @@ By the end of the course, participants will be able to:
 - Examine level, trend, variability, prompt dependence, and generalization before describing progress or a possible plateau.
 - Use Microsoft 365 Copilot in Outlook, where licensed and enabled, to summarize email action items, due dates, and a 1–5 suggested urgency rating for human review.
 - Collaboratively plan, refine, build, and refine instructional tools using a fictional student case rather than accepting a one-shot AI-generated plan.
+- Complete a reusable workbook that applies the design cycle across ECC areas and different student profiles.
 
 # The Collaborative Design Cycle
 
@@ -59,9 +60,13 @@ Participants use district-provided Microsoft 365 Copilot capabilities to review 
 
 Participants apply the collaborative cycle to a fictional student with ocular albinism, photophobia, corrected acuity of 20/175, glare sensitivity, glasses and brimmed-hat access needs, O&M instruction, emerging braille literacy as a dual-media reader, Windows Magnifier learning, and iPad use. The case emphasizes access, efficiency, student voice, and coordination across ECC areas—not remediation of academic grades.
 
+# Final Unit — Reusable ECC Capstone Workbook
+
+Participants complete a practical workbook that can be adapted to any student and any relevant ECC area. It includes student-centered planning, known-facts and unknowns mapping, task definition, baseline and measurement planning, goal review, task analysis, data-tool design, implementation, data interpretation, revision logging, and a final capstone reflection. Maya is a worked example only; the workbook requires educators to individualize every target and measure.
+
 # Assessment and Evidence of Learning
 
-Participants complete a fictional case study that includes a bounded prompt, a goal brainstorm, paired collection sheets, an Excel graph and criterion check, a brief data interpretation, and a Copilot-style daily action list. A peer or facilitator checks each product against the quality checks in the relevant module.
+Participants submit a completed workbook, a bounded prompt sequence, an aligned instructional artifact, a data-collection plan, and a revision log. A peer or facilitator uses the scoring guide in the workbook to review the educator's planning and professional judgment.
 
 # Important Implementation Note
 

@@ -38,7 +38,7 @@ Use strengths-based, neutral language. Include only information relevant to the 
 | Student's preferred ways to receive and share information | |
 | Relevant environments and routines | |
 
-## 1B. Access and ECC overview
+## 1B. Discipline-specific framework and access overview
 
 Check only areas that are relevant for this planning cycle. A checked area means “consider or investigate,” not “assume a deficit.”
 
@@ -290,9 +290,9 @@ ____________________________________________________________________
 
 ## 4C. LLM brainstorming prompt
 
-> Using only the de-identified present-level summary and baseline data below, brainstorm up to three candidate measurable goal statements for the ECC focus I specify.
+> Using only the de-identified present-level summary and baseline data below, brainstorm up to three candidate measurable goal statements for the instructional or related-service focus I specify.
 >
-> **ECC focus:** [Specify.]
+> **Instructional or related-service focus:** [Specify.]
 >
 > **Baseline:** [Paste verified data and measurement conditions.]
 >
@@ -591,7 +591,7 @@ The process remains the same even when the content changes. The measure and prof
 
 **New student / practice scenario (use a fictional label):** __________________________
 
-**ECC focus:** ______________________________________________________
+**Instructional or related-service focus:** ___________________________
 
 **Meaningful task:** __________________________________________________
 
@@ -612,7 +612,7 @@ Complete this page after the worksheets. It is the concise record of your work.
 ## Plan
 
 - Student strengths and priorities:
-- ECC focus and meaningful task:
+- Discipline-specific focus and meaningful task:
 - Verified information:
 - Unknowns to investigate:
 

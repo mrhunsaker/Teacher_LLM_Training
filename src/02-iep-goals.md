@@ -1,0 +1,91 @@
+# Module 2: Using De-identified Data to Brainstorm IEP Goals
+
+## Learning targets
+
+- Prepare a concise, de-identified learner snapshot.
+- Ask an LLM to brainstorm candidate ECC goals and short-term objectives.
+- Evaluate whether the goal is observable, measurable, individualized, and connected to baseline data.
+
+## Step 1: Prepare a safe learner snapshot
+
+Use a synthetic profile for practice. Do not paste a full IEP or evaluation. Include only details needed to understand the skill:
+
+| Field | Example |
+|---|---|
+| Learner label | Learner A |
+| ECC area | Assistive technology |
+| Target context | Accessing a digital classroom handout |
+| Current skill | Opens the file with verbal cue; cannot independently locate zoom controls |
+| Baseline | 4 independent successes in 10 opportunities across 3 sessions |
+| Prompting | Verbal cue in 6/10 opportunities |
+| Conditions | School Chromebook, built-in magnification, uncluttered practice document |
+| Strengths/interests | Prefers keyboard shortcuts; recognizes familiar icons |
+| Barriers to check | Device settings vary by classroom; task familiarity |
+
+Avoid unnecessary disability labels and unique personal details. For an actual student, use only a district-approved system and minimum necessary information.
+
+## Step 2: Ask for goal options, not a final IEP
+
+Copy and adapt this prompt:
+
+> Act as a careful IEP brainstorming assistant for a teacher of students with visual impairments. Use only the learner information below. Do not infer disability impact, eligibility, services, placement, minutes, or family preferences.
+>
+> **Task:** Brainstorm three alternative measurable annual goal statements in the stated ECC area. Then suggest up to two short-term objectives or benchmarks for each option, if appropriate for this learner and required by the learner's IEP context.
+>
+> **Learner information:** [Paste fictional or district-approved de-identified snapshot.]
+>
+> **Measurement rule for this training exercise:** The requested practice criterion is greater than 90% correct on at least three distinct data-collection sessions. Treat this as a requested draft criterion, not a universal standard. If it does not fit the skill, explain why and propose a more valid measure without silently changing it.
+>
+> **For each option, include:** skill/behavior, conditions, performance criterion, measurement method, prompt/independence definition, and generalization context. Keep baseline separate from the proposed goal criterion.
+>
+> **Do not:** choose the goal, invent baseline data, claim legal compliance, add services or accommodations, or assume the student uses a particular access method unless stated.
+>
+> **Output:** A table with three candidate goals, followed by a short list of missing information the IEP team should consider. Stop there.
+
+## Step 3: Ask targeted follow-up questions
+
+The model should help identify what is not yet known. Ask one question at a time:
+
+- “What operational definition would make ‘independently accesses’ observable?”
+- “What counts as an opportunity, and how will staff record prompted versus independent responses?”
+- “Does the skill need to occur across more than one device, person, or setting?”
+- “What evidence supports the proposed criterion for this learner?”
+
+Do not ask the model to fill gaps by guessing. Return to observation, assessment, student input, and team discussion.
+
+## Step 4: Check the goal
+
+A useful draft makes clear:
+
+- **Who** performs the skill (the learner).
+- **What** observable action is performed.
+- **Under what conditions** the skill is measured.
+- **How well** the learner is expected to perform.
+- **How** performance is measured.
+- **When/how often** progress is reported, consistent with the IEP.
+
+IDEA requires measurable annual goals and a statement of how progress toward goals will be measured and when periodic progress reports will be provided. See [34 CFR § 300.320](https://sites.ed.gov/idea/regs/b/d/300.320). This course does not provide legal advice; follow state and district requirements.
+
+## Example goal draft (synthetic)
+
+“Given a digital classroom handout on the district-approved device with the learner's documented access settings enabled, Learner A will independently locate and use the magnification control to set a readable view in at least 10 of 11 scored opportunities (greater than 90%) across three consecutive, separate instructional sessions, as measured by a task-analysis checklist.”
+
+This example is not a recommended goal for every student. The team must decide whether 10/11 opportunities, three sessions, and the stated conditions represent meaningful performance. Define “independently,” specify whether setup assistance is allowed, and consider performance with unfamiliar documents and in other classrooms.
+
+## Important measurement distinction
+
+Report both accuracy and assistance. A learner may complete a task accurately with verbal cues, modeling, or physical guidance. Those data are valuable, but they should not be recorded as independent performance. Define prompt levels before collecting data.
+
+## Quality check
+
+- Does the goal address a documented educational need?
+- Is the behavior observable and teachable?
+- Are baseline and target criterion distinct?
+- Are conditions and access supports clear?
+- Is prompt level measured?
+- Is the measure valid for the skill?
+- Has the IEP team, not the LLM, made the decision?
+
+## Practice assignment
+
+Use the synthetic learner snapshot in this module to generate three goal options. Highlight every phrase that needs a team decision. Revise one option without allowing the model to invent facts.

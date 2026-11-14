@@ -4,7 +4,7 @@
 
 Use this workbook to plan, develop, test, and revise an individualized educational or related-service workflow for a student receiving special education services. It is designed for special education professionals, including teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists, related-service providers, classroom teachers, families, and other relevant team members. Select a case and target that fit your role and scope of practice.
 
-The fictional [Aureliano Buendia vision case](07-fictional-student-case.md) is one worked example. Additional discipline-specific cases are available in [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). No case profile is a template for a real student. Replace every case detail with verified information and professional judgment appropriate to the learner and your role.
+Choose one role-relevant case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). The collection includes six equal options and a worked example of the shared process; no discipline is the default. No case profile is a template for a real student. Replace every case detail with verified information and professional judgment appropriate to the learner and your role.
 
 This is a working document. Complete it in stages; do not ask an LLM to fill it all out in one request. Use the prompts at each stage, review the response, make professional edits, and decide whether to proceed.
 

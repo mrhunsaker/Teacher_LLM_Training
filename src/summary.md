@@ -1,10 +1,10 @@
 # Course Overview
 
-This course equips teachers of students with visual impairments and their classroom partners to use LLMs and Microsoft 365 Copilot in carefully bounded, privacy-conscious ways while teaching the Expanded Core Curriculum (ECC). The course is designed for educators who are new to AI and spreadsheet-based progress monitoring.
+This course equips special education professionals and their classroom partners—including special education teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), related-service providers, and general education teachers—to use large language models (LLMs) and Microsoft 365 Copilot as carefully bounded, privacy-conscious productivity tools. Participants select a fictional case relevant to their role and use the same Plan → Refine → Build → Refine process for instructional planning, related-service workflows, IEP-related preparation, progress monitoring, data review, and professional communication. The course is designed for educators and service providers who may be new to AI and spreadsheet-based progress monitoring.
 
 # The Expanded Core Curriculum
 
-The ECC supplements the general education curriculum with disability-specific skills that students with visual impairments may need to access information, participate meaningfully, and build independence. The nine traditional areas are compensatory or functional academic skills (including communication modes), orientation and mobility, social interaction skills, independent living skills, recreation and leisure skills, career education, use of assistive technology, sensory efficiency skills, and self-determination. Instruction is individualized; not every student needs the same instruction in every area.
+The Expanded Core Curriculum (ECC) is one important specialized framework represented in this course, not the boundary of the course. It supplements the general education curriculum with disability-specific skills that students with visual impairments may need to access information, participate meaningfully, and build independence. Its nine traditional areas are compensatory or functional academic skills (including communication modes), orientation and mobility, social interaction skills, independent living skills, recreation and leisure skills, career education, use of assistive technology, sensory efficiency skills, and self-determination. The broader course also addresses educational planning, communication access, behavior and learning data, academic skill instruction, related services, and cross-disciplinary collaboration. Instruction is individualized; not every student needs the same instruction in every area.
 
 # Course Outcomes
 
@@ -14,18 +14,18 @@ By the end of the course, participants will be able to:
 
 - Write a constrained prompt that specifies the task, inputs, limits, output format, and stop condition.
 - Use fictional or district-approved de-identified baseline data to ask an LLM for possible IEP goal and objective language, while retaining educator and IEP-team responsibility.
-- Design observable measures and aligned data sheets for a TVI and classroom teacher.
+- Design observable measures and aligned data tools appropriate to the participant's discipline, role, and intended users.
 - Enter repeated measures in Excel, graph performance, and apply an explicit criterion rule such as greater than 90% on at least three distinct sessions.
 - Examine level, trend, variability, prompt dependence, and generalization before describing progress or a possible plateau.
 - Use Microsoft 365 Copilot in Outlook, where licensed and enabled, to summarize email action items, due dates, and a 1–5 suggested urgency rating for human review.
-- Collaboratively plan, refine, build, and refine instructional tools using a fictional student case rather than accepting a one-shot AI-generated plan.
-- Complete a reusable workbook that applies the design cycle across ECC areas and different student profiles.
+- Collaboratively plan, refine, build, and refine instructional or related-service tools using a fictional case relevant to the participant's discipline rather than accepting a one-shot AI-generated plan.
+- Complete a reusable workbook that applies the design cycle across ECC, academic instruction, communication access, school psychology, related services, and other special education workflows.
 
 # The Collaborative Design Cycle
 
-The course is organized around **Plan → Refine → Build → Refine**. The TVI or educator leads each stage:
+The course is organized around **Plan → Refine → Build → Refine**. The educator or qualified service provider leads each stage:
 
-- **Plan:** define the ECC skill, meaningful task, context, strengths, known facts, and unknowns.
+- **Plan:** define the educational or related-service question, meaningful task, context, strengths, known facts, and unknowns.
 - **Refine:** ask the LLM to surface assumptions and missing information; narrow the task and approve the plan as the professional.
 - **Build:** ask for one bounded artifact, such as a task analysis, observation form, or checklist.
 - **Refine:** test it with the student and team, examine evidence, and revise the tool or instruction.
@@ -58,13 +58,13 @@ Participants distinguish a data pattern from an instructional conclusion. They i
 
 Participants use district-provided Microsoft 365 Copilot capabilities to review the Outlook inbox, extract action items and dates, and apply a suggested urgency scale. They configure important senders and recipients using role descriptions or approved contacts, check original messages, and keep the final decisions under human control.
 
-# Case Study — Maya: Access, Independence, and Dual-Media Learning
+# Case Study — Aureliano Buendia: Vision, Access, and Dual-Media Learning
 
-Participants apply the collaborative cycle to a fictional student with ocular albinism, photophobia, corrected acuity of 20/175, glare sensitivity, glasses and brimmed-hat access needs, O&M instruction, emerging braille literacy as a dual-media reader, Windows Magnifier learning, and iPad use. The case emphasizes access, efficiency, student voice, and coordination across ECC areas—not remediation of academic grades.
+Participants may use the detailed fictional vision/ECC case of Aureliano Buendia, who has ocular albinism, photophobia, corrected acuity of 20/175, glare sensitivity, glasses and brimmed-hat access needs, O&M instruction, emerging braille literacy as a dual-media reader, Windows Magnifier learning, and iPad use. The case emphasizes access, efficiency, student voice, and coordination across ECC areas—not remediation of academic grades. It remains one specialist case among several options.
 
-# Final Unit — Reusable ECC Capstone Workbook
+# Final Unit — Reusable Special Education Capstone Workbook
 
-Participants complete a practical workbook that can be adapted to any student and any relevant ECC area. It includes student-centered planning, known-facts and unknowns mapping, task definition, baseline and measurement planning, goal review, task analysis, data-tool design, implementation, data interpretation, revision logging, and a final capstone reflection. Maya is a worked example only; the workbook requires educators to individualize every target and measure.
+Participants complete a practical workbook that can be adapted to a fictional case and a relevant instructional or related-service area. It includes student-centered planning, known-facts and unknowns mapping, task definition, baseline and measurement planning, goal review, task analysis, data-tool design, implementation, data interpretation, revision logging, and a final capstone reflection. Aureliano Buendia is one worked example; additional cases address deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading. Every target and measure must be individualized.
 
 # Assessment and Evidence of Learning
 
@@ -85,7 +85,7 @@ The prompt library provides reusable, bounded prompts for student/task analysis,
 
 # Transfer Cases and Synthetic Data
 
-Four additional fictional cases broaden practice across dual-media literacy, digital access, orientation and mobility, and self-determination. Three synthetic CSV datasets model improving progress, variable performance, and a possible plateau. All cases and data are fictional and designed to prompt verification rather than automatic conclusions.
+Additional fictional cases broaden practice across vision/ECC, deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading. Participants choose a case relevant to their role and scope of practice. Three synthetic CSV datasets model improving progress, variable performance, and a possible plateau. All cases and data are fictional and designed to prompt verification rather than automatic conclusions.
 
 # Responsible Use and Accessibility
 
@@ -94,7 +94,7 @@ The implementation chapter includes a before-you-paste privacy checklist, distri
 
 # Participant-Ready Course Package
 
-The following resources are designed for direct use during the six-session course. They are text-first, screen-reader-conscious, and can be completed with fictional data or an approved tool. Each resource can be opened independently.
+The following resources are designed for direct use across the applied course and AI-literacy extension. They are text-first, screen-reader-conscious, and can be completed with fictional data or an approved tool. Each resource can be opened independently.
 
 - [Participant Pre- and Post-Assessment](participant-assessments.md): parallel scenario-based assessments, scoring guide, facilitator answer notes, and guidance for interpreting results.
 - [Participant Lesson Handouts](participant-lesson-handouts.md): six reusable working handouts aligned to the six lessons, plus a reusable session close.
@@ -111,7 +111,8 @@ The following resources are designed for direct use during the six-session cours
 - [Module 4 — Excel Progress Monitoring and Criterion Flags](04-excel-monitoring.md)
 - [Module 5 — Interpreting Progress, Growth, and Possible Plateaus](05-data-based-decisions.md)
 - [Module 6 — Microsoft Copilot Morning Email Triage](06-copilot-email.md)
-- [Case Study — Maya](07-fictional-student-case.md)
+- [Case Study — Aureliano Buendia: Vision and ECC](07-fictional-student-case.md)
+- [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md): deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading
 - [Final Unit — Reusable ECC Capstone Workbook](08-final-workbook.md)
 
 ### Facilitator and practice resources
@@ -140,7 +141,7 @@ The following resources are designed for direct use during the six-session cours
 1. Administer the [pre-assessment](participant-assessments.md) before Lesson 1.
 2. Give participants the [lesson handouts](participant-lesson-handouts.md) as a working packet; complete one section during each lesson.
 3. Use the [practical competency checklist](practical-competency-checklist.md) during peer practice and the capstone demonstration.
-4. Administer the parallel post-assessment after Lesson 6 and compare item-level patterns, not just total scores.
+4. Administer the parallel post-assessment at the end of the applied course sequence and compare item-level patterns, not just total scores.
 5. Use the evidence to plan follow-up coaching. Assessment scores are learning evidence, not a credential or district employment evaluation.
 
 ## Accessibility and use notes
@@ -164,7 +165,7 @@ Supporting resources:
 
 ## Recommended full-course sequence
 
-The original six applied lessons establish practical workflows for ECC planning, IEP brainstorming, data collection, Excel monitoring, data-based decisions, and Copilot email triage. The four AI literacy modules then deepen understanding and independent judgment. They may be delivered as four additional sessions or as a two-session extension. The participant assessment, handouts, and competency checklist should be used across both parts of the course.
+The six applied lessons establish practical workflows for special education planning, IEP-related brainstorming, data collection, Excel monitoring, data-based decisions, and Copilot email triage. The detailed ECC case is retained, while the multidisciplinary case library lets participants practice the same methods in other roles and domains. The four AI literacy modules then deepen understanding and independent judgment. They may be delivered as four additional sessions or as a two-session extension. The participant assessment, handouts, and competency checklist should be used across both parts of the course.
 
 ## Course completion and claims
 

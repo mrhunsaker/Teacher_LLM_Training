@@ -1,6 +1,6 @@
 # Facilitator and Practice Edition
 
-This chapter turns the existing mdBook into a six-session professional-learning course. It is designed for special education professionals—including special education and general education teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists, and related-service colleagues—with varied AI experience. Participants select a fictional case aligned with their role and scope of practice. No programming is required.
+This chapter provides the detailed facilitator plans for Sessions 1–6 of the ten-session professional-learning course. Sessions 7–10 are detailed in the [AI-literacy facilitator guide](ai-literacy-facilitator-guide.md); the [Course Map and Assessment Plan](course-map-and-assessment-plan.md) is the definitive source for the full sequence and assessment timing. It is designed for special education professionals—including special education and general education teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists, and related-service colleagues—with varied AI experience. Participants select a fictional case aligned with their role and scope of practice. No programming is required.
 
 ## Course purpose
 
@@ -8,7 +8,7 @@ Participants learn to use an LLM as a bounded drafting, questioning, and analysi
 
 ## Recommended delivery
 
-Six sessions of 75–90 minutes. The sequence can be delivered as six PLC meetings, a two-day workshop, or self-paced study. Use fictional profiles and synthetic data for all practice.
+Sessions 1–6 are 75–90 minutes each. Deliver them as six PLC meetings, a two-day workshop, or self-paced study. They are followed by Sessions 7–10; do not describe the six applied lessons alone as the complete course. Use fictional profiles and synthetic data for all practice.
 
 ## Course outcomes
 
@@ -16,15 +16,15 @@ Participants will be able to:
 
 1. Construct a bounded prompt with role, task, context, constraints, output, and stop condition.
 2. Separate known facts, hypotheses, and unknowns before planning instruction.
-3. Draft and professionally review an individualized ECC instructional target.
-4. Build observable task analyses and aligned TVI/classroom data tools.
+3. Draft and professionally review an individualized educational or related-service target appropriate to the selected case and professional role.
+4. Build observable task analyses and aligned data tools for the service provider and classroom partner or second observer, where appropriate.
 5. Verify a model's interpretation against raw data, conditions, and student perspective.
 6. Produce a human-reviewed action report from simulated email.
 7. Document iterative Plan → Refine → Build → Refine work.
 
 ## Materials
 
-- Existing course chapters and final ECC workbook.
+- Existing course chapters and final special education workbook.
 - District-approved LLM access, or the offline peer-review alternative.
 - Fictional student cases and synthetic datasets in this edition.
 - Spreadsheet software for data practice.
@@ -36,12 +36,12 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Objectives:** Identify task, context, constraints, output, and stop condition; revise a broad prompt; detect unsupported claims.
 
-**Preparation:** Read Module 1 and the Prompt Library. Prepare one generic ECC task.
+**Preparation:** Read Module 1 and the Prompt Library. Prepare one generic special education or related-service task.
 
 **75–90 minute agenda:**
 - 0–10: Identify current AI use and one risk.
 - 10–25: Demonstrate a broad prompt and bounded revision.
-- 25–45: Pairs revise weak prompts: "Make an ECC plan"; "Write a braille goal"; "Analyze this data"; "Choose technology."
+- 25–45: Pairs revise weak prompts: "Make a complete special education plan"; "Write a goal"; "Analyze this data"; "Choose an intervention."
 - 45–65: Run or simulate one prompt; annotate facts, assumptions, and unknowns.
 - 65–80: Peer review using the prompt checklist.
 - 80–90: Exit ticket: name one boundary to add to future prompts.
@@ -94,7 +94,7 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Agenda:**
 - 0–15: Demonstrate an operational definition.
-- 15–35: Build a task analysis and paired TVI/classroom collection plan.
+- 15–35: Build a task analysis and aligned provider/classroom-partner collection plan.
 - 35–55: Calculate at least two synthetic data rows manually.
 - 55–70: Describe the graph and values in text.
 - 70–85: Identify a data-quality issue and its impact.
@@ -132,13 +132,13 @@ Do not require participants to connect personal or district email accounts. The 
 - 0–15: Demonstrate email triage using fictional messages.
 - 15–35: Participants produce an action report and verify sources.
 - 35–45: Discuss uncertainty, urgency, and importance.
-- 45–75: Assemble the capstone portfolio.
-- 75–85: Peer review using the rubric.
+- 45–75: Complete the simulated email triage lab and verify each action against the original message.
+- 75–85: Applied-course reflection: identify one workflow to carry into the AI-literacy phase and one boundary to retain.
 - 85–90: Exit ticket: what district approval is needed before real-world use?
 
-**Artifact:** Verified action report and portfolio.
+**Artifact:** Verified advisory action report and applied-course reflection.
 
-**Evidence:** The report labels unknown dates, explains urgency, retains source context, and takes no autonomous email action.
+**Evidence:** The report labels unknown dates, explains urgency, retains source context, and takes no autonomous email action. The independent capstone and final portfolio are completed in Session 10, not Session 6.
 
 ## Instructor notes and expected answers
 
@@ -165,6 +165,10 @@ Use the levels Beginning, Developing, Proficient, and Advanced. Score each area 
 | Professional judgment | Defers to AI | Inconsistent review | Educator/team retains decision authority | Rejects unsupported output and explains why |
 | Email triage | Acts on unverified summary | Checks some messages | Verifies source and deadlines | Explains uncertainty and priority rationale |
 
+## Applied-course evidence
+
+Sessions 1–6 produce a bounded prompt, planning brief, target/measurement plan, data tool, verified data interpretation, and simulated email action report. These artifacts become inputs to later practice; the independent capstone portfolio is completed in Session 10.
+
 ## Final evidence portfolio
 
 Participants submit or present:
@@ -179,4 +183,4 @@ Participants submit or present:
 8. One simulated email action report with source verification.
 9. A reflection describing a model error, limitation, or uncertainty and how it was handled.
 
-Suggested course completion: average score of Proficient across competencies, with no score below Developing for privacy or professional judgment. This is a course-design suggestion, not a professional credential or district evaluation standard.
+Use the item-level [Practical Competency Checklist](practical-competency-checklist.md) for formative coaching. The separate 0–3 capstone rubric is used in Session 10. Do not combine the two scoring systems. This is a course-design suggestion, not a professional credential or district evaluation standard.

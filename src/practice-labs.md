@@ -101,7 +101,7 @@ Tasks:
 
 **Time:** 40–50 minutes.
 
-Choose Maya's case or another fictional case. Select one meaningful task, not an entire ECC domain.
+Choose Aureliano Buendia's vision case, one of the multidisciplinary cases in [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md), or another fictional case. Select a task that fits your role and scope of practice. Select one meaningful, observable task or professional workflow within your role—not an entire service area or domain.
 
 ### Stage 1: Plan
 

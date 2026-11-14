@@ -123,9 +123,9 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Evidence:** No causal claim is made from a small dataset; instruction is not changed solely because a model recommends it.
 
-## Lesson 6: Copilot workflow and capstone
+## Lesson 6: Copilot workflow and applied-course consolidation
 
-**Objectives:** Extract tasks and dates from simulated email; assign transparent urgency; assemble the evidence portfolio.
+**Objectives:** Extract tasks and dates from simulated email; assign transparent urgency; verify original sources; reflect on the applied workflows. The independent capstone occurs in Session 10.
 
 **Preparation:** Read Module 6 and the simulated email lab.
 

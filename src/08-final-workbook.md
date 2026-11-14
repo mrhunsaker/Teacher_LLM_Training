@@ -90,7 +90,7 @@ Keep evidence separate from assumptions. If a fact is not established, label it 
 
 Copy and adapt this prompt only after you have prepared a de-identified summary.
 
-> You are a collaborative planning assistant for a teacher of students with visual impairments. I am in the PLAN stage, not the goal-writing or lesson-building stage.
+> You are a collaborative planning assistant for a special education professional. My role and scope of practice are: [state role]. I am in the PLAN stage, not the goal-writing or lesson-building stage.
 >
 > **Task:** Organize the student information below into strengths, relevant verified facts, direct observations, and questions that still need investigation.
 >
@@ -374,7 +374,7 @@ Select fields that are necessary for interpreting the target. Avoid collecting u
 - [ ] Generalization partner or setting
 - [ ] Notes about deviations from the planned procedure
 
-**TVI form needs:**
+**Direct-instruction or service-provider form needs:**
 
 ____________________________________________________________________
 
@@ -437,7 +437,7 @@ ____________________________________________________________________
 
 ## 6B. Session data
 
-Use the data sheet created in Worksheet 5 or the repository's TVI and classroom templates. The following table is a compact planning view.
+Use the data sheet created in Worksheet 5 or adapt the repository's TVI and classroom templates to the selected discipline and task. The following table is a compact planning view.
 
 | Session | Opportunities | Independent successes | Prompted / assisted responses | Conditions / deviations | Student feedback |
 |---|---:|---:|---:|---|---|

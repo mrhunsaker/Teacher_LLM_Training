@@ -54,11 +54,12 @@ Use the assessments at four points:
 
 ### How to interpret assessment evidence
 
-- Compare each assessment with its own parallel form: applied pre vs. applied post; AI-literacy pre vs. AI-literacy post.
-- Review item-level patterns, not only total scores.
-- Written assessments measure scenario-based reasoning. They do not establish independent performance by themselves.
-- The capstone provides performance evidence under course conditions, not proof of transfer to practice or professional certification.
-- Use the competency checklist formatively during practice and coaching. Do not combine its 0–2 ratings with the capstone's 0–3 rubric; they measure related but different things.
+- Compare each written assessment only with its own parallel form: applied pre vs. applied post; AI-literacy pre vs. AI-literacy post.
+- Both written assessments score each response 0–2. These are knowledge/reasoning ratings, not observations of performance.
+- The competency checklist also uses 0–2, but rates individual observable behaviors during practice. Do not add its ratings to either written assessment.
+- The capstone uses a separate 0–3 domain rubric to score the independent performance demonstration. Do not convert or combine this scale with either 0–2 system.
+- Review item-level patterns and evidence, not only totals. Written assessments measure scenario-based reasoning; the capstone provides performance evidence under course conditions. Neither proves transfer to practice or professional certification.
+- Use the competency checklist formatively during practice and coaching.
 - Scores are learning evidence, not employment evaluations or credentials.
 
 ## Required participant evidence

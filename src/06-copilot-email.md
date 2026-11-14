@@ -15,6 +15,10 @@ Use the district-managed Microsoft 365 account and tenant. Microsoft describes e
 
 For this workflow, keep student-identifiable details out of prompts unless the district has explicitly approved the precise system and use. Prefer a summary that says “review classroom access question” rather than repeating sensitive student information. Do not paste email contents into an external LLM.
 
+## Important: daily prompt versus automatic workflow
+
+The prompt below creates a repeatable morning review, but it does not schedule itself. In the basic workflow, the teacher opens Outlook and runs it at the start of the workday. Outlook's built-in **Prioritize my inbox**, where available, can evaluate incoming messages using Microsoft's priority categories, but it is not the same as generating this custom dated 1–5 report. A truly scheduled unattended digest would require a district-approved automation such as Power Automate, appropriate licensing/connectors, administrator approval, and privacy/security review. Do not build an unattended email-flow or grant mailbox access to an unapproved service.
+
 ## Option A: Copilot Chat in Outlook
 
 If enabled, open Outlook with your district account, select Copilot, and ask it to review the relevant inbox messages. Exact controls and feature names may differ. A typical prompt is below.

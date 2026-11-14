@@ -19,9 +19,24 @@ The participant will independently:
 7. State which decisions remain with the educator, qualified professionals, or IEP team.
 8. Document what was retained, revised, rejected, and why.
 
+## Select a role-relevant scenario
+
+The digital-access scenario below is retained as one option, not a required scenario for every participant. Participants may instead use a case from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md) and adapt the capstone task while preserving the same performance outcomes and scoring rubric.
+
+Examples of equivalent bounded capstone tasks include:
+
+- **Deaf and hard-of-hearing education:** audit a fictional classroom communication-access observation plan; identify missing information about communication access, agreed supports, and student feedback.
+- **School psychology:** review fictional multi-setting classroom observations; separate observable behavior from interpretation and identify competing hypotheses without diagnosing or deciding eligibility.
+- **Speech-language pathology:** review synthetic communication samples or opportunity records; preserve communication modes, functions, partner supports, and prompt definitions without prescribing an AAC system or making a clinical decision.
+- **Mathematics reasoning:** inspect synthetic multi-step problem-solving data; distinguish comprehension, representation, strategy selection, computation, and checking rather than collapsing them into one score.
+- **Reading:** inspect synthetic reading data; distinguish the construct measured (for example, decoding, accuracy, fluency, vocabulary, or comprehension) and verify that materials and conditions are comparable.
+- **Vision/ECC:** use the Aureliano Buendia case and examine one bounded access or ECC task.
+
+For every option, participants must use only supplied fictional facts, identify unknowns, create one appropriate artifact, verify claims or calculations, test accessibility, and state which decisions remain with qualified professionals or the IEP team.
+
 ## Capstone scenario
 
-A fictional student is learning to access digital classroom handouts using an agreed set of tools. The student uses a tablet for some tasks and a school laptop for others. Staff report that familiar assignments are completed successfully. The available practice record contains four sessions:
+In the default scenario, a fictional student is learning to access digital classroom handouts using an agreed set of tools. Participants selecting another discipline-specific case should substitute that case's bounded task and synthetic evidence. The student uses a tablet for some tasks and a school laptop for others. Staff report that familiar assignments are completed successfully. The available practice record contains four sessions:
 
 | Session | Task condition | Independent steps correct | Valid opportunities | Prompted steps correct |
 |---|---|---:|---:|---:|

@@ -6,8 +6,8 @@ Use these prompts with fictional or district-approved information only. Replace 
 
 ```text
 ROLE
-Act as a planning and drafting assistant for an educator working
-with students with visual impairments. Do not act as an evaluator,
+Act as a planning and drafting assistant for a special education professional.
+My role and scope of practice are: [state role]. Do not act as an evaluator,
 diagnostician, IEP decision-maker, or legal authority.
 
 TASK
@@ -15,12 +15,12 @@ Complete one task: [specific task and purpose].
 
 CONTEXT
 Use only these relevant facts: [brief de-identified information].
-Audience: [TVI, classroom teacher, student, family, team].
+Audience: [special education teacher, professional or service provider, DHH teacher, school psychologist, SLP, related-service provider, classroom teacher, student, family, or team].
 Task and setting: [relevant conditions].
 
 BOUNDARIES
 - Do not invent student facts or infer skills from diagnosis, acuity,
-  grades, or device ownership.
+  grades, diagnosis, eligibility label, test score, or device ownership.
 - Separate provided facts, hypotheses, and unknowns.
 - Identify information needed before recommending an approach.
 - Offer options and trade-offs rather than a single prescribed answer.
@@ -55,7 +55,7 @@ Return:
 4. Questions for the student, family, TVI, classroom teacher,
    or related-service staff.
 5. Possible access barriers and environmental variables to observe.
-6. Possible ECC connections and a reason for each.
+6. Possible educational or related-service connections and a reason for each.
 7. Evidence needed before selecting an instructional target.
 
 Do not infer functional vision, reading medium, motivation, independence,

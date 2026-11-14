@@ -2,14 +2,14 @@
 
 A ten-session professional-learning course for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), related-service providers, and classroom partners.
 
-The course teaches bounded, privacy-conscious use of large language models (LLMs) and Microsoft 365 Copilot for educational planning, related-service workflows, IEP-related preparation, observation, progress monitoring, data review, and professional communication. Participants select a fictional case relevant to their role. The vision/ECC case remains included, but ECC knowledge is not required for participants using another case.
+The course teaches bounded, privacy-conscious use of large language models (LLMs) and Microsoft 365 Copilot for educational planning, related-service workflows, IEP-related preparation, observation, progress monitoring, data review, and professional communication. Participants select one fictional case from a unified Buendía-family collection and use it throughout the course. All six cases have equal standing and follow the same learning pathway; no discipline is the default.
 
 ## Start here
 
 1. Read the [Course Overview](src/summary.md).
 2. Follow the [Course Map and Assessment Plan](src/course-map-and-assessment-plan.md). It is the definitive ten-session sequence and assessment schedule.
 3. Read [Getting Started](src/getting-started.md).
-4. Select the [Aureliano Buendia vision/ECC case](src/07-fictional-student-case.md) or one of the [multidisciplinary special education cases](src/multidisciplinary-case-studies.md).
+4. Select one role-relevant case from the [unified Buendía-family case collection](src/multidisciplinary-case-studies.md).
 5. Complete the assessments at the times specified in the course map.
 6. Use the [Final Special Education Capstone Workbook](src/08-final-workbook.md) and [Practical Competency Checklist](src/practical-competency-checklist.md) to organize and review your work.
 
@@ -52,13 +52,7 @@ The professional remains responsible for decisions within their role. AI does no
 
 ## Selecting a case
 
-Use one case as a continuing practice context:
-
-- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](src/07-fictional-student-case.md).
-- [Multidisciplinary Special Education Case Studies](src/multidisciplinary-case-studies.md): deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading.
-- [Additional Fictional Student Cases](src/practice-student-cases.md).
-
-Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries. Participants work within their professional scope and identify when consultation or team decisions are required. All profiles and practice data are fictional.
+Choose one of the six fictional cases in the [unified Buendía-family case collection](src/multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), or Arcadio (reading). These are equal options, not six required assignments. Use one case throughout the modules and workbook. Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries.
 
 ## Participant and facilitator resources
 

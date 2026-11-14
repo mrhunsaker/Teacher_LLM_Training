@@ -101,7 +101,7 @@ Tasks:
 
 **Time:** 40–50 minutes.
 
-Choose Aureliano Buendia's vision case, one of the multidisciplinary cases in [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md), or another fictional case. Select a task that fits your role and scope of practice. Select one meaningful, observable task or professional workflow within your role—not an entire service area or domain.
+Choose one role-relevant case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). All six cases are equal options. Select one meaningful, observable task or professional workflow within your role and scope of practice—not an entire service area or domain.
 
 ### Stage 1: Plan
 

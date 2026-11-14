@@ -54,7 +54,7 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Objectives:** Separate facts, hypotheses, and unknowns; use an LLM to surface questions; narrow an educational or service problem to an observable task; brainstorm and professionally review candidate target language within the participant's role.
 
-**Preparation:** Use Aureliano Buendia's vision case or select a relevant fictional case from the multidisciplinary case-study chapter.
+**Preparation:** Ask each participant to select one role-relevant case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). All six cases use the same learning pathway; do not present any discipline as the default.
 
 **Agenda:**
 - 0–10: Review the educator-led design cycle.
@@ -67,7 +67,7 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Artifact:** Planning brief and role-appropriate candidate target options, with missing information and team decisions clearly marked.
 
-**Evidence:** No inference about functional vision, literacy medium, motivation, or independence is made from diagnosis, acuity, grades, or device ownership alone.
+**Evidence:** No inference about functional performance, communication, literacy, behavior, motivation, or independence is made from diagnosis, eligibility, test scores, acuity, grades, or device ownership alone.
 
 ## Lesson 3: Data collection and operational measurement
 

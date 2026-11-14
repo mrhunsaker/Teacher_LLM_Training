@@ -6,11 +6,9 @@
 
 ## Select a continuing practice case
 
-- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](07-fictional-student-case.md)
-- [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md)
-- [Additional Fictional Student Cases](practice-student-cases.md)
+- [Unified Buendía-Family Special Education Case Studies](multidisciplinary-case-studies.md)
 
-## Applied workflows: Sessions 1–6
+## Applied workflows: Sessions 1–6/
 
 - [Session 1 / Module 1 — Prompting an LLM with Clear Boundaries](01-prompting.md)
 - [Session 2 / Module 2 — IEP-Related Goal Brainstorming](02-iep-goals.md)

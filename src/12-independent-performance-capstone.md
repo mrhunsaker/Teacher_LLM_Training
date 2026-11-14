@@ -21,7 +21,7 @@ The participant will independently:
 
 ## Select a role-relevant scenario
 
-The digital-access scenario below is retained as one option, not a required scenario for every participant. Participants may instead use a case from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md) and adapt the capstone task while preserving the same performance outcomes and scoring rubric.
+Choose one case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). Use the bounded task and relevant evidence from that case. All six cases are equal options; there is no default discipline-specific scenario. Preserve the same performance outcomes and scoring rubric regardless of the selected case.
 
 Examples of equivalent bounded capstone tasks include:
 
@@ -30,13 +30,13 @@ Examples of equivalent bounded capstone tasks include:
 - **Speech-language pathology:** review synthetic communication samples or opportunity records; preserve communication modes, functions, partner supports, and prompt definitions without prescribing an AAC system or making a clinical decision.
 - **Mathematics reasoning:** inspect synthetic multi-step problem-solving data; distinguish comprehension, representation, strategy selection, computation, and checking rather than collapsing them into one score.
 - **Reading:** inspect synthetic reading data; distinguish the construct measured (for example, decoding, accuracy, fluency, vocabulary, or comprehension) and verify that materials and conditions are comparable.
-- **Vision/ECC:** use the Aureliano Buendia case and examine one bounded access or ECC task.
+- **Vision and access:** use Úrsula's case to examine one bounded access task, if that case fits your role.
 
 For every option, participants must use only supplied fictional facts, identify unknowns, create one appropriate artifact, verify claims or calculations, test accessibility, and state which decisions remain with qualified professionals or the IEP team.
 
 ## Capstone scenario
 
-In the default scenario, a fictional student is learning to access digital classroom handouts using an agreed set of tools. Participants selecting another discipline-specific case should substitute that case's bounded task and synthetic evidence. The student uses a tablet for some tasks and a school laptop for others. Staff report that familiar assignments are completed successfully. The available practice record contains four sessions:
+Use the bounded task from your selected case. The following four-session record is a generic synthetic illustration of how to review independent and prompted performance across task conditions. It is not tied to a disability area, access method, or preferred discipline. Replace it with role-appropriate synthetic evidence when your case requires a different measure: 
 
 | Session | Task condition | Independent steps correct | Valid opportunities | Prompted steps correct |
 |---|---|---:|---:|---:|
@@ -45,7 +45,7 @@ In the default scenario, a fictional student is learning to access digital class
 | 3 | New file format, laptop | 5 | 8 | 3 |
 | 4 | Familiar handout, laptop | 8 | 10 | 1 |
 
-The scenario does not specify the student's preferred medium, fatigue, exact assistive technology settings, the definition of a completed step, or whether the tasks are equivalent. Those are intentionally unknown.
+The illustration does not specify the learner's preferred approach, access needs, fatigue, exact supports, the definition of a completed step, or whether the tasks are equivalent. Those are intentionally unknown; identify the unknowns relevant to your selected case.
 
 ### Deliberately flawed AI response
 

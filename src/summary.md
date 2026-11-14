@@ -2,12 +2,12 @@
 
 This course teaches special education professionals to use large language models (LLMs) and Microsoft 365 Copilot as bounded, privacy-conscious productivity tools. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), related-service providers, and classroom partners.
 
-Participants choose a fictional case relevant to their role and work through **Plan → Refine → Build → Refine**. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication. ECC and vision instruction remain represented in a detailed case; they are not prerequisites for participants in other disciplines.
+Participants choose one fictional case from the unified [Buendía-family case collection](multidisciplinary-case-studies.md) and use it throughout **Plan → Refine → Build → Refine**. All six cases have equal standing and use the same learning pathway; no discipline is the default. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication.
 
 ## Start here: the participant pathway
 
 1. Read [Getting Started](getting-started.md).
-2. Select one case: [Aureliano Buendia — Vision and ECC](07-fictional-student-case.md) or a case in the [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md).
+2. Select one role-relevant case from the [Buendía-family case collection](multidisciplinary-case-studies.md). Use that case throughout the modules and workbook.
 3. Complete the applied-course pre-assessment before Session 1.
 4. Work through Sessions 1–6, using the [Participant Lesson Handouts](participant-lesson-handouts.md) as a working packet.
 5. Complete the AI-literacy pre-assessment immediately before Session 7.
@@ -31,16 +31,7 @@ By the end of the course, participants can:
 
 ## Select a case that fits your role
 
-The course does not require every participant to study the same disability area. Select one case as a continuing practice context:
-
-- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](07-fictional-student-case.md): the detailed vision/ECC case.
-- [Elena Rivera — Deaf and hard-of-hearing education](multidisciplinary-case-studies.md#case-2-elena-rivera-deaf-and-hard-of-hearing-education).
-- [Jordan Lee — School psychology and problem-solving](multidisciplinary-case-studies.md#case-3-jordan-lee-school-psychology-and-problem-solving).
-- [Samira Patel — Speech-language pathology and functional communication](multidisciplinary-case-studies.md#case-4-samira-patel-speech-language-pathology-and-functional-communication).
-- [Marcus Chen — Mathematics reasoning specific learning disability](multidisciplinary-case-studies.md#case-5-marcus-chen-specific-learning-disability-in-mathematics-reasoning).
-- [Nia Williams — Reading specific learning disability](multidisciplinary-case-studies.md#case-6-nia-williams-specific-learning-disability-in-reading).
-
-Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries. Participants work within their scope of practice and identify when consultation or team decisions are required. All profiles and practice data are fictional.
+Choose one of the six fictional cases in the [unified Buendía-family case collection](multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), or Arcadio (reading). These are equal options, not six required assignments. Use your selected case throughout the modules and workbook. Each case includes known facts, unknowns, a bounded practice task, and professional boundaries.
 
 ## The ten-session sequence
 
@@ -123,9 +114,7 @@ The TVI template is intentionally vision-specific. Participants in other discipl
 
 ### Case studies
 
-- [Aureliano Buendia — Vision/ECC](07-fictional-student-case.md)
-- [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md)
-- [Additional Fictional Student Cases](practice-student-cases.md)
+- [Unified Buendía-Family Special Education Case Studies](multidisciplinary-case-studies.md)
 
 ### Participant resources
 

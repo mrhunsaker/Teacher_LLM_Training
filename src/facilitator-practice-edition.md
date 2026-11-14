@@ -150,25 +150,9 @@ Do not require participants to connect personal or district email accounts. The 
 - Sender role is one cue in email triage; urgency should depend on verified deadline, impact, and time sensitivity.
 - When the model invents a fact, ask which input supports the claim and how the workflow should prevent it.
 
-## Competency rubric
+## Competency feedback
 
-Use the levels Beginning, Developing, Proficient, and Advanced. Score each area and provide evidence-based feedback.
-
-| Competency | Beginning | Developing | Proficient | Advanced |
-|---|---|---|---|---|
-| Prompting | Broad, unclear task | Task and context present | Task, scope, constraints, output, stop condition clear | Also requests uncertainty and verification |
-| Privacy | Identifiers or excess detail | Removes direct identifiers | Uses approved tool and minimizes data | Recognizes re-identification risk |
-| Student analysis | Assumptions treated as facts | Some distinctions made | Facts, hypotheses, unknowns separated; student voice included | Identifies missing perspectives |
-| Goal/measurement | Vague target | Partially measurable | Observable, measurable, individualized | Anticipates validity and generalization |
-| Data tools | Misaligned fields | Partial alignment | Operational definitions and fields align | Supports consistent cross-setting collection |
-| Data interpretation | Accepts model conclusion | Checks some values | Verifies calculations and states limits | Tests competing explanations |
-| Iteration | One-shot output | Revises wording only | Uses all four stages with testing | Documents rationale and outcome review |
-| Professional judgment | Defers to AI | Inconsistent review | Educator/team retains decision authority | Rejects unsupported output and explains why |
-| Email triage | Acts on unverified summary | Checks some messages | Verifies source and deadlines | Explains uncertainty and priority rationale |
-
-## Applied-course evidence
-
-Sessions 1–6 produce a bounded prompt, planning brief, target/measurement plan, data tool, verified data interpretation, and simulated email action report. These artifacts become inputs to later practice; the independent capstone portfolio is completed in Session 10.
+Use the item-level [Practical Competency Checklist](practical-competency-checklist.md) for formative observation, peer review, and coaching. Each behavior is rated 0, 1, 2, or N/O with an evidence note. Do not create a second competency scale from this facilitator guide. The independent capstone in Session 10 uses its own 0–3 domain rubric; keep that score separate from the checklist and written assessments.
 
 ## Final evidence portfolio
 

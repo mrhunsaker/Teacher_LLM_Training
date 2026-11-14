@@ -48,7 +48,7 @@ For the requested training rule, a session qualifies when independent accuracy i
 =IF(AND(ISNUMBER(H2),H2>90%),"Yes","No")
 ```
 
-This simple version treats any session above 90% as qualifying. If the IEP requires minimum opportunities, a specific setting, or other conditions, add those conditions to the formula before use.
+This simple version treats any session above 90% as qualifying. If the team-approved target or service plan requires minimum opportunities, a specific setting, or other conditions, add those conditions to the formula before use.
 
 On the Dashboard, if qualifying-session flags are in Data!I2:I101:
 
@@ -62,7 +62,7 @@ To display whether at least three qualifying sessions have been recorded:
 =IF(COUNTIF(Data!I2:I101,"Yes")>=3,"Training criterion met: 3+ qualifying sessions","Not yet met")
 ```
 
-**Important:** This formula counts any three qualifying rows, not necessarily consecutive sessions. If the goal says “three consecutive sessions,” use a consecutive-run formula or verify the sequence manually. The written IEP measurement rule must match the workbook logic.
+**Important:** This formula counts any three qualifying rows, not necessarily consecutive sessions. If the goal says “three consecutive sessions,” use a consecutive-run formula or verify the sequence manually. The written target or plan measurement rule must match the workbook logic.
 
 ## Create the graph
 
@@ -119,4 +119,4 @@ Use clear labels, high contrast, keyboard-accessible tables, and no color-only s
 
 ## Scope of the status flag
 
-“Training criterion met” means only that the entered rows meet the formula as written. It does not automatically mean the IEP goal is mastered, services should change, or the student no longer needs instruction. Review data quality, independence, generalization, maintenance, and team-defined conditions before making instructional decisions.
+“Training criterion met” means only that the entered rows meet the formula as written. It does not automatically mean the target is achieved, services or instruction should change, or the learner no longer needs support. Review data quality, independence, generalization, maintenance, and team-defined conditions before making instructional decisions.

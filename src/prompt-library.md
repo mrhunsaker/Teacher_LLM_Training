@@ -52,7 +52,7 @@ Return:
 1. Facts explicitly stated.
 2. Unknowns that cannot be inferred.
 3. Hypotheses worth investigating, clearly labeled.
-4. Questions for the student, family, TVI, classroom teacher,
+4. Questions for the student, family, relevant service providers, classroom teacher,
    or related-service staff.
 5. Possible access barriers and environmental variables to observe.
 6. Possible educational or related-service connections and a reason for each.
@@ -99,7 +99,7 @@ Activity and purpose: [describe]
 Verified access conditions and tools: [describe]
 Known successful steps: [list]
 Unknowns to observe: [list]
-Audience: [TVI, classroom teacher, student, or team]
+Audience: [special education teacher, TVI, DHH teacher, school psychologist, SLP, related-service provider, classroom teacher, student, family, or team]
 
 Return:
 1. Numbered observable steps.

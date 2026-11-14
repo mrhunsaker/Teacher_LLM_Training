@@ -15,7 +15,7 @@ This is the definitive delivery guide for the course. It brings the six applied 
 
 1. Read [Getting Started](getting-started.md) and choose a case from [Aureliano Buendia — Vision/ECC](07-fictional-student-case.md) or the [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md).
 2. Complete the applied-course pre-assessment before Session 1.
-3. Complete Sessions 1–6 and keep the six participant handouts as a working packet.
+3. Complete Sessions 1–6 and use Handouts 1–6 as the applied-course working packet. Use Handouts 7–9 during the AI-literacy and capstone sessions.
 4. Complete the AI-literacy pre-assessment immediately before Session 7.
 5. Complete Sessions 7–9.
 6. Complete the independent capstone in Session 10.
@@ -78,7 +78,7 @@ By the end of Session 10, each participant should have:
 
 ## Time and delivery options
 
-The default is ten sessions of 75–90 minutes (approximately 12.5–15 hours of facilitated instruction), plus independent reading and artifact completion. Facilitators may divide each session into shorter PLC segments or use a self-paced format, but should preserve the sequence and assessment points above. If the four AI-literacy modules are compressed into two meetings, retain all four module activities and the independent capstone evidence.
+The default is ten sessions of 75–90 minutes (approximately 12.5–15 hours of facilitated instruction), plus independent reading and artifact completion. Facilitators may divide each session into shorter PLC segments or use a self-paced format, but should preserve the sequence and assessment points above. For the standard ten-session course, deliver Sessions 7–10 as four distinct sessions. If a local schedule uses shorter segments, preserve the order, all required activities, the independent capstone, and the assessment points.
 
 ## Materials and prerequisites
 

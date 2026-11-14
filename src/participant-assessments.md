@@ -1,6 +1,6 @@
 # Participant Pre- and Post-Assessment
 
-This assessment measures practical judgment when using LLMs in ECC-related planning. It is not a test of prompt-engineering terminology or a measure of educator competence. Use the pre-assessment before instruction and the post-assessment after the six lessons. Both forms use parallel tasks so participants can demonstrate growth without memorizing identical answers.
+This assessment measures practical judgment when using LLMs in special education planning, instruction, related services, and progress monitoring. It is not a test of prompt-engineering terminology or a measure of educator competence. Use the pre-assessment before instruction and the post-assessment after the six lessons. Both forms use parallel tasks so participants can demonstrate growth without memorizing identical answers.
 
 Use fictional information only. Do not enter student records into an AI tool for this assessment. Participants may complete the assessment with an approved LLM or by describing what they would ask the model to do.
 
@@ -15,7 +15,7 @@ Use fictional information only. Do not enter student records into an AI tool for
 
 **1. Prompt boundaries**
 
-A colleague asks: "Use AI to make a complete ECC plan for this student." Write a short response describing how you would narrow the request. Include at least four boundaries or pieces of context you would specify.
+A colleague asks: "Use AI to make a complete special education plan for this student." Write a short response describing how you would narrow the request. Include at least four boundaries or pieces of context you would specify.
 
 **2. Facts, hypotheses, and unknowns**
 
@@ -29,7 +29,7 @@ List:
 
 **3. Goal measurement**
 
-A draft target says: "The student will improve assistive technology skills with 90% accuracy." Identify at least four missing elements needed to make this measurable and individualized.
+A draft target says: "The student will improve a targeted educational or related-service skill with 90% accuracy." Identify at least four missing elements needed to make this measurable and individualized.
 
 **4. Data interpretation**
 

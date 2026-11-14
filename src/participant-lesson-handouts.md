@@ -1,6 +1,6 @@
 # Participant Lesson Handouts
 
-These six handouts are designed to be used during the corresponding lessons in the Facilitator and Practice Edition. They are text-first working pages. Participants may type into a copy, print them, or use them with a screen reader. Use fictional or district-approved information only.
+These six handouts are designed to be used during the corresponding lessons in the Facilitator and Practice Edition. Participants should select the vision/educational or related-service case or a relevant profile from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md) and adapt each handout to their professional role and scope of practice. They are text-first working pages. Participants may type into a copy, print them, or use them with a screen reader. Use fictional or district-approved information only.
 
 ## Handout 1: Bounded prompt planner
 
@@ -8,7 +8,7 @@ These six handouts are designed to be used during the corresponding lessons in t
 [Write one specific task.]
 
 **Intended audience for the output:**  
-[TVI, classroom teacher, student, family, or team.]
+[special education teacher, professional or service provider, DHH teacher, school psychologist, SLP, related-service provider, classroom teacher, student, family, or team.]
 
 **Relevant context I can safely provide:**  
 [Only facts needed for this task.]

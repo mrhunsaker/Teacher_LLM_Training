@@ -2,7 +2,7 @@
 
 ## How this phase fits the course
 
-The four added modules extend the existing six-session ECC and Copilot course. They may be delivered as two 90-minute sessions, four shorter PLC segments, or a self-paced extension. Do not remove the original applied ECC work; the AI literacy phase strengthens the judgment participants use during those tasks.
+The four AI-literacy modules extend the six-session applied course for special education professionals. Participants may work from any fictional case aligned with their role, including the vision/ECC case or the multidisciplinary cases. They may be delivered as two 90-minute sessions, four shorter PLC segments, or a self-paced extension. Do not remove the original applied ECC work; the AI literacy phase strengthens the judgment participants use during those tasks.
 
 ## Suggested sequence
 
@@ -25,7 +25,7 @@ The four added modules extend the existing six-session ECC and Copilot course. T
 
 ### Session 8 — Misconceptions and failure analysis (90 minutes)
 
-**Before the session:** Review [Module 8](10-misconceptions-and-failure-analysis.md). Prepare the fictional student profile and flawed response in accessible text.
+**Before the session:** Review [Module 8](10-misconceptions-and-failure-analysis.md). Prepare a fictional student profile and flawed response in accessible text; select a case relevant to the participants' professional roles.
 
 **Learning objectives:** Participants identify assumptions and unsupported claims, distinguish evidence/inference/unknowns, and repair a prompt.
 

@@ -1,6 +1,6 @@
 # Facilitator and Practice Edition
 
-This chapter turns the existing mdBook into a six-session professional-learning course. It is designed for TVIs, classroom teachers, and related-service colleagues with varied AI experience. No programming is required.
+This chapter turns the existing mdBook into a six-session professional-learning course. It is designed for special education professionals—including special education and general education teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists, and related-service colleagues—with varied AI experience. Participants select a fictional case aligned with their role and scope of practice. No programming is required.
 
 ## Course purpose
 
@@ -54,7 +54,7 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Objectives:** Separate facts, hypotheses, and unknowns; use an LLM to surface questions; narrow an instructional problem to an observable task.
 
-**Preparation:** Use Maya or a case from the practice-case chapter.
+**Preparation:** Use Aureliano Buendia's vision case or select a relevant fictional case from the multidisciplinary case-study chapter.
 
 **Agenda:**
 - 0–10: Review the educator-led design cycle.

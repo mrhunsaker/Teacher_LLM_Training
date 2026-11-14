@@ -6,8 +6,8 @@ Use these prompts with fictional or district-approved information only. Replace 
 
 ```text
 ROLE
-Act as a planning and drafting assistant for an educator working
-with students with visual impairments. Do not act as an evaluator,
+Act as a planning and drafting assistant for a special education professional.
+My role and scope of practice are: [state role]. Do not act as an evaluator,
 diagnostician, IEP decision-maker, or legal authority.
 
 TASK
@@ -15,12 +15,12 @@ Complete one task: [specific task and purpose].
 
 CONTEXT
 Use only these relevant facts: [brief de-identified information].
-Audience: [TVI, classroom teacher, student, family, team].
+Audience: [special education teacher, professional or service provider, DHH teacher, school psychologist, SLP, related-service provider, classroom teacher, student, family, or team].
 Task and setting: [relevant conditions].
 
 BOUNDARIES
-- Do not invent student facts or infer skills from diagnosis, acuity,
-  grades, or device ownership.
+- Do not invent student facts or infer skills from diagnosis, eligibility label,
+  test score, acuity, grades, or device ownership.
 - Separate provided facts, hypotheses, and unknowns.
 - Identify information needed before recommending an approach.
 - Offer options and trade-offs rather than a single prescribed answer.
@@ -43,7 +43,7 @@ Stop after [specific deliverable]. Ask before proceeding.
 
 ```text
 Analyze this fictional or approved de-identified profile for one
-instructional task.
+educational or related-service task.
 
 Profile: [relevant facts]
 Task and purpose: [meaningful activity and setting]
@@ -52,23 +52,23 @@ Return:
 1. Facts explicitly stated.
 2. Unknowns that cannot be inferred.
 3. Hypotheses worth investigating, clearly labeled.
-4. Questions for the student, family, TVI, classroom teacher,
+4. Questions for the student, family, relevant service providers, classroom teacher,
    or related-service staff.
 5. Possible access barriers and environmental variables to observe.
-6. Possible ECC connections and a reason for each.
+6. Possible educational or related-service connections and a reason for each.
 7. Evidence needed before selecting an instructional target.
 
-Do not infer functional vision, reading medium, motivation, independence,
-or skill from diagnosis, acuity, grades, or device ownership.
+Do not infer functional vision, communication, behavior, cognition, motivation, independence,
+or academic skill from diagnosis, eligibility label, test score, acuity, grades, or device ownership.
 Do not recommend reducing or replacing services.
 Do not write an IEP goal yet. Stop after the analysis.
 ```
 
-## 3. Goal development and measurement
+## 3. Educational goal development and measurement
 
 ```text
 Help me brainstorm possible measurable instructional targets for
-this fictional or approved de-identified ECC task. Do not choose
+this fictional or approved de-identified educational or related-service task. Do not choose
 the final target for the team.
 
 Context: [task, setting, relevant facts]
@@ -86,20 +86,20 @@ Please:
 7. List decisions for the educator and IEP team.
 
 Do not assume a universal accuracy threshold. Greater than 90% across
-three sessions is not a legal standard. Do not infer need from diagnosis
+three sessions is not a legal standard. Do not infer need from diagnosis, eligibility label, test scores,
 or grades. Stop after alternatives and review questions.
 ```
 
 ## 4. Task analysis and instructional sequence
 
 ```text
-Draft a task analysis for this functional ECC activity.
+Draft a task analysis for this instructional, communication, behavioral, access, or related-service activity.
 
 Activity and purpose: [describe]
 Verified access conditions and tools: [describe]
 Known successful steps: [list]
 Unknowns to observe: [list]
-Audience: [TVI, classroom teacher, student, or team]
+Audience: [special education teacher, TVI, DHH teacher, school psychologist, SLP, related-service provider, classroom teacher, student, family, or team]
 
 Return:
 1. Numbered observable steps.

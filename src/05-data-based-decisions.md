@@ -38,7 +38,7 @@ Use district or team procedures to define the review window. This course does no
 
 ## Safe LLM analysis prompt
 
-> You are a data-description assistant for a teacher of students with visual impairments. Analyze only the synthetic, de-identified session data below.
+> You are a data-description assistant for a special education professional. Analyze only the synthetic, de-identified session data below.
 >
 > **Goal and measurement definition:** [Paste exact goal and operational definition.]
 >

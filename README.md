@@ -1,15 +1,15 @@
-# Teacher LLM Training: Expanded Core Curriculum
+# Special Education Professional Learning: Practical LLM Use
 
-A practical, step-by-step professional learning resource for teachers of students with visual impairments (TVIs), classroom teachers, and related-service colleagues.
+A practical, step-by-step professional learning resource for special education professionals: special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), related-service providers, classroom teachers, and multidisciplinary teams.
 
-This repository teaches educators how to use large language models (LLMs) and Microsoft 365 Copilot as bounded productivity tools for Expanded Core Curriculum (ECC) instruction, IEP planning, progress monitoring, and email organization. It is written for educators who may be new to AI and spreadsheets.
+This repository teaches special education professionals how to use large language models (LLMs) and Microsoft 365 Copilot as bounded productivity tools for individualized instruction, related-service workflows, IEP-related preparation, progress monitoring, data review, and professional communication. The ECC and vision case remain included, but participants from any special education discipline can select a relevant fictional case and proceed through the modules. It is written for professionals who may be new to AI and spreadsheets.
 
 ## Start here
 
 1. Open the published book (or build it locally with mdBook).
 2. Read [Getting started](src/getting-started.md).
-3. Work through the modules in order. The fictional student case provides a shared scenario for practicing the full **Plan → Refine → Build → Refine** cycle.
-4. Complete the [Final ECC Capstone Workbook](src/08-final-workbook.md), adapting it to the student and ECC area you are addressing.
+3. Work through the modules in order. Choose the [Aureliano Buendia vision/ECC case](src/07-fictional-student-case.md) or a [multidisciplinary special education case](src/multidisciplinary-case-studies.md) that fits your role. Use that case to practice the full **Plan → Refine → Build → Refine** cycle.
+4. Complete the [Final Special Education Capstone Workbook](src/08-final-workbook.md), adapting it to the learner, instructional or related-service task, and professional scope you are addressing.
 5. Use only fictional or properly de-identified practice data in general-purpose AI tools. Follow district policy and approved Microsoft 365 services for any education records.
 
 ## Curriculum map
@@ -17,24 +17,28 @@ This repository teaches educators how to use large language models (LLMs) and Mi
 | Module | What you will learn | Product |
 |---|---|---|
 | 1. Prompting | Give an LLM a narrow role, task, boundaries, and output format | Reusable prompt |
-| 2. IEP brainstorming | Use de-identified baseline data to brainstorm measurable ECC goals and objectives | Draft goal options and measurement plan |
-| 3. Data collection | Create aligned TVI and classroom data sheets | Two collection forms |
+| 2. IEP brainstorming | Use approved, minimum-necessary information or synthetic data to brainstorm measurable educational goals and objectives | Draft goal options and measurement plan |
+| 3. Data collection | Create aligned observation and progress-monitoring tools for the relevant discipline and classroom partners | Data-collection tools |
 | 4. Excel progress monitoring | Enter data, graph performance, and calculate a provisional criterion flag | Excel-ready tracker |
 | 5. Instructional decisions | Interpret trend, variability, generalization, and possible plateau | Data review and next-step record |
 | 6. Copilot email workflow | Build a morning email triage routine with dates, actions, and 1–5 priority | Reusable Copilot prompt and checklist |
-| Case study | Apply the cycle to a fictional student with ocular albinism, photophobia, dual-media literacy, O&M, Windows Magnifier, and iPad access | Iterative planning artifacts and revision log |
-| Final workbook | Apply the process to any student and relevant ECC area | Completed planning workbook, aligned tool, data plan, and revision log |
+| Case studies | Apply the cycle to a role-relevant fictional case in vision/ECC, deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, or reading | Iterative planning artifacts and revision log |
+| Final workbook | Apply the process to a relevant special education or related-service task | Completed planning workbook, aligned tool, data plan, and revision log |
 
 ## The instructional design cycle
 
 The course is built around **Plan → Refine → Build → Refine**, not one-shot prompt generation:
 
-1. **Plan:** The teacher defines the ECC problem, task, setting, student strengths, known facts, and unknowns.
+1. **Plan:** The professional defines the educational or related-service question, task, setting, learner strengths, known facts, and unknowns.
 2. **Refine:** The teacher uses the LLM to question assumptions, identify missing observations, and narrow the target. The teacher corrects and approves the plan.
 3. **Build:** The LLM helps draft one practical artifact, such as a task analysis, observation form, or practice checklist.
 4. **Refine:** The teacher tests the artifact, reviews student and staff feedback and collected data, then revises the tool or instructional plan.
 
-The teacher remains responsible for the instructional decisions. The model must not move to the next stage without direction.
+The educator or qualified service provider remains responsible for decisions within their professional role; IEP-team and multidisciplinary decisions remain with the authorized team. The model must not move to the next stage without direction.
+
+## Selecting a case
+
+Use the case study closest to your role and current professional work. The [vision/ECC case](src/07-fictional-student-case.md) remains a detailed worked example. The [multidisciplinary case library](src/multidisciplinary-case-studies.md) adds cases for teachers of deaf and hard-of-hearing students, school psychologists, SLPs, and educators supporting students with specific learning disabilities in mathematics reasoning or reading. Participants should work within their own scope of practice and identify when consultation or team decision-making is required.
 
 ## Important safeguards
 
@@ -77,6 +81,7 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
     ├── 05-data-based-decisions.md
     ├── 06-copilot-email.md
     ├── 07-fictional-student-case.md
+    ├── multidisciplinary-case-studies.md
     ├── 08-final-workbook.md
     ├── references.md
     ├── progress-monitoring-example.csv
@@ -86,15 +91,19 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
 
 ## Intended audience and prerequisites
 
-No programming experience is required. Familiarity with IEPs and the ECC is helpful. You will need access to a district-approved LLM for practice and Microsoft Excel for spreadsheet activities. Microsoft Copilot features vary by district license, tenant configuration, app version, and administrator settings.
+No programming experience is required. Familiarity with special education planning, IEPs, and the relevant professional standards for your role is helpful. ECC knowledge is useful for participants working in vision services but is not a prerequisite for the other case studies. You will need access to a district-approved LLM for practice and Microsoft Excel for spreadsheet activities. Microsoft Copilot features vary by district license, tenant configuration, app version, and administrator settings.
 
 ## Suggested pacing
 
-A six-session sequence of 60–90 minutes each works well, with the Maya case used as a shared scenario and the final workbook as a capstone. Each session can also be split into shorter team meetings. Complete the practice with fictional data before adapting the workflow to real work under district-approved systems.
+A six-session applied sequence of 60–90 minutes each works well, followed by the four AI-literacy modules. Participants select a role-relevant case from the case library; the Aureliano Buendia vision/ECC case remains available as a detailed worked example. Each session can also be split into shorter team meetings. Complete the practice with fictional data before adapting the workflow to real work under district-approved systems.
+
+## Multidisciplinary case studies
+
+The [multidisciplinary case library](src/multidisciplinary-case-studies.md) adds fictional profiles for deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading. Use the case that best fits your role and scope of practice. The original [Aureliano Buendia vision/ECC case](src/07-fictional-student-case.md) is retained.
 
 ## Facilitator and practice edition
 
-This branch adds a six-session facilitator-ready course with objectives, timed agendas, demonstrations, participant artifacts, evidence of learning, and exit tickets. It also adds a [reusable prompt library](src/prompt-library.md), [five practice labs](src/practice-labs.md), [four additional fictional student cases](src/practice-student-cases.md), three synthetic CSV datasets, a [competency rubric and portfolio](src/facilitator-practice-edition.md), and [privacy and district implementation guidance](src/responsible-use-and-implementation.md).
+This branch adds a six-session facilitator-ready course with objectives, timed agendas, demonstrations, participant artifacts, evidence of learning, and exit tickets. It also adds a [reusable prompt library](src/prompt-library.md), [five practice labs](src/practice-labs.md), [additional fictional student cases](src/practice-student-cases.md), three synthetic CSV datasets, a [competency rubric and portfolio](src/facilitator-practice-edition.md), and [privacy and district implementation guidance](src/responsible-use-and-implementation.md).
 
 ## Accessibility commitments
 

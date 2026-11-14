@@ -27,9 +27,9 @@ This is the definitive delivery guide for the course. It brings the six applied 
 | Session | Module and focus | Participant activity | Evidence or artifact |
 |---|---|---|---|
 | 1 | Prompting and bounded tasks | Narrow a broad request; define role, task, context, constraints, output, and stop condition | Bounded prompt and revision |
-| 2 | Plan and Refine | Use a selected case to separate facts, hypotheses, and unknowns; identify student and team questions | Planning brief |
-| 3 | Goal development and measurement | Draft and review an observable, individualized educational or related-service target; define conditions and measures | Candidate target and measurement plan |
-| 4 | Data collection and Excel monitoring | Build aligned observation tools; enter synthetic data; verify calculations and describe the graph in text | Task analysis, data tool, verified data summary |
+| 2 | Plan, Refine, and IEP-related goal brainstorming | Use a selected case to separate facts, hypotheses, and unknowns; identify student/team questions; draft and review possible measurable targets within the participant's role | Planning brief and candidate target options |
+| 3 | Data collection and operational measurement | Define observable behavior, valid opportunities, prompt/support levels, and aligned data-collection tools | Operational definition and aligned data tool |
+| 4 | Excel progress monitoring | Enter synthetic data, verify formulas and calculations, graph performance, and describe the graph in text | Excel-ready tracker and verified data summary |
 | 5 | Data-based decisions and refinement | Examine level, trend, variability, comparability, prompt dependence, and competing explanations | Evidence-based review and next-step plan |
 | 6 | Copilot email triage and applied-course consolidation | Triage simulated email; verify original sources and dates; reflect on the six applied workflows | Advisory action report and applied-course reflection |
 | 7 | AI literacy foundations | Compare generation with retrieval, databases, calculation, observation, and professional judgment | AI operation classification and limitation explanation |

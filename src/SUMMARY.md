@@ -15,7 +15,4 @@
 - [Hands-on Practice Labs](practice-labs.md)
 - [Additional Fictional Student Cases](practice-student-cases.md)
 - [Privacy, Responsible Use, and District Implementation](responsible-use-and-implementation.md)
-- [Synthetic Dataset: Improving Progress](datasets/improving-progress.csv)
-- [Synthetic Dataset: Variable Performance](datasets/variable-performance.csv)
-- [Synthetic Dataset: Possible Plateau](datasets/possible-plateau.csv)
 - [References and Further Learning](references.md)

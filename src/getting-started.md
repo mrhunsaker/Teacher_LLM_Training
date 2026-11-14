@@ -22,9 +22,15 @@ Remove direct identifiers and indirect details that could reasonably identify a 
 
 A prompt that says “this is confidential” does not make an unapproved tool safe. Follow district policy, the district’s data-processing terms, and applicable law. When uncertain, stop and ask the district privacy or technology lead.
 
+## Choose a case that fits your role
+
+The course is designed for special education professionals across disciplines. Keep the [Aureliano Buendia vision/ECC case](07-fictional-student-case.md) if your work involves visual access, braille, assistive technology, or the Expanded Core Curriculum. If your role is in deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics instruction, or reading instruction, choose a relevant profile from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). You may also work with a colleague from another discipline. State your professional role, stay within your scope of practice, and identify decisions that require qualified assessment or IEP-team review.
+
+Use your selected case across the modules. In each module, replace vision-specific examples with the equivalent task, evidence, and access conditions from your case. The method remains the same: Plan → Refine → Build → Refine.
+
 ## The ECC in practice
 
-The ECC is not a single packaged curriculum or a checklist that every learner must complete in the same way. Use assessment, student/family input, access needs, and educational impact to identify priorities. The nine areas are:
+The ECC is one specialized framework included in the course, not a requirement that applies to every case or participant. The ECC is not a single packaged curriculum or a checklist that every learner must complete in the same way. Use assessment, student/family input, access needs, and educational impact to identify priorities. The nine areas are:
 
 1. Compensatory or functional academic skills, including communication modes and access to literacy.
 2. Orientation and mobility.

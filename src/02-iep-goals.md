@@ -3,7 +3,7 @@
 ## Learning targets
 
 - Prepare a concise, de-identified learner snapshot.
-- Ask an LLM to brainstorm candidate ECC goals and short-term objectives.
+- Ask an LLM to brainstorm candidate individualized educational goals and objectives relevant to the selected case and professional role.
 - Evaluate whether the goal is observable, measurable, individualized, and connected to baseline data.
 
 ## Step 1: Prepare a safe learner snapshot
@@ -13,7 +13,7 @@ Use a synthetic profile for practice. Do not paste a full IEP or evaluation. Inc
 | Field | Example |
 |---|---|
 | Learner label | Learner A |
-| ECC area | Assistive technology |
+| Instructional or service area | Assistive technology or another case-relevant area |
 | Target context | Accessing a digital classroom handout |
 | Current skill | Opens the file with verbal cue; cannot independently locate zoom controls |
 | Baseline | 4 independent successes in 10 opportunities across 3 sessions |
@@ -28,9 +28,9 @@ Avoid unnecessary disability labels and unique personal details. For an actual s
 
 Copy and adapt this prompt:
 
-> Act as a careful IEP brainstorming assistant for a teacher of students with visual impairments. Use only the learner information below. Do not infer disability impact, eligibility, services, placement, minutes, or family preferences.
+> Act as a careful special education planning assistant supporting a qualified educator or service provider. My professional role and scope are: [state role]. Use only the learner information below and keep suggestions within that role. Do not infer disability impact, eligibility, services, placement, minutes, or family preferences.
 >
-> **Task:** Brainstorm three alternative measurable annual goal statements in the stated ECC area. Then suggest up to two short-term objectives or benchmarks for each option, if appropriate for this learner and required by the learner's IEP context.
+> **Task:** Brainstorm three alternative measurable annual goal statements in the stated educational or related-service area. Then suggest up to two short-term objectives or benchmarks for each option, if appropriate for this learner and required by the learner's IEP context.
 >
 > **Learner information:** [Paste fictional or district-approved de-identified snapshot.]
 >
@@ -88,4 +88,4 @@ Report both accuracy and assistance. A learner may complete a task accurately wi
 
 ## Practice assignment
 
-Use the synthetic learner snapshot in this module to generate three goal options. Highlight every phrase that needs a team decision. Revise one option without allowing the model to invent facts.
+Choose the synthetic snapshot in this module or a relevant case from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). Generate three role-appropriate goal options. Highlight every phrase that needs a team decision. Revise one option without allowing the model to invent facts.

@@ -21,9 +21,9 @@ This is a working document. Complete it in stages; do not ask an LLM to fill it 
 
 ---
 
-# Worksheet 1 — Student strengths, priorities, and context
+## Worksheet 1 — Student strengths, priorities, and context
 
-## 1A. Student-centered snapshot
+### 1A. Student-centered snapshot
 
 Use strengths-based, neutral language. Include only information relevant to the instructional question.
 
@@ -38,7 +38,7 @@ Use strengths-based, neutral language. Include only information relevant to the 
 | Student's preferred ways to receive and share information | |
 | Relevant environments and routines | |
 
-## 1B. Discipline-specific framework and access overview
+### 1B. Discipline-specific framework and access overview
 
 Check only areas that are relevant for this planning cycle. A checked area means “consider or investigate,” not “assume a deficit.”
 
@@ -66,7 +66,7 @@ ____________________________________________________________________
 
 ____________________________________________________________________
 
-## 1C. Known facts, observations, and unknowns
+### 1C. Known facts, observations, and unknowns
 
 Keep evidence separate from assumptions. If a fact is not established, label it “not yet known.”
 
@@ -86,7 +86,7 @@ Keep evidence separate from assumptions. If a fact is not established, label it 
 - [ ] Yes
 - [ ] Not yet — I need additional observations or assessment information.
 
-## 1D. Plan-stage LLM prompt
+### 1D. Plan-stage LLM prompt
 
 Copy and adapt this prompt only after you have prepared a de-identified summary.
 
@@ -102,7 +102,7 @@ Copy and adapt this prompt only after you have prepared a de-identified summary.
 >
 > **Stop:** Do not recommend interventions or create instructional materials.
 
-### Record the professional's decision
+#### Record the professional's decision
 
 What did the LLM organize accurately?
 
@@ -118,9 +118,9 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 2 — Define the instructional problem
+## Worksheet 2 — Define the instructional problem
 
-## 2A. Describe the real-world task
+### 2A. Describe the real-world task
 
 Avoid broad labels such as “needs technology,” “has low vision,” or “needs independence.” Describe what the student is expected to do in a real context.
 
@@ -135,7 +135,7 @@ Avoid broad labels such as “needs technology,” “has low vision,” or “n
 | What is the observable barrier, if any? | |
 | What is already working well? | |
 
-## 2B. Write a neutral problem statement
+### 2B. Write a neutral problem statement
 
 Use this frame:
 
@@ -147,7 +147,7 @@ ____________________________________________________________________
 
 ____________________________________________________________________
 
-## 2C. Separate the problem from possible solutions
+### 2C. Separate the problem from possible solutions
 
 | Observed issue or participation need | Possible explanation(s) to investigate | Evidence needed before choosing a solution |
 |---|---|---|
@@ -155,7 +155,7 @@ ____________________________________________________________________
 | | | |
 | | | |
 
-## 2D. Refine-stage LLM prompt
+### 2D. Refine-stage LLM prompt
 
 > Act as a critical colleague helping me refine an instructional problem. Review the de-identified task description below.
 >
@@ -165,7 +165,7 @@ ____________________________________________________________________
 >
 > [Paste the professional's task description.]
 
-### Professional decision gate
+#### Professional decision gate
 
 - [ ] The task is meaningful to the student.
 - [ ] The focus is observable.
@@ -184,9 +184,9 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 3 — Baseline and measurement plan
+## Worksheet 3 — Baseline and measurement plan
 
-## 3A. Define exactly what will be measured
+### 3A. Define exactly what will be measured
 
 | Measurement element | Team definition |
 |---|---|
@@ -204,17 +204,51 @@ ____________________________________________________________________
 
 Do not combine prompted and independent responses into one score unless the measure explicitly distinguishes them. Record accommodations and access tools as part of the testing condition, not as evidence that a response was prompted.
 
-## 3B. Baseline observations
+### 3B. Baseline observations
 
 Use comparable opportunities. Add rows as needed.
 
-| Date / session | Setting and task | Opportunities | Independent successes | Prompt level / assistance | Access conditions / notes |
-|---|---|---:|---:|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+Record one session per entry. Add entries as needed.
+
+**Session 1**
+- Date / session: ____________________
+- Setting and task: ____________________
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompt level / assistance: ____________________
+- Access conditions / notes: ____________________
+
+**Session 2**
+- Date / session: ____________________
+- Setting and task: ____________________
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompt level / assistance: ____________________
+- Access conditions / notes: ____________________
+
+**Session 3**
+- Date / session: ____________________
+- Setting and task: ____________________
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompt level / assistance: ____________________
+- Access conditions / notes: ____________________
+
+**Session 4**
+- Date / session: ____________________
+- Setting and task: ____________________
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompt level / assistance: ____________________
+- Access conditions / notes: ____________________
+
+**Session 5**
+- Date / session: ____________________
+- Setting and task: ____________________
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompt level / assistance: ____________________
+- Access conditions / notes: ____________________
 
 **What does the baseline show?**
 
@@ -228,7 +262,7 @@ ____________________________________________________________________
 
 ____________________________________________________________________
 
-## 3C. Refine the measurement plan with the LLM
+### 3C. Refine the measurement plan with the LLM
 
 > Review this proposed measurement plan for clarity and consistency. Do not calculate a goal or decide mastery.
 >
@@ -236,7 +270,7 @@ ____________________________________________________________________
 >
 > [Paste the de-identified measurement plan.]
 
-### Professional edits and approval
+#### Professional edits and approval
 
 Changes made:
 
@@ -252,11 +286,11 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 4 — Draft and review a measurable target
+## Worksheet 4 — Draft and review a measurable target
 
 A goal or instructional target should be aligned with the student's needs and the team's documented present levels. It should describe an observable skill, relevant conditions, a measurement method, and an individualized criterion. The criterion must be selected by the team—not copied automatically from a sample or generated by an LLM.
 
-## 4A. Goal components
+### 4A. Goal components
 
 | Component | Draft |
 |---|---|
@@ -268,7 +302,7 @@ A goal or instructional target should be aligned with the student's needs and th
 | Timeframe / review period | |
 | How progress will be reported | |
 
-## 4B. Candidate goal language
+### 4B. Candidate goal language
 
 **Candidate 1**
 
@@ -288,7 +322,7 @@ ____________________________________________________________________
 
 ____________________________________________________________________
 
-## 4C. LLM brainstorming prompt
+### 4C. LLM brainstorming prompt
 
 > Using only the de-identified present-level summary and baseline data below, brainstorm up to three candidate measurable goal statements for the instructional or related-service focus I specify.
 >
@@ -302,7 +336,7 @@ ____________________________________________________________________
 >
 > **Stop:** Do not write lesson plans, objectives, or progress reports.
 
-## 4D. Human review checklist
+### 4D. Human review checklist
 
 - [ ] The goal addresses a documented educational need.
 - [ ] The behavior is observable and measurable.
@@ -326,11 +360,11 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 5 — Build the instruction and data tools
+## Worksheet 5 — Build the instruction and data tools
 
 Build only after the team has approved the task and measurement definitions. Start with the smallest useful tool. A complicated tool is not automatically a better tool.
 
-## 5A. Task analysis
+### 5A. Task analysis
 
 Break the skill or workflow into observable steps. Use the selected case and the learner's actual routine; do not copy a case-specific example or task analysis unless it fits the selected task and context.
 
@@ -343,7 +377,7 @@ Break the skill or workflow into observable steps. Use the selected case and the
 | 5 | | | |
 | 6 | | | |
 
-## 5B. Instructional design
+### 5B. Instructional design
 
 | Design question | Team plan |
 |---|---|
@@ -357,7 +391,7 @@ Break the skill or workflow into observable steps. Use the selected case and the
 | Student choice and self-advocacy opportunity | |
 | Safety or specialist considerations | |
 
-## 5C. Data-collection form design
+### 5C. Data-collection form design
 
 Select fields that are necessary for interpreting the target. Avoid collecting unnecessary personal information.
 
@@ -386,7 +420,7 @@ ____________________________________________________________________
 
 ____________________________________________________________________
 
-## 5D. Build-stage LLM prompt
+### 5D. Build-stage LLM prompt
 
 > Create one practical draft tool using the approved task analysis and measurement definitions below.
 >
@@ -422,9 +456,9 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 6 — Implement, collect, and review data
+## Worksheet 6 — Implement, collect, and review data
 
-## 6A. Implementation plan
+### 6A. Implementation plan
 
 | Action | Person responsible | When / frequency | Evidence it occurred |
 |---|---|---|---|
@@ -435,22 +469,69 @@ ____________________________________________________________________
 | Check accommodations and access conditions | | | |
 | Review data with team | | | |
 
-## 6B. Session data
+### 6B. Session data
 
 Use the data sheet created in Worksheet 5 or adapt the repository's TVI-specific and classroom templates to the selected discipline and task. The TVI template is vision-specific; other participants should adapt the classroom template or create fields that match their target and professional role. The following table is a compact planning view.
 
-| Session | Opportunities | Independent successes | Prompted / assisted responses | Conditions / deviations | Student feedback |
-|---|---:|---:|---:|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
+Record each session separately. Keep independent and prompted/assisted responses distinct.
 
-## 6C. Spreadsheet and graph review
+**Session 1**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+**Session 2**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+**Session 3**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+**Session 4**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+**Session 5**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+**Session 6**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+**Session 7**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+**Session 8**
+- Opportunities: ____________________
+- Independent successes: ____________________
+- Prompted / assisted responses: ____________________
+- Conditions / deviations: ____________________
+- Student feedback: ____________________
+
+### 6C. Spreadsheet and graph review
 
 If using the course Excel tracker:
 
@@ -463,7 +544,7 @@ If using the course Excel tracker:
 
 The course example of **greater than 90% across at least three separate sessions** is only a configurable training convention. It is not a universal IEP rule, legal standard, or automatic definition of mastery. Do not apply it unless it is appropriate for the target and explicitly selected by the team.
 
-## 6D. LLM data-review prompt
+### 6D. LLM data-review prompt
 
 > Help me review this de-identified progress-monitoring summary. Do not decide mastery, change the IEP, or diagnose a plateau.
 >
@@ -503,11 +584,11 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 7 — Refine the plan and document decisions
+## Worksheet 7 — Refine the plan and document decisions
 
 Do not label performance a plateau solely because a graph appears flat. Consider the amount and quality of data, instructional fidelity, task difficulty, access conditions, prompt dependence, student experience, and generalization.
 
-## 7A. Decide what to do next
+### 7A. Decide what to do next
 
 Select the next action supported by the evidence. More than one may apply.
 
@@ -530,16 +611,33 @@ ____________________________________________________________________
 
 ____________________________________________________________________
 
-## 7B. Revision log
+### 7B. Revision log
 
-| Date / review point | Evidence reviewed | What was changed? | Why was it changed? | Who approved / needs to be informed? |
-|---|---|---|---|---|
-| Initial plan | | | | |
-| First refinement | | | | |
-| Second refinement | | | | |
-| Later review | | | | |
+**Initial plan**
+- Evidence reviewed: ____________________
+- What was changed: ____________________
+- Why: ____________________
+- Who approved / needs to be informed: ____________________
 
-## 7C. Refine-stage LLM prompt
+**First refinement**
+- Evidence reviewed: ____________________
+- What was changed: ____________________
+- Why: ____________________
+- Who approved / needs to be informed: ____________________
+
+**Second refinement**
+- Evidence reviewed: ____________________
+- What was changed: ____________________
+- Why: ____________________
+- Who approved / needs to be informed: ____________________
+
+**Later review**
+- Evidence reviewed: ____________________
+- What was changed: ____________________
+- Why: ____________________
+- Who approved / needs to be informed: ____________________
+
+### 7C. Refine-stage LLM prompt
 
 > Act as a critical planning partner. Compare the original plan, the implementation notes, student feedback, and the de-identified data summary below.
 >
@@ -549,7 +647,7 @@ ____________________________________________________________________
 >
 > [Paste approved summaries.]
 
-## 7D. Final team decision record
+### 7D. Final team decision record
 
 **Decision made by the appropriate educator / team:**
 
@@ -573,7 +671,7 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 8 — Transfer the process to another instructional or related-service area
+## Worksheet 8 — Transfer the process to another instructional or related-service area
 
 The process remains the same even when the content changes. The measure and professional expertise must fit the skill.
 
@@ -611,7 +709,7 @@ ____________________________________________________________________
 
 ---
 
-# Final Capstone — Your completed design cycle
+## Final Capstone — Your completed design cycle
 
 Complete this page after the worksheets. It is the concise record of your work.
 

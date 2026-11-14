@@ -104,3 +104,12 @@ The new practice materials are text-first and designed to remain usable with scr
 ## Participant-ready package
 
 The participant package adds a [parallel pre- and post-assessment](src/participant-assessments.md) with scoring and facilitator notes, [six lesson handouts](src/participant-lesson-handouts.md), and a [practical competency checklist](src/practical-competency-checklist.md). All three are linked in the [course overview and complete resource index](src/summary.md) and in the mdBook navigation. The assessment measures scenario-based reasoning; it is not a credential or employment evaluation.
+
+
+## AI literacy and critical-evaluation extension
+
+The course now adds four modules: [AI Literacy Foundations](src/09-ai-literacy-foundations.md), [AI Misconceptions and Failure Analysis](src/10-misconceptions-and-failure-analysis.md), [Critical Evaluation Lab](src/11-critical-evaluation-lab.md), and [Independent Performance Capstone](src/12-independent-performance-capstone.md). Supporting materials include an [AI literacy assessment](src/ai-literacy-assessment.md) and a [facilitator implementation guide](src/ai-literacy-facilitator-guide.md). These resources explicitly teach why fluent AI output can be wrong, how to identify unsupported claims, how to verify sources and calculations, how to test accessibility, and when not to use AI.
+
+The original six applied lessons remain intact. The four new modules can be delivered as four additional sessions or as a two-session extension. See the [complete course overview and resource index](src/summary.md) and [mdBook navigation](src/SUMMARY.md) for all chapters and supporting files.
+
+**Readiness note:** The capstone assesses performance on a fictional scenario under course conditions. It does not by itself prove transfer to practice or certify professional competence. Pilot the course and conduct a follow-up transfer check before making effectiveness claims.

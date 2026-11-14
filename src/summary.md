@@ -16,6 +16,32 @@ Participants choose a fictional case relevant to their role and work through **P
 
 The [Course Map and Assessment Plan](course-map-and-assessment-plan.md) is the definitive source for the ten-session sequence, activities, assessment timing, participant evidence, and completion expectations.
 
+## What participants will learn
+
+By the end of the course, participants can:
+
+- Write bounded prompts and keep AI within a defined task and professional scope.
+- Separate facts, hypotheses, and unknowns; identify evidence and questions still needed.
+- Draft or review role-appropriate educational targets and operational measures.
+- Build aligned observation and progress-monitoring tools and verify spreadsheet calculations.
+- Interpret data cautiously, including variability, prompt dependence, comparability, and competing explanations.
+- Explain LLM limitations and identify hallucinations, omissions, false precision, and unsupported claims.
+- Verify sources, calculations, accessibility, and privacy before using an AI-assisted artifact.
+- Demonstrate Plan → Refine → Build → Refine and retain professional/team decision authority.
+
+## Select a case that fits your role
+
+The course does not require every participant to study the same disability area. Select one case as a continuing practice context:
+
+- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](07-fictional-student-case.md): the detailed vision/ECC case.
+- [Elena Rivera — Deaf and hard-of-hearing education](multidisciplinary-case-studies.md#case-2-elena-rivera-deaf-and-hard-of-hearing-education).
+- [Jordan Lee — School psychology and problem-solving](multidisciplinary-case-studies.md#case-3-jordan-lee-school-psychology-and-problem-solving).
+- [Samira Patel — Speech-language pathology and functional communication](multidisciplinary-case-studies.md#case-4-samira-patel-speech-language-pathology-and-functional-communication).
+- [Marcus Chen — Mathematics reasoning specific learning disability](multidisciplinary-case-studies.md#case-5-marcus-chen-specific-learning-disability-in-mathematics-reasoning).
+- [Nia Williams — Reading specific learning disability](multidisciplinary-case-studies.md#case-6-nia-williams-specific-learning-disability-in-reading).
+
+Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries. Participants work within their scope of practice and identify when consultation or team decisions are required. All profiles and practice data are fictional.
+
 ## The ten-session sequence
 
 ### Sessions 1–6: Applied workflows
@@ -35,19 +61,6 @@ The [Course Map and Assessment Plan](course-map-and-assessment-plan.md) is the d
 10. **Independent performance capstone:** Complete and explain an independently planned, built, refined, and verified artifact using a role-relevant fictional case.
 
 Detailed agendas are in the [six-session applied facilitator guide](facilitator-practice-edition.md) and [four-session AI-literacy facilitator guide](ai-literacy-facilitator-guide.md). Together they cover all ten sessions. The [master course map](course-map-and-assessment-plan.md) resolves overall sequencing and assessment timing.
-
-## Select a case that fits your role
-
-The course does not require every participant to study the same disability area. Select one case as a continuing practice context:
-
-- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](07-fictional-student-case.md): the detailed vision/ECC case.
-- [Elena Rivera — Deaf and hard-of-hearing education](multidisciplinary-case-studies.md#case-2-elena-rivera-deaf-and-hard-of-hearing-education).
-- [Jordan Lee — School psychology and problem-solving](multidisciplinary-case-studies.md#case-3-jordan-lee-school-psychology-and-problem-solving).
-- [Samira Patel — Speech-language pathology and functional communication](multidisciplinary-case-studies.md#case-4-samira-patel-speech-language-pathology-and-functional-communication).
-- [Marcus Chen — Mathematics reasoning specific learning disability](multidisciplinary-case-studies.md#case-5-marcus-chen-specific-learning-disability-in-mathematics-reasoning).
-- [Nia Williams — Reading specific learning disability](multidisciplinary-case-studies.md#case-6-nia-williams-specific-learning-disability-in-reading).
-
-Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries. Participants work within their scope of practice and identify when consultation or team decisions are required. All profiles and practice data are fictional.
 
 ## Assessment and evidence
 

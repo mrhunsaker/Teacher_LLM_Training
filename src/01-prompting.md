@@ -9,9 +9,9 @@
 
 ## The course design cycle: Plan → Refine → Build → Refine
 
-A prompt is one move in a professional workflow, not a substitute for planning. The teacher owns the sequence and approves each transition.
+A prompt is one move in a professional workflow, not a substitute for planning. The educator or qualified service provider owns the sequence and approves each transition.
 
-1. **Plan:** State the instructional question, ECC context, meaningful task, student strengths, known facts, and unknowns. Ask the model to organize the problem—not solve every adjacent problem.
+1. **Plan:** State the educational or related-service question, relevant discipline or framework, meaningful task, learner strengths, known facts, and unknowns. Ask the model to organize the problem—not solve every adjacent problem.
 2. **Refine:** Ask the model to challenge assumptions, identify missing observations, and compare possible task definitions. Correct errors and approve a narrow direction.
 3. **Build:** Request one concrete artifact, such as a task analysis, data sheet, checklist, or draft lesson component.
 4. **Refine:** Test the artifact in context, collect evidence and student feedback, then ask the model to help identify needed revisions. Repeat as needed.
@@ -47,7 +47,7 @@ Do not let the model move from brainstorming to goal writing, service recommenda
 
 Vague: “Help me with an IEP goal for a student with low vision.”
 
-Bounded: “Using only the synthetic baseline below, list three candidate measurable annual goal statements for the ECC area of assistive technology. Do not select a goal, determine eligibility, write services, or invent baseline data. For each candidate, identify the observable behavior, condition, measurement method, and missing information. Stop after the three candidates.”
+Bounded: “Using only the synthetic baseline below, list three candidate measurable annual goal statements for the instructional or related-service area of assistive technology. Do not select a goal, determine eligibility, write services, or invent baseline data. For each candidate, identify the observable behavior, condition, measurement method, and missing information. Stop after the three candidates.”
 
 ## Follow-up questions without scope creep
 

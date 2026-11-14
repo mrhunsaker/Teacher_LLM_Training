@@ -79,6 +79,22 @@ Do not treat N/O as zero. Record a brief example or evidence for each rating.
 - [ ] Rejects unsupported or harmful model suggestions and can explain why.
 - [ ] Produces materials usable with keyboard and screen-reader access; essential information is not conveyed only through images, color, or complex tables.
 
+### 9. AI literacy and failure detection
+
+- [ ] Explains that fluent generated language is not proof of accuracy.
+- [ ] Distinguishes generation from retrieval, database lookup, calculation, observation, and professional judgment.
+- [ ] Identifies hallucination, omission, false precision, overgeneralization, and unsupported assumptions.
+- [ ] Separates evidence, inference, unknowns, and unsupported/error statements.
+- [ ] Recognizes that model behavior and product features can vary and change.
+
+### 10. Independent verification and decision-making
+
+- [ ] Verifies citations against sources that actually support the claim.
+- [ ] Checks calculations against raw values and definitions.
+- [ ] Tests accessibility with appropriate keyboard and screen-reader workflows.
+- [ ] Chooses retain, revise, reject, or gather more evidence and documents why.
+- [ ] Can explain when not using AI is the best professional decision.
+
 ## Summary
 
 Ratings by area:
@@ -90,7 +106,7 @@ Ratings by area:
 - Data interpretation: ___ / 10
 - Iterative design and testing: ___ / 10
 - Email triage (if applicable): ___ / 10 or N/O
-- Professional judgment and accessibility: ___ / 8
+- Professional judgment and accessibility: ___ / 8\n- AI literacy and failure detection: ___ / 10\n- Independent verification and decision-making: ___ / 10
 
 **Demonstrated strengths:**  
 [Record specific evidence.]
@@ -106,6 +122,6 @@ Ratings by area:
 
 ## Suggested interpretation
 
-For the seven core areas excluding email triage, a participant may be considered ready for a supported pilot when every core area is rated 2 on the relevant observed behaviors, with no unresolved privacy or professional-judgment concern. If an item is N/O, gather evidence before making a readiness judgment. This is a local training suggestion, not a credential, employment evaluation, or substitute for district approval.
+For the core areas excluding email triage, a participant may be considered ready for a supported pilot when every core area is rated 2 on the relevant observed behaviors, with no unresolved privacy or professional-judgment concern. If an item is N/O, gather evidence before making a readiness judgment. This is a local training suggestion, not a credential, employment evaluation, or substitute for district approval.
 
 A participant may be highly competent without using an LLM for a particular task. Choosing not to use AI when the risk, privacy status, accessibility, or value is unfavorable is evidence of sound professional judgment.

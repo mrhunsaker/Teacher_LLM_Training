@@ -189,3 +189,54 @@ At the end of each lesson, complete these three statements:
 1. One thing I can now do independently:
 2. One risk or limitation I will watch for:
 3. One question or support I need before applying this in practice:
+
+
+## Handout 7: AI output review — evidence, inference, unknown, error
+
+For each important statement in an AI response, mark:
+
+- **E — Evidence:** explicitly present in the prompt or verified source.
+- **I — Inference:** a possible interpretation that requires review.
+- **U — Unknown:** not established by available information.
+- **X — Unsupported/error:** invented, contradicted, or stated with unjustified certainty.
+
+**Statement from the AI response:**  
+[Paste a fictional practice statement.]
+
+**My label and reason:**  
+[Explain the evidence or missing evidence.]
+
+**What I would verify or ask next:**  
+[Record the source, observation, calculation, or question.]
+
+**Disposition:** retain / revise / reject / gather more evidence.
+
+## Handout 8: Six-step critical review record
+
+1. **Scope:** Did the response stay within the task and stop condition?
+2. **Evidence:** Which statements are supported by supplied facts or verified sources?
+3. **Accuracy:** Did I check calculations, dates, citations, product details, and policy claims?
+4. **Fit:** Does it fit the learner, task, setting, access needs, and purpose?
+5. **Accessibility and privacy:** Is the artifact usable and was information handled appropriately?
+6. **Decision:** What will I retain, revise, reject, or investigate further?
+
+**One claim verified:**  
+[Claim and source or raw data.]
+
+**One issue corrected or rejected:**  
+[Issue and rationale.]
+
+**Accessibility test performed or still needed:**  
+[Technology, test conditions, result.]
+
+## Handout 9: Independent capstone evidence
+
+- My bounded task and prompt:
+- Facts, hypotheses, and unknowns:
+- Unsupported statements I identified:
+- Artifact I built:
+- Calculations or sources I verified:
+- Accessibility and privacy checks:
+- Professional decisions I retained:
+- What I revised or rejected and why:
+- Evidence I would collect next:

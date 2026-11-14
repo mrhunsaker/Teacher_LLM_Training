@@ -332,7 +332,7 @@ Build only after the team has approved the task and measurement definitions. Sta
 
 ## 5A. Task analysis
 
-Break the skill into observable steps. Use the student's actual routine; do not copy Maya's Magnifier steps unless they fit the student.
+Break the skill into observable steps. Use the student's actual routine; do not copy Aureliano Buendia's Magnifier steps unless they fit the student.
 
 | Step | Observable action | What counts as success? | Prompt / support to record |
 |---:|---|---|---|
@@ -390,7 +390,7 @@ ____________________________________________________________________
 
 > Create one practical draft tool using the approved task analysis and measurement definitions below.
 >
-> **Tool requested:** [Choose one: task checklist, TVI data sheet, classroom data sheet, student self-monitoring card, accessible technology checklist, or other specific artifact.]
+> **Tool requested:** [Choose one: task checklist, provider data sheet, classroom data sheet, student self-monitoring card, accessible technology checklist, or other specific artifact.]
 >
 > **Audience and use:** [Who will use it, during which activity, and how much time is available?]
 >
@@ -429,7 +429,7 @@ ____________________________________________________________________
 | Action | Person responsible | When / frequency | Evidence it occurred |
 |---|---|---|---|
 | Deliver planned instruction | | | |
-| Collect TVI data | | | |
+| Collect provider data | | | |
 | Collect classroom / natural-setting data | | | |
 | Gather student feedback | | | |
 | Check accommodations and access conditions | | | |

@@ -123,6 +123,6 @@ Accept equivalent answers when the reasoning is sound. Do not require participan
 
 ## Interpreting results
 
-Compare total scores and item-level patterns from pre to post. A higher score suggests stronger performance on these scenarios, not proof of classroom transfer. Compare this assessment only with its own parallel form; do not combine its 0–2 item scores with the AI-literacy assessment or the capstone's 0–3 rubric. Use the results to choose follow-up coaching. A score of 12–14 with no zero on privacy or professional responsibility may be used as a local course-completion suggestion, not a credential or district evaluation standard.
+Compare total scores and item-level patterns from pre to post. A higher score suggests stronger performance on these scenarios, not proof of classroom transfer. Compare this assessment only with its own parallel form. Although each response is scored 0–2, do not combine these written-response scores with the AI-literacy assessment, the item-level competency checklist, or the capstone's separate 0–3 rubric. Use the results to choose follow-up coaching. A score of 12–14 with no zero on privacy or professional responsibility may be used as a local course-completion suggestion, not a credential or district evaluation standard.
 
 Record one practical behavior the participant will apply next and one support needed. Revisit the behavior during a later PLC or coaching conversation.

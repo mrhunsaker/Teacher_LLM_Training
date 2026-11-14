@@ -94,11 +94,15 @@ No programming experience is required. Familiarity with IEPs and the ECC is help
 
 ## Suggested pacing
 
-A six-session sequence of 60–90 minutes each works well, with the Maya case used as a shared scenario and the final workbook as a capstone. Each session can also be split into shorter team meetings. Complete the practice with fictional data before adapting the workflow to real work under district-approved systems.
+A six-session applied sequence of 60–90 minutes each works well, followed by the four AI-literacy modules. Participants select a role-relevant case from the case library; the Aureliano Buendia vision/ECC case remains available as a detailed worked example. Each session can also be split into shorter team meetings. Complete the practice with fictional data before adapting the workflow to real work under district-approved systems.
+
+## Multidisciplinary case studies
+
+The [multidisciplinary case library](src/multidisciplinary-case-studies.md) adds fictional profiles for deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading. Use the case that best fits your role and scope of practice. The original [Aureliano Buendia vision/ECC case](src/07-fictional-student-case.md) is retained.
 
 ## Facilitator and practice edition
 
-This branch adds a six-session facilitator-ready course with objectives, timed agendas, demonstrations, participant artifacts, evidence of learning, and exit tickets. It also adds a [reusable prompt library](src/prompt-library.md), [five practice labs](src/practice-labs.md), [four additional fictional student cases](src/practice-student-cases.md), three synthetic CSV datasets, a [competency rubric and portfolio](src/facilitator-practice-edition.md), and [privacy and district implementation guidance](src/responsible-use-and-implementation.md).
+This branch adds a six-session facilitator-ready course with objectives, timed agendas, demonstrations, participant artifacts, evidence of learning, and exit tickets. It also adds a [reusable prompt library](src/prompt-library.md), [five practice labs](src/practice-labs.md), [additional fictional student cases](src/practice-student-cases.md), three synthetic CSV datasets, a [competency rubric and portfolio](src/facilitator-practice-edition.md), and [privacy and district implementation guidance](src/responsible-use-and-implementation.md).
 
 ## Accessibility commitments
 

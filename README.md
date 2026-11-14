@@ -56,6 +56,7 @@ The book configuration is in `book.toml`; all chapter files are in `src/`.
     ├── 02-iep-goals.md
     ├── 03-data-collection.md
     ├── 04-excel-monitoring.md
+    ├── progress-monitoring-example.csv
     ├── 05-data-based-decisions.md
     ├── 06-copilot-email.md
     └── references.md

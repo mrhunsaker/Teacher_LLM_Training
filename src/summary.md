@@ -2,12 +2,12 @@
 
 This course teaches special education professionals to use large language models (LLMs) and Microsoft 365 Copilot as bounded, privacy-conscious productivity tools. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), related-service providers, and classroom partners.
 
-Participants choose a fictional case relevant to their role and work through **Plan → Refine → Build → Refine**. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication. ECC and vision instruction remain represented in a detailed case; they are not prerequisites for participants in other disciplines.
+Participants choose one fictional case from the unified [Buendía-family case collection](multidisciplinary-case-studies.md) and use it throughout **Plan → Refine → Build → Refine**. All six cases have equal standing and use the same learning pathway; no discipline is the default. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication.
 
 ## Start here: the participant pathway
 
 1. Read [Getting Started](getting-started.md).
-2. Select one case: [Aureliano Buendia — Vision and ECC](07-fictional-student-case.md) or a case in the [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md).
+2. Select one role-relevant case from the [Buendía-family case collection](multidisciplinary-case-studies.md). Use that case throughout the modules and workbook.
 3. Complete the applied-course pre-assessment before Session 1.
 4. Work through Sessions 1–6, using the [Participant Lesson Handouts](participant-lesson-handouts.md) as a working packet.
 5. Complete the AI-literacy pre-assessment immediately before Session 7.

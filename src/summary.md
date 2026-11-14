@@ -40,11 +40,11 @@ Participants learn a repeatable prompt structure: role, task, context, constrain
 
 # Module 2 — IEP Goal Brainstorming
 
-Participants prepare a concise de-identified learner profile with baseline data and instructional context. They use an LLM to brainstorm several measurable goal options and objectives, then check alignment to the ECC, present levels, measurement conditions, and individualized criteria.
+Participants prepare a concise de-identified learner profile with baseline data and instructional context. They use an LLM to brainstorm several measurable goal options and objectives, then check alignment to the learner's documented educational needs, present levels, discipline-specific context, measurement conditions, and individualized criteria.
 
 # Module 3 — Data Collection
 
-Participants operationalize the target skill and build two aligned collection forms: one for the TVI and one for the classroom teacher. The forms capture date, setting, opportunities, correct responses, prompt level, accommodations, and notes needed to interpret performance.
+Participants operationalize the target skill and build two aligned collection forms: one for the professional delivering instruction or service and one for a classroom partner or second observer, where appropriate. The forms capture date, setting, opportunities, correct responses, prompt level, accommodations, and notes needed to interpret performance.
 
 # Module 4 — Excel Monitoring
 
@@ -113,7 +113,7 @@ The following resources are designed for direct use across the applied course an
 - [Module 6 — Microsoft Copilot Morning Email Triage](06-copilot-email.md)
 - [Case Study — Aureliano Buendia: Vision and ECC](07-fictional-student-case.md)
 - [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md): deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics reasoning, and reading
-- [Final Unit — Reusable ECC Capstone Workbook](08-final-workbook.md)
+- [Final Unit — Reusable Special Education Capstone Workbook](08-final-workbook.md)
 
 ### Facilitator and practice resources
 

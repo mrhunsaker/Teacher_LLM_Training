@@ -1,1 +1,5 @@
-# Unified Case-Study Collection\n\nThe course now uses one consistent set of six fictional cases. The former supplemental practice vignettes have been consolidated into the [Unified Buendía-Family Special Education Case Studies](multidisciplinary-case-studies.md), which is the single source for case selection, the shared instructional cycle, and the worked example.\n\nSelect one case that fits your role and use it throughout the course. Do not treat any discipline as the default.\n
+# Unified Case-Study Collection
+
+The course now uses one consistent set of six fictional cases. The former supplemental practice vignettes have been consolidated into the [Unified Buendía-Family Special Education Case Studies](multidisciplinary-case-studies.md), which is the single source for case selection, the shared instructional cycle, and the worked example.
+
+Select one case that fits your role and use it throughout the course. Do not treat any discipline as the default.

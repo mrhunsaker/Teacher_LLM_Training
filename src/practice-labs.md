@@ -18,8 +18,6 @@ Each lab can be completed with a district-approved LLM or offline through partne
 
 ## Lab 1 — Bounded prompting
 
-<text> </text>
-
 **Suggested time:** 25–35 minutes
 
 **Purpose:** Turn a broad request into one bounded task with explicit context, constraints, output requirements, and a stop condition.

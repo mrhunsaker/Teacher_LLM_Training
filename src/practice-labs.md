@@ -50,7 +50,7 @@ Tasks:
 
 **Time:** 35–45 minutes.
 
-Use one of the synthetic datasets in the datasets folder: improving progress, variable performance, or possible plateau. The fields include session, opportunities, independent correct responses, prompted correct responses, and notes.
+Use one of these synthetic datasets: [improving progress](datasets/improving-progress.csv), [variable performance](datasets/variable-performance.csv), or [possible plateau](datasets/possible-plateau.csv). The fields include session, opportunities, independent correct responses, prompted correct responses, and notes.
 
 Tasks:
 

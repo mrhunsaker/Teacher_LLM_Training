@@ -16,6 +16,18 @@ By the end of the course, participants will be able to:
 - Enter repeated measures in Excel, graph performance, and apply an explicit criterion rule such as greater than 90% on at least three distinct sessions.
 - Examine level, trend, variability, prompt dependence, and generalization before describing progress or a possible plateau.
 - Use Microsoft 365 Copilot in Outlook, where licensed and enabled, to summarize email action items, due dates, and a 1–5 suggested urgency rating for human review.
+- Collaboratively plan, refine, build, and refine instructional tools using a fictional student case rather than accepting a one-shot AI-generated plan.
+
+# The Collaborative Design Cycle
+
+The course is organized around **Plan → Refine → Build → Refine**. The TVI or educator leads each stage:
+
+- **Plan:** define the ECC skill, meaningful task, context, strengths, known facts, and unknowns.
+- **Refine:** ask the LLM to surface assumptions and missing information; narrow the task and approve the plan as the professional.
+- **Build:** ask for one bounded artifact, such as a task analysis, observation form, or checklist.
+- **Refine:** test it with the student and team, examine evidence, and revise the tool or instruction.
+
+The LLM is a collaborator for drafting and analysis, not the instructional decision-maker. The teacher can reject its suggestions and must verify all claims against observations and professional knowledge.
 
 # Course Sequence
 
@@ -42,6 +54,10 @@ Participants distinguish a data pattern from an instructional conclusion. They i
 # Module 6 — Copilot Email Triage
 
 Participants use district-provided Microsoft 365 Copilot capabilities to review the Outlook inbox, extract action items and dates, and apply a suggested urgency scale. They configure important senders and recipients using role descriptions or approved contacts, check original messages, and keep the final decisions under human control.
+
+# Case Study — Maya: Access, Independence, and Dual-Media Learning
+
+Participants apply the collaborative cycle to a fictional student with ocular albinism, photophobia, corrected acuity of 20/175, glare sensitivity, glasses and brimmed-hat access needs, O&M instruction, emerging braille literacy as a dual-media reader, Windows Magnifier learning, and iPad use. The case emphasizes access, efficiency, student voice, and coordination across ECC areas—not remediation of academic grades.
 
 # Assessment and Evidence of Learning
 

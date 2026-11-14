@@ -2,7 +2,7 @@
 
 ## How this phase fits the course
 
-This guide provides Sessions 7–10 of the ten-session course. The six applied sessions are detailed in the [Facilitator and Practice Edition](facilitator-practice-edition.md). Use the [Course Map and Assessment Plan](course-map-and-assessment-plan.md) as the single source for overall sequence and assessment timing. Participants may work from any fictional case aligned with their role, including the vision/ECC case or the multidisciplinary cases. They may be delivered as two 90-minute sessions, four shorter PLC segments, or a self-paced extension. Do not treat this extension as optional content if the course is advertised as the full ten-session program. Participants may select any role-relevant case; the vision/ECC case is one option, not a prerequisite.
+This guide provides Sessions 7–10 of the ten-session course. The six applied sessions are detailed in the [Facilitator and Practice Edition](facilitator-practice-edition.md). Use the [Course Map and Assessment Plan](course-map-and-assessment-plan.md) as the single source for overall sequence and assessment timing. Participants may work from any fictional case aligned with their role, including the vision/ECC case or the multidisciplinary cases. Deliver these as four sessions of approximately 90 minutes each in the standard ten-session course. Local adaptations may use shorter segments, but preserve all four modules, the independent capstone, and the assessment points in the master course map. Do not treat this extension as optional content if the course is advertised as the full ten-session program. Participants may select any role-relevant case; the vision/ECC case is one option, not a prerequisite.
 
 ## Suggested sequence
 

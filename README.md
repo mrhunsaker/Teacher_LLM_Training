@@ -70,6 +70,7 @@ Each case identifies known facts, unknowns, a bounded practice task, and profess
 - [Hands-on Practice Labs](src/practice-labs.md)
 - [Privacy, Responsible Use, and District Implementation](src/responsible-use-and-implementation.md)
 - [References and Further Learning](src/references.md)
+- [Accessibility and Release QA Checklist](src/accessibility-and-release-checklist.md)
 
 ## Workbook and spreadsheet files
 
@@ -106,4 +107,4 @@ The book configuration is in book.toml and chapter files are in src/. The GitHub
 
 ## Accessibility and release checks
 
-The course is text-first. Essential content is not conveyed only through images or color. Tables should remain simple, and graph interpretation should have a text explanation. Before release, verify internal links, rendered heading hierarchy, keyboard navigation, and representative content using the screen readers and access technologies used by participants. A successful mdBook build does not by itself establish accessibility; record the test environment and results.
+The course is text-first. Essential content is not conveyed only through images or color. Tables should remain simple, and graph interpretation should have a text explanation. Before release, complete the [Accessibility and Release QA Checklist](src/accessibility-and-release-checklist.md). Verify internal links, rendered heading hierarchy, keyboard navigation, and representative content using the screen readers and access technologies used by participants. A successful mdBook build does not by itself establish accessibility; record the test environment and results.

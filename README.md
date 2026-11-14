@@ -81,6 +81,7 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
     ├── 05-data-based-decisions.md
     ├── 06-copilot-email.md
     ├── 07-fictional-student-case.md
+    ├── multidisciplinary-case-studies.md
     ├── 08-final-workbook.md
     ├── references.md
     ├── progress-monitoring-example.csv
@@ -90,7 +91,7 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
 
 ## Intended audience and prerequisites
 
-No programming experience is required. Familiarity with IEPs and the ECC is helpful. You will need access to a district-approved LLM for practice and Microsoft Excel for spreadsheet activities. Microsoft Copilot features vary by district license, tenant configuration, app version, and administrator settings.
+No programming experience is required. Familiarity with special education planning, IEPs, and the relevant professional standards for your role is helpful. ECC knowledge is useful for participants working in vision services but is not a prerequisite for the other case studies. You will need access to a district-approved LLM for practice and Microsoft Excel for spreadsheet activities. Microsoft Copilot features vary by district license, tenant configuration, app version, and administrator settings.
 
 ## Suggested pacing
 

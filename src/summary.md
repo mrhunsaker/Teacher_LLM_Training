@@ -88,3 +88,59 @@ Four additional fictional cases broaden practice across dual-media literacy, dig
 # Responsible Use and Accessibility
 
 The implementation chapter includes a before-you-paste privacy checklist, district implementation guidance, and responsible-use principles. The curriculum minimizes images, uses simple Markdown tables, provides text alternatives for chart interpretation, and keeps essential instructions in text for screen-reader access.
+
+
+# Participant-Ready Course Package
+
+The following resources are designed for direct use during the six-session course. They are text-first, screen-reader-conscious, and can be completed with fictional data or an approved tool. Each resource can be opened independently.
+
+- [Participant Pre- and Post-Assessment](participant-assessments.md): parallel scenario-based assessments, scoring guide, facilitator answer notes, and guidance for interpreting results.
+- [Participant Lesson Handouts](participant-lesson-handouts.md): six reusable working handouts aligned to the six lessons, plus a reusable session close.
+- [Practical Competency Checklist](practical-competency-checklist.md): observable behaviors, 0–2 rating scale, evidence fields, and suggested coaching/readiness interpretation.
+
+## Complete Course Resource Index
+
+### Core curriculum
+
+- [Getting Started](getting-started.md)
+- [Module 1 — Prompting an LLM with Clear Boundaries](01-prompting.md)
+- [Module 2 — Using De-identified Data to Brainstorm IEP Goals](02-iep-goals.md)
+- [Module 3 — Building Aligned Data-Collection Tools](03-data-collection.md)
+- [Module 4 — Excel Progress Monitoring and Criterion Flags](04-excel-monitoring.md)
+- [Module 5 — Interpreting Progress, Growth, and Possible Plateaus](05-data-based-decisions.md)
+- [Module 6 — Microsoft Copilot Morning Email Triage](06-copilot-email.md)
+- [Case Study — Maya](07-fictional-student-case.md)
+- [Final Unit — Reusable ECC Capstone Workbook](08-final-workbook.md)
+
+### Facilitator and practice resources
+
+- [Facilitator and Practice Edition: Six Lesson Plans](facilitator-practice-edition.md)
+- [Reusable Prompt Library](prompt-library.md)
+- [Hands-on Practice Labs](practice-labs.md)
+- [Additional Fictional Student Cases](practice-student-cases.md)
+- [Participant Pre- and Post-Assessment](participant-assessments.md)
+- [Participant Lesson Handouts](participant-lesson-handouts.md)
+- [Practical Competency Checklist](practical-competency-checklist.md)
+- [Privacy, Responsible Use, and District Implementation](responsible-use-and-implementation.md)
+- [References and Further Learning](references.md)
+
+### Data files and templates
+
+- [Synthetic example progress-monitoring data](progress-monitoring-example.csv)
+- [TVI data-collection template](tvi-data-collection-template.csv)
+- [Classroom teacher data-collection template](classroom-data-collection-template.csv)
+- [Synthetic dataset — improving progress](datasets/improving-progress.csv)
+- [Synthetic dataset — variable performance](datasets/variable-performance.csv)
+- [Synthetic dataset — possible plateau](datasets/possible-plateau.csv)
+
+## Suggested use of the participant package
+
+1. Administer the [pre-assessment](participant-assessments.md) before Lesson 1.
+2. Give participants the [lesson handouts](participant-lesson-handouts.md) as a working packet; complete one section during each lesson.
+3. Use the [practical competency checklist](practical-competency-checklist.md) during peer practice and the capstone demonstration.
+4. Administer the parallel post-assessment after Lesson 6 and compare item-level patterns, not just total scores.
+5. Use the evidence to plan follow-up coaching. Assessment scores are learning evidence, not a credential or district employment evaluation.
+
+## Accessibility and use notes
+
+All three new participant resources use headings, numbered steps, and fill-in text prompts rather than form widgets or image-based worksheets. Tables are kept to simple Markdown structures. Facilitators should verify the final rendered book and any locally copied documents with the screen readers and keyboard workflows used by participants. Do not distribute student-identifying examples; use synthetic data unless the district has approved the specific tool and data use.

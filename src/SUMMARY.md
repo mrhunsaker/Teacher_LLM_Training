@@ -15,4 +15,7 @@
 - [Hands-on Practice Labs](practice-labs.md)
 - [Additional Fictional Student Cases](practice-student-cases.md)
 - [Privacy, Responsible Use, and District Implementation](responsible-use-and-implementation.md)
+- [Participant Pre- and Post-Assessment](participant-assessments.md)
+- [Participant Lesson Handouts](participant-lesson-handouts.md)
+- [Practical Competency Checklist](practical-competency-checklist.md)
 - [References and Further Learning](references.md)

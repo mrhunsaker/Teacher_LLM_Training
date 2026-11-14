@@ -99,3 +99,8 @@ This branch adds a six-session facilitator-ready course with objectives, timed a
 ## Accessibility commitments
 
 The new practice materials are text-first and designed to remain usable with screen readers and keyboard navigation. Images are minimized; essential content is text. Tables are simple Markdown tables with one header row and no merged or nested cells. No information is conveyed by color alone. Graph activities include written data interpretation. CSV datasets are plain text. Facilitators should test locally added materials with the access technologies used by participants.
+
+
+## Participant-ready package
+
+The participant package adds a [parallel pre- and post-assessment](src/participant-assessments.md) with scoring and facilitator notes, [six lesson handouts](src/participant-lesson-handouts.md), and a [practical competency checklist](src/practical-competency-checklist.md). All three are linked in the [course overview and complete resource index](src/summary.md) and in the mdBook navigation. The assessment measures scenario-based reasoning; it is not a credential or employment evaluation.

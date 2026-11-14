@@ -30,7 +30,7 @@ The course is organized around **Plan → Refine → Build → Refine**. The edu
 - **Build:** ask for one bounded artifact, such as a task analysis, observation form, or checklist.
 - **Refine:** test it with the student and team, examine evidence, and revise the tool or instruction.
 
-The LLM is a collaborator for drafting and analysis, not the instructional decision-maker. The teacher can reject its suggestions and must verify all claims against observations and professional knowledge.
+The LLM is a collaborator for drafting and analysis, not the instructional decision-maker. The professional can reject its suggestions and must verify all claims against observations, validated evidence, and relevant professional knowledge.
 
 # Course Sequence
 

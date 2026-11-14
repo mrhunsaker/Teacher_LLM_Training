@@ -87,21 +87,21 @@ Do not require participants to connect personal or district email accounts. The 
 
 **Evidence:** The measure fits the selected skill or outcome, distinguishes independent and supported performance where relevant, and records conditions. Greater than 90% across three sessions is a configurable training convention, not a universal standard.
 
-## Lesson 4: Build data tools and monitor progress
+## Lesson 4: Excel progress monitoring
 
-**Objectives:** Create a task analysis; align data fields to the target; distinguish independent and prompted performance; verify calculations.
+**Objectives:** Enter aligned session data in a spreadsheet; verify formulas and calculations; interpret a graph in text; identify data-quality limitations.
 
-**Preparation:** Read Modules 3–4. Open one synthetic dataset.
+**Preparation:** Read Module 4. Open one synthetic dataset and the data tool built in Lesson 3.
 
 **Agenda:**
-- 0–15: Demonstrate an operational definition.
-- 15–35: Build a task analysis and aligned provider/classroom-partner collection plan.
-- 35–55: Calculate at least two synthetic data rows manually.
+- 0–15: Review the operational definition and data fields from Lesson 3.
+- 15–35: Enter synthetic session data and verify denominators and prompt levels.
+- 35–55: Calculate at least two synthetic data rows manually and check spreadsheet formulas.
 - 55–70: Describe the graph and values in text.
 - 70–85: Identify a data-quality issue and its impact.
 - 85–90: Exit ticket: what else is needed before comparing sessions?
 
-**Artifact:** Task analysis, data fields, and written data summary.
+**Artifact:** Completed spreadsheet tracker and written data summary with verification notes.
 
 **Evidence:** The plan documents valid opportunities, prompt levels, accommodations, conditions, and missing data.
 

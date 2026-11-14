@@ -57,6 +57,8 @@ The book configuration is in `book.toml`; all chapter files are in `src/`.
     ├── 03-data-collection.md
     ├── 04-excel-monitoring.md
     ├── progress-monitoring-example.csv
+    ├── tvi-data-collection-template.csv
+    └── classroom-data-collection-template.csv
     ├── 05-data-based-decisions.md
     ├── 06-copilot-email.md
     └── references.md

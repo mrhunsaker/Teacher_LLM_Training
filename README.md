@@ -46,6 +46,9 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
 
 ```text
 .
+├── .github/
+│   └── workflows/
+│       └── mdbook.yml
 ├── README.md
 ├── book.toml
 └── src/
@@ -56,12 +59,12 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
     ├── 02-iep-goals.md
     ├── 03-data-collection.md
     ├── 04-excel-monitoring.md
+    ├── 05-data-based-decisions.md
+    ├── 06-copilot-email.md
+    ├── references.md
     ├── progress-monitoring-example.csv
     ├── tvi-data-collection-template.csv
     └── classroom-data-collection-template.csv
-    ├── 05-data-based-decisions.md
-    ├── 06-copilot-email.md
-    └── references.md
 ```
 
 ## Intended audience and prerequisites

@@ -6,7 +6,7 @@
 - Create aligned data-collection tools for the professional delivering instruction or service and, where appropriate, a classroom partner or other observer.
 - Record prompts, conditions, and generalization so that scores are interpretable.
 
-Choose a task from the vision/ECC case or [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). Adapt the fields to the skill being observed: academic performance, communication, behavior, access, or a related-service outcome. Do not assume that the same prompt codes or accuracy measure fit every discipline.
+Choose a bounded task from your selected case in the [unified Buendía-family case collection](multidisciplinary-case-studies.md). Adapt the fields to the skill or workflow being observed: academic performance, communication, behavior, access, participation, or a related-service outcome. Do not assume that the same prompt codes, opportunity definitions, or accuracy measure fit every discipline.
 
 ## Start with an operational definition
 

@@ -117,6 +117,7 @@ The TVI template is intentionally vision-specific. Participants in other discipl
 ### Participant resources
 
 - [Course Map and Assessment Plan](course-map-and-assessment-plan.md)
+- [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)
 - [Participant Pre- and Post-Assessment](participant-assessments.md)
 - [AI Literacy and Misconception Assessment](ai-literacy-assessment.md)
 - [Participant Lesson Handouts](participant-lesson-handouts.md)

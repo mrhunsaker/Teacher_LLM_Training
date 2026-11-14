@@ -16,7 +16,7 @@ A prompt is one move in a professional workflow, not a substitute for planning. 
 3. **Build:** Request one concrete artifact, such as a task analysis, data sheet, checklist, or draft lesson component.
 4. **Refine:** Test the artifact in context, collect evidence and student feedback, then ask the model to help identify needed revisions. Repeat as needed.
 
-Do not let the model move from brainstorming to goal writing, service recommendations, or instructional programming unless the teacher explicitly requests that next step. A useful collaboration includes teacher edits, rejected suggestions, and a brief record of why the plan changed.
+Do not let the model move from brainstorming to goal writing, service recommendations, or instructional programming unless the responsible professional explicitly requests that next step within their role and authority. A useful collaboration includes teacher edits, rejected suggestions, and a brief record of why the plan changed.
 
 ## The six-part prompt
 

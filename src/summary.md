@@ -8,6 +8,8 @@ The ECC supplements the general education curriculum with disability-specific sk
 
 # Course Outcomes
 
+This course now includes a dedicated AI literacy and critical-evaluation extension. Participants learn what LLMs do, why their outputs can fail, how to detect misconceptions, and how to demonstrate independent professional judgment.
+
 By the end of the course, participants will be able to:
 
 - Write a constrained prompt that specifies the task, inputs, limits, output format, and stop condition.
@@ -144,3 +146,26 @@ The following resources are designed for direct use during the six-session cours
 ## Accessibility and use notes
 
 All three new participant resources use headings, numbered steps, and fill-in text prompts rather than form widgets or image-based worksheets. Tables are kept to simple Markdown structures. Facilitators should verify the final rendered book and any locally copied documents with the screen readers and keyboard workflows used by participants. Do not distribute student-identifying examples; use synthetic data unless the district has approved the specific tool and data use.
+
+
+# AI Literacy and Critical-Evaluation Extension
+
+The course now includes four additional modules that strengthen the professional judgment needed to use AI effectively and safely:
+
+- [Module 7 — AI Literacy Foundations](09-ai-literacy-foundations.md): a practical explanation of LLMs, generation versus retrieval and calculation, context, variability, hallucinations, and when not to use AI.
+- [Module 8 — AI Misconceptions and Failure Analysis](10-misconceptions-and-failure-analysis.md): explicit misconception correction, evidence/inference/unknown/error annotation, and deliberately flawed fictional AI responses for analysis.
+- [Module 9 — Critical Evaluation Lab](11-critical-evaluation-lab.md): hands-on verification of prompts, IEP goal drafts, data calculations, sources, accessibility, privacy, and whether AI should be used.
+- [Module 10 — Independent Performance Capstone](12-independent-performance-capstone.md): a scored independent demonstration using fictional data, flawed output, an artifact, verification, accessibility review, and professional reflection.
+
+Supporting resources:
+
+- [AI Literacy and Misconception Assessment](ai-literacy-assessment.md): parallel pre/post questions and a scoring/answer guide.
+- [AI Literacy Enhancement Facilitator Guide](ai-literacy-facilitator-guide.md): four session plans, agendas, evidence expectations, coaching, and follow-up guidance.
+
+## Recommended full-course sequence
+
+The original six applied lessons establish practical workflows for ECC planning, IEP brainstorming, data collection, Excel monitoring, data-based decisions, and Copilot email triage. The four AI literacy modules then deepen understanding and independent judgment. They may be delivered as four additional sessions or as a two-session extension. The participant assessment, handouts, and competency checklist should be used across both parts of the course.
+
+## Course completion and claims
+
+A successful capstone demonstrates performance on a fictional scenario under course conditions. It does not by itself establish transfer to classroom practice, authorize the use of student data in a tool, or certify professional competence. A supported pilot and follow-up observation are recommended before making claims about sustained effectiveness.

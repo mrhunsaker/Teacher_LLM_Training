@@ -2,8 +2,13 @@
 
 - [Course Overview and Participant Pathway](summary.md)
 - [Course Map and Assessment Plan — Ten Sessions](course-map-and-assessment-plan.md)
-- [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)
 - [Getting Started](getting-started.md)
+
+## Select a continuing practice case
+
+- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](07-fictional-student-case.md)
+- [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md)
+- [Additional Fictional Student Cases](practice-student-cases.md)
 
 ## Applied workflows: Sessions 1–6
 
@@ -13,12 +18,6 @@
 - [Session 4 / Module 4 — Excel Progress Monitoring and Criterion Flags](04-excel-monitoring.md)
 - [Session 5 / Module 5 — Interpreting Progress, Growth, and Possible Plateaus](05-data-based-decisions.md)
 - [Session 6 / Module 6 — Microsoft Copilot Morning Email Triage](06-copilot-email.md)
-
-## Select a continuing practice case
-
-- [Aureliano Buendia — Vision, Access, and Dual-Media Learning](07-fictional-student-case.md)
-- [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md)
-- [Additional Fictional Student Cases](practice-student-cases.md)
 
 ## AI literacy and independent performance: Sessions 7–10
 
@@ -36,6 +35,8 @@
 - [Practical Competency Checklist](practical-competency-checklist.md)
 
 ## Facilitator and practice resources
+
+- [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)
 
 - [Facilitator Guide — Sessions 1–6](facilitator-practice-edition.md)
 - [AI Literacy Facilitator Guide — Sessions 7–10](ai-literacy-facilitator-guide.md)

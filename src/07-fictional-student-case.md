@@ -112,7 +112,7 @@ These are planning avenues, not predetermined deficits or goals.
 - Develop functional use of Windows Magnifier for digital classroom materials.
 - Compare built-in magnification with ZoomText only when an observed access need justifies evaluating the additional software.
 - Document how Aureliano Buendia uses his iPad and whether workflows transfer across apps, file types, and classroom tasks.
-- Teach Aureliano Buendia to describe and request the display, contrast, magnification, and document-access conditions that work for his.
+- Teach Aureliano Buendia to describe and request the display, contrast, magnification, and document-access conditions that work for him.
 
 ### Sensory efficiency and visual access
 

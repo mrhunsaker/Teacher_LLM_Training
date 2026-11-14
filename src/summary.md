@@ -71,3 +71,20 @@ Participants submit a completed workbook, a bounded prompt sequence, an aligned 
 # Important Implementation Note
 
 AI output and spreadsheet calculations are aids, not authorities. IEP goals must be individualized and team-developed. The IDEA regulation requires measurable annual goals and a description of how progress toward goals will be measured and when periodic progress reports will be provided. See [34 CFR § 300.320](https://sites.ed.gov/idea/regs/b/d/300.320). District policy, applicable privacy requirements, and professional standards govern use of student information.
+
+
+# Facilitator and Practice Edition
+
+The facilitator edition adds six ready-to-run lessons with objectives, preparation, timed agendas, demonstrations, guided practice, participant artifacts, evidence of learning, and exit tickets. Instructor notes and a competency rubric support consistent feedback and a final evidence portfolio.
+
+# Prompt Library and Practice Labs
+
+The prompt library provides reusable, bounded prompts for student/task analysis, goal development, task analysis, data review, instructional refinement, and email triage. Five hands-on labs cover prompting, goal development, synthetic data analysis, simulated email triage, and the full Plan → Refine → Build → Refine cycle.
+
+# Transfer Cases and Synthetic Data
+
+Four additional fictional cases broaden practice across dual-media literacy, digital access, orientation and mobility, and self-determination. Three synthetic CSV datasets model improving progress, variable performance, and a possible plateau. All cases and data are fictional and designed to prompt verification rather than automatic conclusions.
+
+# Responsible Use and Accessibility
+
+The implementation chapter includes a before-you-paste privacy checklist, district implementation guidance, and responsible-use principles. The curriculum minimizes images, uses simple Markdown tables, provides text alternatives for chart interpretation, and keeps essential instructions in text for screen-reader access.

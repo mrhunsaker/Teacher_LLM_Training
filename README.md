@@ -86,8 +86,16 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
 
 ## Intended audience and prerequisites
 
-No programming experience is required. Familiarity with IEPs and the ECC is helpful. You will need access to a district-approved LLM for practice and Microsoft Excel for spreadsheet activities. Microsoft Copilot features vary by district license, tenant configuration, app version, and administrator settings; use the options your district has enabled.
+No programming experience is required. Familiarity with IEPs and the ECC is helpful. You will need access to a district-approved LLM for practice and Microsoft Excel for spreadsheet activities. Microsoft Copilot features vary by district license, tenant configuration, app version, and administrator settings.
 
 ## Suggested pacing
 
 A six-session sequence of 60–90 minutes each works well, with the Maya case used as a shared scenario and the final workbook as a capstone. Each session can also be split into shorter team meetings. Complete the practice with fictional data before adapting the workflow to real work under district-approved systems.
+
+## Facilitator and practice edition
+
+This branch adds a six-session facilitator-ready course with objectives, timed agendas, demonstrations, participant artifacts, evidence of learning, and exit tickets. It also adds a [reusable prompt library](src/prompt-library.md), [five practice labs](src/practice-labs.md), [four additional fictional student cases](src/practice-student-cases.md), three synthetic CSV datasets, a [competency rubric and portfolio](src/facilitator-practice-edition.md), and [privacy and district implementation guidance](src/responsible-use-and-implementation.md).
+
+## Accessibility commitments
+
+The new practice materials are text-first and designed to remain usable with screen readers and keyboard navigation. Images are minimized; essential content is text. Tables are simple Markdown tables with one header row and no merged or nested cells. No information is conveyed by color alone. Graph activities include written data interpretation. CSV datasets are plain text. Facilitators should test locally added materials with the access technologies used by participants.

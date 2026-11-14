@@ -1,10 +1,12 @@
 # Participant Pre- and Post-Assessment
 
-This assessment measures practical judgment when using LLMs in special education planning, instruction, related services, and progress monitoring. It is not a test of prompt-engineering terminology or a measure of educator competence. Use the pre-assessment before instruction and the post-assessment after the six lessons. Both forms use parallel tasks so participants can demonstrate growth without memorizing identical answers.
+This assessment measures practical judgment when using LLMs in special education planning, instruction, related services, and progress monitoring. It is not a test of prompt-engineering terminology or a measure of educator competence. Administer the pre-assessment before Session 1 and the parallel post-assessment after the Session 10 capstone. The applied post-assessment is not a Session 6 exit test. See the [Course Map and Assessment Plan](course-map-and-assessment-plan.md) for the complete schedule and how to interpret results alongside the separate AI-literacy assessment and capstone. Both forms use parallel tasks so participants can demonstrate growth without memorizing identical answers.
 
 Use fictional information only. Do not enter student records into an AI tool for this assessment. Participants may complete the assessment with an approved LLM or by describing what they would ask the model to do.
 
 ## Participant directions
+
+Complete the pre-assessment before Session 1. Complete the post-assessment only after Session 10. If a midpoint check is useful after Session 6, use a brief exit ticket rather than this post-assessment.
 
 - Allow 20–25 minutes for each assessment.
 - Answer independently before discussing with peers.
@@ -121,6 +123,6 @@ Accept equivalent answers when the reasoning is sound. Do not require participan
 
 ## Interpreting results
 
-Compare total scores and item-level patterns from pre to post. A higher score suggests stronger performance on these scenarios, not proof of classroom transfer. Use the results to choose follow-up coaching. A score of 12–14 with no zero on privacy or professional responsibility may be used as a local course-completion suggestion, not a credential or district evaluation standard.
+Compare total scores and item-level patterns from pre to post. A higher score suggests stronger performance on these scenarios, not proof of classroom transfer. Compare this assessment only with its own parallel form; do not combine its 0–2 item scores with the AI-literacy assessment or the capstone's 0–3 rubric. Use the results to choose follow-up coaching. A score of 12–14 with no zero on privacy or professional responsibility may be used as a local course-completion suggestion, not a credential or district evaluation standard.
 
 Record one practical behavior the participant will apply next and one support needed. Revisit the behavior during a later PLC or coaching conversation.

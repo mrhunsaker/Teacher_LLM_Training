@@ -18,9 +18,9 @@ The course teaches bounded, privacy-conscious use of large language models (LLMs
 | Session | Focus | Participant evidence |
 |---|---|---|
 | 1 | Bounded prompting | Prompt and revision |
-| 2 | Plan and Refine using a selected case | Planning brief: facts, hypotheses, unknowns |
-| 3 | Educational goal development and measurement | Candidate target and measurement plan |
-| 4 | Data collection and Excel monitoring | Task analysis, aligned data tool, verified data summary |
+| 2 | Plan, Refine, and brainstorm role-appropriate goals or targets | Planning brief and candidate target options |
+| 3 | Data collection and operational measurement | Operational definition and aligned data tool |
+| 4 | Excel progress monitoring | Excel-ready tracker and verified data summary |
 | 5 | Data-based decisions and refinement | Data interpretation and next-step plan |
 | 6 | Copilot email triage using simulated messages | Advisory action report with source verification |
 | 7 | AI literacy foundations | Explanation of model limits and tool selection |

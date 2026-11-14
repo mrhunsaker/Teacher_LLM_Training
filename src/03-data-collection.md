@@ -62,7 +62,7 @@ Use this during naturally occurring routines or a second observation context. Ke
 | | | | | | | | | | |
 | | | | | | | | | | |
 
-Classroom data should not require the classroom teacher to interrupt instruction or conduct an elaborate probe. Select a realistic number of opportunities and a simple recording method.
+Classroom-partner data should not require staff to interrupt instruction or conduct an elaborate probe. Select a realistic number of opportunities and a simple recording method.
 
 ## Quick scoring rules
 

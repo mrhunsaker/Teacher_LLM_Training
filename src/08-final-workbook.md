@@ -11,7 +11,7 @@ This is a working document. Complete it in stages; do not ask an LLM to fill it 
 ## How to use the workbook
 
 1. Work with fictional or district-approved de-identified information only when using an LLM.
-2. Complete the teacher planning sections before asking the model to help.
+2. Complete the professional planning sections before asking the model to help.
 3. Use one bounded prompt at a time. Tell the model what it must not do and where to stop.
 4. Treat model output as a draft. Correct errors, reject unsuitable suggestions, and document decisions.
 5. Test tools with the student and team. Revise based on observations, student feedback, and data.
@@ -27,7 +27,7 @@ This is a working document. Complete it in stages; do not ask an LLM to fill it 
 
 Use strengths-based, neutral language. Include only information relevant to the instructional question.
 
-| Planning field | Teacher notes |
+| Planning field | Professional notes |
 |---|---|
 | Student's strengths, interests, and preferred activities | |
 | Student's own priorities and concerns | |
@@ -42,19 +42,19 @@ Use strengths-based, neutral language. Include only information relevant to the 
 
 Check only areas that are relevant for this planning cycle. A checked area means “consider or investigate,” not “assume a deficit.”
 
-- [ ] Compensatory / functional academic skills, including literacy and communication modes
-- [ ] Orientation and mobility
-- [ ] Social interaction skills
-- [ ] Independent living skills
-- [ ] Recreation and leisure
-- [ ] Career education
-- [ ] Assistive technology
-- [ ] Sensory efficiency
-- [ ] Self-determination and self-advocacy
+- [ ] Vision/ECC areas relevant to this task
+- [ ] Deaf and hard-of-hearing communication access
+- [ ] Speech-language and functional communication, including AAC access
+- [ ] Academic learning, such as reading components or mathematics reasoning
+- [ ] Behavior, executive functioning, participation, or school problem-solving
+- [ ] Related-service outcome or functional participation
+- [ ] Assistive technology, accommodations, or environmental access
+- [ ] Student self-determination, preferences, and self-advocacy
+- [ ] Other discipline-specific framework or team priority: ____________________
 
 **Which instructional or related-service area or combination of areas is the focus of this cycle?**
 
-Teacher notes:
+Professional notes:
 
 ____________________________________________________________________
 
@@ -72,16 +72,16 @@ Keep evidence separate from assumptions. If a fact is not established, label it 
 
 | Topic | Verified fact / direct observation | Source and date (keep private outside approved systems) | Unknown or question |
 |---|---|---|---|
-| Vision / sensory access information relevant to task | | | |
-| Learning media / literacy access | | | |
-| Assistive technology / devices | | | |
-| Environmental conditions | | | |
-| Mobility / navigation, if relevant | | | |
+| Disability-related or assessment information relevant to this task (if established) | | | |
+| Communication mode and access supports (if relevant) | | | |
+| Academic or functional skill components relevant to task | | | |
+| Assistive technology, accommodations, or tools | | | |
+| Environmental and instructional conditions | | | |
 | Current performance on target task | | | |
-| Prompting / adult support | | | |
-| Student perspective | | | |
+| Prompting, partner support, or adult assistance | | | |
+| Student perspective and preferences | | | |
 
-**Teacher checkpoint:** Have I avoided inferring functional performance from diagnosis, acuity, grades, or the presence of a device alone?
+**Professional checkpoint:** Have I avoided inferring functional performance, communication, cognition, behavior, or educational need from a diagnosis, eligibility label, test score, acuity, grades, or the presence of a device alone?
 
 - [ ] Yes
 - [ ] Not yet — I need additional observations or assessment information.
@@ -96,13 +96,13 @@ Copy and adapt this prompt only after you have prepared a de-identified summary.
 >
 > **Context:** [Paste only the minimum district-approved de-identified summary.]
 >
-> **Boundaries:** Do not infer functional vision, literacy needs, eligibility, services, placement, or a diagnosis. Do not treat grades or a clinical measurement as a complete description of access. Do not invent information or write an IEP goal. If information is missing, label it “not provided.”
+> **Boundaries:** Do not infer functional vision, communication, literacy, behavior, cognition, eligibility, services, placement, or a diagnosis. Do not treat grades, a clinical measurement, or a disability label as a complete description of educational performance or access. Do not invent information or write an IEP goal. If information is missing, label it “not provided.”
 >
-> **Output:** A four-column table: category, information supplied, what it may mean for the task (clearly labeled as a hypothesis), and what the teacher should verify.
+> **Output:** A four-column table: category, information supplied, what it may mean for the task (clearly labeled as a hypothesis), and what the responsible professional should verify.
 >
 > **Stop:** Do not recommend interventions or create instructional materials.
 
-### Record the teacher's decision
+### Record the professional's decision
 
 What did the LLM organize accurately?
 
@@ -124,7 +124,7 @@ ____________________________________________________________________
 
 Avoid broad labels such as “needs technology,” “has low vision,” or “needs independence.” Describe what the student is expected to do in a real context.
 
-| Question | Teacher notes |
+| Question | Professional notes |
 |---|---|
 | What is the activity or routine? | |
 | Where and when does it occur? | |
@@ -163,9 +163,9 @@ ____________________________________________________________________
 >
 > Do not select the target for me, write a goal, prescribe a tool, or invent student characteristics. Separate facts from hypotheses. Ask no more than three essential clarification questions, then stop.
 >
-> [Paste the teacher's task description.]
+> [Paste the professional's task description.]
 
-### Teacher decision gate
+### Professional decision gate
 
 - [ ] The task is meaningful to the student.
 - [ ] The focus is observable.
@@ -236,7 +236,7 @@ ____________________________________________________________________
 >
 > [Paste the de-identified measurement plan.]
 
-### Teacher edits and approval
+### Professional edits and approval
 
 Changes made:
 
@@ -437,7 +437,7 @@ ____________________________________________________________________
 
 ## 6B. Session data
 
-Use the data sheet created in Worksheet 5 or adapt the repository's TVI and classroom templates to the selected discipline and task. The following table is a compact planning view.
+Use the data sheet created in Worksheet 5 or adapt the repository's TVI-specific and classroom templates to the selected discipline and task. The TVI template is vision-specific; other participants should adapt the classroom template or create fields that match their target and professional role. The following table is a compact planning view.
 
 | Session | Opportunities | Independent successes | Prompted / assisted responses | Conditions / deviations | Student feedback |
 |---|---:|---:|---:|---|---|
@@ -471,7 +471,7 @@ The course example of **greater than 90% across at least three separate sessions
 >
 > Then summarize only patterns supported by the data: level, direction of change, variability, independence, and generalization across people or settings. Distinguish observations from hypotheses. If the data are insufficient, say so and identify what additional information would help.
 >
-> Do not invent values or recommend reducing accommodations, services, braille, O&M, or other supports.
+> Do not invent values or recommend reducing accommodations, services, communication supports, access methods, or other supports.
 >
 > [Paste only an appropriately de-identified summary.]
 
@@ -577,8 +577,14 @@ ____________________________________________________________________
 
 The process remains the same even when the content changes. The measure and professional expertise must fit the skill.
 
-| instructional or related-service area | Example of a task to investigate (not a prescribed goal) | Possible evidence to collect |
+| Instructional or service area | Example of a task to investigate (not a prescribed goal) | Possible evidence to collect |
 |---|---|---|
+| Vision/ECC access | Accessing and organizing information using the student's effective literacy media | Accuracy, fluency, independence, access method, task completion |
+| Deaf and hard-of-hearing communication access | Participating in a classroom discussion with agreed communication supports | Access to speaker turns, support availability, clarification opportunities, student-reported access |
+| Speech-language / functional communication | Communicating a chosen message or function across partners and activities | Communication mode, function, opportunity, partner modeling, wait time, prompt level |
+| School psychology / problem-solving | Completing a defined classroom task across settings | Operationally defined outcome, context, supports, opportunity, competing hypotheses |
+| Mathematics reasoning | Representing and solving a multi-step problem | Problem type, representation, strategy selection, computation, checking, prompt level |
+| Reading | Completing a defined reading task with a specified construct | Text and difficulty, decoding/accuracy, fluency, vocabulary or comprehension as separately measured |
 | Compensatory / functional academics | Accessing and organizing information using the student's effective literacy media | Accuracy, fluency, independence, access method, task completion |
 | Orientation and mobility | Completing a familiar travel routine under the O&M specialist's instruction | Route/task analysis, decision points, prompts, environmental conditions, safety observations by qualified staff |
 | Social interaction | Participating in a chosen group interaction | Initiations, responses, context, student perspective; avoid reducing social success to a raw count alone |
@@ -643,12 +649,12 @@ Complete this page after the worksheets. It is the concise record of your work.
 - [ ] The target is meaningful and observable.
 - [ ] Unknowns were not presented as facts.
 - [ ] The LLM was used in bounded, iterative steps.
-- [ ] The teacher reviewed, edited, and approved the work.
+- [ ] The responsible professional reviewed, edited, and approved the work.
 - [ ] Data distinguish independent performance from prompted performance.
 - [ ] Access tools and accommodations are recorded as conditions of access.
 - [ ] The data are sufficient for the conclusions being made.
 - [ ] The team considered generalization and student experience.
-- [ ] Decisions requiring assessment, O&M expertise, or IEP-team authority were referred appropriately.
+- [ ] Decisions requiring qualified assessment, specialist expertise, or IEP-team authority were referred appropriately.
 - [ ] Privacy and district technology policies were followed.
 
 ## Reflection
@@ -679,11 +685,11 @@ Use this rubric to assess the quality of the educator's process, not the student
 |---|---|---|---|
 | Student-centered planning | Focus is deficit-only or adult-selected | Some strengths / student input included | Meaningful task, strengths, preferences, and student voice guide the plan |
 | Evidence quality | Assumptions presented as facts | Some facts and unknowns separated | Verified information, observations, and unknowns clearly distinguished |
-| Prompt boundaries | Broad one-shot prompt | Some constraints and output limits | Staged prompts with explicit scope, stop conditions, and teacher review |
+| Prompt boundaries | Broad one-shot prompt | Some constraints and output limits | Staged prompts with explicit scope, stop conditions, and professional review |
 | Measurement | Target or scoring unclear | Partially observable; prompt levels incomplete | Observable measure, opportunities, independence, conditions, and roles defined |
 | Tool design | Tool does not match the target | Tool mostly aligned but cumbersome or incomplete | Practical, accessible, aligned tool tested with users |
 | Data interpretation | Conclusion exceeds evidence | Some attention to data quality and context | Level, trend, variability, prompting, access conditions, and generalization considered |
-| Professional judgment | AI output accepted as decision | Teacher review evident but rationale limited | Educator documents edits, rejected suggestions, and team decisions |
+| Professional judgment | AI output accepted as decision | Professional review evident but rationale limited | Educator documents edits, rejected suggestions, and team decisions |
 | Iteration | No revision after implementation | Revision planned but not evidence-linked | Revision log shows how testing and student feedback changed the plan |
 
 **Suggested completion standard:** A participant should reach “Ready to use” on student-centered planning, evidence quality, measurement, and professional judgment before applying the workflow to live student work. Local professional learning teams may adapt the rubric.

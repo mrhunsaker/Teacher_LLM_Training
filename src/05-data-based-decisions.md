@@ -46,7 +46,7 @@ Use district or team procedures to define the review window. This course does no
 >
 > **Task:** Describe the observed level, direction of trend, variability, and any differences between independent and prompted performance. Identify data limitations and plausible questions for the instructional team. State whether the pattern is consistent with growth, variable performance, insufficient evidence, or a possible plateau; use cautious language and explain the evidence.
 >
-> **Boundaries:** Do not diagnose, determine eligibility, change the IEP, recommend service minutes, infer causes, or invent missing data. Do not treat correlation as cause. If data are insufficient, say so. Do not declare mastery solely because a percentage threshold was reached.
+> **Boundaries:** Do not diagnose, determine eligibility, change an IEP or service plan, recommend service minutes, infer causes, or invent missing data. Do not treat correlation as cause. If data are insufficient, say so. Do not declare mastery solely because a percentage threshold was reached.
 >
 > **Output:** 1) factual summary, 2) limitations, 3) questions to investigate, 4) possible next data to collect. Stop.
 

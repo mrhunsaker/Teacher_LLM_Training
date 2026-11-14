@@ -2,7 +2,7 @@
 
 ## How this phase fits the course
 
-The four AI-literacy modules extend the six-session applied course for special education professionals. Participants may work from any fictional case aligned with their role, including the vision/ECC case or the multidisciplinary cases. They may be delivered as two 90-minute sessions, four shorter PLC segments, or a self-paced extension. Do not remove the original applied ECC work; the AI literacy phase strengthens the judgment participants use during those tasks.
+This guide provides Sessions 7–10 of the ten-session course. The six applied sessions are detailed in the [Facilitator and Practice Edition](facilitator-practice-edition.md). Use the [Course Map and Assessment Plan](course-map-and-assessment-plan.md) as the single source for overall sequence and assessment timing. Participants may work from any fictional case aligned with their role, including the vision/ECC case or the multidisciplinary cases. Deliver these as four sessions of approximately 90 minutes each in the standard ten-session course. Local adaptations may use shorter segments, but preserve all four modules, the independent capstone, and the assessment points in the master course map. Do not treat this extension as optional content if the course is advertised as the full ten-session program. Participants may select any role-relevant case; the vision/ECC case is one option, not a prerequisite.
 
 ## Suggested sequence
 
@@ -48,7 +48,7 @@ The four AI-literacy modules extend the six-session applied course for special e
 
 **Agenda:**
 - 0–10 min: Introduce the six-step review sequence.
-- 10–30 min: Audit the sample goal draft.
+- 10–30 min: Audit the sample goal, service-outcome, or observation-target draft.
 - 30–45 min: Recalculate and interpret synthetic data.
 - 45–60 min: Verify a product, policy, or legal claim against official sources.
 - 60–75 min: Accessibility audit of a generated artifact.
@@ -68,7 +68,7 @@ The four AI-literacy modules extend the six-session applied course for special e
 - 5–50 min: Independent capstone work.
 - 50–65 min: Participant demonstration and explanation.
 - 65–80 min: Facilitator scoring and targeted feedback.
-- 80–90 min: Reflection, post-assessment, and follow-up plan.
+- 80–90 min: Complete both post-assessments, reflect on the capstone, and identify a follow-up plan. The applied-course and AI-literacy post-assessments are both administered after Session 10.
 
 **Evidence:** Capstone portfolio, scored rubric, and post-assessment.
 

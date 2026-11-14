@@ -1,6 +1,6 @@
 # Participant Lesson Handouts
 
-These six handouts are designed to be used during the corresponding lessons in the Facilitator and Practice Edition. Participants should select the vision/educational or related-service case or a relevant profile from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md) and adapt each handout to their professional role and scope of practice. They are text-first working pages. Participants may type into a copy, print them, or use them with a screen reader. Use fictional or district-approved information only.
+Handouts 1–6 support Sessions 1–6 in the Applied Facilitator Guide. Handouts 7–9 support Sessions 8–10 in the AI-literacy and independent capstone sequence. Use them as one working packet across the ten-session course. Suggested use: Session 1—Handout 1; Session 2—Handouts 2 and 3; Session 3—Handout 4; Sessions 4–5—Handout 5; Session 6—Handout 6; Session 8—Handout 7; Session 9—Handout 8; Session 10—Handout 9. Session 7 uses the AI-literacy pre-assessment and exit ticket. Participants should select the vision/educational or related-service case or a relevant profile from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md) and adapt each handout to their professional role and scope of practice. They are text-first working pages. Participants may type into a copy, print them, or use them with a screen reader. Use fictional or district-approved information only.
 
 ## Handout 1: Bounded prompt planner
 
@@ -158,7 +158,7 @@ Reminder: a threshold such as greater than 90% across three sessions is a traini
 **One small next step and review point:**  
 [State what will be tested and what evidence will be collected.]
 
-## Handout 6: Copilot action report and capstone reflection
+## Handout 6: Copilot action report and applied-course reflection
 
 Use simulated messages for this activity. Do not connect a real mailbox during practice.
 

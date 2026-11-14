@@ -16,11 +16,11 @@ A prompt is one move in a professional workflow, not a substitute for planning. 
 3. **Build:** Request one concrete artifact, such as a task analysis, data sheet, checklist, or draft lesson component.
 4. **Refine:** Test the artifact in context, collect evidence and student feedback, then ask the model to help identify needed revisions. Repeat as needed.
 
-Do not let the model move from brainstorming to goal writing, service recommendations, or instructional programming unless the teacher explicitly requests that next step. A useful collaboration includes teacher edits, rejected suggestions, and a brief record of why the plan changed.
+Do not let the model move from brainstorming to goal writing, service recommendations, or instructional programming unless the responsible professional explicitly requests that next step within their role and authority. A useful collaboration includes teacher edits, rejected suggestions, and a brief record of why the plan changed.
 
 ## The six-part prompt
 
-1. **Role:** What perspective should the model use? Example: “You are an instructional planning assistant for a teacher of students with visual impairments.”
+1. **Role:** What perspective should the model use? Example: “You are a planning assistant supporting a special education professional. My role and scope of practice are [state role].”
 2. **Task:** One action only. Example: “Create three possible ways to measure this skill.”
 3. **Context:** Only the minimum relevant background.
 4. **Constraints:** What it must and must not do.
@@ -29,13 +29,13 @@ Do not let the model move from brainstorming to goal writing, service recommenda
 
 ## Copy-ready bounded prompt
 
-> You are an instructional planning assistant supporting a teacher of students with visual impairments.
+> You are a planning and drafting assistant supporting a special education professional. My role and scope of practice are: [state role].
 >
 > **Task:** [State one specific task.]
 >
 > **Context:** [Paste only fictional or district-approved de-identified information needed for this task.]
 >
-> **Requirements:** Follow the task exactly. Do not add recommendations, lesson plans, citations, standards, or additional sections unless I explicitly request them. Do not infer missing facts. If essential information is missing, ask no more than three focused questions and stop. Distinguish observed data from interpretation. Use plain language suitable for a special education teacher.
+> **Requirements:** Follow the task exactly. Do not add recommendations, lesson plans, citations, standards, or additional sections unless I explicitly request them. Do not infer missing facts. If essential information is missing, ask no more than three focused questions and stop. Distinguish observed data from interpretation. Use plain language suitable for the intended professional audience and learner-facing purpose.
 >
 > **Output:** [Specify exact headings, columns, and maximum length.]
 >
@@ -45,9 +45,9 @@ Do not let the model move from brainstorming to goal writing, service recommenda
 
 ## Practice: tighten a vague request
 
-Vague: “Help me with an IEP goal for a student with low vision.”
+Vague: “Make a complete special education plan for this student.”
 
-Bounded: “Using only the synthetic baseline below, list three candidate measurable annual goal statements for the instructional or related-service area of assistive technology. Do not select a goal, determine eligibility, write services, or invent baseline data. For each candidate, identify the observable behavior, condition, measurement method, and missing information. Stop after the three candidates.”
+Bounded: “Using only the fictional case facts and synthetic baseline below, help me clarify one measurable educational or related-service target within my professional role: [state role]. Identify the observable behavior or outcome, relevant conditions, measurement approach, and missing information. Do not diagnose, determine eligibility, select services or placement, or choose the final target for the team. Stop after the options and questions.”
 
 ## Follow-up questions without scope creep
 

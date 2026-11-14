@@ -1,10 +1,22 @@
-# Module 2: Using De-identified Data to Brainstorm IEP Goals
+# Module 2: Using Fictional Data to Brainstorm Educational Goals and Targets
 
 ## Learning targets
 
 - Prepare a concise, de-identified learner snapshot.
-- Ask an LLM to brainstorm candidate individualized educational goals and objectives relevant to the selected case and professional role.
+- Ask an LLM to brainstorm candidate individualized educational goals, service outcomes, or observable targets relevant to the selected case and professional role.
 - Evaluate whether the goal is observable, measurable, individualized, and connected to baseline data.
+
+## Choose the appropriate kind of target
+
+If your role contributes to IEP goal development, use this module to brainstorm options for qualified educator and team review. If your role does not write IEP goals, use the same process to clarify a measurable educational question, service outcome, or observation target within your scope. Do not draft clinical goals, assessment conclusions, or IEP language outside your role or authority. The digital-access example below is one worked example, not a required case.
+
+Examples of other role-relevant targets include:
+
+- **Deaf and hard-of-hearing education:** define observable access and participation indicators during classroom discussion, while recording the communication supports and conditions.
+- **School psychology:** define a neutral, observable classroom outcome and specify multi-setting data needed to investigate competing hypotheses.
+- **Speech-language pathology:** define a functional communication opportunity and record mode, function, partner support, and prompt conditions.
+- **Mathematics reasoning:** distinguish problem representation, strategy selection, computation, and checking in a multi-step task.
+- **Reading:** identify the specific construct being measured, such as decoding, accuracy, fluency, vocabulary, or comprehension.
 
 ## Step 1: Prepare a safe learner snapshot
 
@@ -66,7 +78,7 @@ A useful draft makes clear:
 
 IDEA requires measurable annual goals and a statement of how progress toward goals will be measured and when periodic progress reports will be provided. See [34 CFR § 300.320](https://sites.ed.gov/idea/regs/b/d/300.320). This course does not provide legal advice; follow state and district requirements.
 
-## Example goal draft (synthetic)
+## Example goal draft (synthetic vision/access example)
 
 “Given a digital classroom handout on the district-approved device with the learner's documented access settings enabled, Learner A will independently locate and use the magnification control to set a readable view in at least 10 of 11 scored opportunities (greater than 90%) across three consecutive, separate instructional sessions, as measured by a task-analysis checklist.”
 
@@ -88,4 +100,4 @@ Report both accuracy and assistance. A learner may complete a task accurately wi
 
 ## Practice assignment
 
-Choose the synthetic snapshot in this module or a relevant case from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). Generate three role-appropriate goal options. Highlight every phrase that needs a team decision. Revise one option without allowing the model to invent facts.
+Choose the synthetic snapshot in this module or a relevant case from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). Generate up to three role-appropriate goal or outcome options. If IEP goal writing is outside your role, produce an observation target or questions for the authorized team instead. Highlight every phrase that needs a team decision. Revise one option without allowing the model to invent facts.

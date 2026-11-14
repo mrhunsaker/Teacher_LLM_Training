@@ -42,15 +42,15 @@ Use strengths-based, neutral language. Include only information relevant to the 
 
 Check only areas that are relevant for this planning cycle. A checked area means “consider or investigate,” not “assume a deficit.”
 
-- [ ] Compensatory / functional academic skills, including literacy and communication modes
-- [ ] Orientation and mobility
-- [ ] Social interaction skills
-- [ ] Independent living skills
-- [ ] Recreation and leisure
-- [ ] Career education
-- [ ] Assistive technology
-- [ ] Sensory efficiency
-- [ ] Self-determination and self-advocacy
+- [ ] Vision/ECC areas relevant to this task
+- [ ] Deaf and hard-of-hearing communication access
+- [ ] Speech-language and functional communication, including AAC access
+- [ ] Academic learning, such as reading components or mathematics reasoning
+- [ ] Behavior, executive functioning, participation, or school problem-solving
+- [ ] Related-service outcome or functional participation
+- [ ] Assistive technology, accommodations, or environmental access
+- [ ] Student self-determination, preferences, and self-advocacy
+- [ ] Other discipline-specific framework or team priority: ____________________
 
 **Which instructional or related-service area or combination of areas is the focus of this cycle?**
 
@@ -72,16 +72,16 @@ Keep evidence separate from assumptions. If a fact is not established, label it 
 
 | Topic | Verified fact / direct observation | Source and date (keep private outside approved systems) | Unknown or question |
 |---|---|---|---|
-| Vision / sensory access information relevant to task | | | |
-| Learning media / literacy access | | | |
-| Assistive technology / devices | | | |
-| Environmental conditions | | | |
-| Mobility / navigation, if relevant | | | |
+| Disability-related or assessment information relevant to this task (if established) | | | |
+| Communication mode and access supports (if relevant) | | | |
+| Academic or functional skill components relevant to task | | | |
+| Assistive technology, accommodations, or tools | | | |
+| Environmental and instructional conditions | | | |
 | Current performance on target task | | | |
-| Prompting / adult support | | | |
-| Student perspective | | | |
+| Prompting, partner support, or adult assistance | | | |
+| Student perspective and preferences | | | |
 
-**Teacher checkpoint:** Have I avoided inferring functional performance from diagnosis, acuity, grades, or the presence of a device alone?
+**Professional checkpoint:** Have I avoided inferring functional performance, communication, cognition, behavior, or educational need from a diagnosis, eligibility label, test score, acuity, grades, or the presence of a device alone?
 
 - [ ] Yes
 - [ ] Not yet — I need additional observations or assessment information.
@@ -96,7 +96,7 @@ Copy and adapt this prompt only after you have prepared a de-identified summary.
 >
 > **Context:** [Paste only the minimum district-approved de-identified summary.]
 >
-> **Boundaries:** Do not infer functional vision, literacy needs, eligibility, services, placement, or a diagnosis. Do not treat grades or a clinical measurement as a complete description of access. Do not invent information or write an IEP goal. If information is missing, label it “not provided.”
+> **Boundaries:** Do not infer functional vision, communication, literacy, behavior, cognition, eligibility, services, placement, or a diagnosis. Do not treat grades, a clinical measurement, or a disability label as a complete description of educational performance or access. Do not invent information or write an IEP goal. If information is missing, label it “not provided.”
 >
 > **Output:** A four-column table: category, information supplied, what it may mean for the task (clearly labeled as a hypothesis), and what the teacher should verify.
 >
@@ -437,7 +437,7 @@ ____________________________________________________________________
 
 ## 6B. Session data
 
-Use the data sheet created in Worksheet 5 or adapt the repository's TVI and classroom templates to the selected discipline and task. The following table is a compact planning view.
+Use the data sheet created in Worksheet 5 or adapt the repository's TVI-specific and classroom templates to the selected discipline and task. The TVI template is vision-specific; other participants should adapt the classroom template or create fields that match their target and professional role. The following table is a compact planning view.
 
 | Session | Opportunities | Independent successes | Prompted / assisted responses | Conditions / deviations | Student feedback |
 |---|---:|---:|---:|---|---|
@@ -471,7 +471,7 @@ The course example of **greater than 90% across at least three separate sessions
 >
 > Then summarize only patterns supported by the data: level, direction of change, variability, independence, and generalization across people or settings. Distinguish observations from hypotheses. If the data are insufficient, say so and identify what additional information would help.
 >
-> Do not invent values or recommend reducing accommodations, services, braille, O&M, or other supports.
+> Do not invent values or recommend reducing accommodations, services, communication supports, access methods, or other supports.
 >
 > [Paste only an appropriately de-identified summary.]
 
@@ -643,12 +643,12 @@ Complete this page after the worksheets. It is the concise record of your work.
 - [ ] The target is meaningful and observable.
 - [ ] Unknowns were not presented as facts.
 - [ ] The LLM was used in bounded, iterative steps.
-- [ ] The teacher reviewed, edited, and approved the work.
+- [ ] The responsible professional reviewed, edited, and approved the work.
 - [ ] Data distinguish independent performance from prompted performance.
 - [ ] Access tools and accommodations are recorded as conditions of access.
 - [ ] The data are sufficient for the conclusions being made.
 - [ ] The team considered generalization and student experience.
-- [ ] Decisions requiring assessment, O&M expertise, or IEP-team authority were referred appropriately.
+- [ ] Decisions requiring qualified assessment, specialist expertise, or IEP-team authority were referred appropriately.
 - [ ] Privacy and district technology policies were followed.
 
 ## Reflection

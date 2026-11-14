@@ -436,7 +436,7 @@ ____________________________________________________________________
 >
 > [Paste the approved task analysis and measurement definitions.]
 
-## 5E. Tool usability check
+### 5E. Tool usability check
 
 Test the draft with the people who will actually use it.
 
@@ -556,7 +556,7 @@ The course example of **greater than 90% across at least three separate sessions
 >
 > [Paste only an appropriately de-identified summary.]
 
-## 6E. Team interpretation
+### 6E. Team interpretation
 
 **What pattern is visible in the data?**
 
@@ -713,26 +713,26 @@ ____________________________________________________________________
 
 Complete this page after the worksheets. It is the concise record of your work.
 
-## Plan
+### Plan
 
 - Student strengths and priorities:
 - Discipline-specific focus and meaningful task:
 - Verified information:
 - Unknowns to investigate:
 
-## Refine
+### Refine
 
 - Assumptions corrected:
 - Additional observations collected:
 - Instructional focus approved by the educator / team:
 
-## Build
+### Build
 
 - Artifact created:
 - Who will use it and when:
 - How it supports student access, independence, and participation:
 
-## Refine again
+### Refine again
 
 - Evidence collected:
 - Student feedback:
@@ -740,7 +740,7 @@ Complete this page after the worksheets. It is the concise record of your work.
 - What needs revision:
 - Next decision and responsible person:
 
-## Final quality review
+### Final quality review
 
 - [ ] The plan is individualized and strengths-based.
 - [ ] Student voice and preferences were considered.
@@ -755,7 +755,7 @@ Complete this page after the worksheets. It is the concise record of your work.
 - [ ] Decisions requiring qualified assessment, specialist expertise, or IEP-team authority were referred appropriately.
 - [ ] Privacy and district technology policies were followed.
 
-## Reflection
+### Reflection
 
 **What did the LLM help you see, organize, or create that you might not have produced as efficiently on your own?**
 

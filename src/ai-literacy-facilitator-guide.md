@@ -48,7 +48,7 @@ This guide provides Sessions 7–10 of the ten-session course. The six applied s
 
 **Agenda:**
 - 0–10 min: Introduce the six-step review sequence.
-- 10–30 min: Audit the sample goal draft.
+- 10–30 min: Audit the sample goal, service-outcome, or observation-target draft.
 - 30–45 min: Recalculate and interpret synthetic data.
 - 45–60 min: Verify a product, policy, or legal claim against official sources.
 - 60–75 min: Accessibility audit of a generated artifact.

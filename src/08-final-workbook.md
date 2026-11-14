@@ -332,7 +332,7 @@ Build only after the team has approved the task and measurement definitions. Sta
 
 ## 5A. Task analysis
 
-Break the skill into observable steps. Use the student's actual routine; do not copy Aureliano Buendia's Magnifier steps unless they fit the student.
+Break the skill or workflow into observable steps. Use the selected case and the learner's actual routine; do not copy a case-specific example or task analysis unless it fits the selected task and context.
 
 | Step | Observable action | What counts as success? | Prompt / support to record |
 |---:|---|---|---|

@@ -24,9 +24,9 @@ A prompt that says “this is confidential” does not make an unapproved tool s
 
 ## Choose a case that fits your role
 
-The course is designed for special education professionals across disciplines. Keep the [Aureliano Buendia vision/ECC case](07-fictional-student-case.md) if your work involves visual access, braille, assistive technology, or the Expanded Core Curriculum. If your role is in deaf and hard-of-hearing education, school psychology, speech-language pathology, mathematics instruction, or reading instruction, choose a relevant profile from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). You may also work with a colleague from another discipline. State your professional role, stay within your scope of practice, and identify decisions that require qualified assessment or IEP-team review.
+The course is designed for special education professionals across disciplines. Select one role-relevant case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), or Arcadio (reading). All six cases are equal options; none is the default, and participants do not need to complete all six. You may work with a colleague from another discipline. State your professional role, stay within your scope of practice, and identify decisions that require qualified assessment or IEP-team review.
 
-Use your selected case across the modules. In each module, replace vision-specific examples with the equivalent task, evidence, and access conditions from your case. The method remains the same: Plan → Refine → Build → Refine.
+Use the same selected case throughout the modules and workbook. Adapt task examples, evidence, and access conditions to that case and your professional role. The shared method remains: Plan → Refine → Build → Refine.
 
 ## The ECC in practice
 

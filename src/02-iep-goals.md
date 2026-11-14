@@ -100,4 +100,4 @@ Report both accuracy and assistance. A learner may complete a task accurately wi
 
 ## Practice assignment
 
-Choose the synthetic snapshot in this module or a relevant case from [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). Generate up to three role-appropriate goal or outcome options. If IEP goal writing is outside your role, produce an observation target or questions for the authorized team instead. Highlight every phrase that needs a team decision. Revise one option without allowing the model to invent facts.
+Choose the synthetic snapshot in this module or the role-relevant case you selected from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). Generate up to three role-appropriate goal or outcome options. If IEP goal writing is outside your role, produce an observation target or questions for the authorized team instead. Highlight every phrase that needs a team decision. Revise one option without allowing the model to invent facts.

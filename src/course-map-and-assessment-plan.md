@@ -7,13 +7,13 @@ This is the definitive delivery guide for the course. It brings the six applied 
 - **Audience:** Special education professionals and classroom partners across disciplines.
 - **Structure:** 10 sessions, normally 75–90 minutes each.
 - **Sequence:** Sessions 1–6 build practical workflows; Sessions 7–10 build AI literacy, critical evaluation, and independent performance.
-- **Case:** Each participant selects one role-relevant fictional case and carries it through the modules. The Aureliano Buendia vision/ECC case remains available alongside the multidisciplinary case studies.
+- **Case:** Each participant selects one role-relevant fictional case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md) and carries that same case through the modules and workbook. All six cases have equal standing; no discipline is the default.
 - **Working method:** Plan → Refine → Build → Refine.
 - **Practice data:** Use fictional cases and synthetic data. Use real education information only in a specifically district-approved environment and in accordance with policy.
 
 ## Participant pathway
 
-1. Read [Getting Started](getting-started.md) and choose a case from [Aureliano Buendia — Vision/ECC](07-fictional-student-case.md) or the [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md).
+1. Read [Getting Started](getting-started.md) and select one role-relevant case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). Use that case throughout the course.
 2. Complete the applied-course pre-assessment before Session 1.
 3. Complete Sessions 1–6 and use Handouts 1–6 as the applied-course working packet. Use Handouts 7–9 during the AI-literacy and capstone sessions.
 4. Complete the AI-literacy pre-assessment immediately before Session 7.

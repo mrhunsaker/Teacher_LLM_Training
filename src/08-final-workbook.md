@@ -577,8 +577,14 @@ ____________________________________________________________________
 
 The process remains the same even when the content changes. The measure and professional expertise must fit the skill.
 
-| instructional or related-service area | Example of a task to investigate (not a prescribed goal) | Possible evidence to collect |
+| Instructional or service area | Example of a task to investigate (not a prescribed goal) | Possible evidence to collect |
 |---|---|---|
+| Vision/ECC access | Accessing and organizing information using the student's effective literacy media | Accuracy, fluency, independence, access method, task completion |
+| Deaf and hard-of-hearing communication access | Participating in a classroom discussion with agreed communication supports | Access to speaker turns, support availability, clarification opportunities, student-reported access |
+| Speech-language / functional communication | Communicating a chosen message or function across partners and activities | Communication mode, function, opportunity, partner modeling, wait time, prompt level |
+| School psychology / problem-solving | Completing a defined classroom task across settings | Operationally defined outcome, context, supports, opportunity, competing hypotheses |
+| Mathematics reasoning | Representing and solving a multi-step problem | Problem type, representation, strategy selection, computation, checking, prompt level |
+| Reading | Completing a defined reading task with a specified construct | Text and difficulty, decoding/accuracy, fluency, vocabulary or comprehension as separately measured |
 | Compensatory / functional academics | Accessing and organizing information using the student's effective literacy media | Accuracy, fluency, independence, access method, task completion |
 | Orientation and mobility | Completing a familiar travel routine under the O&M specialist's instruction | Route/task analysis, decision points, prompts, environmental conditions, safety observations by qualified staff |
 | Social interaction | Participating in a chosen group interaction | Initiations, responses, context, student perspective; avoid reducing social success to a raw count alone |

@@ -38,4 +38,4 @@ A participant's post-assessment score is one indicator of learning. It does not 
 
 ## Review and coaching
 
-Compare item-level responses, not only totals. Compare this assessment only with its own parallel form; do not combine its 0–2 item scores with the applied assessment or the capstone's separate 0–3 rubric. Select one misconception that remains and assign a short practice activity from [Module 8 — AI Misconceptions and Failure Analysis](10-misconceptions-and-failure-analysis.md) or [Module 9 — Critical Evaluation Lab](11-critical-evaluation-lab.md).
+Compare item-level responses, not only totals. Compare this assessment only with its own parallel form. Although each response is scored 0–2, do not combine these written-response scores with the applied assessment, the item-level competency checklist, or the capstone's separate 0–3 rubric. Select one misconception that remains and assign a short practice activity from [Module 8 — AI Misconceptions and Failure Analysis](10-misconceptions-and-failure-analysis.md) or [Module 9 — Critical Evaluation Lab](11-critical-evaluation-lab.md).

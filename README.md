@@ -54,7 +54,7 @@ The professional remains responsible for decisions within their role. AI does no
 
 Choose one of the six fictional cases in the [unified Buendía-family case collection](src/multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), or Arcadio (reading). These are equal options, not six required assignments. Use one case throughout the modules and workbook. Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries.
 
-## Participant and facilitator resources/
+## Participant and facilitator resources
 
 - [Participant Lesson Handouts](src/participant-lesson-handouts.md)
 - [Participant Pre- and Post-Assessment](src/participant-assessments.md)

@@ -95,6 +95,10 @@ No programming experience or ECC background is required for participants using n
 
 AI may help brainstorm, organize, draft, check consistency, and identify questions. It does not diagnose, determine eligibility, interpret standardized assessments in place of qualified professionals, decide placement or services, make IEP-team decisions, or replace clinical, instructional, or school-psychology judgment. A decision not to use AI is an acceptable and sometimes preferred outcome.
 
+## Release validation
+
+Before publishing or distributing the course, run the mdBook build and complete the [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md). Build success, internal-link review, keyboard testing, and screen-reader testing are separate checks; record the actual results rather than assuming one proves the others.
+
 ## Completion and transfer
 
 Completion means the participant has completed the learning activities and submitted the expected evidence. It does not certify professional competence or prove transfer. A voluntary or locally approved follow-up 4–6 weeks later can examine whether the participant applies the workflow safely with fictional or approved information, verifies output, tests accessibility, and documents professional judgment.

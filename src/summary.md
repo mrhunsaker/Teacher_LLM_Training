@@ -102,8 +102,11 @@ The TVI template is intentionally vision-specific. Participants in other discipl
 5. [Session 4 / Module 4 — Excel Progress Monitoring and Criterion Flags](04-excel-monitoring.md)
 6. [Session 5 / Module 5 — Interpreting Progress, Growth, and Possible Plateaus](05-data-based-decisions.md)
 7. [Session 6 / Module 6 — Microsoft Copilot Morning Email Triage](06-copilot-email.md)
-8. [Sessions 7–10 / Modules 7–10 — AI Literacy, Failure Analysis, Critical Evaluation, and Capstone](09-ai-literacy-foundations.md)
-9. [Final Special Education Capstone Workbook](08-final-workbook.md)
+8. [Session 7 / Module 7 — AI Literacy Foundations](09-ai-literacy-foundations.md)
+9. [Session 8 / Module 8 — AI Misconceptions and Failure Analysis](10-misconceptions-and-failure-analysis.md)
+10. [Session 9 / Module 9 — Critical Evaluation Lab](11-critical-evaluation-lab.md)
+11. [Session 10 / Module 10 — Independent Performance Capstone](12-independent-performance-capstone.md)
+12. [Final Special Education Capstone Workbook](08-final-workbook.md)
 
 ### Case studies
 

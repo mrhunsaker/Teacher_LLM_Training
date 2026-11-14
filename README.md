@@ -40,7 +40,7 @@ mdbook build
 mdbook serve --open
 ```
 
-The book configuration is in `book.toml`; all chapter files are in `src/`.
+The book configuration is in `book.toml`; all chapter files are in `src/`. A GitHub Actions workflow at `.github/workflows/mdbook.yml` builds and deploys the book whenever changes are pushed to `main`. To enable the first deployment, open the repository's **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. The Pages URL will appear in the repository's Pages settings after a successful deployment.
 
 ## Repository structure
 

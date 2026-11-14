@@ -9,7 +9,8 @@ This repository teaches educators how to use large language models (LLMs) and Mi
 1. Open the published book (or build it locally with mdBook).
 2. Read [Getting started](src/getting-started.md).
 3. Work through the modules in order. The fictional student case provides a shared scenario for practicing the full **Plan → Refine → Build → Refine** cycle.
-4. Use only fictional or properly de-identified practice data in general-purpose AI tools. Follow district policy and approved Microsoft 365 services for any education records.
+4. Complete the [Final ECC Capstone Workbook](src/08-final-workbook.md), adapting it to the student and ECC area you are addressing.
+5. Use only fictional or properly de-identified practice data in general-purpose AI tools. Follow district policy and approved Microsoft 365 services for any education records.
 
 ## Curriculum map
 
@@ -22,6 +23,7 @@ This repository teaches educators how to use large language models (LLMs) and Mi
 | 5. Instructional decisions | Interpret trend, variability, generalization, and possible plateau | Data review and next-step record |
 | 6. Copilot email workflow | Build a morning email triage routine with dates, actions, and 1–5 priority | Reusable Copilot prompt and checklist |
 | Case study | Apply the cycle to a fictional student with ocular albinism, photophobia, dual-media literacy, O&M, Windows Magnifier, and iPad access | Iterative planning artifacts and revision log |
+| Final workbook | Apply the process to any student and relevant ECC area | Completed planning workbook, aligned tool, data plan, and revision log |
 
 ## The instructional design cycle
 
@@ -29,7 +31,7 @@ The course is built around **Plan → Refine → Build → Refine**, not one-sho
 
 1. **Plan:** The teacher defines the ECC problem, task, setting, student strengths, known facts, and unknowns.
 2. **Refine:** The teacher uses the LLM to question assumptions, identify missing observations, and narrow the target. The teacher corrects and approves the plan.
-3. **Build:** The LLM helps draft one bounded artifact, such as a task analysis, observation form, or practice checklist.
+3. **Build:** The LLM helps draft one practical artifact, such as a task analysis, observation form, or practice checklist.
 4. **Refine:** The teacher tests the artifact, reviews student and staff feedback and collected data, then revises the tool or instructional plan.
 
 The teacher remains responsible for the instructional decisions. The model must not move to the next stage without direction.
@@ -75,6 +77,7 @@ The book configuration is in `book.toml`; all chapter files are in `src/`. A Git
     ├── 05-data-based-decisions.md
     ├── 06-copilot-email.md
     ├── 07-fictional-student-case.md
+    ├── 08-final-workbook.md
     ├── references.md
     ├── progress-monitoring-example.csv
     ├── tvi-data-collection-template.csv
@@ -87,4 +90,4 @@ No programming experience is required. Familiarity with IEPs and the ECC is help
 
 ## Suggested pacing
 
-A six-session sequence of 60–90 minutes each works well. The case study can be used as a capstone or threaded through the modules as a shared practice scenario. Each session can also be split into shorter team meetings. Complete the practice with fictional data before adapting the workflow to real work under district-approved systems.
+A six-session sequence of 60–90 minutes each works well, with the Maya case used as a shared scenario and the final workbook as a capstone. Each session can also be split into shorter team meetings. Complete the practice with fictional data before adapting the workflow to real work under district-approved systems.

@@ -5,7 +5,7 @@ Use this short assessment alongside the applied-course [Participant Pre- and Pos
 ## Pre-assessment
 
 1. An LLM gives a confident answer with three citations. What would you check before relying on it?
-2. A student owns and uses a tablet. What does that establish about independent access?
+2. A learner uses a support, tool, or communication mode in some activities. What does that establish about performance or independence in other tasks?
 3. A model reports that a student has mastered a skill based on a spreadsheet percentage. What information must be checked?
 4. A staff member removes a student's name from an IEP excerpt before pasting it into a public chatbot. Is that enough to establish safe use? Explain.
 5. What is one situation in which not using AI is the best decision?
@@ -13,7 +13,7 @@ Use this short assessment alongside the applied-course [Participant Pre- and Pos
 ## Post-assessment
 
 1. Explain why fluent AI output can still be inaccurate. Describe a verification process for one factual claim.
-2. Separate these statements into fact, hypothesis, or unknown: "The learner uses a tablet for some assignments"; "the learner prefers the tablet"; "the learner can independently access every digital file."
+2. Separate these statements into fact, hypothesis, or unknown: "The learner uses a support or communication mode for some tasks"; "the learner prefers that approach"; "the learner can independently complete every task in every setting."
 3. An AI summary says that independent performance improved. What raw data and definitions would you inspect?
 4. Describe how you would test an AI-generated handout for screen-reader and keyboard usability.
 5. Identify a task that should remain with the educator or IEP team rather than an LLM. Explain the boundary.
@@ -31,7 +31,7 @@ A participant's post-assessment score is one indicator of learning. It does not 
 ## Facilitator answer guide
 
 1. Verify that citations exist, are current and authoritative for the claim, and actually support the exact statement. Check jurisdiction and applicability where relevant.
-2. It establishes only that the student uses a tablet in some context. It does not establish access efficiency, independence, preference, or suitability across tasks.
+2. It establishes only that the learner uses a support, tool, or communication mode in the stated context. It does not establish efficiency, independence, preference, or suitability across other tasks.
 3. Inspect raw numerators and denominators, valid opportunities, prompt levels, operational definitions, conditions, materials, and comparability across sessions.
 4. Test headings, reading order, keyboard access, screen-reader announcements, labels, links, and whether essential information has a text alternative. Record the technology and test conditions.
 5. Examples include evaluation, eligibility, placement, services, IEP decisions, and individualized instructional decisions. The model may assist with bounded drafting or organization but not make the determination.

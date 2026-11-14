@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Use this workbook to plan, develop, test, and revise an individualized ECC instructional approach for any student with a visual impairment. It is designed for a TVI working with the student, family, classroom teacher, O&M specialist, and other relevant team members.
+Use this workbook to plan, develop, test, and revise an individualized educational or related-service workflow for a student receiving special education services. It is designed for special education professionals, including teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists, related-service providers, classroom teachers, families, and other relevant team members. Select a case and target that fit your role and scope of practice.
 
-The fictional Maya case in [Module 7](07-fictional-student-case.md) is a worked example of how to think through the process. **Maya's diagnosis, acuity, tools, and instructional priorities are not a template for another student.** Replace every case detail with verified information about the student you are supporting.
+The fictional [Aureliano Buendia vision case](07-fictional-student-case.md) is one worked example. Additional discipline-specific cases are available in [Multidisciplinary Special Education Case Studies](multidisciplinary-case-studies.md). No case profile is a template for a real student. Replace every case detail with verified information and professional judgment appropriate to the learner and your role.
 
 This is a working document. Complete it in stages; do not ask an LLM to fill it all out in one request. Use the prompts at each stage, review the response, make professional edits, and decide whether to proceed.
 
@@ -52,7 +52,7 @@ Check only areas that are relevant for this planning cycle. A checked area means
 - [ ] Sensory efficiency
 - [ ] Self-determination and self-advocacy
 
-**Which ECC area or combination of areas is the focus of this cycle?**
+**Which instructional or related-service area or combination of areas is the focus of this cycle?**
 
 Teacher notes:
 
@@ -573,11 +573,11 @@ ____________________________________________________________________
 
 ---
 
-# Worksheet 8 — Transfer the process to another ECC area
+# Worksheet 8 — Transfer the process to another instructional or related-service area
 
 The process remains the same even when the content changes. The measure and professional expertise must fit the skill.
 
-| ECC area | Example of a task to investigate (not a prescribed goal) | Possible evidence to collect |
+| instructional or related-service area | Example of a task to investigate (not a prescribed goal) | Possible evidence to collect |
 |---|---|---|
 | Compensatory / functional academics | Accessing and organizing information using the student's effective literacy media | Accuracy, fluency, independence, access method, task completion |
 | Orientation and mobility | Completing a familiar travel routine under the O&M specialist's instruction | Route/task analysis, decision points, prompts, environmental conditions, safety observations by qualified staff |

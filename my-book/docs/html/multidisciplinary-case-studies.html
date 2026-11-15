@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Unified Buendía-Family Special Education Case Studies - Special Education Professional Learning: Practical LLM Use</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-d005238d.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-b0fac953.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Special Education Professional Learning: Practical LLM Use</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mrhunsaker/Teacher_LLM_Training" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="fictional-special-education-case-studies-the-buendía-family-and-associated-characters"><a class="header" href="#fictional-special-education-case-studies-the-buendía-family-and-associated-characters">Fictional Special Education Case Studies: The Buendía Family and Associated Characters</a></h1>
+<p>This is the course’s <strong>single case-study collection and worked-practice pathway</strong>. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.</p>
+<p>Choose the case that best fits your professional role, current learning goal, or area of practice. Use that same case as your continuing context through the course modules and the participant workbook. The cases are presented in one collection and use the same structure, planning cycle, and professional safeguards. <strong>No case or discipline is the default pathway.</strong> The vision/access case is one option among ten; its worked example demonstrates the shared method rather than setting a preferred model for the course.</p>
+<p><strong>Naming convention:</strong> The first six case names follow the Buendía family sequence already established in the course. To avoid repeating names, the four additional names are drawn from other distinctive members of the family and associated characters in <em>Cien años de soledad</em>: Fernanda, Petra, Melquíades, and Pilar. Names identify fictional training cases only; the cases are not depictions of the novel’s characters or events.</p>
+<p><strong>Service-category note:</strong> Under IDEA, occupational therapy and physical therapy are listed as related services when required to assist a child with a disability to benefit from special education (<a href="https://sites.ed.gov/idea/regs/b/a/300.34">34 CFR § 300.34</a>). Physical education includes special physical education and adapted physical education in the definition of special education (<a href="https://sites.ed.gov/idea/regs/b/a/300.39">34 CFR § 300.39(b)(2)</a>); physical education must be available and specially designed when necessary (<a href="https://sites.ed.gov/idea/regs/b/b/300.108">34 CFR § 300.108</a>). Accordingly, the APE case focuses on adapted PE instruction and access; it does not label APE automatically as a related service. Follow state and district terminology and requirements.</p>
+<p><strong>Fictional-data safeguard:</strong> All student profiles, histories, observations, and sample data below are invented. They are not templates for actual students and must not be copied into student records. Do not infer disability, eligibility, placement, services, intervention, or learner characteristics from a case label. Use only supplied facts; identify missing information rather than filling gaps. For real work, follow district policy and use only approved systems and appropriately authorized information. Removing a name alone does not make student information de-identified.</p>
+<h2 id="choose-one-continuing-case"><a class="header" href="#choose-one-continuing-case">Choose one continuing case</a></h2>
+<h3 id="case-1-úrsula--vision-access-and-dual-media-learning"><a class="header" href="#case-1-úrsula--vision-access-and-dual-media-learning">Case 1: Úrsula — vision, access, and dual-media learning</a></h3>
+<p>Úrsula is a fictional student with ocular albinism and photophobia. With corrective lenses, her measured visual acuity is 20/175. She wears glasses and uses a brimmed hat to reduce the impact of overhead lighting. She is highly sensitive to glare. Her academic performance is solidly in the B range.</p>
+<p>Úrsula receives orientation and mobility (O&amp;M) instruction. She is learning braille as a second literacy medium as a dual-media reader. For visual access, she is learning Windows Magnifier; ZoomText may be considered only if the team identifies a need for features not met by built-in magnification. She also uses an iPad in class.</p>
+<p>The instructional question is not how to improve her grades. It is how to make access efficient, comfortable, independent, and sustainable across environments, materials, and tasks while developing literacy and technology options.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>Ocular albinism and photophobia; corrected acuity of 20/175.</li>
+<li>Glasses and a brimmed hat are established supports; glare sensitivity is reported.</li>
+<li>O&amp;M instruction is in place.</li>
+<li>She is developing braille as a second literacy medium and learning Windows Magnifier.</li>
+<li>She uses an iPad in class and earns generally solid grades.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Functional vision performance at different distances, lighting levels, and task types.</li>
+<li>Which glare sources and environments are most disruptive, and which adjustments are effective.</li>
+<li>Current braille readiness, tactile skills, reading fluency, and contexts where braille is most useful.</li>
+<li>Magnifier proficiency, preferred settings, task efficiency, and whether built-in tools meet access needs.</li>
+<li>Which iPad apps, accessibility settings, workflows, and file formats are effective.</li>
+<li>Whether grades conceal extra time, effort, adult assistance, or reduced access.</li>
+</ul>
+<p><strong>Practice task:</strong> Select one bounded access task, such as opening and navigating a digital classroom handout using an agreed access method. Define observable steps and record prompt level, task conditions, access method, and student-reported comfort and efficiency. Keep visual access, braille, print, assistive technology, O&amp;M, and student feedback distinct when they require different measures.</p>
+<p><strong>Professional boundaries:</strong> Do not infer functional vision needs or select a primary literacy medium from acuity, diagnosis, grades, or device ownership. Use the learning media assessment, functional vision information, learning media plan, observations across settings, qualified clinical guidance where appropriate, and student/family input. O&amp;M assessment and travel decisions remain with the qualified O&amp;M professional. An LLM cannot perform these assessments or make team decisions.</p>
+<h3 id="case-2-josé-arcadio--deaf-and-hard-of-hearing-education"><a class="header" href="#case-2-josé-arcadio--deaf-and-hard-of-hearing-education">Case 2: José Arcadio — deaf and hard-of-hearing education</a></h3>
+<p>José Arcadio is a fictional middle-school student who uses hearing technology in some settings and visual communication supports in others. Teachers report that he participates actively in small-group activities but misses portions of fast-paced whole-class discussions, especially when several people speak or when speakers are not facing the class. The team is reviewing how classroom communication access is planned and documented.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>He uses hearing technology in some school settings.</li>
+<li>Staff report stronger participation in small groups than in fast-paced whole-class discussions.</li>
+<li>The team wants to examine access to instruction and peer discussion.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>His preferred communication approaches in different settings.</li>
+<li>Whether captions, interpreting, assistive listening technology, visual supports, seating, or speaker-turn routines are consistently available and effective.</li>
+<li>Whether differences relate to acoustics, language demands, speaker behavior, group size, fatigue, technology function, or other factors.</li>
+<li>His own account of access, effort, and participation.</li>
+</ul>
+<p><strong>Practice task:</strong> Design a brief classroom communication-access observation protocol. Define observable indicators such as access to speaker turns, availability and usability of agreed supports, opportunities to request clarification, and student-reported access. Record environmental and instructional conditions.</p>
+<p><strong>Professional boundaries:</strong> Do not infer language proficiency, cognitive ability, or comprehension from hearing status or communication mode. Do not recommend changing communication modality, hearing technology, interpreting, or services based on this vignette. Those decisions require qualified professionals, student/family input, assessment, and the educational team.</p>
+<h3 id="case-3-aureliano--school-psychology-and-problem-solving"><a class="header" href="#case-3-aureliano--school-psychology-and-problem-solving">Case 3: Aureliano — school psychology and problem-solving</a></h3>
+<p>Aureliano is a fictional fourth-grade student referred to a school problem-solving team because classroom work completion and participation vary across tasks. Teachers report that he contributes thoughtful ideas during discussion but often leaves multi-step independent assignments unfinished. Existing notes are inconsistent: some describe attention, others task difficulty, and others unclear directions. No formal evaluation findings are supplied.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>He contributes ideas during classroom discussion.</li>
+<li>Completion of multi-step independent assignments varies.</li>
+<li>Staff notes use inconsistent descriptions of the concern.</li>
+<li>The team wants clearer information before deciding what to do next.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Whether task length, reading demands, working conditions, clarity of directions, instructional match, attendance, language, attention, or other variables are associated with the pattern.</li>
+<li>His perspective and strengths across settings.</li>
+<li>Which interventions have been implemented, at what intensity, and with what fidelity.</li>
+<li>Whether existing data are reliable, representative, and sufficient for any evaluation or eligibility question.</li>
+</ul>
+<p><strong>Practice task:</strong> Build a hypothesis-neutral problem-solving record. Define the target behavior or outcome operationally, identify multiple testable hypotheses, and design a plan for comparable observations across relevant settings and tasks. Separate screening, progress monitoring, intervention response, and comprehensive evaluation questions.</p>
+<p><strong>Professional boundaries:</strong> An LLM must not diagnose, determine eligibility, select assessment instruments as a substitute for qualified judgment, interpret test protocols, or make placement/service recommendations. Qualified school psychologists and the multidisciplinary team retain responsibility for assessment design, interpretation, consultation, and decisions under applicable law and professional standards.</p>
+<h3 id="case-4-amaranta--speech-language-pathology-and-functional-communication"><a class="header" href="#case-4-amaranta--speech-language-pathology-and-functional-communication">Case 4: Amaranta — speech-language pathology and functional communication</a></h3>
+<p>Amaranta is a fictional second-grade student who communicates using spoken language and an augmentative and alternative communication (AAC) system during some activities. Staff report that she initiates communication during preferred routines but participates less during open-ended academic discussions. Different adults describe her communication opportunities and prompting differently.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>She uses spoken language and an AAC system in some activities.</li>
+<li>Staff report different levels of initiation across preferred routines and open-ended discussions.</li>
+<li>Adults do not use consistent descriptions of communication prompts or opportunities.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Her communication preferences and access to her AAC system throughout the day.</li>
+<li>Whether vocabulary, device availability, partner wait time, modeling, sensory/environmental conditions, or activity structure affect opportunities.</li>
+<li>The functions and communication modes she uses across partners and settings.</li>
+<li>Whether observation samples reflect typical communication and include valid opportunities.</li>
+</ul>
+<p><strong>Practice task:</strong> Create a communication-partner observation tool that records context, communication opportunity, mode used, communicative function, partner modeling, wait time, prompt level, and outcome. Include a student-centered way to gather feedback; do not treat speech as the only successful communication mode.</p>
+<p><strong>Professional boundaries:</strong> Do not diagnose a communication disorder, prescribe an AAC system, infer competence from speech output, or recommend reducing AAC access. SLP assessment and clinical decisions remain with qualified professionals in collaboration with the student, family, and team.</p>
+<h3 id="case-5-rebeca--specific-learning-disability-in-mathematics-reasoning"><a class="header" href="#case-5-rebeca--specific-learning-disability-in-mathematics-reasoning">Case 5: Rebeca — specific learning disability in mathematics reasoning</a></h3>
+<p>Rebeca is a fictional fifth-grade student receiving special education support for a documented specific learning disability affecting mathematical problem solving and reasoning. She accurately computes many familiar single-step problems but has difficulty explaining how to represent multi-step word problems, selecting relevant information, and checking whether an answer is reasonable. The case label is supplied for instructional context; it is not an invitation to diagnose or re-evaluate her.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>She receives special education support related to mathematics reasoning.</li>
+<li>She performs many familiar single-step computations accurately.</li>
+<li>Multi-step word problems create difficulty with representation, selecting relevant information, and checking reasonableness.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Which problem structures, language features, representations, and prerequisite concepts are associated with stronger or weaker performance.</li>
+<li>Whether errors occur during comprehension, schema selection, representation, calculation, sequencing, or checking.</li>
+<li>The effect of explicit instruction, worked examples, visual or concrete representations, vocabulary support, and fading prompts.</li>
+<li>Baseline performance across comparable problem types and settings.</li>
+</ul>
+<p><strong>Practice task:</strong> Build a task analysis and data sheet that distinguishes stages of mathematical reasoning: identify the question, represent the situation, select relevant information, choose an operation or strategy, solve, and evaluate reasonableness. Track each stage separately and record prompt level, problem type, and representation. Do not collapse reasoning and computation into one accuracy score.</p>
+<p><strong>Professional boundaries:</strong> Do not infer a new diagnosis, prescribe placement, or change an IEP based on the vignette. Instructional decisions require review of work samples, curriculum expectations, progress data, student input, and educator/IEP-team judgment.</p>
+<h3 id="case-6-arcadio--specific-learning-disability-in-reading"><a class="header" href="#case-6-arcadio--specific-learning-disability-in-reading">Case 6: Arcadio — specific learning disability in reading</a></h3>
+<p>Arcadio is a fictional third-grade student receiving special education support for a documented specific learning disability affecting reading. He participates in class discussion and demonstrates strong background knowledge when information is presented orally. In reading tasks, his accuracy and fluency vary by text and task; staff want to understand the pattern without confusing decoding, fluency, vocabulary, and comprehension.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>He receives special education support related to reading.</li>
+<li>He demonstrates strong background knowledge in oral discussion.</li>
+<li>Reading accuracy and fluency vary across texts and tasks.</li>
+<li>Staff want more precise information about component skills and reading demands.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Current performance and instructional history in phonological awareness, decoding, word recognition, fluency, vocabulary, and comprehension, as applicable.</li>
+<li>Text difficulty, familiarity, language demands, accommodations, and whether measures are comparable.</li>
+<li>His perspective on reading effort, confidence, interests, and strategies.</li>
+<li>Whether observed comprehension differences relate to decoding demands, vocabulary, background knowledge, task format, or other factors.</li>
+</ul>
+<p><strong>Practice task:</strong> Design a reading progress-monitoring plan that identifies the specific construct being measured. Define text selection and difficulty rules, timing or untimed conditions as appropriate, error coding, prompt rules, and separate measures for accuracy, fluency, and comprehension when needed. Use synthetic passages or approved materials; do not generate or administer assessment items as if they were standardized instruments.</p>
+<p><strong>Professional boundaries:</strong> Do not diagnose dyslexia or another condition, interpret standardized assessments, select a reading intervention solely from the vignette, or infer comprehension from oral discussion alone. Use qualified assessment, curriculum-based evidence, instructional history, student input, and team judgment.</p>
+<h3 id="case-7-fernanda--occupational-therapy-pencil-and-scissor-use"><a class="header" href="#case-7-fernanda--occupational-therapy-pencil-and-scissor-use">Case 7: Fernanda — occupational therapy, pencil and scissor use</a></h3>
+<p>Fernanda is a fictional third-grade student who participates in classroom writing and art activities. During independent work, she sometimes has difficulty keeping a steady hold on her pencil and controlling it when writing or drawing. During craft activities, she sometimes needs extra time or adult help to position and use classroom scissors to cut along a simple line. Her performance varies across materials and activities. The teacher wants to describe exactly what happens during these two familiar classroom tasks.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>Pencil use during writing and drawing is sometimes difficult for her.</li>
+<li>Scissor use during classroom cutting activities sometimes takes extra time or adult help.</li>
+<li>Performance varies across activities and materials.</li>
+<li>She receives special education under an IEP; the disability category and any OT-related service determination are not supplied.</li>
+<li>No occupational therapy evaluation findings or service decisions are supplied.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Which specific parts of pencil use are difficult (for example, grasping, stabilizing the paper, forming marks, or maintaining control) and which are already successful.</li>
+<li>Which parts of scissor use are difficult (for example, opening and closing the scissors, positioning the paper, coordinating both hands, or following a cutting line).</li>
+<li>Whether performance changes with pencil size, paper position, scissors, task length, instruction, or other classroom conditions.</li>
+<li>Which tools she can use safely and comfortably; do not assume that a particular grip, tool, or adaptation is appropriate.</li>
+<li>How Fernanda describes the tasks and what level of help she finds useful.</li>
+</ul>
+<p><strong>Practice task:</strong> Choose one short pencil activity and one simple cutting activity, such as copying a short line or shape and cutting along a bold straight line on paper. Create a brief observation record with separate entries for each task. Record the materials, task directions, setup, observable steps completed, accuracy or task outcome using a clearly defined description, time only if relevant, prompts or adult assistance, and Fernanda’s feedback. Note what she does independently as well as where she pauses or asks for help. Do not combine pencil and scissor performance into one score.</p>
+<p><strong>Professional boundaries:</strong> Do not diagnose a fine-motor condition, prescribe exercises, select specialized equipment, or recommend OT services from this vignette. The purpose is to describe participation in ordinary classroom tasks and identify questions for the educational team. Any assessment, tool recommendation, or service decision requires qualified professional judgment and appropriate team procedures. An LLM cannot determine whether OT is required or whether a service should be direct, consultative, or discontinued.</p>
+<h3 id="case-8-petra--physical-therapy-and-school-mobility"><a class="header" href="#case-8-petra--physical-therapy-and-school-mobility">Case 8: Petra — physical therapy and school mobility</a></h3>
+<p>Petra is a fictional fifth-grade student whose school-day mobility and transitions vary by route and context. She uses an established mobility support for some school routes. Staff report that transitions are more difficult when hallways are crowded, schedules are compressed, or classroom locations change. The team wants to understand how the school environment and routine affect access to instruction and participation.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>She uses an established mobility support on some school routes.</li>
+<li>Transition time and ease vary by route and environmental conditions.</li>
+<li>Staff want to improve access to classes and school activities without reducing independence.</li>
+<li>She receives special education under an IEP; the disability category and any PT-related service determination are not supplied.</li>
+<li>No PT evaluation findings, equipment recommendation, or service decision is supplied.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Which routes, surfaces, distances, transitions, and school activities are most relevant to Petra.</li>
+<li>Her own priorities, fatigue or comfort reports, and preferred ways to request assistance.</li>
+<li>Whether barriers relate to route design, congestion, timing, access to doors/elevators, equipment, physical demands, or other factors.</li>
+<li>Whether PT assessment or consultation is indicated; the vignette does not establish this.</li>
+</ul>
+<p><strong>Practice task:</strong> Create a school-mobility observation plan for one routine transition. Record route, environmental conditions, task demands, available supports, assistance actually provided, student-reported access, and whether the transition permits meaningful participation in the next activity. Do not make speed the sole outcome.</p>
+<p><strong>Professional boundaries:</strong> Do not prescribe exercises, transfers, handling techniques, mobility devices, positioning, or changes to assistance. Do not trial unfamiliar equipment or alter an established mobility plan based on AI output. School PT services are provided by qualified physical therapists and are considered in relation to educational access and the student’s individual needs. Assessment and service decisions remain with qualified professionals and the authorized team.</p>
+<h3 id="case-9-melquíades--adaptive-physical-education-and-inclusive-participation"><a class="header" href="#case-9-melquíades--adaptive-physical-education-and-inclusive-participation">Case 9: Melquíades — adaptive physical education and inclusive participation</a></h3>
+<p>Melquíades is a fictional sixth-grade student who attends general physical education. The PE teacher reports that he participates consistently in predictable station activities but has fewer opportunities to practice skills during fast-paced team games. The teacher wants to examine whether activity design, rules, equipment, grouping, instruction, or opportunities to practice affect meaningful participation and skill learning.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>He receives special education under an IEP and participates in general PE.</li>
+<li>Participation and opportunities to practice vary across activity formats.</li>
+<li>Predictable station activities appear to provide more consistent opportunities than fast-paced team games.</li>
+<li>No disability category, motor assessment, APE eligibility determination, or individualized PE plan is supplied.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Which PE standards, skills, and activities are meaningful to Melquíades.</li>
+<li>His preferences, strengths, goals, and own account of participation.</li>
+<li>Whether changes to equipment, space, rules, pace, peer grouping, demonstration, or instruction would improve access.</li>
+<li>Whether specially designed PE or an adapted PE assessment is warranted.</li>
+</ul>
+<p><strong>Practice task:</strong> Design an inclusive PE observation matrix for one unit or activity. Record the intended skill, number and quality of practice opportunities, task adaptations, equipment, instruction and cues, peer participation, student choice, and evidence of learning. Compare access to instruction and meaningful practice—not simply presence in the gym or time on task.</p>
+<p><strong>Professional boundaries:</strong> Do not infer disability, prescribe a motor program, or treat APE as interchangeable with PT. Adapted PE is an instructional area that may involve specially designed physical education; it is not automatically a related service. Under IDEA, physical education includes adapted physical education in the definition of special education, and physical education must be specially designed when necessary. Qualified educators and the authorized team determine appropriate instruction and supports under applicable state and district requirements.</p>
+<h3 id="case-10-pilar--general-education-tier-3-reading-intervention"><a class="header" href="#case-10-pilar--general-education-tier-3-reading-intervention">Case 10: Pilar — general-education Tier 3 reading intervention</a></h3>
+<p>Pilar is a fictional second-grade student who is currently served in general education and is not currently identified as a student with a disability under IDEA. Across three school screening windows, her reading performance has remained below the local benchmark in foundational word-reading skills. She participated in a supplemental small-group intervention before moving to a more intensive Tier 3 reading intervention. The intervention team is reviewing progress and implementation evidence. No special education evaluation or eligibility decision is supplied.</p>
+<p><strong>Known facts</strong></p>
+<ul>
+<li>She is currently receiving general-education reading instruction and intensive Tier 3 intervention.</li>
+<li>Screening information has identified ongoing concern in foundational word-reading skills.</li>
+<li>The school has intervention and progress-monitoring records from more than one level of support.</li>
+<li>She is not currently identified as a student with a disability; this status does not determine whether an evaluation may be needed.</li>
+</ul>
+<p><strong>Unknowns — do not assume</strong></p>
+<ul>
+<li>Her current instructional profile across phonological awareness, decoding, word recognition, fluency, vocabulary, and comprehension, as relevant.</li>
+<li>Whether intervention content, intensity, attendance, instructional time, group size, and implementation fidelity match the documented plan.</li>
+<li>Whether progress measures are reliable, comparable, sensitive to instruction, and appropriate for her language and learning context.</li>
+<li>Her strengths, interests, language background, response to instruction, and perspective on reading.</li>
+<li>Whether a disability is suspected or whether an evaluation is warranted; neither can be concluded from the tier label or this vignette.</li>
+</ul>
+<p><strong>Practice task:</strong> Build a Tier 3 intervention review record that separates screening, diagnostic instructional information, intervention implementation, and progress monitoring. Include the target skill, intervention content and schedule, attendance/dosage, fidelity evidence, measure and administration conditions, repeated progress data, instructional adjustments, and questions for the family and school team. Identify what the data can and cannot support.</p>
+<p><strong>Professional boundaries:</strong> Do not diagnose dyslexia or another disability, determine eligibility, or treat Tier 3 placement as proof that special education is or is not needed. MTSS/RTI intervention and evaluation are distinct processes. Follow applicable Child Find obligations and district procedures; intervention or progress-monitoring steps must not be used to delay an evaluation when a disability is suspected. Eligibility and instructional decisions require qualified professionals, appropriate evaluation, family participation, and applicable legal procedures. See <a href="https://sites.ed.gov/idea/regs/b/b/300.111">IDEA Child Find, 34 CFR § 300.111</a>.</p>
+<h2 id="use-your-selected-case-throughout-the-course"><a class="header" href="#use-your-selected-case-throughout-the-course">Use your selected case throughout the course</a></h2>
+<p>The ten cases are alternatives, not a sequence of cases participants must complete. Select one case and carry it through the modules and workbook. A facilitator may invite cross-disciplinary partners to compare perspectives, but each participant should identify which actions and decisions fall within their own role and scope of practice.</p>
+<p>Every participant follows the same cycle:</p>
+<ol>
+<li><strong>Plan — define the bounded task.</strong> State the educational or related-service question, the learner’s strengths, the setting, and the specific task. Separate supplied facts from hypotheses and unknowns.</li>
+<li><strong>Refine — interrogate the plan.</strong> Ask the LLM to identify missing evidence, alternative explanations, possible bias, accessibility considerations, and questions for the learner and team. Correct unsupported assumptions before proceeding.</li>
+<li><strong>Build — create one small artifact.</strong> Examples include an observation protocol, task analysis, data sheet, communication-access check, meeting-question list, or progress-monitoring summary.</li>
+<li><strong>Refine — test and revise.</strong> Check the artifact against the case and professional requirements. Review sample or collected evidence, inspect accessibility, gather learner/staff feedback, and revise. Record what was retained, changed, rejected, and why.</li>
+</ol>
+<p>Do not ask the model to complete all four stages in one response. Keep the professional in control of each transition.</p>
+<h2 id="worked-example-apply-the-cycle-to-the-visionaccess-case"><a class="header" href="#worked-example-apply-the-cycle-to-the-visionaccess-case">Worked example: apply the cycle to the vision/access case</a></h2>
+<p>This example shows one possible application of the shared method. It does not make the vision case the required or preferred case. Participants using another case should substitute their own case facts and complete the same four stages.</p>
+<h3 id="plan-define-one-bounded-task"><a class="header" href="#plan-define-one-bounded-task">Plan: define one bounded task</a></h3>
+<p>A candidate focus is access to a digital classroom handout using Windows Magnifier. The task might include opening an assigned document, accessing Magnifier, selecting a usable view, navigating to the relevant section, and completing the classroom task. This is a candidate task analysis, not a claim that Úrsula currently performs or struggles with any step. Confirm the actual workflow with the student and relevant staff.</p>
+<p><strong>Planning prompt</strong></p>
+<blockquote>
+<p>Act as a collaborative planning assistant for a special education professional. Use only the facts in my selected fictional case. We are considering this bounded task: [describe one task]. Do not write a goal or intervention yet. Return: (1) a neutral task statement; (2) known facts; (3) information that must be observed; and (4) up to five possible observable task components. Mark every unknown as “not yet observed.” Do not infer a deficit from diagnosis, eligibility, grades, test scores, or device ownership. Stop after these four sections.</p>
+</blockquote>
+<h3 id="refine-challenge-the-plan"><a class="header" href="#refine-challenge-the-plan">Refine: challenge the plan</a></h3>
+<p>For Úrsula, the professional might ask whether the proposed task matches the documents and devices she actually uses, whether it accounts for glare and comfortable viewing without prescribing unassessed settings, whether it measures meaningful task completion rather than merely operating software, and whether it preserves braille, print, iPad, and O&amp;M as distinct access strands.</p>
+<p>For any other case, ask the equivalent role-specific questions: Does the proposed task measure the intended construct? Are communication modes, accommodations, task conditions, and opportunities represented accurately? Are prompts defined? What alternative explanations remain?</p>
+<p><strong>Refinement prompt</strong></p>
+<blockquote>
+<p>Review the proposed task components as a critical colleague. Identify ambiguities, hidden assumptions, missing evidence, and steps that may not be necessary. Separate questions requiring observation from questions answerable from supplied facts. Do not add case facts. Suggest a leaner task analysis with no more than six steps. Do not write a goal, intervention, or data sheet.</p>
+</blockquote>
+<p>The professional edits and approves the task analysis. Remove steps that are not part of the real task; add steps only when supported by observation or reliable records.</p>
+<h3 id="build-create-one-small-testable-artifact"><a class="header" href="#build-create-one-small-testable-artifact">Build: create one small, testable artifact</a></h3>
+<p>After confirming the task, ask the model to create an observation tool, not a complete IEP, evaluation, or predetermined intervention.</p>
+<p><strong>Build prompt</strong></p>
+<blockquote>
+<p>Using only the professional-approved task analysis below, create a concise observation form for at least three separate practice opportunities. Include date/session, setting, task/material, relevant conditions, access method or supports, each task step, independent performance and clearly defined prompt levels, completion/outcome, learner feedback, and notes. Keep observation separate from interpretation. Do not invent baseline scores, mastery criteria, goals, or service recommendations. Adapt the fields to the selected case and my professional role.</p>
+<p>[Paste the approved task analysis.]</p>
+</blockquote>
+<p>For Úrsula, relevant conditions may include lighting, glare, device, document type, and student-reported comfort. For José Arcadio, fields may include speaker turns, captions/interpreting availability, acoustic conditions, and student-reported communication access. For Amaranta, fields may include communication mode, opportunity, partner modeling, wait time, and prompt level. For Fernanda, consider task setup, tools, workspace, and participation; for Petra, route and environmental conditions; for Melquíades, instructional opportunities and PE adaptations; and for Pilar, intervention dosage, fidelity, and comparable reading measures. Use only the fields that fit the selected case; do not force every case into the vision-specific form.</p>
+<h3 id="refine-inspect-evidence-and-revise-the-artifact"><a class="header" href="#refine-inspect-evidence-and-revise-the-artifact">Refine: inspect evidence and revise the artifact</a></h3>
+<p>Use only fictional/synthetic or appropriately authorized information in an approved system. Ask the model to inspect data quality before summarizing patterns.</p>
+<p><strong>Review prompt</strong></p>
+<blockquote>
+<p>Review this fictional or appropriately de-identified observation summary for my selected case. Do not decide whether the learner has mastered a skill or recommend a service change. First check whether the observations are sufficient to interpret performance. Identify missing fields, inconsistent prompt definitions, changes in task difficulty, invalid or non-comparable opportunities, and environmental or instructional influences. Then summarize only patterns directly supported by the data and list questions for the responsible professional and team. Do not invent values or make a reserved professional decision.</p>
+<p>[Paste the permitted summary.]</p>
+</blockquote>
+<p>Revise the artifact when the evidence reveals unclear definitions, missing context, inconsistent recording, or access barriers. Record what changed and why. A small, verified revision is more valuable than a large AI-generated product that has not been tested.</p>
+<h2 id="synthetic-illustration-for-the-visionaccess-case"><a class="header" href="#synthetic-illustration-for-the-visionaccess-case">Synthetic illustration for the vision/access case</a></h2>
+<p>The following values are invented examples of how a team might structure a record after defining a task. They are <strong>not measurements of Úrsula</strong>, not a baseline, and not evidence of mastery, trend, or plateau.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Session</th><th>Task</th><th style="text-align: right">Independent steps</th><th style="text-align: right">Steps in analysis</th><th>Prompting</th><th>Environment note</th></tr>
+</thead>
+<tbody>
+<tr><td>A</td><td>Open and navigate a short digital handout</td><td style="text-align: right">3</td><td style="text-align: right">5</td><td>Verbal cue on one step; assistance on one step</td><td>Reflected light on screen noted</td></tr>
+<tr><td>B</td><td>Locate a section in a digital worksheet</td><td style="text-align: right">4</td><td style="text-align: right">5</td><td>One verbal cue</td><td>Seating and screen angle adjusted</td></tr>
+<tr><td>C</td><td>Open and navigate a digital handout</td><td style="text-align: right">4</td><td style="text-align: right">5</td><td>One gestural cue</td><td>Student reported less glare</td></tr>
+</tbody>
+</table>
+</div>
+<p>Task comparability, prompt definitions, repeated observations, student feedback, and the actual instructional criterion must be considered before interpreting any pattern.</p>
+<h2 id="reusable-prompt-for-any-selected-case"><a class="header" href="#reusable-prompt-for-any-selected-case">Reusable prompt for any selected case</a></h2>
+<blockquote>
+<p>I am a special education professional working with this fictional case: [case name and relevant facts]. My role and scope of practice are: [state role]. The bounded task I want help with is: [one task]. Use only the facts supplied. Separate facts, hypotheses, and unknowns. Do not diagnose, determine eligibility, recommend placement or services, interpret standardized test results, or make an IEP-team decision. Identify missing evidence, questions for the learner and relevant professionals, possible environmental or instructional variables, and one small draft artifact I can review. Mark assumptions. Stop before making a professional or team decision.</p>
+</blockquote>
+<h2 id="cross-case-quality-check"><a class="header" href="#cross-case-quality-check">Cross-case quality check</a></h2>
+<p>Before accepting an AI-assisted artifact, confirm that it:</p>
+<ul>
+<li>Fits the selected learner, task, discipline, setting, and professional scope.</li>
+<li>Separates observation from interpretation and fact from hypothesis.</li>
+<li>Preserves learner strengths, voice, communication preferences, and access needs.</li>
+<li>Defines opportunities, conditions, operational measures, accommodations, and prompt levels where relevant.</li>
+<li>Does not treat diagnosis or eligibility labels as a complete learner profile.</li>
+<li>Does not replace validated assessment, clinical judgment, legal requirements, or IEP-team decisions.</li>
+<li>Uses fictional or appropriately authorized information in a district-approved system.</li>
+<li>Is usable with the intended person’s keyboard, screen reader, AAC, hearing, visual, and other access workflows as relevant.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="getting-started.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="01-prompting.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="getting-started.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="01-prompting.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

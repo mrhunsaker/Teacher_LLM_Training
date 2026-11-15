@@ -1,0 +1,926 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Final Special Education Capstone Workbook - Special Education Professional Learning: Practical LLM Use</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-d005238d.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-b0fac953.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Special Education Professional Learning: Practical LLM Use</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mrhunsaker/Teacher_LLM_Training" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="final-unit-workbook-plan-refine-build-refine"><a class="header" href="#final-unit-workbook-plan-refine-build-refine">Final Unit Workbook: Plan, Refine, Build, Refine</a></h1>
+<h2 id="purpose"><a class="header" href="#purpose">Purpose</a></h2>
+<p>Use this workbook to plan, develop, test, and revise an individualized educational or related-service workflow for a student receiving special education services. It is designed for special education professionals, including teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists, related-service providers, classroom teachers, families, and other relevant team members. Select a case and target that fit your role and scope of practice.</p>
+<p>Choose one role-relevant case from the <a href="multidisciplinary-case-studies.html">unified Buendía-family case collection</a>. The collection includes six equal options and a worked example of the shared process; no discipline is the default. No case profile is a template for a real student. Replace every case detail with verified information and professional judgment appropriate to the learner and your role.</p>
+<p>This is a working document. Complete it in stages; do not ask an LLM to fill it all out in one request. Use the prompts at each stage, review the response, make professional edits, and decide whether to proceed.</p>
+<h2 id="how-to-use-the-workbook"><a class="header" href="#how-to-use-the-workbook">How to use the workbook</a></h2>
+<ol>
+<li>Work with fictional or district-approved de-identified information only when using an LLM.</li>
+<li>Complete the professional planning sections before asking the model to help.</li>
+<li>Use one bounded prompt at a time. Tell the model what it must not do and where to stop.</li>
+<li>Treat model output as a draft. Correct errors, reject unsuitable suggestions, and document decisions.</li>
+<li>Test tools with the student and team. Revise based on observations, student feedback, and data.</li>
+<li>Keep IEP, assessment, eligibility, service, placement, and safety decisions with the qualified professionals and the appropriate team.</li>
+</ol>
+<p><strong>Privacy reminder:</strong> Removing a name is not always sufficient to de-identify a record. Do not include initials, birth dates, student numbers, school or district identifiers, addresses, photographs, exact schedules, or unusual combinations of details that could identify a student. Follow district policy and use only approved AI environments for education records.</p>
+<hr>
+<h2 id="worksheet-1--student-strengths-priorities-and-context"><a class="header" href="#worksheet-1--student-strengths-priorities-and-context">Worksheet 1 — Student strengths, priorities, and context</a></h2>
+<h3 id="1a-student-centered-snapshot"><a class="header" href="#1a-student-centered-snapshot">1A. Student-centered snapshot</a></h3>
+<p>Use strengths-based, neutral language. Include only information relevant to the instructional question.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Planning field</th><th>Professional notes</th></tr>
+</thead>
+<tbody>
+<tr><td>Student’s strengths, interests, and preferred activities</td><td></td></tr>
+<tr><td>Student’s own priorities and concerns</td><td></td></tr>
+<tr><td>Family priorities or input (as appropriate)</td><td></td></tr>
+<tr><td>Grade / instructional context (generalized if used with an LLM)</td><td></td></tr>
+<tr><td>Academic participation and performance strengths</td><td></td></tr>
+<tr><td>Existing strategies, tools, and accommodations that work</td><td></td></tr>
+<tr><td>Student’s preferred ways to receive and share information</td><td></td></tr>
+<tr><td>Relevant environments and routines</td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="1b-discipline-specific-framework-and-access-overview"><a class="header" href="#1b-discipline-specific-framework-and-access-overview">1B. Discipline-specific framework and access overview</a></h3>
+<p>Check only areas that are relevant for this planning cycle. A checked area means “consider or investigate,” not “assume a deficit.”</p>
+<ul>
+<li><input disabled="" type="checkbox"> Vision/ECC areas relevant to this task</li>
+<li><input disabled="" type="checkbox"> Deaf and hard-of-hearing communication access</li>
+<li><input disabled="" type="checkbox"> Speech-language and functional communication, including AAC access</li>
+<li><input disabled="" type="checkbox"> Academic learning, such as reading components or mathematics reasoning</li>
+<li><input disabled="" type="checkbox"> Behavior, executive functioning, participation, or school problem-solving</li>
+<li><input disabled="" type="checkbox"> Related-service outcome or functional participation</li>
+<li><input disabled="" type="checkbox"> Assistive technology, accommodations, or environmental access</li>
+<li><input disabled="" type="checkbox"> Student self-determination, preferences, and self-advocacy</li>
+<li><input disabled="" type="checkbox"> Other discipline-specific framework or team priority: ____________________</li>
+</ul>
+<p><strong>Which instructional or related-service area or combination of areas is the focus of this cycle?</strong></p>
+<p>Professional notes:</p>
+<hr>
+<hr>
+<p><strong>What meaningful student activity or participation should improve?</strong></p>
+<hr>
+<hr>
+<h3 id="1c-known-facts-observations-and-unknowns"><a class="header" href="#1c-known-facts-observations-and-unknowns">1C. Known facts, observations, and unknowns</a></h3>
+<p>Keep evidence separate from assumptions. If a fact is not established, label it “not yet known.”</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Topic</th><th>Verified fact / direct observation</th><th>Source and date (keep private outside approved systems)</th><th>Unknown or question</th></tr>
+</thead>
+<tbody>
+<tr><td>Disability-related or assessment information relevant to this task (if established)</td><td></td><td></td><td></td></tr>
+<tr><td>Communication mode and access supports (if relevant)</td><td></td><td></td><td></td></tr>
+<tr><td>Academic or functional skill components relevant to task</td><td></td><td></td><td></td></tr>
+<tr><td>Assistive technology, accommodations, or tools</td><td></td><td></td><td></td></tr>
+<tr><td>Environmental and instructional conditions</td><td></td><td></td><td></td></tr>
+<tr><td>Current performance on target task</td><td></td><td></td><td></td></tr>
+<tr><td>Prompting, partner support, or adult assistance</td><td></td><td></td><td></td></tr>
+<tr><td>Student perspective and preferences</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Professional checkpoint:</strong> Have I avoided inferring functional performance, communication, cognition, behavior, or educational need from a diagnosis, eligibility label, test score, acuity, grades, or the presence of a device alone?</p>
+<ul>
+<li><input disabled="" type="checkbox"> Yes</li>
+<li><input disabled="" type="checkbox"> Not yet — I need additional observations or assessment information.</li>
+</ul>
+<h3 id="1d-plan-stage-llm-prompt"><a class="header" href="#1d-plan-stage-llm-prompt">1D. Plan-stage LLM prompt</a></h3>
+<p>Copy and adapt this prompt only after you have prepared a de-identified summary.</p>
+<blockquote>
+<p>You are a collaborative planning assistant for a special education professional. My role and scope of practice are: [state role]. I am in the PLAN stage, not the goal-writing or lesson-building stage.</p>
+<p><strong>Task:</strong> Organize the student information below into strengths, relevant verified facts, direct observations, and questions that still need investigation.</p>
+<p><strong>Context:</strong> [Paste only the minimum district-approved de-identified summary.]</p>
+<p><strong>Boundaries:</strong> Do not infer functional vision, communication, literacy, behavior, cognition, eligibility, services, placement, or a diagnosis. Do not treat grades, a clinical measurement, or a disability label as a complete description of educational performance or access. Do not invent information or write an IEP goal. If information is missing, label it “not provided.”</p>
+<p><strong>Output:</strong> A four-column table: category, information supplied, what it may mean for the task (clearly labeled as a hypothesis), and what the responsible professional should verify.</p>
+<p><strong>Stop:</strong> Do not recommend interventions or create instructional materials.</p>
+</blockquote>
+<h4 id="record-the-professionals-decision"><a class="header" href="#record-the-professionals-decision">Record the professional’s decision</a></h4>
+<p>What did the LLM organize accurately?</p>
+<hr>
+<p>What did you correct, reject, or clarify?</p>
+<hr>
+<p>What information must be collected before moving on?</p>
+<hr>
+<hr>
+<h2 id="worksheet-2--define-the-instructional-problem"><a class="header" href="#worksheet-2--define-the-instructional-problem">Worksheet 2 — Define the instructional problem</a></h2>
+<h3 id="2a-describe-the-real-world-task"><a class="header" href="#2a-describe-the-real-world-task">2A. Describe the real-world task</a></h3>
+<p>Avoid broad labels such as “needs technology,” “has low vision,” or “needs independence.” Describe what the student is expected to do in a real context.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Question</th><th>Professional notes</th></tr>
+</thead>
+<tbody>
+<tr><td>What is the activity or routine?</td><td></td></tr>
+<tr><td>Where and when does it occur?</td><td></td></tr>
+<tr><td>Who is involved?</td><td></td></tr>
+<tr><td>What materials, tools, or environmental conditions are involved?</td><td></td></tr>
+<tr><td>What does successful participation look like to the student?</td><td></td></tr>
+<tr><td>What currently happens?</td><td></td></tr>
+<tr><td>What is the observable barrier, if any?</td><td></td></tr>
+<tr><td>What is already working well?</td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="2b-write-a-neutral-problem-statement"><a class="header" href="#2b-write-a-neutral-problem-statement">2B. Write a neutral problem statement</a></h3>
+<p>Use this frame:</p>
+<p>“During ____________________, the student is expected to ____________________. Current observations show ____________________. The team wants to investigate / improve ____________________ while preserving ____________________.”</p>
+<p>Draft:</p>
+<hr>
+<hr>
+<h3 id="2c-separate-the-problem-from-possible-solutions"><a class="header" href="#2c-separate-the-problem-from-possible-solutions">2C. Separate the problem from possible solutions</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Observed issue or participation need</th><th>Possible explanation(s) to investigate</th><th>Evidence needed before choosing a solution</th></tr>
+</thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="2d-refine-stage-llm-prompt"><a class="header" href="#2d-refine-stage-llm-prompt">2D. Refine-stage LLM prompt</a></h3>
+<blockquote>
+<p>Act as a critical colleague helping me refine an instructional problem. Review the de-identified task description below.</p>
+<p>Identify: (1) ambiguous wording; (2) assumptions not supported by the information; (3) missing observations; (4) environmental or task variables that could affect performance; and (5) up to three narrower, observable versions of the instructional question.</p>
+<p>Do not select the target for me, write a goal, prescribe a tool, or invent student characteristics. Separate facts from hypotheses. Ask no more than three essential clarification questions, then stop.</p>
+<p>[Paste the professional’s task description.]</p>
+</blockquote>
+<h4 id="professional-decision-gate"><a class="header" href="#professional-decision-gate">Professional decision gate</a></h4>
+<ul>
+<li><input disabled="" type="checkbox"> The task is meaningful to the student.</li>
+<li><input disabled="" type="checkbox"> The focus is observable.</li>
+<li><input disabled="" type="checkbox"> I can describe the setting and task conditions.</li>
+<li><input disabled="" type="checkbox"> I have distinguished facts from hypotheses.</li>
+<li><input disabled="" type="checkbox"> I know what additional information is needed.</li>
+<li><input disabled="" type="checkbox"> The focus is within my professional role or has the appropriate specialist involved.</li>
+</ul>
+<p><strong>Approved focus for this cycle:</strong></p>
+<hr>
+<p><strong>Why this focus now?</strong></p>
+<hr>
+<hr>
+<h2 id="worksheet-3--baseline-and-measurement-plan"><a class="header" href="#worksheet-3--baseline-and-measurement-plan">Worksheet 3 — Baseline and measurement plan</a></h2>
+<h3 id="3a-define-exactly-what-will-be-measured"><a class="header" href="#3a-define-exactly-what-will-be-measured">3A. Define exactly what will be measured</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Measurement element</th><th>Team definition</th></tr>
+</thead>
+<tbody>
+<tr><td>Target skill / behavior</td><td></td></tr>
+<tr><td>What counts as one opportunity?</td><td></td></tr>
+<tr><td>What counts as a correct or completed response?</td><td></td></tr>
+<tr><td>What counts as independent?</td><td></td></tr>
+<tr><td>Prompt levels and their definitions</td><td></td></tr>
+<tr><td>Accommodations available during every trial</td><td></td></tr>
+<tr><td>Conditions that must remain consistent</td><td></td></tr>
+<tr><td>Conditions that should be recorded when they vary</td><td></td></tr>
+<tr><td>Measurement method (frequency, duration, latency, accuracy, task analysis, rubric, etc.)</td><td></td></tr>
+<tr><td>Who collects data?</td><td></td></tr>
+<tr><td>When and where will data be collected?</td><td></td></tr>
+</tbody>
+</table>
+</div>
+<p>Do not combine prompted and independent responses into one score unless the measure explicitly distinguishes them. Record accommodations and access tools as part of the testing condition, not as evidence that a response was prompted.</p>
+<h3 id="3b-baseline-observations"><a class="header" href="#3b-baseline-observations">3B. Baseline observations</a></h3>
+<p>Use comparable opportunities. Add rows as needed.</p>
+<p>Record one session per entry. Add entries as needed.</p>
+<p><strong>Session 1</strong></p>
+<ul>
+<li>Date / session: ____________________</li>
+<li>Setting and task: ____________________</li>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompt level / assistance: ____________________</li>
+<li>Access conditions / notes: ____________________</li>
+</ul>
+<p><strong>Session 2</strong></p>
+<ul>
+<li>Date / session: ____________________</li>
+<li>Setting and task: ____________________</li>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompt level / assistance: ____________________</li>
+<li>Access conditions / notes: ____________________</li>
+</ul>
+<p><strong>Session 3</strong></p>
+<ul>
+<li>Date / session: ____________________</li>
+<li>Setting and task: ____________________</li>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompt level / assistance: ____________________</li>
+<li>Access conditions / notes: ____________________</li>
+</ul>
+<p><strong>Session 4</strong></p>
+<ul>
+<li>Date / session: ____________________</li>
+<li>Setting and task: ____________________</li>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompt level / assistance: ____________________</li>
+<li>Access conditions / notes: ____________________</li>
+</ul>
+<p><strong>Session 5</strong></p>
+<ul>
+<li>Date / session: ____________________</li>
+<li>Setting and task: ____________________</li>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompt level / assistance: ____________________</li>
+<li>Access conditions / notes: ____________________</li>
+</ul>
+<p><strong>What does the baseline show?</strong></p>
+<hr>
+<p><strong>What does it not show yet?</strong></p>
+<hr>
+<p><strong>Are the sessions comparable? What differed?</strong></p>
+<hr>
+<h3 id="3c-refine-the-measurement-plan-with-the-llm"><a class="header" href="#3c-refine-the-measurement-plan-with-the-llm">3C. Refine the measurement plan with the LLM</a></h3>
+<blockquote>
+<p>Review this proposed measurement plan for clarity and consistency. Do not calculate a goal or decide mastery.</p>
+<p>Check whether the target behavior is observable, whether an opportunity is defined, whether independent and prompted responses are separated, and whether task conditions are sufficiently described. Identify possible sources of inconsistent scoring between staff. Suggest wording improvements only; do not add data or change the educational target.</p>
+<p>[Paste the de-identified measurement plan.]</p>
+</blockquote>
+<h4 id="professional-edits-and-approval"><a class="header" href="#professional-edits-and-approval">Professional edits and approval</a></h4>
+<p>Changes made:</p>
+<hr>
+<p>Final definition of an independent response:</p>
+<hr>
+<p>How will the team check that different staff score the task consistently?</p>
+<hr>
+<hr>
+<h2 id="worksheet-4--draft-and-review-a-measurable-target"><a class="header" href="#worksheet-4--draft-and-review-a-measurable-target">Worksheet 4 — Draft and review a measurable target</a></h2>
+<p>A goal or instructional target should be aligned with the student’s needs and the team’s documented present levels. It should describe an observable skill, relevant conditions, a measurement method, and an individualized criterion. The criterion must be selected by the team—not copied automatically from a sample or generated by an LLM.</p>
+<h3 id="4a-goal-components"><a class="header" href="#4a-goal-components">4A. Goal components</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Component</th><th>Draft</th></tr>
+</thead>
+<tbody>
+<tr><td>Student behavior / skill</td><td></td></tr>
+<tr><td>Conditions, tools, and accommodations</td><td></td></tr>
+<tr><td>Level of independence / prompt definition</td><td></td></tr>
+<tr><td>Measurement method</td><td></td></tr>
+<tr><td>Individualized criterion</td><td></td></tr>
+<tr><td>Timeframe / review period</td><td></td></tr>
+<tr><td>How progress will be reported</td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="4b-candidate-goal-language"><a class="header" href="#4b-candidate-goal-language">4B. Candidate goal language</a></h3>
+<p><strong>Candidate 1</strong></p>
+<hr>
+<hr>
+<p><strong>Candidate 2</strong></p>
+<hr>
+<hr>
+<p><strong>Candidate 3 (optional)</strong></p>
+<hr>
+<hr>
+<h3 id="4c-llm-brainstorming-prompt"><a class="header" href="#4c-llm-brainstorming-prompt">4C. LLM brainstorming prompt</a></h3>
+<blockquote>
+<p>Using only the de-identified present-level summary and baseline data below, brainstorm up to three candidate measurable goal statements for the instructional or related-service focus I specify.</p>
+<p><strong>Instructional or related-service focus:</strong> [Specify.]</p>
+<p><strong>Baseline:</strong> [Paste verified data and measurement conditions.]</p>
+<p><strong>Requirements:</strong> For each candidate, identify the observable behavior, condition, measurement method, independence or prompt definition, and the information the team still needs. Do not invent a baseline, select the final goal, determine eligibility, recommend placement or services, or claim that a particular percentage is legally required. Do not assume that one criterion fits all students.</p>
+<p><strong>Output:</strong> A comparison table followed by no more than five questions for the team.</p>
+<p><strong>Stop:</strong> Do not write lesson plans, objectives, or progress reports.</p>
+</blockquote>
+<h3 id="4d-human-review-checklist"><a class="header" href="#4d-human-review-checklist">4D. Human review checklist</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> The goal addresses a documented educational need.</li>
+<li><input disabled="" type="checkbox"> The behavior is observable and measurable.</li>
+<li><input disabled="" type="checkbox"> Conditions and access supports are clear.</li>
+<li><input disabled="" type="checkbox"> Independence and prompt levels are defined.</li>
+<li><input disabled="" type="checkbox"> The criterion is individualized and defensible.</li>
+<li><input disabled="" type="checkbox"> The measurement method is feasible.</li>
+<li><input disabled="" type="checkbox"> The goal is meaningful to the student.</li>
+<li><input disabled="" type="checkbox"> The wording aligns with district requirements and team decisions.</li>
+<li><input disabled="" type="checkbox"> The team has not treated LLM output as an assessment or decision.</li>
+</ul>
+<p><strong>Selected team draft and rationale:</strong></p>
+<hr>
+<hr>
+<p><strong>What did the LLM suggest that the team chose not to use? Why?</strong></p>
+<hr>
+<hr>
+<h2 id="worksheet-5--build-the-instruction-and-data-tools"><a class="header" href="#worksheet-5--build-the-instruction-and-data-tools">Worksheet 5 — Build the instruction and data tools</a></h2>
+<p>Build only after the team has approved the task and measurement definitions. Start with the smallest useful tool. A complicated tool is not automatically a better tool.</p>
+<h3 id="5a-task-analysis"><a class="header" href="#5a-task-analysis">5A. Task analysis</a></h3>
+<p>Break the skill or workflow into observable steps. Use the selected case and the learner’s actual routine; do not copy a case-specific example or task analysis unless it fits the selected task and context.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th style="text-align: right">Step</th><th>Observable action</th><th>What counts as success?</th><th>Prompt / support to record</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: right">1</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align: right">2</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align: right">3</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align: right">4</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align: right">5</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align: right">6</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="5b-instructional-design"><a class="header" href="#5b-instructional-design">5B. Instructional design</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Design question</th><th>Team plan</th></tr>
+</thead>
+<tbody>
+<tr><td>Materials and accessible formats</td><td></td></tr>
+<tr><td>Environment and access conditions</td><td></td></tr>
+<tr><td>Explicit teaching / modeling approach</td><td></td></tr>
+<tr><td>Guided practice</td><td></td></tr>
+<tr><td>Independent practice opportunity</td><td></td></tr>
+<tr><td>Feedback and reinforcement</td><td></td></tr>
+<tr><td>Generalization setting or partner</td><td></td></tr>
+<tr><td>Student choice and self-advocacy opportunity</td><td></td></tr>
+<tr><td>Safety or specialist considerations</td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="5c-data-collection-form-design"><a class="header" href="#5c-data-collection-form-design">5C. Data-collection form design</a></h3>
+<p>Select fields that are necessary for interpreting the target. Avoid collecting unnecessary personal information.</p>
+<ul>
+<li><input disabled="" type="checkbox"> Date / session identifier</li>
+<li><input disabled="" type="checkbox"> Setting and activity</li>
+<li><input disabled="" type="checkbox"> Task or material type</li>
+<li><input disabled="" type="checkbox"> Number of opportunities</li>
+<li><input disabled="" type="checkbox"> Correct / completed responses</li>
+<li><input disabled="" type="checkbox"> Independent responses</li>
+<li><input disabled="" type="checkbox"> Prompt level or assistance</li>
+<li><input disabled="" type="checkbox"> Accommodations / access tools used</li>
+<li><input disabled="" type="checkbox"> Relevant environmental conditions</li>
+<li><input disabled="" type="checkbox"> Student feedback (comfort, effort, preference, efficiency)</li>
+<li><input disabled="" type="checkbox"> Generalization partner or setting</li>
+<li><input disabled="" type="checkbox"> Notes about deviations from the planned procedure</li>
+</ul>
+<p><strong>Direct-instruction or service-provider form needs:</strong></p>
+<hr>
+<p><strong>Classroom / other staff form needs:</strong></p>
+<hr>
+<p><strong>How will the team keep definitions consistent across forms?</strong></p>
+<hr>
+<h3 id="5d-build-stage-llm-prompt"><a class="header" href="#5d-build-stage-llm-prompt">5D. Build-stage LLM prompt</a></h3>
+<blockquote>
+<p>Create one practical draft tool using the approved task analysis and measurement definitions below.</p>
+<p><strong>Tool requested:</strong> [Choose one: task checklist, provider data sheet, classroom data sheet, student self-monitoring card, accessible technology checklist, or other specific artifact.]</p>
+<p><strong>Audience and use:</strong> [Who will use it, during which activity, and how much time is available?]</p>
+<p><strong>Requirements:</strong> Use plain language. Include only fields needed for this target. Keep observed data separate from interpretation. Include prompt levels and accommodations where relevant. Do not invent student information, baseline values, goals, or service recommendations. Make the layout easy to adapt for the student’s access needs.</p>
+<p><strong>Output:</strong> [Specify a one-page form, table, checklist, or other format.]</p>
+<p><strong>Stop:</strong> Produce only the requested tool.</p>
+<p>[Paste the approved task analysis and measurement definitions.]</p>
+</blockquote>
+<h3 id="5e-tool-usability-check"><a class="header" href="#5e-tool-usability-check">5E. Tool usability check</a></h3>
+<p>Test the draft with the people who will actually use it.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Review question</th><th>Yes / No / Revise</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td>Can staff understand each field without explanation?</td><td></td><td></td></tr>
+<tr><td>Can the form be completed during the actual routine?</td><td></td><td></td></tr>
+<tr><td>Does it capture the measure defined in Worksheet 3?</td><td></td><td></td></tr>
+<tr><td>Are prompt levels and accommodations clear?</td><td></td><td></td></tr>
+<tr><td>Does it avoid unnecessary identifying information?</td><td></td><td></td></tr>
+<tr><td>Is it usable with required print, digital, braille, or other access methods?</td><td></td><td></td></tr>
+<tr><td>Can the student contribute feedback or self-monitor where appropriate?</td><td></td><td></td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Revisions before implementation:</strong></p>
+<hr>
+<hr>
+<h2 id="worksheet-6--implement-collect-and-review-data"><a class="header" href="#worksheet-6--implement-collect-and-review-data">Worksheet 6 — Implement, collect, and review data</a></h2>
+<h3 id="6a-implementation-plan"><a class="header" href="#6a-implementation-plan">6A. Implementation plan</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Action</th><th>Person responsible</th><th>When / frequency</th><th>Evidence it occurred</th></tr>
+</thead>
+<tbody>
+<tr><td>Deliver planned instruction</td><td></td><td></td><td></td></tr>
+<tr><td>Collect provider data</td><td></td><td></td><td></td></tr>
+<tr><td>Collect classroom / natural-setting data</td><td></td><td></td><td></td></tr>
+<tr><td>Gather student feedback</td><td></td><td></td><td></td></tr>
+<tr><td>Check accommodations and access conditions</td><td></td><td></td><td></td></tr>
+<tr><td>Review data with team</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</div>
+<h3 id="6b-session-data"><a class="header" href="#6b-session-data">6B. Session data</a></h3>
+<p>Use the data sheet created in Worksheet 5 or adapt the repository’s TVI-specific and classroom templates to the selected discipline and task. The TVI template is vision-specific; other participants should adapt the classroom template or create fields that match their target and professional role. The following table is a compact planning view.</p>
+<p>Record each session separately. Keep independent and prompted/assisted responses distinct.</p>
+<p><strong>Session 1</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<p><strong>Session 2</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<p><strong>Session 3</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<p><strong>Session 4</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<p><strong>Session 5</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<p><strong>Session 6</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<p><strong>Session 7</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<p><strong>Session 8</strong></p>
+<ul>
+<li>Opportunities: ____________________</li>
+<li>Independent successes: ____________________</li>
+<li>Prompted / assisted responses: ____________________</li>
+<li>Conditions / deviations: ____________________</li>
+<li>Student feedback: ____________________</li>
+</ul>
+<h3 id="6c-spreadsheet-and-graph-review"><a class="header" href="#6c-spreadsheet-and-graph-review">6C. Spreadsheet and graph review</a></h3>
+<p>If using the course Excel tracker:</p>
+<ul>
+<li>Check that the denominator reflects actual opportunities.</li>
+<li>Confirm that blank cells are not treated as zero performance.</li>
+<li>Verify that the formula matches the team’s defined measure.</li>
+<li>Inspect the graph for level, trend, variability, and unusual points.</li>
+<li>Record prompt levels and conditions alongside the numeric score.</li>
+<li>Confirm that the spreadsheet’s criterion rule matches the current team-approved criterion.</li>
+</ul>
+<p>The course example of <strong>greater than 90% across at least three separate sessions</strong> is only a configurable training convention. It is not a universal IEP rule, legal standard, or automatic definition of mastery. Do not apply it unless it is appropriate for the target and explicitly selected by the team.</p>
+<h3 id="6d-llm-data-review-prompt"><a class="header" href="#6d-llm-data-review-prompt">6D. LLM data-review prompt</a></h3>
+<blockquote>
+<p>Help me review this de-identified progress-monitoring summary. Do not decide mastery, change the IEP, or diagnose a plateau.</p>
+<p>First check data sufficiency and comparability. Identify missing sessions, inconsistent opportunities, changes in prompt level, changes in task difficulty, access or environmental differences, and possible implementation-fidelity issues.</p>
+<p>Then summarize only patterns supported by the data: level, direction of change, variability, independence, and generalization across people or settings. Distinguish observations from hypotheses. If the data are insufficient, say so and identify what additional information would help.</p>
+<p>Do not invent values or recommend reducing accommodations, services, communication supports, access methods, or other supports.</p>
+<p>[Paste only an appropriately de-identified summary.]</p>
+</blockquote>
+<h3 id="6e-team-interpretation"><a class="header" href="#6e-team-interpretation">6E. Team interpretation</a></h3>
+<p><strong>What pattern is visible in the data?</strong></p>
+<hr>
+<p><strong>What evidence supports that interpretation?</strong></p>
+<hr>
+<p><strong>What alternative explanations should be considered?</strong></p>
+<hr>
+<p><strong>Are results consistent across people, settings, materials, and conditions?</strong></p>
+<hr>
+<p><strong>What does the student report about comfort, effort, confidence, and usefulness?</strong></p>
+<hr>
+<p><strong>What additional data are needed before making a decision?</strong></p>
+<hr>
+<hr>
+<h2 id="worksheet-7--refine-the-plan-and-document-decisions"><a class="header" href="#worksheet-7--refine-the-plan-and-document-decisions">Worksheet 7 — Refine the plan and document decisions</a></h2>
+<p>Do not label performance a plateau solely because a graph appears flat. Consider the amount and quality of data, instructional fidelity, task difficulty, access conditions, prompt dependence, student experience, and generalization.</p>
+<h3 id="7a-decide-what-to-do-next"><a class="header" href="#7a-decide-what-to-do-next">7A. Decide what to do next</a></h3>
+<p>Select the next action supported by the evidence. More than one may apply.</p>
+<ul>
+<li><input disabled="" type="checkbox"> Continue the current plan and collect more comparable data.</li>
+<li><input disabled="" type="checkbox"> Adjust the task analysis or measurement definitions.</li>
+<li><input disabled="" type="checkbox"> Improve consistency of instruction or implementation.</li>
+<li><input disabled="" type="checkbox"> Investigate environmental or access barriers.</li>
+<li><input disabled="" type="checkbox"> Modify materials or tool configuration after appropriate assessment.</li>
+<li><input disabled="" type="checkbox"> Increase opportunities for practice or generalization.</li>
+<li><input disabled="" type="checkbox"> Ask the student for additional feedback or choice.</li>
+<li><input disabled="" type="checkbox"> Consult another qualified professional or team member.</li>
+<li><input disabled="" type="checkbox"> Revisit the instructional target with the team.</li>
+<li><input disabled="" type="checkbox"> Other: ______________________________________________</li>
+</ul>
+<p><strong>Evidence supporting the selected action:</strong></p>
+<hr>
+<p><strong>What will remain unchanged, and why?</strong></p>
+<hr>
+<h3 id="7b-revision-log"><a class="header" href="#7b-revision-log">7B. Revision log</a></h3>
+<p><strong>Initial plan</strong></p>
+<ul>
+<li>Evidence reviewed: ____________________</li>
+<li>What was changed: ____________________</li>
+<li>Why: ____________________</li>
+<li>Who approved / needs to be informed: ____________________</li>
+</ul>
+<p><strong>First refinement</strong></p>
+<ul>
+<li>Evidence reviewed: ____________________</li>
+<li>What was changed: ____________________</li>
+<li>Why: ____________________</li>
+<li>Who approved / needs to be informed: ____________________</li>
+</ul>
+<p><strong>Second refinement</strong></p>
+<ul>
+<li>Evidence reviewed: ____________________</li>
+<li>What was changed: ____________________</li>
+<li>Why: ____________________</li>
+<li>Who approved / needs to be informed: ____________________</li>
+</ul>
+<p><strong>Later review</strong></p>
+<ul>
+<li>Evidence reviewed: ____________________</li>
+<li>What was changed: ____________________</li>
+<li>Why: ____________________</li>
+<li>Who approved / needs to be informed: ____________________</li>
+</ul>
+<h3 id="7c-refine-stage-llm-prompt"><a class="header" href="#7c-refine-stage-llm-prompt">7C. Refine-stage LLM prompt</a></h3>
+<blockquote>
+<p>Act as a critical planning partner. Compare the original plan, the implementation notes, student feedback, and the de-identified data summary below.</p>
+<p>Identify: (1) what appears to be working; (2) what is not yet supported by evidence; (3) inconsistencies or missing data; (4) possible revisions to the tool or teaching routine; and (5) questions that require professional or team judgment.</p>
+<p>Do not decide whether the student has mastered the goal, diagnose a plateau, recommend changing eligibility or services, or remove accommodations. Offer no more than three revision options and explain what evidence would support each. Keep facts, hypotheses, and recommendations in separate sections.</p>
+<p>[Paste approved summaries.]</p>
+</blockquote>
+<h3 id="7d-final-team-decision-record"><a class="header" href="#7d-final-team-decision-record">7D. Final team decision record</a></h3>
+<p><strong>Decision made by the appropriate educator / team:</strong></p>
+<hr>
+<p><strong>Evidence considered:</strong></p>
+<hr>
+<p><strong>Student and family input considered:</strong></p>
+<hr>
+<p><strong>Specialist consultation needed or completed:</strong></p>
+<hr>
+<p><strong>Next review date / event:</strong></p>
+<hr>
+<hr>
+<h2 id="worksheet-8--transfer-the-process-to-another-instructional-or-related-service-area"><a class="header" href="#worksheet-8--transfer-the-process-to-another-instructional-or-related-service-area">Worksheet 8 — Transfer the process to another instructional or related-service area</a></h2>
+<p>The process remains the same even when the content changes. The measure and professional expertise must fit the skill.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Instructional or service area</th><th>Example of a task to investigate (not a prescribed goal)</th><th>Possible evidence to collect</th></tr>
+</thead>
+<tbody>
+<tr><td>Vision/ECC access</td><td>Accessing and organizing information using the student’s effective literacy media</td><td>Accuracy, fluency, independence, access method, task completion</td></tr>
+<tr><td>Deaf and hard-of-hearing communication access</td><td>Participating in a classroom discussion with agreed communication supports</td><td>Access to speaker turns, support availability, clarification opportunities, student-reported access</td></tr>
+<tr><td>Speech-language / functional communication</td><td>Communicating a chosen message or function across partners and activities</td><td>Communication mode, function, opportunity, partner modeling, wait time, prompt level</td></tr>
+<tr><td>School psychology / problem-solving</td><td>Completing a defined classroom task across settings</td><td>Operationally defined outcome, context, supports, opportunity, competing hypotheses</td></tr>
+<tr><td>Mathematics reasoning</td><td>Representing and solving a multi-step problem</td><td>Problem type, representation, strategy selection, computation, checking, prompt level</td></tr>
+<tr><td>Reading</td><td>Completing a defined reading task with a specified construct</td><td>Text and difficulty, decoding/accuracy, fluency, vocabulary or comprehension as separately measured</td></tr>
+<tr><td>Compensatory / functional academics</td><td>Accessing and organizing information using the student’s effective literacy media</td><td>Accuracy, fluency, independence, access method, task completion</td></tr>
+<tr><td>Orientation and mobility</td><td>Completing a familiar travel routine under the O&amp;M specialist’s instruction</td><td>Route/task analysis, decision points, prompts, environmental conditions, safety observations by qualified staff</td></tr>
+<tr><td>Social interaction</td><td>Participating in a chosen group interaction</td><td>Initiations, responses, context, student perspective; avoid reducing social success to a raw count alone</td></tr>
+<tr><td>Independent living</td><td>Completing a meaningful personal organization or daily routine</td><td>Task steps, sequencing, independence, adapted tools, time and student preference</td></tr>
+<tr><td>Recreation and leisure</td><td>Learning to access a preferred activity</td><td>Choice, participation, access adaptations, independence, enjoyment</td></tr>
+<tr><td>Career education</td><td>Practicing a work-related routine or self-advocacy task</td><td>Task completion, communication, use of accommodations, generalization</td></tr>
+<tr><td>Assistive technology</td><td>Using a selected access feature to complete a real task</td><td>Effective setup, navigation, independence, efficiency, transfer across contexts</td></tr>
+<tr><td>Sensory efficiency</td><td>Selecting and using effective sensory strategies for a task</td><td>Conditions, strategy use, comfort, efficiency, student report</td></tr>
+<tr><td>Self-determination</td><td>Identifying an access need and communicating a preferred support</td><td>Self-report, request, choice, follow-through, context</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>New student / practice scenario (use a fictional label):</strong> __________________________</p>
+<p><strong>Instructional or related-service focus:</strong> ___________________________</p>
+<p><strong>Meaningful task:</strong> __________________________________________________</p>
+<p><strong>What will you need to assess or observe before planning?</strong></p>
+<hr>
+<p><strong>Which qualified professional(s) should be involved?</strong></p>
+<hr>
+<hr>
+<h2 id="final-capstone--your-completed-design-cycle"><a class="header" href="#final-capstone--your-completed-design-cycle">Final Capstone — Your completed design cycle</a></h2>
+<p>Complete this page after the worksheets. It is the concise record of your work.</p>
+<h3 id="plan"><a class="header" href="#plan">Plan</a></h3>
+<ul>
+<li>Student strengths and priorities:</li>
+<li>Discipline-specific focus and meaningful task:</li>
+<li>Verified information:</li>
+<li>Unknowns to investigate:</li>
+</ul>
+<h3 id="refine"><a class="header" href="#refine">Refine</a></h3>
+<ul>
+<li>Assumptions corrected:</li>
+<li>Additional observations collected:</li>
+<li>Instructional focus approved by the educator / team:</li>
+</ul>
+<h3 id="build"><a class="header" href="#build">Build</a></h3>
+<ul>
+<li>Artifact created:</li>
+<li>Who will use it and when:</li>
+<li>How it supports student access, independence, and participation:</li>
+</ul>
+<h3 id="refine-again"><a class="header" href="#refine-again">Refine again</a></h3>
+<ul>
+<li>Evidence collected:</li>
+<li>Student feedback:</li>
+<li>What worked:</li>
+<li>What needs revision:</li>
+<li>Next decision and responsible person:</li>
+</ul>
+<h3 id="final-quality-review"><a class="header" href="#final-quality-review">Final quality review</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> The plan is individualized and strengths-based.</li>
+<li><input disabled="" type="checkbox"> Student voice and preferences were considered.</li>
+<li><input disabled="" type="checkbox"> The target is meaningful and observable.</li>
+<li><input disabled="" type="checkbox"> Unknowns were not presented as facts.</li>
+<li><input disabled="" type="checkbox"> The LLM was used in bounded, iterative steps.</li>
+<li><input disabled="" type="checkbox"> The responsible professional reviewed, edited, and approved the work.</li>
+<li><input disabled="" type="checkbox"> Data distinguish independent performance from prompted performance.</li>
+<li><input disabled="" type="checkbox"> Access tools and accommodations are recorded as conditions of access.</li>
+<li><input disabled="" type="checkbox"> The data are sufficient for the conclusions being made.</li>
+<li><input disabled="" type="checkbox"> The team considered generalization and student experience.</li>
+<li><input disabled="" type="checkbox"> Decisions requiring qualified assessment, specialist expertise, or IEP-team authority were referred appropriately.</li>
+<li><input disabled="" type="checkbox"> Privacy and district technology policies were followed.</li>
+</ul>
+<h3 id="reflection"><a class="header" href="#reflection">Reflection</a></h3>
+<p><strong>What did the LLM help you see, organize, or create that you might not have produced as efficiently on your own?</strong></p>
+<hr>
+<p><strong>Which suggestion did you reject or revise? What professional reasoning guided that decision?</strong></p>
+<hr>
+<p><strong>What did the student contribute that changed your plan?</strong></p>
+<hr>
+<p><strong>What will you do differently in the next Plan → Refine → Build → Refine cycle?</strong></p>
+<hr>
+<hr>
+<h2 id="facilitator-scoring-guide"><a class="header" href="#facilitator-scoring-guide">Facilitator scoring guide</a></h2>
+<p>Use this rubric to assess the quality of the educator’s process, not the student’s disability-related performance.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Dimension</th><th>1 — Needs revision</th><th>2 — Developing</th><th>3 — Ready to use</th></tr>
+</thead>
+<tbody>
+<tr><td>Student-centered planning</td><td>Focus is deficit-only or adult-selected</td><td>Some strengths / student input included</td><td>Meaningful task, strengths, preferences, and student voice guide the plan</td></tr>
+<tr><td>Evidence quality</td><td>Assumptions presented as facts</td><td>Some facts and unknowns separated</td><td>Verified information, observations, and unknowns clearly distinguished</td></tr>
+<tr><td>Prompt boundaries</td><td>Broad one-shot prompt</td><td>Some constraints and output limits</td><td>Staged prompts with explicit scope, stop conditions, and professional review</td></tr>
+<tr><td>Measurement</td><td>Target or scoring unclear</td><td>Partially observable; prompt levels incomplete</td><td>Observable measure, opportunities, independence, conditions, and roles defined</td></tr>
+<tr><td>Tool design</td><td>Tool does not match the target</td><td>Tool mostly aligned but cumbersome or incomplete</td><td>Practical, accessible, aligned tool tested with users</td></tr>
+<tr><td>Data interpretation</td><td>Conclusion exceeds evidence</td><td>Some attention to data quality and context</td><td>Level, trend, variability, prompting, access conditions, and generalization considered</td></tr>
+<tr><td>Professional judgment</td><td>AI output accepted as decision</td><td>Professional review evident but rationale limited</td><td>Educator documents edits, rejected suggestions, and team decisions</td></tr>
+<tr><td>Iteration</td><td>No revision after implementation</td><td>Revision planned but not evidence-linked</td><td>Revision log shows how testing and student feedback changed the plan</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Suggested completion standard:</strong> A participant should reach “Ready to use” on student-centered planning, evidence quality, measurement, and professional judgment before applying the workflow to live student work. Local professional learning teams may adapt the rubric.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="12-independent-performance-capstone.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="participant-assessments.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="12-independent-performance-capstone.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="participant-assessments.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

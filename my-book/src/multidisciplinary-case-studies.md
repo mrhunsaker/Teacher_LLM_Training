@@ -136,26 +136,27 @@ Arcadio is a fictional third-grade student receiving special education support f
 
 **Professional boundaries:** Do not diagnose dyslexia or another condition, interpret standardized assessments, select a reading intervention solely from the vignette, or infer comprehension from oral discussion alone. Use qualified assessment, curriculum-based evidence, instructional history, student input, and team judgment.
 
-### Case 7: Fernanda — occupational therapy and school participation
+### Case 7: Fernanda — occupational therapy, pencil and scissor use
 
-Fernanda is a fictional third-grade student whose participation varies during classroom activities that require organizing materials, using classroom tools, and completing multi-step routines. During science centers, she sometimes needs adult help to set up materials and move between task steps. Her written work is sometimes completed within the class period and sometimes carried over. A teacher reports that a clearly arranged workspace and a short visual sequence appear helpful, but the team has not established why.
+Fernanda is a fictional third-grade student who participates in classroom writing and art activities. During independent work, she sometimes has difficulty keeping a steady hold on her pencil and controlling it when writing or drawing. During craft activities, she sometimes needs extra time or adult help to position and use classroom scissors to cut along a simple line. Her performance varies across materials and activities. The teacher wants to describe exactly what happens during these two familiar classroom tasks.
 
 **Known facts**
-- Materials management and completion of multi-step classroom routines vary across activities.
-- She sometimes requests or receives adult help with classroom tools and setup.
-- A predictable workspace and visual sequence have been tried informally.
+- Pencil use during writing and drawing is sometimes difficult for her.
+- Scissor use during classroom cutting activities sometimes takes extra time or adult help.
+- Performance varies across activities and materials.
 - She receives special education under an IEP; the disability category and any OT-related service determination are not supplied.
 - No occupational therapy evaluation findings or service decisions are supplied.
 
 **Unknowns — do not assume**
-- Whether task demands, tool design, workspace layout, instruction clarity, motor coordination, endurance, sensory features, or other factors contribute to the pattern.
-- Which classroom occupations matter most to Fernanda and how she describes the difficulty.
-- Whether current supports are consistently available and whether they improve participation.
-- Whether an OT assessment or consultation is warranted; this cannot be decided from the vignette.
+- Which specific parts of pencil use are difficult (for example, grasping, stabilizing the paper, forming marks, or maintaining control) and which are already successful.
+- Which parts of scissor use are difficult (for example, opening and closing the scissors, positioning the paper, coordinating both hands, or following a cutting line).
+- Whether performance changes with pencil size, paper position, scissors, task length, instruction, or other classroom conditions.
+- Which tools she can use safely and comfortably; do not assume that a particular grip, tool, or adaptation is appropriate.
+- How Fernanda describes the tasks and what level of help she finds useful.
 
-**Practice task:** Select one meaningful school occupation, such as preparing, using, and putting away materials for a science activity. Build a task-and-context observation record that captures the task steps, materials, workspace, environmental conditions, supports, prompt level, student perspective, and participation outcome. Separate task performance from assumptions about an underlying impairment.
+**Practice task:** Choose one short pencil activity and one simple cutting activity, such as copying a short line or shape and cutting along a bold straight line on paper. Create a brief observation record with separate entries for each task. Record the materials, task directions, setup, observable steps completed, accuracy or task outcome using a clearly defined description, time only if relevant, prompts or adult assistance, and Fernanda's feedback. Note what she does independently as well as where she pauses or asks for help. Do not combine pencil and scissor performance into one score.
 
-**Professional boundaries:** Do not diagnose a motor, sensory, or developmental condition; prescribe therapy, equipment, or a sensory program; or recommend OT services from the vignette. School-based OT focuses on participation in educational activities and requires qualified assessment and team consideration. Distinguish an environmental or instructional adjustment from a clinical conclusion. The LLM cannot determine whether OT is required or whether a service should be direct, consultative, or discontinued.
+**Professional boundaries:** Do not diagnose a fine-motor condition, prescribe exercises, select specialized equipment, or recommend OT services from this vignette. The purpose is to describe participation in ordinary classroom tasks and identify questions for the educational team. Any assessment, tool recommendation, or service decision requires qualified professional judgment and appropriate team procedures. An LLM cannot determine whether OT is required or whether a service should be direct, consultative, or discontinued.
 
 ### Case 8: Petra — physical therapy and school mobility
 

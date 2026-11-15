@@ -221,3 +221,8 @@ __marimo__/
 
 # mdBook generated site output
 /book/
+
+# Local machine configuration (keep .env.example tracked)
+.env
+.env.*
+!.env.example

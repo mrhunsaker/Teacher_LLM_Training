@@ -1,8 +1,8 @@
 # Special Education Professional Learning: Practical LLM Use
 
-This course teaches special education professionals to use large language models (LLMs) and Microsoft 365 Copilot as bounded, privacy-conscious productivity tools. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), related-service providers, and classroom partners.
+This course teaches special education professionals to use large language models (LLMs) and Microsoft 365 Copilot as bounded, privacy-conscious productivity tools. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
 
-Participants choose one fictional case from the unified [Buendía-family case collection](multidisciplinary-case-studies.md) and use it throughout **Plan → Refine → Build → Refine**. All six cases have equal standing and use the same learning pathway; no discipline is the default. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication.
+Participants choose one fictional case from the unified [Buendía-family case collection](multidisciplinary-case-studies.md) and use it throughout **Plan → Refine → Build → Refine**. All ten cases have equal standing and use the same learning pathway; no discipline is the default. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication.
 
 ## Start here: the participant pathway
 
@@ -31,7 +31,7 @@ By the end of the course, participants can:
 
 ## Select a case that fits your role
 
-Choose one of the six fictional cases in the [unified Buendía-family case collection](multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), or Arcadio (reading). These are equal options, not six required assignments. Use your selected case throughout the modules and workbook. Each case includes known facts, unknowns, a bounded practice task, and professional boundaries.
+Choose one of the ten fictional cases in the [unified Buendía-family case collection](multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), Arcadio (reading), Fernanda (occupational therapy), Petra (physical therapy), Melquíades (adaptive physical education), and Pilar (general-education Tier 3 reading intervention). These are equal options, not ten required assignments. Use your selected case throughout the modules and workbook. Each case includes known facts, unknowns, a bounded practice task, and professional boundaries.
 
 ## The ten-session sequence
 

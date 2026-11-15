@@ -1,10 +1,12 @@
-# Fictional Special Education Case Studies: The Buendía Family
+# Fictional Special Education Case Studies: The Buendía Family and Associated Characters
 
-This is the course's **single case-study collection and worked-practice pathway**. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), related-service providers, and classroom partners.
+This is the course's **single case-study collection and worked-practice pathway**. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
 
-Choose the case that best fits your professional role, current learning goal, or area of practice. Use that same case as your continuing context through the course modules and the participant workbook. The cases are presented in one collection and use the same structure, planning cycle, and professional safeguards. **No case or discipline is the default pathway.** The vision/access case is one option among six; its worked example demonstrates the shared method rather than setting a preferred model for the course.
+Choose the case that best fits your professional role, current learning goal, or area of practice. Use that same case as your continuing context through the course modules and the participant workbook. The cases are presented in one collection and use the same structure, planning cycle, and professional safeguards. **No case or discipline is the default pathway.** The vision/access case is one option among ten; its worked example demonstrates the shared method rather than setting a preferred model for the course.
 
-**Naming convention:** Case names are drawn only from members of the immediate Buendía family and close family circle in *Cien años de soledad*, in a deliberate sequence beginning with Úrsula. Names identify fictional training cases only; the cases are not depictions of the novel's characters or events.
+**Naming convention:** The first six case names follow the Buendía family sequence already established in the course. To avoid repeating names, the four additional names are drawn from other distinctive members of the family and associated characters in *Cien años de soledad*: Fernanda, Petra, Melquíades, and Pilar. Names identify fictional training cases only; the cases are not depictions of the novel's characters or events.
+
+**Service-category note:** Under IDEA, occupational therapy and physical therapy are listed as related services when required to assist a child with a disability to benefit from special education ([34 CFR § 300.34](https://sites.ed.gov/idea/regs/b/a/300.34)). Physical education includes special physical education and adapted physical education in the definition of special education ([34 CFR § 300.39(b)(2)](https://sites.ed.gov/idea/regs/b/a/300.39)); physical education must be available and specially designed when necessary ([34 CFR § 300.108](https://sites.ed.gov/idea/regs/b/b/300.108)). Accordingly, the APE case focuses on adapted PE instruction and access; it does not label APE automatically as a related service. Follow state and district terminology and requirements.
 
 **Fictional-data safeguard:** All student profiles, histories, observations, and sample data below are invented. They are not templates for actual students and must not be copied into student records. Do not infer disability, eligibility, placement, services, intervention, or learner characteristics from a case label. Use only supplied facts; identify missing information rather than filling gaps. For real work, follow district policy and use only approved systems and appropriately authorized information. Removing a name alone does not make student information de-identified.
 
@@ -134,9 +136,92 @@ Arcadio is a fictional third-grade student receiving special education support f
 
 **Professional boundaries:** Do not diagnose dyslexia or another condition, interpret standardized assessments, select a reading intervention solely from the vignette, or infer comprehension from oral discussion alone. Use qualified assessment, curriculum-based evidence, instructional history, student input, and team judgment.
 
+### Case 7: Fernanda — occupational therapy and school participation
+
+Fernanda is a fictional third-grade student whose participation varies during classroom activities that require organizing materials, using classroom tools, and completing multi-step routines. During science centers, she sometimes needs adult help to set up materials and move between task steps. Her written work is sometimes completed within the class period and sometimes carried over. A teacher reports that a clearly arranged workspace and a short visual sequence appear helpful, but the team has not established why.
+
+**Known facts**
+- Materials management and completion of multi-step classroom routines vary across activities.
+- She sometimes requests or receives adult help with classroom tools and setup.
+- A predictable workspace and visual sequence have been tried informally.
+- She receives special education under an IEP; the disability category and any OT-related service determination are not supplied.
+- No occupational therapy evaluation findings or service decisions are supplied.
+
+**Unknowns — do not assume**
+- Whether task demands, tool design, workspace layout, instruction clarity, motor coordination, endurance, sensory features, or other factors contribute to the pattern.
+- Which classroom occupations matter most to Fernanda and how she describes the difficulty.
+- Whether current supports are consistently available and whether they improve participation.
+- Whether an OT assessment or consultation is warranted; this cannot be decided from the vignette.
+
+**Practice task:** Select one meaningful school occupation, such as preparing, using, and putting away materials for a science activity. Build a task-and-context observation record that captures the task steps, materials, workspace, environmental conditions, supports, prompt level, student perspective, and participation outcome. Separate task performance from assumptions about an underlying impairment.
+
+**Professional boundaries:** Do not diagnose a motor, sensory, or developmental condition; prescribe therapy, equipment, or a sensory program; or recommend OT services from the vignette. School-based OT focuses on participation in educational activities and requires qualified assessment and team consideration. Distinguish an environmental or instructional adjustment from a clinical conclusion. The LLM cannot determine whether OT is required or whether a service should be direct, consultative, or discontinued.
+
+### Case 8: Petra — physical therapy and school mobility
+
+Petra is a fictional fifth-grade student whose school-day mobility and transitions vary by route and context. She uses an established mobility support for some school routes. Staff report that transitions are more difficult when hallways are crowded, schedules are compressed, or classroom locations change. The team wants to understand how the school environment and routine affect access to instruction and participation.
+
+**Known facts**
+- She uses an established mobility support on some school routes.
+- Transition time and ease vary by route and environmental conditions.
+- Staff want to improve access to classes and school activities without reducing independence.
+- She receives special education under an IEP; the disability category and any PT-related service determination are not supplied.
+- No PT evaluation findings, equipment recommendation, or service decision is supplied.
+
+**Unknowns — do not assume**
+- Which routes, surfaces, distances, transitions, and school activities are most relevant to Petra.
+- Her own priorities, fatigue or comfort reports, and preferred ways to request assistance.
+- Whether barriers relate to route design, congestion, timing, access to doors/elevators, equipment, physical demands, or other factors.
+- Whether PT assessment or consultation is indicated; the vignette does not establish this.
+
+**Practice task:** Create a school-mobility observation plan for one routine transition. Record route, environmental conditions, task demands, available supports, assistance actually provided, student-reported access, and whether the transition permits meaningful participation in the next activity. Do not make speed the sole outcome.
+
+**Professional boundaries:** Do not prescribe exercises, transfers, handling techniques, mobility devices, positioning, or changes to assistance. Do not trial unfamiliar equipment or alter an established mobility plan based on AI output. School PT services are provided by qualified physical therapists and are considered in relation to educational access and the student's individual needs. Assessment and service decisions remain with qualified professionals and the authorized team.
+
+### Case 9: Melquíades — adaptive physical education and inclusive participation
+
+Melquíades is a fictional sixth-grade student who attends general physical education. The PE teacher reports that he participates consistently in predictable station activities but has fewer opportunities to practice skills during fast-paced team games. The teacher wants to examine whether activity design, rules, equipment, grouping, instruction, or opportunities to practice affect meaningful participation and skill learning.
+
+**Known facts**
+- He receives special education under an IEP and participates in general PE.
+- Participation and opportunities to practice vary across activity formats.
+- Predictable station activities appear to provide more consistent opportunities than fast-paced team games.
+- No disability category, motor assessment, APE eligibility determination, or individualized PE plan is supplied.
+
+**Unknowns — do not assume**
+- Which PE standards, skills, and activities are meaningful to Melquíades.
+- His preferences, strengths, goals, and own account of participation.
+- Whether changes to equipment, space, rules, pace, peer grouping, demonstration, or instruction would improve access.
+- Whether specially designed PE or an adapted PE assessment is warranted.
+
+**Practice task:** Design an inclusive PE observation matrix for one unit or activity. Record the intended skill, number and quality of practice opportunities, task adaptations, equipment, instruction and cues, peer participation, student choice, and evidence of learning. Compare access to instruction and meaningful practice—not simply presence in the gym or time on task.
+
+**Professional boundaries:** Do not infer disability, prescribe a motor program, or treat APE as interchangeable with PT. Adapted PE is an instructional area that may involve specially designed physical education; it is not automatically a related service. Under IDEA, physical education includes adapted physical education in the definition of special education, and physical education must be specially designed when necessary. Qualified educators and the authorized team determine appropriate instruction and supports under applicable state and district requirements.
+
+### Case 10: Pilar — general-education Tier 3 reading intervention
+
+Pilar is a fictional second-grade student who is currently served in general education and is not currently identified as a student with a disability under IDEA. Across three school screening windows, her reading performance has remained below the local benchmark in foundational word-reading skills. She participated in a supplemental small-group intervention before moving to a more intensive Tier 3 reading intervention. The intervention team is reviewing progress and implementation evidence. No special education evaluation or eligibility decision is supplied.
+
+**Known facts**
+- She is currently receiving general-education reading instruction and intensive Tier 3 intervention.
+- Screening information has identified ongoing concern in foundational word-reading skills.
+- The school has intervention and progress-monitoring records from more than one level of support.
+- She is not currently identified as a student with a disability; this status does not determine whether an evaluation may be needed.
+
+**Unknowns — do not assume**
+- Her current instructional profile across phonological awareness, decoding, word recognition, fluency, vocabulary, and comprehension, as relevant.
+- Whether intervention content, intensity, attendance, instructional time, group size, and implementation fidelity match the documented plan.
+- Whether progress measures are reliable, comparable, sensitive to instruction, and appropriate for her language and learning context.
+- Her strengths, interests, language background, response to instruction, and perspective on reading.
+- Whether a disability is suspected or whether an evaluation is warranted; neither can be concluded from the tier label or this vignette.
+
+**Practice task:** Build a Tier 3 intervention review record that separates screening, diagnostic instructional information, intervention implementation, and progress monitoring. Include the target skill, intervention content and schedule, attendance/dosage, fidelity evidence, measure and administration conditions, repeated progress data, instructional adjustments, and questions for the family and school team. Identify what the data can and cannot support.
+
+**Professional boundaries:** Do not diagnose dyslexia or another disability, determine eligibility, or treat Tier 3 placement as proof that special education is or is not needed. MTSS/RTI intervention and evaluation are distinct processes. Follow applicable Child Find obligations and district procedures; intervention or progress-monitoring steps must not be used to delay an evaluation when a disability is suspected. Eligibility and instructional decisions require qualified professionals, appropriate evaluation, family participation, and applicable legal procedures. See [IDEA Child Find, 34 CFR § 300.111](https://sites.ed.gov/idea/regs/b/b/300.111).
+
 ## Use your selected case throughout the course
 
-The cases are alternatives, not a sequence of six cases participants must complete. Select one case and carry it through the modules and workbook. A facilitator may invite cross-disciplinary partners to compare perspectives, but each participant should identify which actions and decisions fall within their own role and scope of practice.
+The ten cases are alternatives, not a sequence of cases participants must complete. Select one case and carry it through the modules and workbook. A facilitator may invite cross-disciplinary partners to compare perspectives, but each participant should identify which actions and decisions fall within their own role and scope of practice.
 
 Every participant follows the same cycle:
 
@@ -181,7 +266,7 @@ After confirming the task, ask the model to create an observation tool, not a co
 >
 > [Paste the approved task analysis.]
 
-For Úrsula, relevant conditions may include lighting, glare, device, document type, and student-reported comfort. For José Arcadio, fields may include speaker turns, captions/interpreting availability, acoustic conditions, and student-reported communication access. For Amaranta, fields may include communication mode, opportunity, partner modeling, wait time, and prompt level. Use the fields that fit the chosen case; do not force every case into the vision-specific form.
+For Úrsula, relevant conditions may include lighting, glare, device, document type, and student-reported comfort. For José Arcadio, fields may include speaker turns, captions/interpreting availability, acoustic conditions, and student-reported communication access. For Amaranta, fields may include communication mode, opportunity, partner modeling, wait time, and prompt level. For Fernanda, consider task setup, tools, workspace, and participation; for Petra, route and environmental conditions; for Melquíades, instructional opportunities and PE adaptations; and for Pilar, intervention dosage, fidelity, and comparable reading measures. Use only the fields that fit the selected case; do not force every case into the vision-specific form.
 
 ### Refine: inspect evidence and revise the artifact
 

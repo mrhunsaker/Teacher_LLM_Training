@@ -1,6 +1,6 @@
 # Participant Lesson Handouts
 
-Use this packet as a working record across the ten-session course. Select **one role-relevant case** from the [unified Buendía-family case collection](multidisciplinary-case-studies.md) and carry it through the activities. All six cases are equal options. Adapt each task to your professional role and scope of practice.
+Use this packet as a working record across the ten-session course. Select **one role-relevant case** from the [unified Buendía-family case collection](multidisciplinary-case-studies.md) and carry it through the activities. All ten cases are equal options. Adapt each task to your professional role and scope of practice.
 
 These handouts are text-first and can be completed in a copy, printed, or used with a screen reader. Use fictional or district-approved information only. Do not enter identifiable student or staff information into an unapproved system.
 

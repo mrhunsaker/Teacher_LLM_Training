@@ -21,7 +21,7 @@ The participant will independently:
 
 ## Select a role-relevant scenario
 
-Choose one case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). Use the bounded task and relevant evidence from that case. All six cases are equal options; there is no default discipline-specific scenario. Preserve the same performance outcomes and scoring rubric regardless of the selected case.
+Choose one case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). Use the bounded task and relevant evidence from that case. All ten cases are equal options; there is no default discipline-specific scenario. Preserve the same performance outcomes and scoring rubric regardless of the selected case.
 
 Examples of equivalent bounded capstone tasks include:
 

@@ -82,6 +82,7 @@ Write-Host ''
 $PandocArgs = @()
 $PandocArgs += $SourceFiles
 $PandocArgs += @(
+    '--from=native',
     "--output=$OutputFile",
     "--data-dir=$PandocDataDir",
     '--template', 'eisvogel',

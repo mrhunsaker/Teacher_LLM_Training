@@ -99,6 +99,21 @@ Install [mdBook](https://rust-lang.github.io/mdBook/). From the repository root,
 
 The book configuration is in book.toml and chapter files are in src/. The GitHub Actions workflow at .github/workflows/mdbook.yml builds and deploys the book when changes are pushed to main. For first deployment, set repository Settings → Pages → Build and deployment → Source to GitHub Actions.
 
+
+## Build the companion PDF
+
+The repository includes Bash and PowerShell build entry points. The PDF build reads the chapter list and order directly from `my-book/docs/pandoc/pdf/src/SUMMARY.md`; add, remove, or reorder links there rather than editing a chapter list in the build scripts.
+
+1. Copy `.env.example` to `.env` in the repository root.
+2. Set `PANDOC_DATA_DIR` to the Pandoc data directory that contains the `templates/` folder. For example, on macOS this may be `/Users/your-user/.local/share/pandoc`.
+3. Ensure the Eisvogel template is installed as `templates/eisvogel.latex` inside that directory.
+4. Install Pandoc and XeLaTeX (or the PDF engine configured by `PDF_ENGINE`) and make their executables available on `PATH`.
+5. Run `./mdbook_generate.sh` on macOS/Linux or `./mdbook_generate.ps1` in PowerShell.
+
+The mdBook HTML output is built first, followed by `my-book/docs/pandoc/pdf/TeacherLLMTraining.pdf`. To build only the PDF, run `./pandoc_generate.sh` or `./pandoc_generate.ps1`. The local `.env` file is ignored by Git; commit configuration changes only to `.env.example`, never to `.env`.
+
+The PDF sources in `my-book/docs/pandoc/pdf/src/` are Pandoc native-format documents despite their `.md` extensions, so the PDF script explicitly reads them with Pandoc's `native` reader.
+
 ## Accessibility and release checks
 
 The course is text-first. Essential content is not conveyed only through images or color. Tables should remain simple, and graph interpretation should have a text explanation. Before release, complete the [Accessibility and Release QA Checklist](src/accessibility-and-release-checklist.md). Verify internal links, rendered heading hierarchy, keyboard navigation, and representative content using the screen readers and access technologies used by participants. A successful mdBook build does not by itself establish accessibility; record the test environment and results.

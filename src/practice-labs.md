@@ -205,7 +205,7 @@ Do not connect a real mailbox or permit autonomous sending, deleting, archiving,
 
 ### Select a continuing case
 
-Choose one role-relevant case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). All six cases are equal options. Select one meaningful, observable task or professional workflow within your role and scope of practice—not an entire service area or domain.
+Choose one role-relevant case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md). All ten cases are equal options. Select one meaningful, observable task or professional workflow within your role and scope of practice—not an entire service area or domain.
 
 ### Stage 1 — Plan
 

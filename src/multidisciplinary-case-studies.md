@@ -1,4 +1,4 @@
-# Fictional Special Education Case Studies: The Buendía Family
+# Fictional Special Education Case Studies: The Buendía Family and Associated Characters
 
 This is the course's **single case-study collection and worked-practice pathway**. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
 

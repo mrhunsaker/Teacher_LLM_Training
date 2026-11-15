@@ -1,96 +1,94 @@
-# Build the standalone course PDF using Pandoc and the Eisvogel template.
-# This is the PowerShell counterpart to pandoc_generate.sh.
-
+# Build the course PDF using the ordered Markdown links in SUMMARY.md.
 $ErrorActionPreference = 'Stop'
+
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $PdfDir = Join-Path $ScriptDir 'my-book/docs/pandoc/pdf'
 $SourceDir = Join-Path $PdfDir 'src'
+$SummaryFile = Join-Path $SourceDir 'SUMMARY.md'
 $OutputFile = Join-Path $PdfDir 'TeacherLLMTraining.pdf'
+$EnvFile = Join-Path $ScriptDir '.env'
 
+if (-not (Test-Path $EnvFile)) {
+    throw "Configuration file not found: $EnvFile. Copy .env.example to .env and set your local Pandoc data directory."
+}
+
+# Read simple KEY=value entries from .env. Existing process variables are
+# overridden so the checked-in example and local file are the source of truth.
+foreach ($Line in Get-Content $EnvFile) {
+    $Trimmed = $Line.Trim()
+    if (-not $Trimmed -or $Trimmed.StartsWith('#')) { continue }
+    if ($Trimmed -notmatch '^([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$') {
+        throw "Invalid .env entry: $Line"
+    }
+    $Name = $Matches[1]
+    $Value = $Matches[2].Trim()
+    if (($Value.StartsWith('"') -and $Value.EndsWith('"')) -or
+        ($Value.StartsWith("'") -and $Value.EndsWith("'"))) {
+        $Value = $Value.Substring(1, $Value.Length - 2)
+    }
+    [Environment]::SetEnvironmentVariable($Name, $Value, 'Process')
+}
+
+$PandocDataDir = $env:PANDOC_DATA_DIR
+$PandocTemplate = if ($env:PANDOC_TEMPLATE) { $env:PANDOC_TEMPLATE } else { 'eisvogel' }
+$PdfEngine = if ($env:PDF_ENGINE) { $env:PDF_ENGINE } else { 'xelatex' }
+if ([string]::IsNullOrWhiteSpace($PandocDataDir)) {
+    throw "PANDOC_DATA_DIR must be set in $EnvFile."
+}
 if (-not (Get-Command pandoc -ErrorAction SilentlyContinue)) {
     throw "Required command 'pandoc' was not found in PATH."
 }
-if (-not (Get-Command xelatex -ErrorAction SilentlyContinue)) {
-    throw "Required command 'xelatex' was not found in PATH."
+if (-not (Get-Command $PdfEngine -ErrorAction SilentlyContinue)) {
+    throw "Required PDF engine '$PdfEngine' was not found in PATH."
+}
+$TemplateFile = Join-Path (Join-Path $PandocDataDir 'templates') "$PandocTemplate.latex"
+if (-not (Test-Path $TemplateFile)) {
+    throw "Pandoc template not found: $TemplateFile"
+}
+if (-not (Test-Path $SummaryFile)) {
+    throw "Source index not found: $SummaryFile"
 }
 
-# Pandoc searches <data-dir>\templates for named templates. Prefer the
-# project-configured home-directory location, then standard Windows AppData.
-if ($env:PANDOC_DATA_DIR) {
-    $PandocDataDir = $env:PANDOC_DATA_DIR
-} else {
-    $HomePandocDir = Join-Path $env:USERPROFILE '.local/share/pandoc'
-    $AppDataPandocDir = Join-Path $env:APPDATA 'pandoc'
-    if (Test-Path (Join-Path $HomePandocDir 'templates/eisvogel.latex')) {
-        $PandocDataDir = $HomePandocDir
-    } else {
-        $PandocDataDir = $AppDataPandocDir
+# Extract local Markdown targets from SUMMARY.md in document order. This file
+# is the source of truth; chapter ordering is not duplicated in this script.
+$SourceFiles = [System.Collections.Generic.List[string]]::new()
+foreach ($Line in Get-Content $SummaryFile) {
+    foreach ($Match in [regex]::Matches($Line, '\]\(([^)]+\.md)(?:#[^)]*)?\)')) {
+        $Target = $Match.Groups[1].Value
+        if ($Target -match '^https?://') {
+            throw "SUMMARY.md contains a non-local Markdown target: $Target"
+        }
+        $SourceFiles.Add($Target)
     }
 }
-$TemplateFile = Join-Path $PandocDataDir 'templates/eisvogel.latex'
-if (-not (Test-Path $TemplateFile)) {
-    throw "Eisvogel template not found: $TemplateFile. Set PANDOC_DATA_DIR to the directory containing the templates folder."
+if ($SourceFiles.Count -eq 0) {
+    throw "No Markdown links were found in $SummaryFile"
 }
-if (-not (Test-Path (Join-Path $SourceDir 'SUMMARY.md'))) {
-    throw "PDF source index not found: $(Join-Path $SourceDir 'SUMMARY.md')"
-}
-
-# Keep this list in the same order as SUMMARY.md. SUMMARY.md is an index,
-# not content; summary.md is the actual course overview chapter.
-$SourceFiles = @(
-    'summary.md',
-    'course-map-and-assessment-plan.md',
-    'getting-started.md',
-    'multidisciplinary-case-studies.md',
-    '01-prompting.md',
-    '02-iep-goals.md',
-    '03-data-collection.md',
-    '04-excel-monitoring.md',
-    '05-data-based-decisions.md',
-    '06-copilot-email.md',
-    '09-ai-literacy-foundations.md',
-    '10-misconceptions-and-failure-analysis.md',
-    '11-critical-evaluation-lab.md',
-    '12-independent-performance-capstone.md',
-    '08-final-workbook.md',
-    'participant-assessments.md',
-    'ai-literacy-assessment.md',
-    'participant-lesson-handouts.md',
-    'practical-competency-checklist.md',
-    'accessibility-and-release-checklist.md',
-    'facilitator-practice-edition.md',
-    'ai-literacy-facilitator-guide.md',
-    'prompt-library.md',
-    'practice-labs.md',
-    'responsible-use-and-implementation.md',
-    'references.md'
-)
 foreach ($SourceFile in $SourceFiles) {
     $FullSourcePath = Join-Path $SourceDir $SourceFile
     if (-not (Test-Path $FullSourcePath)) {
-        throw "Required PDF source file not found: $FullSourcePath"
+        throw "Linked source file not found: $FullSourcePath"
     }
 }
-if (-not (Test-Path $PdfDir)) {
-    New-Item -ItemType Directory -Path $PdfDir -Force | Out-Null
-}
 
-Write-Host 'Building course PDF...'
-Write-Host "  Sources: $SourceDir"
-Write-Host "  Output:  $OutputFile"
+Write-Host "Building course PDF from $($SourceFiles.Count) SUMMARY.md entries..."
+Write-Host "  Template: $PandocTemplate"
+Write-Host "  Engine:   $PdfEngine"
+Write-Host "  Output:   $OutputFile"
 Write-Host ''
+
 $PandocArgs = @()
-$PandocArgs += $SourceFiles
+$PandocArgs += $SourceFiles.ToArray()
 $PandocArgs += @(
     '--from=native',
     "--output=$OutputFile",
     "--data-dir=$PandocDataDir",
-    '--template', 'eisvogel',
+    '--template', $PandocTemplate,
     '--syntax-highlighting', 'idiomatic',
     '--number-sections',
     '--toc',
     '--toc-depth=3',
-    '--pdf-engine=xelatex',
+    "--pdf-engine=$PdfEngine",
     "--resource-path=$SourceDir",
     '-V', 'book'
 )

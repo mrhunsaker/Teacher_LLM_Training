@@ -1,0 +1,49 @@
+[book]
+title = "Special Education Professional Learning: Practical LLM Use"
+authors = ["Michael Ryan Hunsaker, M.Ed., Ph.D."]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/mrhunsaker/Teacher_LLM_Training"
+
+[build]
+build-dir = "docs"
+create-missing = false
+use-default-preprocessors = true
+
+
+[output.html.search]
+enable = true
+limit-results = 50
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.pandoc]
+number-internal-headings = false 
+list-internal-headings = false 
+
+[output.pandoc.code]
+show-hidden-lines = true
+
+[output.pandoc.profile.pdf]
+output-file = "TeacherLLMTraining.pdf"
+to = "latex"
+pdf-engine = "xelatex"
+file-scope = true 
+number-sections = true 
+standalone = true 
+table-of-contents = true 
+
+[output.markdown]

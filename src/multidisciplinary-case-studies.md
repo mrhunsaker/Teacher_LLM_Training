@@ -144,6 +144,7 @@ Fernanda is a fictional third-grade student whose participation varies during cl
 - Materials management and completion of multi-step classroom routines vary across activities.
 - She sometimes requests or receives adult help with classroom tools and setup.
 - A predictable workspace and visual sequence have been tried informally.
+- She receives special education under an IEP; the disability category and any OT-related service determination are not supplied.
 - No occupational therapy evaluation findings or service decisions are supplied.
 
 **Unknowns — do not assume**
@@ -164,7 +165,8 @@ Petra is a fictional fifth-grade student whose school-day mobility and transitio
 - She uses an established mobility support on some school routes.
 - Transition time and ease vary by route and environmental conditions.
 - Staff want to improve access to classes and school activities without reducing independence.
-- No diagnosis, PT evaluation, equipment recommendation, or service decision is supplied.
+- She receives special education under an IEP; the disability category and any PT-related service determination are not supplied.
+- No PT evaluation findings, equipment recommendation, or service decision is supplied.
 
 **Unknowns — do not assume**
 - Which routes, surfaces, distances, transitions, and school activities are most relevant to Petra.
@@ -181,7 +183,7 @@ Petra is a fictional fifth-grade student whose school-day mobility and transitio
 Melquíades is a fictional sixth-grade student who attends general physical education. The PE teacher reports that he participates consistently in predictable station activities but has fewer opportunities to practice skills during fast-paced team games. The teacher wants to examine whether activity design, rules, equipment, grouping, instruction, or opportunities to practice affect meaningful participation and skill learning.
 
 **Known facts**
-- He participates in general PE.
+- He receives special education under an IEP and participates in general PE.
 - Participation and opportunities to practice vary across activity formats.
 - Predictable station activities appear to provide more consistent opportunities than fast-paced team games.
 - No disability category, motor assessment, APE eligibility determination, or individualized PE plan is supplied.

@@ -7,7 +7,7 @@ This is the definitive delivery guide for the course. It brings the six applied 
 - **Audience:** Special education professionals and classroom partners across disciplines.
 - **Structure:** 10 sessions, normally 75–90 minutes each.
 - **Sequence:** Sessions 1–6 build practical workflows; Sessions 7–10 build AI literacy, critical evaluation, and independent performance.
-- **Case:** Each participant selects one role-relevant fictional case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md) and carries that same case through the modules and workbook. All six cases have equal standing; no discipline is the default.
+- **Case:** Each participant selects one role-relevant fictional case from the [unified Buendía-family case collection](multidisciplinary-case-studies.md) and carries that same case through the modules and workbook. All ten cases have equal standing; no discipline is the default.
 - **Working method:** Plan → Refine → Build → Refine.
 - **Practice data:** Use fictional cases and synthetic data. Use real education information only in a specifically district-approved environment and in accordance with policy.
 

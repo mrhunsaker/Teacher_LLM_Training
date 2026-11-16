@@ -31,7 +31,7 @@ By the end of the course, participants can:
 
 ## Select a case that fits your role
 
-Choose one of the nine fictional cases in the [unified Buendía-family case collection](multidisciplinary-case-studies.md): José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), Arcadio (reading), Fernanda (occupational therapy), Petra (physical therapy), Melquíades (adaptive physical education), and Pilar (general-education Tier 3 reading intervention). These are equal options, not ten required assignments. Use your selected case throughout the modules and workbook. Each case includes known facts, unknowns, a bounded practice task, and professional boundaries.
+Choose one of the nine fictional cases in the [unified Buendía-family case collection](multidisciplinary-case-studies.md): José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), Arcadio (reading), Fernanda (occupational therapy), Petra (physical therapy), Melquíades (adaptive physical education), and Pilar (general-education Tier 3 reading intervention). These are equal options, not nine required assignments. Use your selected case throughout the modules and workbook. Each case includes known facts, unknowns, a bounded practice task, and professional boundaries.
 
 ## The ten-session sequence
 

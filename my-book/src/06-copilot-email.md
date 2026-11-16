@@ -21,11 +21,51 @@ The prompt below creates a repeatable morning review, but it does not schedule i
 
 ## Option A: Copilot Chat in Outlook
 
-If enabled, open Outlook with your district account, select Copilot, and ask it to review the relevant inbox messages. Exact controls and feature names may differ. A typical prompt is below.
+Open Outlook using your district-managed Microsoft 365 work or school account. Select the Copilot button in Outlook's navigation/header area to open Copilot Chat alongside your inbox. Ask it to review messages in the relevant date range, identify messages requiring action, and produce the report using the copy-ready prompt below. The exact controls and available inbox context depend on your Outlook version, Microsoft 365 license, rollout, and district administrator settings. Microsoft documents basic inbox and calendar questions for eligible work/school accounts, with broader access to organizational context for accounts assigned a Microsoft 365 Copilot add-on license. See [Microsoft's instructions for chatting with Copilot in Outlook](https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook).
 
-## Option B: Summarize an individual thread
+I include this option because Copilot Chat in Outlook is available for use with eligible work or school accounts, and this is an option available to Davis School District users. Availability of particular features and mailbox access can still depend on the district's configuration, account licensing, and administrator settings; confirm the approved experience with district IT.
 
-Open the message thread and use the available Summary by Copilot/Summarize control. Check the summary against the full conversation, especially names, deadlines, decisions, attachments, and who owns the next step.
+## Option B: Summarize an individual Outlook thread
+
+For a quick review of one conversation rather than the full morning inbox, open the message thread in Outlook and use the available **Summary by Copilot/Summarize** control. Check the summary against the full conversation, especially names, deadlines, decisions, attachments, and who owns the next step. This is a thread-level summary, not a substitute for the dated inbox-wide triage report.
+
+## Other commercial LLM systems: ways to perform the same triage
+
+The same workflow is not unique to Copilot. The essential task is to provide an approved AI system with authorized access to the messages (or a carefully selected set of message text), then use the same read-only triage instructions and verify the resulting report. There are two broad ways to do this: connect the LLM to Outlook, or use the LLM separately from Outlook.
+
+### OpenAI: ChatGPT
+
+- **Connected to Outlook:** ChatGPT offers an Outlook Email app/connector that can search and reference supported Outlook messages, summarize threads, and identify action items. In ChatGPT, open the app/connector directory, find **Outlook Email**, connect the Microsoft account that has access to the mailbox, and complete the sign-in and permission steps. Then ask ChatGPT to review a specified date range and return the morning triage report using the prompt below. The available actions depend on the ChatGPT plan/workspace, Microsoft Entra permissions, and administrator approval. See [OpenAI's Outlook Email and Calendar app instructions](https://help.openai.com/en/articles/12512241-outlook-email-and-calendar-apps-in-chatgpt).
+- **Outside Outlook:** Open ChatGPT separately and paste only selected, non-sensitive email text or upload an approved export/document containing messages. Include sender, subject, received date, and any relevant thread context. Ask for the same date-organized report. This is a manual copy-and-paste workflow; ChatGPT cannot see the inbox unless an authorized connection is configured.
+- **Important boundary:** A personal ChatGPT account or an available connector is not automatically approved for district email. Use only a district-authorized account/workspace and connection, and confirm data handling and permissions with district IT before connecting a mailbox.
+
+### Anthropic: Claude
+
+- **Connected to Outlook:** Claude provides a Microsoft 365 connector that can search and analyze Outlook email, calendar, Teams, SharePoint, and OneDrive data for supported accounts. In Claude, open **Settings/Customize → Connectors**, select **Microsoft 365**, sign in, and complete the required Microsoft Entra authorization. Organizational administrators must enable/consent to the connector for work or school accounts. Keep write tools disabled for this read-and-report workflow unless separately approved. Then ask Claude to search the selected date range and produce the triage report. See [Anthropic's Microsoft 365 connector setup](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector) and [user connection guide](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365).
+- **Outside Outlook:** Use Claude separately and provide only approved, appropriately de-identified message text or an approved file export. Ask it to apply the same urgency scale, group actions by explicit due date, and identify the source message for each item. Without a connector or supplied content, Claude does not have access to the Outlook inbox.
+
+### Google: Gemini
+
+- **Connected to Outlook:** Gemini's standard Gmail features are designed for Gmail and Google Workspace mail, not as a general Outlook add-in. For an organization using Google's enterprise offering, **Gemini Enterprise** can be configured with a Microsoft Outlook data store/connector. This requires an administrator to configure the Microsoft Graph connection and permissions; users can then search and work with authorized Outlook email through Gemini Enterprise. See [Google Cloud's Microsoft Outlook connector documentation](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/ms-outlook).
+- **Inside Gmail:** If the mailbox is a Gmail/Google Workspace mailbox rather than Outlook, eligible accounts can use Gemini in Gmail to summarize threads, find messages, and extract action items from the Gmail side panel. See [Google's Gemini in Gmail guide](https://support.google.com/mail/answer/14355636).
+- **Outside Outlook:** Open Gemini separately and provide only approved, appropriately de-identified message text or an approved export. Ask it to produce the same read-only triage report. Do not assume a consumer Gemini account can directly search a district Outlook mailbox.
+
+### Other commercial LLM systems and automation platforms
+
+Other enterprise LLM products may offer a native Outlook/Microsoft 365 connector, an approved third-party integration, or an API-based route. The general implementation pattern is:
+
+1. Have district IT identify an approved product and authorize its Microsoft 365/Outlook connection using the minimum required permissions (normally read-only mail access for this lesson).
+2. Restrict the connection to the user's own mailbox and the folders/date range needed for the review. Do not grant send, delete, move, or mailbox-wide write permissions for a triage-only task.
+3. Use the copy-ready prompt below to request a dated action report, source references, and an explicit “verify” marker wherever dates or ownership are unclear.
+4. If a scheduled digest is desired, have IT build and test a controlled workflow using an approved automation service (for example, Microsoft Power Automate with an approved model/API endpoint). Apply least-privilege access, data-loss prevention rules, retention controls, and human review before deployment.
+
+If no approved connector exists, the simpler alternative is to work outside Outlook: select a small set of messages, remove unnecessary personal/student information, and provide the text to the approved LLM. This is manual and less convenient, but avoids granting a third-party service ongoing mailbox access. Do not forward district messages to an external AI address or upload mailbox exports to a personal account.
+
+## Locally installed LLMs
+
+It is also technically possible to perform this workflow with a locally installed LLM. A local model can be run on the user's computer and supplied with messages through a local mail client, approved export, or a custom integration to Outlook/Microsoft Graph. This can keep processing on the local device, but it is not automatically private or policy-compliant: mailbox access, local storage, model files, logs, and any supporting software still require security review.
+
+Running capable local models can consume substantial RAM, GPU memory/VRAM, CPU capacity, disk space, and battery, and may slow other applications. Building and maintaining the mail connection, model runtime, and safeguards also requires technical work. This is a large drag on computer resources and beyond the scope of this course. The course focuses on district-approved hosted tools and simple, human-reviewed workflows.
 
 ## Copy-ready morning prompt
 

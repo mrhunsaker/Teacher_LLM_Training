@@ -1,0 +1,49 @@
+name: Generate participant handout DOCX files
+
+on:
+  push:
+    branches:
+      - feat/standalone-handout-docx-markdown
+    paths:
+      - "my-book/handouts/markdown/**"
+      - "my-book/handouts/scripts/**"
+      - ".github/workflows/generate-handout-docx.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "my-book/handouts/markdown/**"
+      - "my-book/handouts/scripts/**"
+      - ".github/workflows/generate-handout-docx.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-docx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install DOCX generator
+        run: python -m pip install python-docx
+      - name: Generate Word documents
+        working-directory: my-book/handouts
+        run: python scripts/build_handouts.py
+      - name: Commit generated DOCX files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add my-book/handouts/docx/*.docx
+          if git diff --cached --quiet; then
+            echo "DOCX files are already up to date."
+          else
+            git commit -m "Generate standalone participant handout DOCX files"
+            git push
+          fi

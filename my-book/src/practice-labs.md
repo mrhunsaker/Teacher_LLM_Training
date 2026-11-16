@@ -150,8 +150,6 @@ Use these headings in your record:
 4. **District Newsletter — Monthly updates**  
    “Here are this month's announcements and optional training links.”
 
-5. **O&M Colleague — Route practice coordination**  
-   “Can we confirm the route practice location before the next scheduled session?” No date is stated.
 
 6. **Meeting Organizer — Team meeting**  
    “Please respond to the invitation for the meeting scheduled next Tuesday.” No response deadline is stated.

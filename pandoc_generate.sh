@@ -28,7 +28,7 @@ if [[ -z "${PANDOC_DATA_DIR:-}" ]]; then
   echo "Error: PANDOC_DATA_DIR must be set in $ENV_FILE." >&2
   exit 1
 fi
-TEMPLATE_FILE="$PANDOC_DATA_DIR/templates/$PANDOC_TEMPLATE.latex"
+TEMPLATE_FILE="$PANDOC_DATA_DIR/templates/eisvogel.latex"
 
 for command_name in pandoc "$PDF_ENGINE"; do
   if ! command -v "$command_name" >/dev/null 2>&1; then

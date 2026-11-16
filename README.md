@@ -114,13 +114,13 @@ From the repository root, run:
     cd my-book
     mdbook build
 
-The generated website is written to `my-book/docs/`. To open a local preview in your browser, run:
+The local build output is written to `my-book/docs/`. To open a local preview in your browser, run:
 
     mdbook serve --open
 
 Keep that terminal running while reviewing the book. mdBook serves a local preview and refreshes it when source files change. Stop the preview with Ctrl+C.
 
-To return to the repository root after building, run `cd ..`. The GitHub Actions workflow at `.github/workflows/mdbook.yml` builds and deploys the book when changes are pushed to `main`. For first deployment, set repository Settings → Pages → Build and deployment → Source to GitHub Actions.
+To return to the repository root after building, run `cd ..`. The GitHub Actions workflow at `.github/workflows/mdbook.yml` builds the published site from the same sources using `mdbook build --dest-dir docs/html` and deploys `my-book/docs/html` when changes are pushed to `main`. The generated HTML is an output; make content edits in `my-book/src/`, not in `my-book/docs/html/`. For first deployment, set repository Settings → Pages → Build and deployment → Source to GitHub Actions.
 
 
 ## Build the companion PDF

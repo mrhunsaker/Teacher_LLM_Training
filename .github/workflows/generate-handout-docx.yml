@@ -5,6 +5,7 @@ on:
     branches:
       - feat/standalone-handout-docx-markdown
       - enhance-case-studies-collaborative-prompting
+      - add-assessment-workbook-qa-docx
     paths:
       - "my-book/handouts/markdown/**"
       - "my-book/handouts/scripts/**"

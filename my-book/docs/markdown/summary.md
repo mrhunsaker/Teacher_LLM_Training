@@ -12,7 +12,7 @@ Participants choose one fictional case from the unified [Buendía-family case co
 4. Work through Sessions 1–6, using the [Participant Lesson Handouts](participant-lesson-handouts.md) as a working packet.
 5. Complete the AI-literacy pre-assessment immediately before Session 7.
 6. Work through Sessions 7–9 and complete the independent capstone in Session 10.
-7. Complete both post-assessments after the capstone. Use the [Practical Competency Checklist](practical-competency-checklist.md) to identify strengths and coaching needs.
+7. Complete both post-assessments after the capstone. Use the [Practical Competency Checklist](practical-competency-checklist.md) to identify strengths and next-step practice priorities.
 
 The [Course Map and Assessment Plan](course-map-and-assessment-plan.md) is the definitive source for the ten-session sequence, activities, assessment timing, participant evidence, and completion expectations.
 
@@ -51,7 +51,7 @@ Choose one of the ten fictional cases in the [unified Buendía-family case colle
 9. **Critical evaluation lab:** Verify claims, calculations, citations, accessibility, privacy, and task fit.
 10. **Independent performance capstone:** Complete and explain an independently planned, built, refined, and verified artifact using a role-relevant fictional case.
 
-Detailed agendas are in the [six-session applied facilitator guide](facilitator-practice-edition.md) and [four-session AI-literacy facilitator guide](ai-literacy-facilitator-guide.md). Together they cover all ten sessions. The [master course map](course-map-and-assessment-plan.md) resolves overall sequencing and assessment timing.
+Independent completion guidance for Sessions 1–6 is in the [Self-Directed Practice Guide](self-directed-practice-guide.md), and Sessions 7–10 are in the [AI Literacy Self-Study Guide](ai-literacy-self-study-guide.md). Use the [master course map](course-map-and-assessment-plan.md) for the overall sequence, activities, assessment timing, evidence, and completion expectations.
 
 ## Assessment and evidence
 
@@ -61,7 +61,7 @@ There are two parallel written assessments and one performance capstone:
 - [AI Literacy and Misconception Assessment](ai-literacy-assessment.md): five AI-literacy scenarios; pre before Session 7 and post after Session 10.
 - [Module 10 Independent Performance Capstone](12-independent-performance-capstone.md): performance evidence scored with a separate 0–3 rubric during Session 10.
 
-Compare each written assessment only with its own parallel form and review item-level patterns. The [Practical Competency Checklist](practical-competency-checklist.md) uses an item-level 0–2 scale for formative observation and coaching. Do not combine its scores with the capstone's 0–3 rubric. None of these tools is a credential, employment evaluation, or proof of transfer to practice.
+Compare each written assessment only with its own parallel form and review item-level patterns. The [Practical Competency Checklist](practical-competency-checklist.md) uses an item-level 0–2 scale for formative self-review and optional peer review. Do not combine its scores with the capstone's 0–3 rubric. None of these tools is a credential, employment evaluation, or proof of transfer to practice.
 
 ## The collaborative design cycle
 
@@ -140,10 +140,10 @@ The Markdown files are the source for the generated Word documents. To regenerat
 - [Course Map and Assessment Plan](course-map-and-assessment-plan.md)
 - [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)
 
-### Facilitator and practice resources
+### Self-directed learning resources
 
-- [Facilitator and Practice Edition — Sessions 1–6](facilitator-practice-edition.md)
-- [AI Literacy Facilitator Guide — Sessions 7–10](ai-literacy-facilitator-guide.md)
+- [Self-Directed Practice Guide — Sessions 1–6](self-directed-practice-guide.md)
+- [AI Literacy Self-Study Guide — Sessions 7–10](ai-literacy-self-study-guide.md)
 - [Reusable Prompt Library](prompt-library.md)
 - [Hands-on Practice Labs](practice-labs.md)
 - [Privacy, Responsible Use, and District Implementation](responsible-use-and-implementation.md)

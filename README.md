@@ -6,12 +6,12 @@ The course teaches bounded, privacy-conscious use of large language models (LLMs
 
 ## Start here
 
-1. Read the [Course Overview](src/summary.md).
-2. Follow the [Course Map and Assessment Plan](src/course-map-and-assessment-plan.md). It is the definitive ten-session sequence and assessment schedule.
-3. Read [Getting Started](src/getting-started.md).
-4. Select one role-relevant case from the [unified Buendía-family case collection](src/multidisciplinary-case-studies.md).
+1. Read the [Course Overview](my-book/src/summary.md).
+2. Follow the [Course Map and Assessment Plan](my-book/src/course-map-and-assessment-plan.md). It is the definitive ten-session sequence and assessment schedule.
+3. Read [Getting Started](my-book/src/getting-started.md).
+4. Select one role-relevant case from the [unified Buendía-family case collection](my-book/src/multidisciplinary-case-studies.md).
 5. Complete the assessments at the times specified in the course map.
-6. Use the [Final Special Education Capstone Workbook](src/08-final-workbook.md) and [Practical Competency Checklist](src/practical-competency-checklist.md) to organize and review your work.
+6. Use the [Final Special Education Capstone Workbook](my-book/src/08-final-workbook.md) and [Practical Competency Checklist](my-book/src/practical-competency-checklist.md) to organize and review your work.
 
 ## Ten-session curriculum map
 
@@ -28,7 +28,7 @@ The course teaches bounded, privacy-conscious use of large language models (LLMs
 | 9 | Critical evaluation | Verified claims, calculations, sources, accessibility, and privacy review |
 | 10 | Independent performance capstone | Artifact, verification record, reflection, and 0–3 capstone rubric |
 
-Sessions 1–6 are detailed in the [Applied Facilitator Guide](src/facilitator-practice-edition.md). Sessions 7–10 are detailed in the [AI Literacy Facilitator Guide](src/ai-literacy-facilitator-guide.md). Together, these guides cover the full course.
+Sessions 1–6 are detailed in the [Self-Directed Practice Guide](my-book/src/self-directed-practice-guide.md). Sessions 7–10 are detailed in the [AI Literacy Self-Study Guide](my-book/src/ai-literacy-self-study-guide.md). Together, these guides provide the complete independent learning pathway.
 
 ## Assessment schedule
 
@@ -37,7 +37,7 @@ Sessions 1–6 are detailed in the [Applied Facilitator Guide](src/facilitator-p
 - **During Session 10:** Independent performance capstone.
 - **After Session 10:** Both parallel post-assessments.
 
-The [Course Map and Assessment Plan](src/course-map-and-assessment-plan.md) explains how to interpret the assessments and distinguish their scoring systems. The competency checklist uses item-level 0–2 ratings for formative coaching. The capstone uses a separate 0–3 domain rubric. Do not combine the scores.
+The [Course Map and Assessment Plan](my-book/src/course-map-and-assessment-plan.md) explains how to interpret the assessments and distinguish their scoring systems. The competency checklist uses item-level 0–2 ratings for formative self-review and optional peer review. The capstone uses a separate 0–3 domain rubric. Do not combine the scores.
 
 ## The instructional design cycle
 
@@ -52,30 +52,30 @@ The professional remains responsible for decisions within their role. AI does no
 
 ## Selecting a case
 
-Choose one of the ten fictional cases in the [unified Buendía-family case collection](src/multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), Arcadio (reading), Fernanda (occupational therapy), Petra (physical therapy), Melquíades (adaptive physical education), and Pilar (general-education Tier 3 reading intervention). These are equal options, not ten required assignments. Use one case throughout the modules and workbook. Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries.
+Choose one of the ten fictional cases in the [unified Buendía-family case collection](my-book/src/multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), Arcadio (reading), Fernanda (occupational therapy), Petra (physical therapy), Melquíades (adaptive physical education), and Pilar (general-education Tier 3 reading intervention). These are equal options, not ten required assignments. Use one case throughout the modules and workbook. Each case identifies known facts, unknowns, a bounded practice task, and professional boundaries.
 
-## Participant and facilitator resources
+## Participant and self-directed learning resources
 
-- [Participant Lesson Handouts](src/participant-lesson-handouts.md)
-- [Participant Pre- and Post-Assessment](src/participant-assessments.md)
-- [AI Literacy and Misconception Assessment](src/ai-literacy-assessment.md)
-- [Practical Competency Checklist](src/practical-competency-checklist.md)
-- [Reusable Prompt Library](src/prompt-library.md)
-- [Hands-on Practice Labs](src/practice-labs.md)
-- [Privacy, Responsible Use, and District Implementation](src/responsible-use-and-implementation.md)
-- [References and Further Learning](src/references.md)
-- [Accessibility and Release QA Checklist](src/accessibility-and-release-checklist.md)
+- [Participant Lesson Handouts](my-book/src/participant-lesson-handouts.md)
+- [Participant Pre- and Post-Assessment](my-book/src/participant-assessments.md)
+- [AI Literacy and Misconception Assessment](my-book/src/ai-literacy-assessment.md)
+- [Practical Competency Checklist](my-book/src/practical-competency-checklist.md)
+- [Reusable Prompt Library](my-book/src/prompt-library.md)
+- [Hands-on Practice Labs](my-book/src/practice-labs.md)
+- [Privacy, Responsible Use, and District Implementation](my-book/src/responsible-use-and-implementation.md)
+- [References and Further Learning](my-book/src/references.md)
+- [Accessibility and Release QA Checklist](my-book/src/accessibility-and-release-checklist.md)
 
 ## Workbook and spreadsheet files
 
-The [Final Special Education Capstone Workbook](src/08-final-workbook.md) is a text-based Markdown workbook within the course. It is not a separate Excel file. CSV files provide spreadsheet-ready practice data and templates:
+The [Final Special Education Capstone Workbook](my-book/src/08-final-workbook.md) is a text-based Markdown workbook within the course. It is not a separate Excel file. CSV files provide spreadsheet-ready practice data and templates:
 
-- [Synthetic example progress-monitoring data](src/progress-monitoring-example.csv)
-- [TVI data-collection template](src/tvi-data-collection-template.csv) — vision-specific.
-- [Classroom data-collection template](src/classroom-data-collection-template.csv) — adapt for other disciplines.
-- [Improving progress dataset](src/datasets/improving-progress.csv)
-- [Variable performance dataset](src/datasets/variable-performance.csv)
-- [Possible plateau dataset](src/datasets/possible-plateau.csv)
+- [Synthetic example progress-monitoring data](my-book/src/progress-monitoring-example.csv)
+- [TVI data-collection template](my-book/src/tvi-data-collection-template.csv) — vision-specific.
+- [Classroom data-collection template](my-book/src/classroom-data-collection-template.csv) — adapt for other disciplines.
+- [Improving progress dataset](my-book/src/datasets/improving-progress.csv)
+- [Variable performance dataset](my-book/src/datasets/variable-performance.csv)
+- [Possible plateau dataset](my-book/src/datasets/possible-plateau.csv)
 
 No standalone XLSX workbook is included in this repository.
 
@@ -94,10 +94,11 @@ No standalone XLSX workbook is included in this repository.
 
 Install [mdBook](https://rust-lang.github.io/mdBook/). From the repository root, run:
 
+    cd my-book
     mdbook build
     mdbook serve --open
 
-The book configuration is in book.toml and chapter files are in src/. The GitHub Actions workflow at .github/workflows/mdbook.yml builds and deploys the book when changes are pushed to main. For first deployment, set repository Settings → Pages → Build and deployment → Source to GitHub Actions.
+The book configuration is in `my-book/book.toml` and chapter files are in `my-book/src/`. The GitHub Actions workflow at .github/workflows/mdbook.yml builds and deploys the book when changes are pushed to main. For first deployment, set repository Settings → Pages → Build and deployment → Source to GitHub Actions.
 
 
 ## Build the companion PDF
@@ -116,7 +117,7 @@ The PDF sources in `my-book/docs/pandoc/pdf/src/` are Pandoc native-format docum
 
 ## Accessibility and release checks
 
-The course is text-first. Essential content is not conveyed only through images or color. Tables should remain simple, and graph interpretation should have a text explanation. Before release, complete the [Accessibility and Release QA Checklist](src/accessibility-and-release-checklist.md). Verify internal links, rendered heading hierarchy, keyboard navigation, and representative content using the screen readers and access technologies used by participants. A successful mdBook build does not by itself establish accessibility; record the test environment and results.
+The course is text-first. Essential content is not conveyed only through images or color. Tables should remain simple, and graph interpretation should have a text explanation. Before release, complete the [Accessibility and Release QA Checklist](my-book/src/accessibility-and-release-checklist.md). Verify internal links, rendered heading hierarchy, keyboard navigation, and representative content using the screen readers and access technologies used by participants. A successful mdBook build does not by itself establish accessibility; record the test environment and results.
 
 
 ## Standalone participant handouts

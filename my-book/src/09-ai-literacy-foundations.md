@@ -139,6 +139,6 @@ Complete these statements:
 - Before I rely on an output, I will verify...
 - I will choose not to use AI when...
 
-## Facilitator notes
+## independent review guidance
 
 Avoid teaching a deterministic or overly technical account of model internals. Explain that products and models differ and change. Emphasize the distinction between language generation and verification. Ask participants to provide examples from their own professional workflows, but use fictional or approved data only. Correct the misconception that a single universal description applies to every AI product.

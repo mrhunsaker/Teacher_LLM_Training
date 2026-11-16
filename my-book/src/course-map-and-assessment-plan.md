@@ -1,6 +1,6 @@
 # Course Map and Assessment Plan
 
-This is the definitive delivery guide for the course. It brings the six applied lessons and four AI-literacy modules into one ten-session sequence. Use this page when planning delivery, orienting participants, administering assessments, or checking course completion.
+This is the definitive self-study map for the course. It brings the six applied lessons and four AI-literacy modules into one ten-session sequence. Use it to plan your own study, follow the learning sequence, complete assessments, and check your course evidence.
 
 ## At a glance
 
@@ -20,7 +20,7 @@ This is the definitive delivery guide for the course. It brings the six applied 
 5. Complete Sessions 7–9.
 6. Complete the independent capstone in Session 10.
 7. Complete both post-assessments after the Session 10 capstone.
-8. Review the evidence portfolio and competency checklist; identify one next step for coaching or supported practice.
+8. Review the evidence portfolio and competency checklist; identify one next step for independent practice or optional consultation.
 
 ## Ten-session master map
 
@@ -37,7 +37,7 @@ This is the definitive delivery guide for the course. It brings the six applied 
 | 9 | Critical evaluation lab | Verify claims, calculations, citations, accessibility, privacy, and task fit; decide retain/revise/reject/gather evidence | Completed critical-review record |
 | 10 | Independent performance capstone | Independently plan, refine, build, verify, and explain work on a role-relevant fictional case | Capstone portfolio, 0–3 rubric, reflection |
 
-Sessions 1–6 are supported by the [six-lesson facilitator guide](facilitator-practice-edition.md). Sessions 7–10 are supported by the [AI-literacy facilitator guide](ai-literacy-facilitator-guide.md). The guides provide the detailed agendas; this map is the single source for overall sequence and assessment timing.
+Sessions 1–6 are supported by the [six-lesson self-study guide](self-directed-practice-guide.md). Sessions 7–10 are supported by the [AI-literacy self-study guide](ai-literacy-self-study-guide.md). The self-study guides provide detailed session-by-session directions; this map is the single source for overall sequence and assessment timing.
 
 ## Assessment administration
 
@@ -47,10 +47,10 @@ Use the assessments at four points:
 |---|---|---|
 | Before Session 1 | [Applied-course pre-assessment](participant-assessments.md#pre-assessment) | Establish initial practical judgment about prompts, evidence, measurement, data, email triage, privacy, and professional responsibility |
 | Immediately before Session 7 | [AI-literacy pre-assessment](ai-literacy-assessment.md#pre-assessment) | Establish initial understanding of LLM limits, verification, privacy, and when not to use AI |
-| During Session 10 | [Independent capstone](12-independent-performance-capstone.md) | Observe independent performance on a bounded fictional task; score with the capstone's separate 0–3 rubric |
-| After the Session 10 capstone | Both parallel post-assessments | Compare item-level learning patterns and identify coaching needs |
+| During Session 10 | [Independent capstone](12-independent-performance-capstone.md) | Demonstrate independent performance on a bounded fictional task; score with the capstone's separate 0–3 rubric |
+| After the Session 10 capstone | Both parallel post-assessments | Compare item-level learning patterns and identify next-step practice priorities |
 
-**Do not administer the applied post-assessment at the end of Session 6.** Session 6 completes the applied sequence, but the unified course post-assessment is given after Session 10 so participants can demonstrate learning across the full program. If a facilitator separately wants a midpoint check after Session 6, use an exit ticket or handout reflection; do not label it the course post-assessment.
+**Do not administer the applied post-assessment at the end of Session 6.** Session 6 completes the applied sequence, but the unified course post-assessment is given after Session 10 so participants can demonstrate learning across the full program. If a learner separately wants a midpoint check after Session 6, use an exit ticket or handout reflection; do not label it the course post-assessment.
 
 ### How to interpret assessment evidence
 
@@ -59,7 +59,7 @@ Use the assessments at four points:
 - The competency checklist also uses 0–2, but rates individual observable behaviors during practice. Do not add its ratings to either written assessment.
 - The capstone uses a separate 0–3 domain rubric to score the independent performance demonstration. Do not convert or combine this scale with either 0–2 system.
 - Review item-level patterns and evidence, not only totals. Written assessments measure scenario-based reasoning; the capstone provides performance evidence under course conditions. Neither proves transfer to practice or professional certification.
-- Use the competency checklist formatively during practice and coaching.
+- Use the competency checklist for self-review or optional peer review during practice.
 - Scores are learning evidence, not employment evaluations or credentials.
 
 ## Required participant evidence
@@ -75,11 +75,11 @@ By the end of Session 10, each participant should have:
 7. A critical review of a flawed AI response.
 8. A record of verified claims, sources, calculations, and accessibility/privacy checks.
 9. A capstone reflection stating what was retained, revised, rejected, and why.
-10. A next-step plan for supported practice or coaching.
+10. A next-step independent practice plan, including any optional consultation to seek.
 
 ## Time and delivery options
 
-The default is ten sessions of 75–90 minutes (approximately 12.5–15 hours of facilitated instruction), plus independent reading and artifact completion. Facilitators may divide each session into shorter PLC segments or use a self-paced format, but should preserve the sequence and assessment points above. For the standard ten-session course, deliver Sessions 7–10 as four distinct sessions. If a local schedule uses shorter segments, preserve the order, all required activities, the independent capstone, and the assessment points.
+The standard sequence is ten sessions of 75–90 minutes (approximately 12.5–15 hours of planned learning activities), plus independent reading and artifact completion. Complete each session in one sitting or divide it into shorter individual study blocks. Optional PLC discussion may supplement the work but is not required. Preserve the sequence and assessment points above; complete Sessions 7–10 as four distinct sessions.
 
 ## Materials and prerequisites
 

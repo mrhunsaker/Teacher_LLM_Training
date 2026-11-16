@@ -14,7 +14,7 @@ Use this checklist on the rendered mdBook before publishing a release. A success
 
 - [ ] Each page has one clear page title and a logical heading hierarchy.
 - [ ] Headings describe the content that follows and are not used only for visual styling.
-- [ ] The mdBook table of contents follows the learner journey: overview, course map, getting started, case selection, Sessions 1–10, workbook, participant resources, facilitator resources.
+- [ ] The mdBook table of contents follows the learner journey: overview, course map, getting started, case selection, Sessions 1–10, workbook, participant resources, self-directed learning resources.
 - [ ] Link text is descriptive and understandable out of context; avoid "click here" or raw URLs as the only label.
 - [ ] Keyboard users can reach and activate navigation, links, and interactive elements in a logical order.
 - [ ] Keyboard focus is visible and is not trapped.

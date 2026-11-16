@@ -178,7 +178,7 @@ Use these headings in your record:
 - Do not rank solely by sender title.
 - Verify each action against the source text.
 
-### Facilitator key
+### self-check key
 
 Message 7 supersedes the earlier worksheet request. The annual form and service log have explicit deadlines. The parent request has no exact deadline. Route coordination, meeting response, and the call request need clarification. Do not invent dates.
 

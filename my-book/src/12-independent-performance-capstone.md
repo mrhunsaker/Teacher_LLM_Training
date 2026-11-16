@@ -167,7 +167,7 @@ Score each domain 0–3. Maximum: 24.
 
 ## Suggested local completion standard
 
-A local course facilitator may use **20/24 or higher**, with no score of 0 in privacy/accessibility or professional judgment, as a trigger for a supported pilot. Any domain scored 0 or 1 should receive targeted practice and reassessment. This is a suggested instructional threshold only; it is not a credential or universal professional standard. The facilitator should use the evidence and context rather than treating the total as a substitute for judgment.
+For independent self-review, a score of **20/24 or higher**, with no score of 0 in privacy/accessibility or professional judgment, may indicate readiness to test a workflow in a supported local pilot. Any domain scored 0 or 1 should receive targeted practice and reassessment. This is a suggested instructional threshold only; it is not a credential or universal professional standard. Interpret the score alongside evidence and context; do not treat the total as a substitute for professional judgment.
 
 ## Evidence portfolio
 
@@ -182,7 +182,7 @@ Submit or demonstrate:
 - professional judgment reflection,
 - revision log and next-step plan.
 
-## Facilitator administration
+## learner administration
 
 - Allow 45–60 minutes.
 - Use only the fictional scenario and synthetic data in the capstone.

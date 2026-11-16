@@ -121,6 +121,6 @@ For one artifact, complete the following:
 
 Name one statement in an AI output that you would reject, one you would revise, and one you would retain. Explain the evidence and review action for each.
 
-## Facilitator notes
+## independent review guidance
 
 Require participants to show their verification method, not merely state that they checked. For legal and product claims, direct participants to current official sources and district guidance. For data claims, return to raw values and definitions. For accessibility, require an actual test with appropriate technology rather than relying on visual inspection alone.

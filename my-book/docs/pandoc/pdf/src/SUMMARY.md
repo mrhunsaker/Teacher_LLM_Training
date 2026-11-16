@@ -33,12 +33,12 @@
 - [Practical Competency Checklist](practical-competency-checklist.md)
 - [Standalone Participant Handouts — DOCX and Markdown Downloads](standalone-handouts.md)
 
-## Facilitator and practice resources
+## Self-directed learning resources
 
 - [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)
 
-- [Facilitator Guide — Sessions 1–6](facilitator-practice-edition.md)
-- [AI Literacy Facilitator Guide — Sessions 7–10](ai-literacy-facilitator-guide.md)
+- [Self-Directed Practice Guide — Sessions 1–6](self-directed-practice-guide.md)
+- [AI Literacy Self-Study Guide — Sessions 7–10](ai-literacy-self-study-guide.md)
 - [Reusable Prompt Library](prompt-library.md)
 - [Hands-on Practice Labs](practice-labs.md)
 - [Privacy, Responsible Use, and District Implementation](responsible-use-and-implementation.md)

@@ -222,7 +222,7 @@ Pilar is a fictional second-grade student who is currently served in general edu
 
 ## Use your selected case throughout the course
 
-The ten cases are alternatives, not a sequence of cases participants must complete. Select one case and carry it through the modules and workbook. A facilitator may invite cross-disciplinary partners to compare perspectives, but each participant should identify which actions and decisions fall within their own role and scope of practice.
+The ten cases are alternatives, not a sequence of cases participants must complete. Select one case and carry it through the modules and workbook. Learners may optionally compare perspectives with colleagues; collaboration is not required. Each learner should identify which actions and decisions fall within their own role and scope of practice.
 
 Every participant follows the same cycle:
 

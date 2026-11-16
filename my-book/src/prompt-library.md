@@ -12,8 +12,8 @@ Use these prompts with fictional or district-approved information only. Replace 
 6. **Instructional refinement:** compare an artifact with test evidence and propose small revisions.
 7. **Email action report:** summarize possible actions without changing mailbox content.
 8. **Refinement prompt:** challenge an existing response before rewriting it.
-9. **Universal review checklist:** verify quality before retaining or sharing an output.
-10. **Prompt-design interview:** have the LLM ask the professional focused questions and use approved answers to assemble a task-specific prompt.
+9. **Prompt-design interview:** have the LLM ask the professional focused questions and use approved answers to assemble a task-specific prompt.
+10. **Universal review checklist:** verify quality before retaining or sharing an output.
 
 Use one prompt at a time. Do not ask the model to complete the entire Plan → Refine → Build → Refine cycle in a single response.
 

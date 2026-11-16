@@ -6,13 +6,9 @@
 
 ---
 
-# Select a continuing practice case
-
 [Unified Buendía-Family Special Education Case Studies](multidisciplinary-case-studies.md)
 
 ---
-
-# Handouts and Guides
 
 [Participant Lesson Handouts](participant-lesson-handouts.md)  
 [Practical Competency Checklist](practical-competency-checklist.md)  

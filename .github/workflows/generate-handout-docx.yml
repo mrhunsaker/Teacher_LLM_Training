@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feat/standalone-handout-docx-markdown
+      - enhance-case-studies-collaborative-prompting
     paths:
       - "my-book/handouts/markdown/**"
       - "my-book/handouts/scripts/**"

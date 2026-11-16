@@ -23,6 +23,10 @@ This collection contains **nine individual participant handouts plus one reusabl
 | Handout 9 | [handout-09-independent-capstone-evidence.md](markdown/handout-09-independent-capstone-evidence.md) | [handout-09-independent-capstone-evidence.docx](docx/handout-09-independent-capstone-evidence.docx) |
 | Reusable session close | [reusable-session-close.md](markdown/reusable-session-close.md) | [reusable-session-close.docx](docx/reusable-session-close.docx) |
 
+## Additional participant resource
+
+The practical competency checklist is also generated as an editable Word document: [practical-competency-checklist.docx](docx/practical-competency-checklist.docx). Its source is maintained at [practical-competency-checklist.md](markdown/practical-competency-checklist.md). Participants should use the DOCX rather than the Markdown source.
+
 ## Document generation
 
 The Word files are generated from the Markdown sources by `scripts/build_handouts.py` using `python-docx`. Re-run the script after editing a source file to regenerate its matching DOCX.

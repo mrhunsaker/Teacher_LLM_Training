@@ -1,27 +1,18 @@
 # Standalone Participant Handouts
 
-The curriculum includes **nine individual participant handouts** and one reusable session-close sheet. Each item is available in two formats:
-
-- **DOCX:** Editable Microsoft Word document for participants to complete, print, or adapt.
-- **Markdown:** Individual source file for generating other formats or tailoring a handout for a particular role or participant.
+Use this page to locate the individual editable Word files used during the course. The handouts are placed here immediately after the case-study collection and before Session 1 in the course navigation.
 
 ## Download and browse
 
-- [Open the handout index](https://github.com/mrhunsaker/Teacher_LLM_Training/blob/main/my-book/handouts/README.md) for the complete file-by-file list.
-- [Browse all Word documents (DOCX)](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/docx).
-- [Browse all individual Markdown sources](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/markdown).
+- **DOCX files:** Open the [handout folder](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/docx) and select the file by name. The [handout index](https://github.com/mrhunsaker/Teacher_LLM_Training/blob/main/my-book/handouts/README.md) lists all nine session handouts and the reusable session-close document.
+- **Participant Lesson Handouts:** Use the [Participant Lesson Handouts guide](participant-lesson-handouts.md) for a session-by-session map and direct DOCX links.
+- **Practical Competency Checklist:** Use the [Practical Competency Checklist guide](practical-competency-checklist.md) to download and complete `practical-competency-checklist.docx`.
 
-The existing [Participant Lesson Handouts](participant-lesson-handouts.md) chapter remains the consolidated in-book packet. The standalone files are companion resources, not additional lessons or modules.
+The DOCX files are participant-facing working materials. The Markdown sources are maintained for course-authoring and document generation; participants do not need to use the Markdown versions.
 
 ## Updating the files
 
-The Markdown files are the source for the generated Word documents. After editing a Markdown handout, regenerate the DOCX files from the repository root:
-
-```bash
-python my-book/handouts/scripts/build_handouts.py
-```
-
-The generator uses `python-docx`. The GitHub Actions workflow also regenerates the Word files when the handout sources or generator change.
+Course authors can edit the Markdown source files and regenerate the Word documents using the repository's DOCX generation script. The GitHub Actions workflow also regenerates DOCX files when the source materials or generator change.
 
 ## Use and privacy
 

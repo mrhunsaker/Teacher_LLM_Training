@@ -35,7 +35,7 @@ Task and setting: [relevant conditions].
 
 BOUNDARIES
 - Do not invent student facts or infer skills from diagnosis, eligibility label,
-  test score, acuity, grades, or device ownership.
+  test score, grades, or device ownership.
 - Separate provided facts, hypotheses, and unknowns.
 - Identify information needed before recommending an approach.
 - Offer options and trade-offs rather than a single prescribed answer.

@@ -2,7 +2,7 @@
 
 A ten-session professional-learning course for special education teachers, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
 
-The course teaches bounded, privacy-conscious use of large language models (LLMs) and Microsoft 365 Copilot for educational planning, related-service workflows, IEP-related preparation, observation, progress monitoring, data review, and professional communication. Participants select one fictional case from a unified Buendía-family collection and use it throughout the course. All ten cases have equal standing and follow the same learning pathway; no discipline is the default.
+The course teaches bounded, privacy-conscious use of large language models (LLMs) and Microsoft 365 Copilot for educational planning, related-service workflows, IEP-related preparation, observation, progress monitoring, data review, and professional communication. Participants select one fictional case from a unified Buendía-family collection and use it throughout the course. All nine cases have equal standing and follow the same learning pathway; no discipline is the default.
 
 ## Start here
 

@@ -41,8 +41,6 @@
 
 ---
 
-# Additional learning resources
-
 [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)
 [Reusable Prompt Library](prompt-library.md)
 [Privacy, Responsible Use, and District Implementation](responsible-use-and-implementation.md)

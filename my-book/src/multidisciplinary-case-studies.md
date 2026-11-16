@@ -219,7 +219,7 @@ Melquíades is a fictional sixth-grade student who attends general physical educ
 
 **Professional boundaries:** Do not infer disability, prescribe a motor program, or treat APE as interchangeable with PT. Adapted PE is an instructional area that may involve specially designed physical education; it is not automatically a related service. Under IDEA, physical education includes adapted physical education in the definition of special education, and physical education must be specially designed when necessary. Qualified educators and the authorized team determine appropriate instruction and supports under applicable state and district requirements.
 
-### Case 10: Pilar — general-education Tier 3 reading intervention
+### Case 9: Pilar — general-education Tier 3 reading intervention
 
 Pilar is a fictional second-grade student who is currently served in general education and is not currently identified as a student with a disability under IDEA. Across three school screening windows, her reading performance has remained below the local benchmark in foundational word-reading skills. She participated in a supplemental small-group intervention before moving to a more intensive Tier 3 reading intervention. The intervention team is reviewing progress and implementation evidence. No special education evaluation or eligibility decision is supplied.
 

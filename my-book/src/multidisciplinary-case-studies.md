@@ -1,50 +1,16 @@
 # Fictional Special Education Case Studies: The Buendía Family and Associated Characters
 
-This is the course's **single case-study collection and worked-practice pathway**. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
+This is the course's **single case-study collection and worked-practice pathway**. It is designed for special education teachers, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
 
-Choose the case that best fits your professional role, current learning goal, or area of practice. Use that same case as your continuing context through the course modules and the participant workbook. The cases are presented in one collection and use the same structure, planning cycle, and professional safeguards. **No case or discipline is the default pathway.** The vision/access case is one option among ten; its worked example demonstrates the shared method rather than setting a preferred model for the course.
+Choose the case that best fits your professional role, current learning goal, or area of practice. Use that same case as your continuing context through the course modules and the participant workbook. The cases are presented in one collection and use the same structure, planning cycle, and professional safeguards. **No case or discipline is the default pathway.**
 
 **Naming convention:** The first six case names follow the Buendía family sequence already established in the course. To avoid repeating names, the four additional names are drawn from other distinctive members of the family and associated characters in *Cien años de soledad*: Fernanda, Petra, Melquíades, and Pilar. Names identify fictional training cases only; the cases are not depictions of the novel's characters or events.
-
-**Service-category note:** Under IDEA, occupational therapy (OT), physical therapy (PT), and speech-language pathology (SLP) are related services when required to assist a child with a disability to benefit from special education ([34 CFR § 300.34](https://sites.ed.gov/idea/regs/b/a/300.34)). Teachers of students with visual impairments (TVIs) and teachers of students who are deaf or hard of hearing (TDHH) are specialized instructional/educator roles; those titles are not, by themselves, IDEA related-service categories. The services and personnel a student needs depend on individualized evaluation, the IEP, state requirements, and district practice. Physical education includes special physical education and adapted physical education in the definition of special education ([34 CFR § 300.39(b)(2)](https://sites.ed.gov/idea/regs/b/a/300.39)); physical education must be available and specially designed when necessary ([34 CFR § 300.108](https://sites.ed.gov/idea/regs/b/b/300.108)). Accordingly, the APE case focuses on adapted PE instruction and access; it does not label APE automatically as a related service. Follow state and district terminology and requirements.
 
 **Fictional-data safeguard:** All student profiles, histories, observations, and sample data below are invented. They are not templates for actual students and must not be copied into student records. Do not infer disability, eligibility, placement, services, intervention, or learner characteristics from a case label. Use only supplied facts; identify missing information rather than filling gaps. For real work, follow district policy and use only approved systems and appropriately authorized information. Removing a name alone does not make student information de-identified.
 
 ## Choose one continuing case
 
-### Case 1: Úrsula — vision, access, and dual-media learning
-
-Úrsula is a fictional student with ocular albinism and photophobia. With corrective lenses, her measured visual acuity is 20/175. She wears glasses and uses a brimmed hat to reduce the impact of overhead lighting. She is highly sensitive to glare. Her academic performance is solidly in the B range.
-
-Úrsula receives orientation and mobility (O&M) instruction. She is learning braille as a second literacy medium as a dual-media reader. For visual access, she is learning Windows Magnifier; ZoomText may be considered only if the team identifies a need for features not met by built-in magnification. She also uses an iPad in class.
-
-The instructional question is not how to improve her grades. It is how to make access efficient, comfortable, independent, and sustainable across environments, materials, and tasks while developing literacy and technology options.
-
-**Known facts**
-- Ocular albinism and photophobia; corrected acuity of 20/175.
-- Glasses and a brimmed hat are established supports; glare sensitivity is reported.
-- O&M instruction is in place.
-- She is developing braille as a second literacy medium and learning Windows Magnifier.
-- She uses an iPad in class and earns generally solid grades.
-
-**Candidate focus areas — select one for analysis; these are not conclusions**
-- Functional access across lighting, print/digital materials, and viewing distance.
-- Dual-media literacy development and the contexts in which print, braille, or a combination may be efficient.
-- Assistive-technology workflow and independent task completion, including Magnifier and iPad use.
-
-**Unknowns — do not assume**
-- Functional vision performance at different distances, lighting levels, and task types.
-- Which glare sources and environments are most disruptive, and which adjustments are effective.
-- Current braille readiness, tactile skills, reading fluency, and contexts where braille is most useful.
-- Magnifier proficiency, preferred settings, task efficiency, and whether built-in tools meet access needs.
-- Which iPad apps, accessibility settings, workflows, and file formats are effective.
-- Whether grades conceal extra time, effort, adult assistance, or reduced access.
-
-**Practice task:** Select one bounded access task, such as opening and navigating a digital classroom handout using an agreed access method. Define observable steps and record prompt level, task conditions, access method, and student-reported comfort and efficiency. Keep visual access, braille, print, assistive technology, O&M, and student feedback distinct when they require different measures.
-
-**Professional boundaries:** Do not infer functional vision needs or select a primary literacy medium from acuity, diagnosis, grades, or device ownership. Use the learning media assessment, functional vision information, learning media plan, observations across settings, qualified clinical guidance where appropriate, and student/family input. O&M assessment and travel decisions remain with the qualified O&M professional. An LLM cannot perform these assessments or make team decisions.
-
-### Case 2: José Arcadio — deaf and hard-of-hearing education
+### Case 1: José Arcadio — deaf and hard-of-hearing education
 
 José Arcadio is a fictional middle-school student who uses hearing technology in some settings and visual communication supports in others. Teachers report that he participates actively in small-group activities but misses portions of fast-paced whole-class discussions, especially when several people speak or when speakers are not facing the class. The team is reviewing how classroom communication access is planned and documented.
 
@@ -68,7 +34,7 @@ José Arcadio is a fictional middle-school student who uses hearing technology i
 
 **Professional boundaries:** Do not infer language proficiency, cognitive ability, or comprehension from hearing status or communication mode. Do not recommend changing communication modality, hearing technology, interpreting, or services based on this vignette. Those decisions require qualified professionals, student/family input, assessment, and the educational team.
 
-### Case 3: Aureliano — school psychology and problem-solving
+### Case 2: Aureliano — school psychology and problem-solving
 
 Aureliano is a fictional fourth-grade student referred to a school problem-solving team because classroom work completion and participation vary across tasks. Teachers report that he contributes thoughtful ideas during discussion but often leaves multi-step independent assignments unfinished. Existing notes are inconsistent: some describe attention, others task difficulty, and others unclear directions. No formal evaluation findings are supplied.
 
@@ -96,7 +62,7 @@ Aureliano is a fictional fourth-grade student referred to a school problem-solvi
 
 **Professional boundaries:** An LLM must not diagnose, determine eligibility, select assessment instruments as a substitute for qualified judgment, interpret test protocols, or make placement/service recommendations. Qualified school psychologists and the multidisciplinary team retain responsibility for assessment design, interpretation, consultation, and decisions under applicable law and professional standards.
 
-### Case 4: Amaranta — speech-language pathology and functional communication
+### Case 3: Amaranta — speech-language pathology and functional communication
 
 Amaranta is a fictional second-grade student who communicates using spoken language and an augmentative and alternative communication (AAC) system during some activities. Staff report that she initiates communication during preferred routines but participates less during open-ended academic discussions. Different adults describe her communication opportunities and prompting differently.
 
@@ -120,7 +86,7 @@ Amaranta is a fictional second-grade student who communicates using spoken langu
 
 **Professional boundaries:** Do not diagnose a communication disorder, prescribe an AAC system, infer competence from speech output, or recommend reducing AAC access. SLP assessment and clinical decisions remain with qualified professionals in collaboration with the student, family, and team.
 
-### Case 5: Rebeca — specific learning disability in mathematics reasoning
+### Case 4: Rebeca — specific learning disability in mathematics reasoning
 
 Rebeca is a fictional fifth-grade student receiving special education support for a documented specific learning disability affecting mathematical problem solving and reasoning. She accurately computes many familiar single-step problems but has difficulty explaining how to represent multi-step word problems, selecting relevant information, and checking whether an answer is reasonable. The case label is supplied for instructional context; it is not an invitation to diagnose or re-evaluate her.
 
@@ -144,7 +110,7 @@ Rebeca is a fictional fifth-grade student receiving special education support fo
 
 **Professional boundaries:** Do not infer a new diagnosis, prescribe placement, or change an IEP based on the vignette. Instructional decisions require review of work samples, curriculum expectations, progress data, student input, and educator/IEP-team judgment.
 
-### Case 6: Arcadio — specific learning disability in reading
+### Case 5: Arcadio — specific learning disability in reading
 
 Arcadio is a fictional third-grade student receiving special education support for a documented specific learning disability affecting reading. He participates in class discussion and demonstrates strong background knowledge when information is presented orally. In reading tasks, his accuracy and fluency vary by text and task; staff want to understand the pattern without confusing decoding, fluency, vocabulary, and comprehension.
 
@@ -169,7 +135,7 @@ Arcadio is a fictional third-grade student receiving special education support f
 
 **Professional boundaries:** Do not diagnose dyslexia or another condition, interpret standardized assessments, select a reading intervention solely from the vignette, or infer comprehension from oral discussion alone. Use qualified assessment, curriculum-based evidence, instructional history, student input, and team judgment.
 
-### Case 7: Fernanda — occupational therapy, pencil and scissor use
+### Case 6: Fernanda — occupational therapy, pencil and scissor use
 
 Fernanda is a fictional third-grade student who participates in classroom writing and art activities. During independent work, she sometimes has difficulty keeping a steady hold on her pencil and controlling it when writing or drawing. During craft activities, she sometimes needs extra time or adult help to position and use classroom scissors to cut along a simple line. Her performance varies across materials and activities. The teacher wants to describe exactly what happens during these two familiar classroom tasks.
 
@@ -196,7 +162,7 @@ Fernanda is a fictional third-grade student who participates in classroom writin
 
 **Professional boundaries:** Do not diagnose a fine-motor condition, prescribe exercises, select specialized equipment, or recommend OT services from this vignette. The purpose is to describe participation in ordinary classroom tasks and identify questions for the educational team. Any assessment, tool recommendation, or service decision requires qualified professional judgment and appropriate team procedures. An LLM cannot determine whether OT is required or whether a service should be direct, consultative, or discontinued.
 
-### Case 8: Petra — physical therapy and school mobility
+### Case 7: Petra — physical therapy and school mobility
 
 Petra is a fictional fifth-grade student whose school-day mobility and transitions vary by route and context. She uses an established mobility support for some school routes. Staff report that transitions are more difficult when hallways are crowded, schedules are compressed, or classroom locations change. The team wants to understand how the school environment and routine affect access to instruction and participation.
 
@@ -226,7 +192,7 @@ Petra is a fictional fifth-grade student whose school-day mobility and transitio
 
 **Professional boundaries:** Do not prescribe exercises, transfers, handling techniques, mobility devices, positioning, or changes to assistance. Do not trial unfamiliar equipment or alter an established mobility plan based on AI output. School PT services are provided by qualified physical therapists and are considered in relation to educational access and the student's individual needs. Assessment and service decisions remain with qualified professionals and the authorized team.
 
-### Case 9: Melquíades — adaptive physical education and inclusive participation
+### Case 8: Melquíades — adaptive physical education and inclusive participation
 
 Melquíades is a fictional sixth-grade student who attends general physical education. The PE teacher reports that he participates consistently in predictable station activities but has fewer opportunities to practice skills during fast-paced team games. The teacher wants to examine whether activity design, rules, equipment, grouping, instruction, or opportunities to practice affect meaningful participation and skill learning.
 
@@ -281,7 +247,7 @@ Pilar is a fictional second-grade student who is currently served in general edu
 
 ## Use your selected case throughout the course
 
-The ten cases are alternatives, not a sequence of cases participants must complete. Select one case and carry it through the modules and workbook. Learners may optionally compare perspectives with colleagues; collaboration is not required. Each learner should identify which actions and decisions fall within their own role and scope of practice.
+The nine cases are alternatives, not a sequence of cases participants must complete. Select one case and carry it through the modules and workbook. Learners may optionally compare perspectives with colleagues; collaboration is not required. Each learner should identify which actions and decisions fall within their own role and scope of practice.
 
 Every participant follows the same cycle:
 
@@ -291,66 +257,6 @@ Every participant follows the same cycle:
 4. **Refine — test and revise.** Check the artifact against the case and professional requirements. Review sample or collected evidence, inspect accessibility, gather learner/staff feedback, and revise. Record what was retained, changed, rejected, and why.
 
 Do not ask the model to complete all four stages in one response. Keep the professional in control of each transition.
-
-## Worked example: apply the cycle to the vision/access case
-
-This example shows one possible application of the shared method. It does not make the vision case the required or preferred case. Participants using another case should substitute their own case facts and complete the same four stages.
-
-### Plan: define one bounded task
-
-A candidate focus is access to a digital classroom handout using Windows Magnifier. The task might include opening an assigned document, accessing Magnifier, selecting a usable view, navigating to the relevant section, and completing the classroom task. This is a candidate task analysis, not a claim that Úrsula currently performs or struggles with any step. Confirm the actual workflow with the student and relevant staff.
-
-**Planning prompt**
-
-> Act as a collaborative planning assistant for a special education professional. Use only the facts in my selected fictional case. We are considering this bounded task: [describe one task]. Do not write a goal or intervention yet. Return: (1) a neutral task statement; (2) known facts; (3) information that must be observed; and (4) up to five possible observable task components. Mark every unknown as “not yet observed.” Do not infer a deficit from diagnosis, eligibility, grades, test scores, or device ownership. Stop after these four sections.
-
-### Refine: challenge the plan
-
-For Úrsula, the professional might ask whether the proposed task matches the documents and devices she actually uses, whether it accounts for glare and comfortable viewing without prescribing unassessed settings, whether it measures meaningful task completion rather than merely operating software, and whether it preserves braille, print, iPad, and O&M as distinct access strands.
-
-For any other case, ask the equivalent role-specific questions: Does the proposed task measure the intended construct? Are communication modes, accommodations, task conditions, and opportunities represented accurately? Are prompts defined? What alternative explanations remain?
-
-**Refinement prompt**
-
-> Review the proposed task components as a critical colleague. Identify ambiguities, hidden assumptions, missing evidence, and steps that may not be necessary. Separate questions requiring observation from questions answerable from supplied facts. Do not add case facts. Suggest a leaner task analysis with no more than six steps. Do not write a goal, intervention, or data sheet.
-
-The professional edits and approves the task analysis. Remove steps that are not part of the real task; add steps only when supported by observation or reliable records.
-
-### Build: create one small, testable artifact
-
-After confirming the task, ask the model to create an observation tool, not a complete IEP, evaluation, or predetermined intervention.
-
-**Build prompt**
-
-> Using only the professional-approved task analysis below, create a concise observation form for at least three separate practice opportunities. Include date/session, setting, task/material, relevant conditions, access method or supports, each task step, independent performance and clearly defined prompt levels, completion/outcome, learner feedback, and notes. Keep observation separate from interpretation. Do not invent baseline scores, mastery criteria, goals, or service recommendations. Adapt the fields to the selected case and my professional role.
->
-> [Paste the approved task analysis.]
-
-For Úrsula, relevant conditions may include lighting, glare, device, document type, and student-reported comfort. For José Arcadio, fields may include speaker turns, captions/interpreting availability, acoustic conditions, and student-reported communication access. For Amaranta, fields may include communication mode, opportunity, partner modeling, wait time, and prompt level. For Fernanda, consider task setup, tools, workspace, and participation; for Petra, route and environmental conditions; for Melquíades, instructional opportunities and PE adaptations; and for Pilar, intervention dosage, fidelity, and comparable reading measures. Use only the fields that fit the selected case; do not force every case into the vision-specific form.
-
-### Refine: inspect evidence and revise the artifact
-
-Use only fictional/synthetic or appropriately authorized information in an approved system. Ask the model to inspect data quality before summarizing patterns.
-
-**Review prompt**
-
-> Review this fictional or appropriately de-identified observation summary for my selected case. Do not decide whether the learner has mastered a skill or recommend a service change. First check whether the observations are sufficient to interpret performance. Identify missing fields, inconsistent prompt definitions, changes in task difficulty, invalid or non-comparable opportunities, and environmental or instructional influences. Then summarize only patterns directly supported by the data and list questions for the responsible professional and team. Do not invent values or make a reserved professional decision.
->
-> [Paste the permitted summary.]
-
-Revise the artifact when the evidence reveals unclear definitions, missing context, inconsistent recording, or access barriers. Record what changed and why. A small, verified revision is more valuable than a large AI-generated product that has not been tested.
-
-## Synthetic illustration for the vision/access case
-
-The following values are invented examples of how a team might structure a record after defining a task. They are **not measurements of Úrsula**, not a baseline, and not evidence of mastery, trend, or plateau.
-
-| Session | Task | Independent steps | Steps in analysis | Prompting | Environment note |
-|---|---|---:|---:|---|---|
-| A | Open and navigate a short digital handout | 3 | 5 | Verbal cue on one step; assistance on one step | Reflected light on screen noted |
-| B | Locate a section in a digital worksheet | 4 | 5 | One verbal cue | Seating and screen angle adjusted |
-| C | Open and navigate a digital handout | 4 | 5 | One gestural cue | Student reported less glare |
-
-Task comparability, prompt definitions, repeated observations, student feedback, and the actual instructional criterion must be considered before interpreting any pattern.
 
 ## Reusable prompt for any selected case
 
@@ -366,4 +272,4 @@ Before accepting an AI-assisted artifact, confirm that it:
 - Does not treat diagnosis or eligibility labels as a complete learner profile.
 - Does not replace validated assessment, clinical judgment, legal requirements, or IEP-team decisions.
 - Uses fictional or appropriately authorized information in a district-approved system.
-- Is usable with the intended person's keyboard, screen reader, AAC, hearing, visual, and other access workflows as relevant.
+- Is usable with the intended person's keyboard, screen reader, AAC, hearing, and other access workflows as relevant.

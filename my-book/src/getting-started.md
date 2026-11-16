@@ -28,20 +28,6 @@ The course is designed for special education professionals and classroom partner
 
 Use the same selected case throughout the modules and workbook. Adapt task examples, evidence, and access conditions to that case and your professional role. The shared method remains: Plan → Refine → Build → Refine.
 
-## The ECC in practice
-
-The ECC is one specialized framework included in the course, not a requirement that applies to every case or participant. The ECC is not a single packaged curriculum or a checklist that every learner must complete in the same way. Use assessment, student/family input, access needs, and educational impact to identify priorities. The nine areas are:
-
-1. Compensatory or functional academic skills, including communication modes and access to literacy.
-2. Orientation and mobility.
-3. Social interaction skills.
-4. Independent living skills.
-5. Recreation and leisure skills.
-6. Career education.
-7. Assistive technology.
-8. Sensory efficiency skills.
-9. Self-determination.
-
 ## A note about the 90% criterion
 
 For consistency with this training request, the sample spreadsheet uses a rule of **more than 90% accuracy on at least three distinct qualifying sessions**. In practice, the team must decide whether that threshold, number of sessions, independence level, and generalization conditions are appropriate for the specific skill. Some skills require safety, fluency, consistency across settings, or another measure rather than a simple percentage. Never retrofit the goal to the spreadsheet.

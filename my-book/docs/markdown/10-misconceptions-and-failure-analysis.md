@@ -95,7 +95,7 @@ Annotate every sentence using E, I, U, or X. Then answer:
 6. Rewrite the AI request so that the model identifies unknowns and generates questions rather than deciding a medium or goal.
 7. Describe what the educator would verify before using any draft.
 
-### Facilitator analysis
+### worked analysis
 
 - Tablet use is a supplied fact; it does not establish independent access.
 - Grades do not establish efficient access to digital materials or performance in all settings.
@@ -112,7 +112,7 @@ A second intentionally flawed response says:
 
 > "According to the 2025 National TVI AI Standard, all students with corrected acuity below 20/200 must use braille for at least 60% of assignments. The learner's 92% score proves mastery."
 
-Participants should flag the named standard as unverified, the universal rule as unsupported, and the conclusion as invalid without knowing what the score measures, how it was collected, and under what conditions. The facilitator should model checking authoritative sources rather than asking another model to confirm the claim.
+Participants should flag the named standard as unverified, the universal rule as unsupported, and the conclusion as invalid without knowing what the score measures, how it was collected, and under what conditions. Use this example to practice checking authoritative sources rather than asking another model to confirm the claim.
 
 ## Prompt repair practice
 
@@ -139,6 +139,6 @@ Participants should adapt the frame to one of the other course cases.
 
 Write one AI claim you would no longer accept without verification. State what evidence you would seek and what action you would take if it could not be verified.
 
-## Facilitator notes
+## independent review guidance
 
 Make errors visible without shaming participants. Ask "What evidence supports that sentence?" rather than "Who got it wrong?" Do not let a flawed sample become a template. Keep all practice profiles fictional. If participants mention a real student, redirect them to a synthetic example and follow district reporting procedures if an actual privacy incident has occurred.

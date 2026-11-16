@@ -268,7 +268,7 @@ Score each item independently.
 
 ---
 
-## Facilitator answer notes
+## self-check answer notes
 
 Accept equivalent answers when the reasoning is sound. Do not require participants to use identical wording.
 
@@ -300,7 +300,7 @@ Accept equivalent answers when the reasoning is sound. Do not require participan
 - A higher score suggests stronger performance on these scenarios; it does not prove transfer to classroom practice.
 - Compare this assessment only with its own parallel form.
 - Do **not** combine these scores with the AI-literacy assessment, competency checklist, or capstone rubric. Those instruments measure different evidence and use different scales.
-- Use item-level results to select follow-up coaching.
+- Use item-level results to identify next-step practice priorities or optional consultation needs.
 - A score of 12–14 with no zero on privacy or professional responsibility may be used as a local course-completion suggestion, not a credential or district evaluation standard.
 
 **One practical behavior the participant will apply next**

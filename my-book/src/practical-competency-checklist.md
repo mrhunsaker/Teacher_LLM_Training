@@ -1,6 +1,6 @@
 # Practical Competency Checklist
 
-Use this structured observation form during practice, peer review, coaching, or the capstone. Rate **each observable behavior separately** and record a brief, specific example. This checklist is formative: it identifies strengths and next steps. It is not a credential, employment evaluation, or substitute for district approval.
+Use this checklist for self-review during practice and the capstone. Optional peer review may provide another perspective, but is not required. Rate **each observable behavior separately** and record a brief, specific example from your work. This checklist is formative: it identifies strengths and next steps. It is not a credential, employment evaluation, or substitute for district approval.
 
 **How to complete:** Enter one rating for every item (0, 1, 2, or N/O), then record the evidence. Use one copy per observation or review period.
 
@@ -246,7 +246,7 @@ For every item, enter one rating (0, 1, 2, or N/O) and a brief evidence note. Ea
    - **Evidence observed:** __________________________________________
      ________________________________________________________________
 
-## Summary and coaching record
+## Summary and next-step practice record
 
 Complete the area summaries after rating the individual behaviors.
 
@@ -271,7 +271,7 @@ To calculate an area subtotal, add its 0, 1, and 2 ratings. The maximum for obse
 **Priority for further practice:**  
 [Choose one behavior and describe the practice needed.]
 
-**Coaching, specialist consultation, or district support needed:**  
+**Further practice or optional consultation to consider:**  
 [Record.]
 
 **Next practice task and review date:**  
@@ -279,10 +279,10 @@ To calculate an area subtotal, add its 0, 1, and 2 ratings. The maximum for obse
 
 ## How to use this checklist with the capstone rubric
 
-This checklist uses a **0–2 item-level formative scale** and is intended for repeated observation during practice and coaching. The independent capstone in [Module 10](12-independent-performance-capstone.md) uses a separate **0–3 domain-level performance rubric**. Do not add the two scores or convert one scale into the other. Use the checklist to identify behaviors to practice; use the capstone rubric to judge the quality of the independent demonstration under the stated scenario.
+This checklist uses a **0–2 item-level formative scale** for repeated self-review during practice. Optional peer review may supplement, but does not replace, your own evidence review. The independent capstone in [Module 10](12-independent-performance-capstone.md) uses a separate **0–3 domain-level performance rubric**. Do not add the two scores or convert one scale into the other. Use the checklist to identify behaviors to practice; use the capstone rubric to review the quality of your independent demonstration under the stated scenario.
 
 ## Suggested readiness interpretation
 
-For a supported pilot, review all relevant core items in Areas 1–6 and 8–10. A suggested local threshold is a rating of 2 on all privacy items (Area 2) and the reserved-decision item (Area 8, item 2), with no unresolved concern in professional judgment. Any core item rated 0 or marked N/O requires coaching or another valid observation before a readiness judgment. Email triage (Area 7) is optional when the participant's role or course path does not include that workflow.
+For a supported pilot, review all relevant core items in Areas 1–6 and 8–10. A suggested local threshold is a rating of 2 on all privacy items (Area 2) and the reserved-decision item (Area 8, item 2), with no unresolved concern in professional judgment. Any core item rated 0 or marked N/O should receive additional practice or another valid observation before you interpret readiness. Email triage (Area 7) is optional when the participant's role or course path does not include that workflow.
 
 This is a local training suggestion, not a credential, employment evaluation, legal standard, or substitute for district approval. A participant may demonstrate strong judgment by choosing not to use AI when risk, privacy, accessibility, or task value makes it inappropriate.

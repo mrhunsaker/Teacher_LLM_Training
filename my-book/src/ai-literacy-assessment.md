@@ -137,7 +137,7 @@ Score each item from 0 to 2. Maximum: 10 points per administration.
 
 A post-assessment score is one indicator of learning. It does not establish transfer to practice or authorize use of a particular tool or data type.
 
-## Facilitator answer guide
+## self-check answer guide
 
 1. **Citation verification:** Confirm that citations exist, are current and authoritative for the claim, and support the exact statement. Check jurisdiction and applicability where relevant.
 2. **Generalization and inference:** The statement establishes only that the learner uses a support, tool, or communication mode in the stated context. It does not establish efficiency, independence, preference, or suitability across other tasks.
@@ -145,7 +145,7 @@ A post-assessment score is one indicator of learning. It does not establish tran
 4. **Accessibility testing:** Test headings, reading order, keyboard access, screen-reader announcements, labels, links, and whether essential information has a text alternative. Record the technology and test conditions.
 5. **Professional boundaries:** Examples include evaluation, eligibility, placement, services, IEP decisions, and individualized instructional decisions. The model may assist with bounded drafting or organization but must not make the determination.
 
-## Review and coaching
+## Review and next-step practice
 
 - Compare item-level responses, not only totals.
 - Compare this assessment only with its own parallel form.
@@ -156,7 +156,7 @@ A post-assessment score is one indicator of learning. It does not establish tran
 
 > __________________________________________________________________
 
-**Practice activity or coaching follow-up**
+**Independent practice or optional consultation**
 
 > __________________________________________________________________
 

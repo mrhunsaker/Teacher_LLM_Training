@@ -775,7 +775,7 @@ ____________________________________________________________________
 
 ---
 
-## Facilitator scoring guide
+## self-scoring guide
 
 Use this rubric to assess the quality of the educator's process, not the student's disability-related performance.
 

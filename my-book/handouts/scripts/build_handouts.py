@@ -72,7 +72,7 @@ def build_docx(source_path):
             i += 1
             continue
         # Convert Markdown pipe tables into native Word tables.
-        if line.startswith("|") and i + 1 < len(lines) and re.match(r"^\\s*\\|?\\s*:?-{3,}", lines[i + 1]):
+        if line.startswith("|") and i + 1 < len(lines) and re.match(r"^\s*\|?\s*:?-{3,}", lines[i + 1]):
             def cells(table_line):
                 return [cell.strip() for cell in table_line.strip().strip("|").split("|")]
             headers = cells(line)

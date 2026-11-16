@@ -27,6 +27,11 @@ The instructional question is not how to improve her grades. It is how to make a
 - She is developing braille as a second literacy medium and learning Windows Magnifier.
 - She uses an iPad in class and earns generally solid grades.
 
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Functional access across lighting, print/digital materials, and viewing distance.
+- Dual-media literacy development and the contexts in which print, braille, or a combination may be efficient.
+- Assistive-technology workflow and independent task completion, including Magnifier and iPad use.
+
 **Unknowns — do not assume**
 - Functional vision performance at different distances, lighting levels, and task types.
 - Which glare sources and environments are most disruptive, and which adjustments are effective.
@@ -48,6 +53,11 @@ José Arcadio is a fictional middle-school student who uses hearing technology i
 - Staff report stronger participation in small groups than in fast-paced whole-class discussions.
 - The team wants to examine access to instruction and peer discussion.
 
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Communication access during whole-class instruction and fast-paced discussion.
+- Consistent availability and function of hearing technology, captions, interpreting, or other agreed supports.
+- Peer interaction and participation opportunities, including speaker-turn routines and the student's own report of communication effort.
+
 **Unknowns — do not assume**
 - His preferred communication approaches in different settings.
 - Whether captions, interpreting, assistive listening technology, visual supports, seating, or speaker-turn routines are consistently available and effective.
@@ -68,13 +78,21 @@ Aureliano is a fictional fourth-grade student referred to a school problem-solvi
 - Staff notes use inconsistent descriptions of the concern.
 - The team wants clearer information before deciding what to do next.
 
+- When an adult prompts him to return to unfinished multi-step work, he may direct aggressive behavior toward peers nearby. Reports concern peer-directed behavior, not aggression toward the teacher. The form, frequency, intensity, duration, and immediate consequences have not been operationally documented.
+
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Peer-directed behavior during prompts to resume incomplete work: define observable actions, context, frequency, duration, intensity, and impact on peers.
+- Completion and task persistence: determine where multi-step work breaks down and whether task length, sequencing, clarity, or support is associated with completion.
+- Peer interaction and classroom participation: examine whether the pattern occurs outside unfinished-work prompts and how peers and staff experience the interaction.
+
 **Unknowns — do not assume**
 - Whether task length, reading demands, working conditions, clarity of directions, instructional match, attendance, language, attention, or other variables are associated with the pattern.
 - His perspective and strengths across settings.
 - Which interventions have been implemented, at what intensity, and with what fidelity.
 - Whether existing data are reliable, representative, and sufficient for any evaluation or eligibility question.
+- What the peer-directed aggressive behavior looks like in observable terms, whether anyone is at immediate risk, and which established school safety and behavior-support procedures apply. The vignette does not establish function or cause.
 
-**Practice task:** Build a hypothesis-neutral problem-solving record. Define the target behavior or outcome operationally, identify multiple testable hypotheses, and design a plan for comparable observations across relevant settings and tasks. Separate screening, progress monitoring, intervention response, and comprehensive evaluation questions.
+**Practice task:** Build a hypothesis-neutral problem-solving record. If selecting peer-directed behavior as the focus, document the prompt to resume unfinished multi-step work, the immediate context, observable behavior, peer proximity/impact, response, and relevant safety information without assuming a behavioral function. Define the target behavior or outcome operationally, identify multiple testable hypotheses, and design a plan for comparable observations across relevant settings and tasks. Separate screening, progress monitoring, intervention response, and comprehensive evaluation questions.
 
 **Professional boundaries:** An LLM must not diagnose, determine eligibility, select assessment instruments as a substitute for qualified judgment, interpret test protocols, or make placement/service recommendations. Qualified school psychologists and the multidisciplinary team retain responsibility for assessment design, interpretation, consultation, and decisions under applicable law and professional standards.
 
@@ -86,6 +104,11 @@ Amaranta is a fictional second-grade student who communicates using spoken langu
 - She uses spoken language and an AAC system in some activities.
 - Staff report different levels of initiation across preferred routines and open-ended discussions.
 - Adults do not use consistent descriptions of communication prompts or opportunities.
+
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Communication initiation and access to an effective communication mode across partners and routines.
+- Partner implementation: AAC availability, aided language modeling, wait time, and consistency of responses.
+- Participation in open-ended academic discussion, including whether vocabulary, topic familiarity, group pace, or communication opportunity affects access.
 
 **Unknowns — do not assume**
 - Her communication preferences and access to her AAC system throughout the day.
@@ -105,6 +128,11 @@ Rebeca is a fictional fifth-grade student receiving special education support fo
 - She receives special education support related to mathematics reasoning.
 - She performs many familiar single-step computations accurately.
 - Multi-step word problems create difficulty with representation, selecting relevant information, and checking reasonableness.
+
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Mathematical representation and schema selection for multi-step problems.
+- Language and relevant-information demands in word problems.
+- Strategy monitoring and checking whether an answer is reasonable, distinct from computation accuracy.
 
 **Unknowns — do not assume**
 - Which problem structures, language features, representations, and prerequisite concepts are associated with stronger or weaker performance.
@@ -126,6 +154,11 @@ Arcadio is a fictional third-grade student receiving special education support f
 - Reading accuracy and fluency vary across texts and tasks.
 - Staff want more precise information about component skills and reading demands.
 
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Decoding accuracy and word recognition across controlled, comparable text.
+- Oral reading fluency, including accuracy, rate, and phrasing where appropriate.
+- Reading comprehension under different decoding, vocabulary, and text-complexity demands.
+
 **Unknowns — do not assume**
 - Current performance and instructional history in phonological awareness, decoding, word recognition, fluency, vocabulary, and comprehension, as applicable.
 - Text difficulty, familiarity, language demands, accommodations, and whether measures are comparable.
@@ -146,6 +179,11 @@ Fernanda is a fictional third-grade student who participates in classroom writin
 - Performance varies across activities and materials.
 - She receives special education under an IEP; the disability category and any OT-related service determination are not supplied.
 - No occupational therapy evaluation findings or service decisions are supplied.
+
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Pencil control and written-output participation, including legibility, endurance, and task demands.
+- Scissor use and two-handed coordination during classroom craft activities.
+- Tool/material fit and classroom setup, including whether task demands or available adaptations affect participation.
 
 **Unknowns — do not assume**
 - Which specific parts of pencil use are difficult (for example, grasping, stabilizing the paper, forming marks, or maintaining control) and which are already successful.
@@ -169,13 +207,22 @@ Petra is a fictional fifth-grade student whose school-day mobility and transitio
 - She receives special education under an IEP; the disability category and any PT-related service determination are not supplied.
 - No PT evaluation findings, equipment recommendation, or service decision is supplied.
 
+- Petra is very slow on stairs. She cannot safely use the stairs when they are crowded or when she cannot hold the handrail.
+- She shows a right-leg drop-foot tendency when stepping. On stairs, she leads with the left foot on each step rather than alternating feet.
+
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Stair access and safety: route congestion, handrail availability, pacing, and access to an uncrowded alternative route.
+- Step negotiation and observed movement pattern: document the left-foot-leading sequence and right-leg drop-foot tendency without prescribing gait or stair training.
+- School mobility and transition participation: examine how stair routes, time pressure, fatigue/comfort reports, and alternative routes affect timely access to instruction.
+
 **Unknowns — do not assume**
 - Which routes, surfaces, distances, transitions, and school activities are most relevant to Petra.
 - Her own priorities, fatigue or comfort reports, and preferred ways to request assistance.
 - Whether barriers relate to route design, congestion, timing, access to doors/elevators, equipment, physical demands, or other factors.
 - Whether PT assessment or consultation is indicated; the vignette does not establish this.
+- The exact stair configuration, number and height of steps, handrail arrangement, frequency of stair use, falls or near misses, fatigue/comfort, and Petra's own account are not supplied. Do not infer a diagnosis or prescribe a stair technique from the description.
 
-**Practice task:** Create a school-mobility observation plan for one routine transition. Record route, environmental conditions, task demands, available supports, assistance actually provided, student-reported access, and whether the transition permits meaningful participation in the next activity. Do not make speed the sole outcome.
+**Practice task:** Create a school-mobility observation plan for one routine transition, including a stair route only when it can be observed safely under the established mobility plan. Record congestion, handrail access, the left-foot-leading sequence, the reported right-leg drop-foot tendency, assistance actually provided, and any accessible alternative route. Do not stage a crowded-stair trial or ask Petra to use stairs without the handrail. Record route, environmental conditions, task demands, available supports, assistance actually provided, student-reported access, and whether the transition permits meaningful participation in the next activity. Do not make speed the sole outcome.
 
 **Professional boundaries:** Do not prescribe exercises, transfers, handling techniques, mobility devices, positioning, or changes to assistance. Do not trial unfamiliar equipment or alter an established mobility plan based on AI output. School PT services are provided by qualified physical therapists and are considered in relation to educational access and the student's individual needs. Assessment and service decisions remain with qualified professionals and the authorized team.
 
@@ -189,13 +236,20 @@ Melquíades is a fictional sixth-grade student who attends general physical educ
 - Predictable station activities appear to provide more consistent opportunities than fast-paced team games.
 - No disability category, motor assessment, APE eligibility determination, or individualized PE plan is supplied.
 
+- During typical PE activities, he also has difficulty with ball rolling and catching. The specific ball, distance, speed, partner, task rules, and level of support have not been documented.
+
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Ball skills in typical PE scenarios: rolling a ball toward a target or partner and catching balls during partner, station, and small-group activities.
+- Access to skill practice during fast-paced team games versus predictable stations, including opportunity frequency and task demands.
+- Participation and learning across equipment, space, rules, peer grouping, demonstration, and instruction adaptations.
+
 **Unknowns — do not assume**
 - Which PE standards, skills, and activities are meaningful to Melquíades.
 - His preferences, strengths, goals, and own account of participation.
 - Whether changes to equipment, space, rules, pace, peer grouping, demonstration, or instruction would improve access.
 - Whether specially designed PE or an adapted PE assessment is warranted.
 
-**Practice task:** Design an inclusive PE observation matrix for one unit or activity. Record the intended skill, number and quality of practice opportunities, task adaptations, equipment, instruction and cues, peer participation, student choice, and evidence of learning. Compare access to instruction and meaningful practice—not simply presence in the gym or time on task.
+**Practice task:** Design an inclusive PE observation matrix for one unit or activity. Include ball rolling toward a partner or target and catching during typical PE scenarios, alongside another relevant skill if useful. Record the intended skill, number and quality of practice opportunities, ball type, distance, speed, task adaptations, equipment, instruction and cues, peer participation, student choice, and evidence of learning. Compare access to instruction and meaningful practice—not simply presence in the gym or time on task.
 
 **Professional boundaries:** Do not infer disability, prescribe a motor program, or treat APE as interchangeable with PT. Adapted PE is an instructional area that may involve specially designed physical education; it is not automatically a related service. Under IDEA, physical education includes adapted physical education in the definition of special education, and physical education must be specially designed when necessary. Qualified educators and the authorized team determine appropriate instruction and supports under applicable state and district requirements.
 
@@ -208,6 +262,11 @@ Pilar is a fictional second-grade student who is currently served in general edu
 - Screening information has identified ongoing concern in foundational word-reading skills.
 - The school has intervention and progress-monitoring records from more than one level of support.
 - She is not currently identified as a student with a disability; this status does not determine whether an evaluation may be needed.
+
+**Candidate focus areas — select one for analysis; these are not conclusions**
+- Foundational decoding and word recognition, with instructional match and error patterns.
+- Intervention implementation: attendance, delivered dosage, group size, instructional content, and fidelity.
+- Progress-monitoring quality and response to instruction, including measure comparability, language context, and whether additional evaluation questions need to be raised through proper procedures.
 
 **Unknowns — do not assume**
 - Her current instructional profile across phonological awareness, decoding, word recognition, fluency, vocabulary, and comprehension, as relevant.

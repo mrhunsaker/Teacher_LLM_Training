@@ -49,6 +49,44 @@ Vague: “Make a complete special education plan for this student.”
 
 Bounded: “Using only the fictional case facts and synthetic baseline below, help me clarify one measurable educational or related-service target within my professional role: [state role]. Identify the observable behavior or outcome, relevant conditions, measurement approach, and missing information. Do not diagnose, determine eligibility, select services or placement, or choose the final target for the team. Stop after the options and questions.”
 
+## Optional workflow: co-design the prompt through an LLM-led interview
+
+The six-part prompt above remains the standard starting point. The interview workflow below is an **optional companion method**, not a replacement for the copy-ready bounded prompt or the existing Plan → Refine → Build → Refine process. It is useful when the professional knows the desired outcome but wants help identifying what the prompt needs to specify.
+
+The LLM first interviews the professional, one question at a time. The professional's answers are then used to assemble and refine the actual task prompt. The model must not answer its own questions, fill gaps with assumptions, or move into the requested analysis/report until the professional approves the assembled prompt.
+
+### Step 1 — Ask the LLM to conduct a prompt-design interview
+
+> I want to create a prompt for this purpose: [briefly name the report, analysis, plan, or response I ultimately need].
+>
+> Do not perform the task yet and do not draft the final report. Act as a prompt-design interviewer. Ask me one focused question at a time, wait for my answer, and use my answer to decide what to ask next. Cover these areas as relevant:
+> 1. My professional role, scope, and intended decision/use.
+> 2. The exact task and the question the final output must answer.
+> 3. Intended audience, setting, and relevant context.
+> 4. Source material and facts I can provide, and what is unknown or unavailable.
+> 5. Which learner strengths, access needs, constraints, and competing considerations must be represented.
+> 6. Required output sections, format, length, tone, and accessibility.
+> 7. Evidence standards, verification steps, and how uncertainty should be reported.
+> 8. Actions, conclusions, or professional decisions the model must not make.
+> 9. The stop condition and what should happen if essential information is missing.
+>
+> Do not request names or other identifiable student information. Do not infer answers. If I do not know an answer, record it as unknown and ask whether the final prompt should request clarification, state the limitation, or omit that element. When you have enough information, summarize my answers and ask me to correct or approve the summary. Do not generate the final task prompt until I approve.
+
+### Step 2 — Convert the approved answers into the actual prompt
+
+After reviewing the interview summary, ask:
+
+> Using only the answers I approved, draft the complete prompt I can use to request [the report/analysis/response]. Organize it into role, task, context and sources, constraints, required output, verification requirements, and stop condition. Keep unknowns explicitly marked; do not fill them. Include a short checklist I can use to verify that the resulting output meets my requirements. Do not perform the task itself. Show me the draft for approval.
+
+### Step 3 — Test, revise, and then run the approved prompt
+
+1. Check that the assembled prompt reflects the professional's answers and does not add unsupported facts.
+2. Edit the prompt to correct omissions, narrow the task, or strengthen boundaries.
+3. Approve the prompt before asking the LLM to perform the report or analysis.
+4. Review the resulting output against the evidence, scope, accessibility, and verification requirements. Revise the prompt if the test exposes a weakness.
+
+**Example:** A school psychologist might begin with “I need a hypothesis-neutral summary of a student's incomplete multi-step work and peer interactions.” The interview can clarify whether the output is for consultation or a problem-solving meeting, which observation records are available, how peer-directed behavior is operationally defined, which contexts should be compared, what must remain unknown, and which decisions are reserved to the team. Only after the psychologist approves those details does the LLM assemble the final analysis prompt. The interview improves the prompt; it does not replace professional data collection or judgment.
+
 ## Follow-up questions without scope creep
 
 Use a separate prompt for each step:

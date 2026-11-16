@@ -4,6 +4,23 @@ Use this packet as a working record across the ten-session course. Select **one 
 
 These handouts are text-first and can be completed in a copy, printed, or used with a screen reader. Use fictional or district-approved information only. Do not enter identifiable student or staff information into an unapproved system.
 
+## Download the editable Word handouts
+
+Each handout is available as an individual DOCX file. Select a link to download/open that file in Word or a compatible editor. The [handout index](https://github.com/mrhunsaker/Teacher_LLM_Training/blob/main/my-book/handouts/README.md) also lists the Markdown source for each document.
+
+| Participant handout | DOCX |
+|---|---|
+| Handout 1 — Bounded prompt planner | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-01-bounded-prompt-planner.docx) |
+| Handout 2 — Plan and Refine brief | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-02-plan-and-refine-brief.docx) |
+| Handout 3 — Goal and measurement planner | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-03-goal-and-measurement-planner.docx) |
+| Handout 4 — Build and test artifact | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-04-build-and-test-artifact.docx) |
+| Handout 5 — Data review and refinement | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-05-data-review-and-refinement.docx) |
+| Handout 6 — Copilot action report and reflection | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-06-copilot-action-report-and-reflection.docx) |
+| Handout 7 — AI-output review | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-07-ai-output-review.docx) |
+| Handout 8 — Critical review record | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-08-critical-review-record.docx) |
+| Handout 9 — Independent capstone evidence | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/handout-09-independent-capstone-evidence.docx) |
+| Reusable session-close sheet | [Download DOCX](https://github.com/mrhunsaker/Teacher_LLM_Training/raw/refs/heads/main/my-book/handouts/docx/reusable-session-close.docx) |
+
 ## Packet map
 
 | Session | Handout | Working product |
@@ -89,6 +106,26 @@ _State exactly where the model must stop and ask before continuing._
 - [ ] Output requirements include accessible text and a usable structure.
 - [ ] Claims requiring verification are identified.
 - [ ] A clear stop condition is included.
+
+### Optional companion: let the LLM interview you to build the prompt
+
+This is an optional prompt-design method alongside the bounded prompt above. It does not replace the existing prompt template. Ask the LLM to interview you one question at a time, then use your approved answers to assemble the actual prompt.
+
+**Interview starter**
+
+> I need a prompt to create [name the report, analysis, or response]. Do not perform the task. Ask me one question at a time about my role and scope, exact task, audience, setting, source information, known facts and unknowns, learner strengths and access needs, required output, evidence/verification standards, prohibited decisions, and stop condition. Do not ask for identifiable student information or fill gaps with assumptions. When finished, summarize my answers and ask me to approve or correct them.
+
+**Prompt assembly**
+
+> Using only my approved answers, draft the complete prompt with role, task, context and sources, constraints, required output, verification requirements, and stop condition. Preserve unknowns. Do not perform the task. Show me the prompt for approval.
+
+**My review of the interview summary and assembled prompt**
+
+_What did I correct, add, or leave unknown?_
+
+> __________________________________________________________________
+>
+> __________________________________________________________________
 
 **Revision after testing**
 

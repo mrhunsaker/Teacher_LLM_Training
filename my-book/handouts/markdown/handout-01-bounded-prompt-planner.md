@@ -68,6 +68,26 @@ _State exactly where the model must stop and ask before continuing._
 - [ ] Claims requiring verification are identified.
 - [ ] A clear stop condition is included.
 
+### Optional companion: LLM-led prompt-design interview
+
+This method complements the bounded prompt planner; it does not replace it. The LLM interviews you one question at a time, and your approved answers are used to assemble the actual task prompt.
+
+**Interview starter**
+
+> I need a prompt to create [name the report, analysis, or response]. Do not perform the task. Ask me one question at a time about my role and scope, exact task, audience, setting, source information, known facts and unknowns, learner strengths and access needs, required output, evidence and verification standards, prohibited decisions, and stop condition. Do not request identifiable student information or fill gaps with assumptions. When finished, summarize my answers and ask me to approve or correct them.
+
+**Prompt-assembly follow-up**
+
+> Using only my approved answers, draft the complete prompt with role, task, context and sources, constraints, required output, verification requirements, and stop condition. Preserve unknowns. Do not perform the task. Show me the prompt for approval.
+
+**Review notes**
+
+_What did I correct, add, or leave unknown?_
+
+> __________________________________________________________________
+>
+> __________________________________________________________________
+
 **Revision after testing**
 
 _What did you change? Why was the change needed?_

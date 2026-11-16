@@ -100,7 +100,7 @@ The TVI template is intentionally vision-specific. Participants in other discipl
 In addition to the consolidated [Participant Lesson Handouts](participant-lesson-handouts.md) chapter, the curriculum includes **nine individual handouts plus one reusable session-close sheet**. Each is available as an editable Word document (DOCX) and as an individual Markdown source file.
 
 - [Standalone handout guide and complete index](standalone-handouts.md)
-- [Download the DOCX files](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/docx)
+- [Download the DOCX files](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/docx) — individual file links are also listed at the top of the [Participant Lesson Handouts](participant-lesson-handouts.md) chapter.
 - [Browse the individual Markdown sources](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/markdown)
 - [Handout index with file-by-file links](https://github.com/mrhunsaker/Teacher_LLM_Training/blob/main/my-book/handouts/README.md)
 

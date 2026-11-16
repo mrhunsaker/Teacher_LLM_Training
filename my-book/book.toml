@@ -8,7 +8,12 @@ src = "src"
 default-theme = "rust"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/mrhunsaker/Teacher_LLM_Training"
-
+git-repository-icon = "fab-github"
+edit-url-template = "https://github.com/mrhunsaker/Teacher_LLM_Training/edit/master/guide/{path}"
+admonitions = true
+mathjax-support = true
+sidebar-header-nav = true
+smart-punctuation = true
 [build]
 build-dir = "docs"
 create-missing = false

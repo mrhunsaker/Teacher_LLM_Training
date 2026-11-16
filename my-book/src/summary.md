@@ -74,12 +74,6 @@ The course uses **Plan → Refine → Build → Refine**, not one-shot prompt ge
 
 The professional remains responsible for decisions within their role. IEP, evaluation, eligibility, placement, service, clinical, and other reserved decisions remain with qualified professionals and authorized teams.
 
-## The role of the Expanded Core Curriculum
-
-The Expanded Core Curriculum (ECC) is one specialized framework represented in this course, not its overall boundary. It supplements the general education curriculum with disability-specific skills that students with visual impairments may need to access information, participate meaningfully, and build independence. Its nine traditional areas are compensatory or functional academic skills (including communication modes), orientation and mobility, social interaction skills, independent living skills, recreation and leisure skills, career education, assistive technology, sensory efficiency, and self-determination.
-
-The broader course also addresses communication access, academic instruction, school psychology problem-solving, related services, observation, progress monitoring, and cross-disciplinary collaboration. Instruction and services must be individualized; no learner is assumed to need every area.
-
 ## Participant workbook and working files
 
 The [Final Special Education Capstone Workbook](08-final-workbook.md) is the participant's text-based working workbook. It guides the learner through case selection, planning, measurement, artifact creation, data review, refinement, and reflection. It is a Markdown chapter in the book, not a separate downloadable Excel workbook.
@@ -161,6 +155,3 @@ The Markdown files are the source for the generated Word documents. To regenerat
 - Do not delegate diagnosis, evaluation, eligibility, placement, services, IEP-team decisions, or professional/clinical judgment to AI.
 - Make accessibility checks part of the workflow. Text alternatives, semantic headings, keyboard access, and relevant screen-reader and communication workflows matter.
 
-## Build and accessibility verification
-
-The book is built with mdBook. From the repository root, run mdbook build and inspect the rendered output. Before release, verify internal links, heading hierarchy, keyboard navigation, and representative content with the screen readers and access technologies used by participants. A successful build does not by itself establish accessibility; record the actual test environment and results.

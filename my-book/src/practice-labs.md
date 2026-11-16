@@ -25,8 +25,8 @@ Each lab can be completed with a district-approved LLM or offline through partne
 ### Participant steps
 
 1. Rewrite each weak prompt:
-   - “Make an ECC plan for my student.”
-   - “Write an IEP goal for braille.”
+   - “Create a plan for my student.”
+   - “Write an IEP goal for this task.”
    - “Look at this data and tell me if the student is making progress.”
    - “Tell me what technology this student should use.”
 2. Choose one fictional activity.

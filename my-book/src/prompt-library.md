@@ -73,8 +73,8 @@ Return:
 6. Possible educational or related-service connections and a reason for each.
 7. Evidence needed before selecting an instructional target.
 
-Do not infer functional vision, communication, behavior, cognition, motivation, independence,
-or academic skill from diagnosis, eligibility label, test score, acuity, grades, or device ownership.
+Do not infer communication, behavior, cognition, motivation, independence,
+or academic skill from diagnosis, eligibility label, test score, grades, or device ownership.
 Do not recommend reducing or replacing services.
 Do not write an IEP goal yet. Stop after the analysis.
 ```
@@ -111,10 +111,10 @@ or grades. Stop after alternatives and review questions.
 Draft a task analysis for this instructional, communication, behavioral, access, or related-service activity.
 
 Activity and purpose: [describe]
-Verified access conditions and tools: [describe]
+Verified task conditions and tools: [describe]
 Known successful steps: [list]
 Unknowns to observe: [list]
-Audience: [special education teacher, TVI, DHH teacher, school psychologist, SLP, related-service provider, classroom teacher, student, family, or team]
+Audience: [special education teacher, DHH teacher, school psychologist, SLP, related-service provider, classroom teacher, student, family, or team]
 
 Return:
 1. Numbered observable steps.

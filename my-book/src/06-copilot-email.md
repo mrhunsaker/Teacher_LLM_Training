@@ -25,6 +25,10 @@ Open Outlook using your district-managed Microsoft 365 work or school account. S
 
 I include this option because Copilot Chat in Outlook is available for use with eligible work or school accounts, and this is an option available to Davis School District users. Availability of particular features and mailbox access can still depend on the district's configuration, account licensing, and administrator settings; confirm the approved experience with district IT.
 
+## Option B: Summarize an individual Outlook thread
+
+For a quick review of one conversation rather than the full morning inbox, open the message thread in Outlook and use the available **Summary by Copilot/Summarize** control. Check the summary against the full conversation, especially names, deadlines, decisions, attachments, and who owns the next step. This is a thread-level summary, not a substitute for the dated inbox-wide triage report.
+
 ## Other commercial LLM systems: ways to perform the same triage
 
 The same workflow is not unique to Copilot. The essential task is to provide an approved AI system with authorized access to the messages (or a carefully selected set of message text), then use the same read-only triage instructions and verify the resulting report. There are two broad ways to do this: connect the LLM to Outlook, or use the LLM separately from Outlook.

@@ -117,3 +117,8 @@ The PDF sources in `my-book/docs/pandoc/pdf/src/` are Pandoc native-format docum
 ## Accessibility and release checks
 
 The course is text-first. Essential content is not conveyed only through images or color. Tables should remain simple, and graph interpretation should have a text explanation. Before release, complete the [Accessibility and Release QA Checklist](src/accessibility-and-release-checklist.md). Verify internal links, rendered heading hierarchy, keyboard navigation, and representative content using the screen readers and access technologies used by participants. A successful mdBook build does not by itself establish accessibility; record the test environment and results.
+
+
+## Standalone participant handouts
+
+Each participant handout is available as an editable [Word document (DOCX)](my-book/handouts/README.md) and as an individual Markdown source file for generating other formats.

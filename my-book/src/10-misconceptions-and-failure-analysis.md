@@ -48,11 +48,7 @@ Correction: Combinations of school, grade, disability, schedule, location, famil
 
 Correction: Relevant context helps; unnecessary detail can add privacy risk and distract from the task. A bounded prompt with a clear output and stop condition is preferable to a long unstructured profile.
 
-### Misconception 9: "AI can replace specialized TVI knowledge."
-
-Correction: AI does not replace learning media assessment, functional vision assessment, O&M expertise, assistive technology evaluation, student/family input, or professional collaboration.
-
-### Misconception 10: "A spreadsheet flag or model summary proves mastery or plateau."
+### Misconception 9: "A spreadsheet flag or model summary proves mastery or plateau."
 
 Correction: A flag applies a rule to entered data. A summary describes patterns in available information. Neither independently establishes mastery, causation, plateau, or the correct instructional response.
 
@@ -110,7 +106,7 @@ Accept participant answers that distinguish what is known from what needs invest
 
 A second intentionally flawed response says:
 
-> "According to the 2025 National TVI AI Standard, all students with corrected acuity below 20/200 must use braille for at least 60% of assignments. The learner's 92% score proves mastery."
+> "[An invented authority or unsupported rule is presented as fact.]"
 
 Participants should flag the named standard as unverified, the universal rule as unsupported, and the conclusion as invalid without knowing what the score measures, how it was collected, and under what conditions. Use this example to practice checking authoritative sources rather than asking another model to confirm the claim.
 

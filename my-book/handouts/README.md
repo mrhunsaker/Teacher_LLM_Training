@@ -27,6 +27,14 @@ This collection contains **nine individual participant handouts plus one reusabl
 
 The practical competency checklist is also generated as an editable Word document: [practical-competency-checklist.docx](docx/practical-competency-checklist.docx). Its source is maintained at [practical-competency-checklist.md](markdown/practical-competency-checklist.md). Participants should use the DOCX rather than the Markdown source.
 
+## Additional course documents
+
+| Participant resource | Markdown source | Word document |
+|---|---|---|
+| Participant Pre- and Post-Assessment | [participant-pre-and-post-assessment.md](markdown/participant-pre-and-post-assessment.md) | [participant-pre-and-post-assessment.docx](docx/participant-pre-and-post-assessment.docx) |
+| Final Special Education Capstone Workbook | [final-special-education-capstone-workbook.md](markdown/final-special-education-capstone-workbook.md) | [final-special-education-capstone-workbook.docx](docx/final-special-education-capstone-workbook.docx) |
+| Accessibility and Release QA Checklist | [accessibility-and-release-qa-checklist.md](markdown/accessibility-and-release-qa-checklist.md) | [accessibility-and-release-qa-checklist.docx](docx/accessibility-and-release-qa-checklist.docx) |
+
 ## Document generation
 
 The Word files are generated from the Markdown sources by `scripts/build_handouts.py` using `python-docx`. Re-run the script after editing a source file to regenerate its matching DOCX.

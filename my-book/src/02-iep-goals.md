@@ -78,12 +78,6 @@ A useful draft makes clear:
 
 IDEA requires measurable annual goals and a statement of how progress toward goals will be measured and when periodic progress reports will be provided. See [34 CFR § 300.320](https://sites.ed.gov/idea/regs/b/d/300.320). This course does not provide legal advice; follow state and district requirements.
 
-## Example goal draft (synthetic vision/access example)
-
-“Given a digital classroom handout on the district-approved device with the learner's documented access settings enabled, Learner A will independently locate and use the magnification control to set a readable view in at least 10 of 11 scored opportunities (greater than 90%) across three consecutive, separate instructional sessions, as measured by a task-analysis checklist.”
-
-This example is not a recommended goal for every student. The team must decide whether 10/11 opportunities, three sessions, and the stated conditions represent meaningful performance. Define “independently,” specify whether setup assistance is allowed, and consider performance with unfamiliar documents and in other classrooms.
-
 ## Important measurement distinction
 
 Report both accuracy and assistance. A learner may complete a task accurately with verbal cues, modeling, or physical guidance. Those data are valuable, but they should not be recorded as independent performance. Define prompt levels before collecting data.

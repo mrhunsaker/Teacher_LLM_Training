@@ -2,7 +2,7 @@
 
 This guide supports independent completion of the first six sessions in the ten-session course. It is designed for individual completion; discussion with colleagues is optional, not required. You may complete each session in one sitting or divide it into shorter study blocks. The [AI Literacy Self-Study Guide](ai-literacy-self-study-guide.md) covers Sessions 7–10; the [Course Map and Assessment Plan](course-map-and-assessment-plan.md) is the definitive source for sequence and assessment timing.
 
-The course is designed for special education professionals—including special and general education teachers, TVIs, teachers of deaf and hard-of-hearing students, school psychologists, SLPs, and related-service colleagues—with varied AI experience. Select one fictional case aligned with your role and scope of practice. No programming is required.
+The course is designed for special education professionals—including special and general education teachers, teachers of deaf and hard-of-hearing students, school psychologists, SLPs, and related-service colleagues—with varied AI experience. Select one fictional case aligned with your role and scope of practice. No programming is required.
 
 ## How to complete each session
 
@@ -67,7 +67,7 @@ Do not connect personal or district email accounts. The email practice uses simu
 
 **Save:** A planning brief and candidate target options, with unknowns and reserved decisions clearly marked.
 
-**Self-check:** No functional performance, communication, literacy, behavior, motivation, or independence is inferred from diagnosis, eligibility, test scores, acuity, grades, or device ownership alone.
+**Self-check:** No functional performance, communication, literacy, behavior, motivation, or independence is inferred from diagnosis, eligibility, test scores, grades, or device ownership alone.
 
 ## Session 3: Data collection and operational measurement
 
@@ -139,7 +139,6 @@ Do not connect personal or district email accounts. The email practice uses simu
 Use these checks as you work:
 
 - **Facts** are explicitly provided. **Unknowns** are not supplied. **Hypotheses** are plausible explanations that require investigation.
-- Acuity, diagnosis, and grades do not establish functional vision, access efficiency, literacy medium, or instructional need.
 - A target should define observable behavior, conditions, independence or prompt level, measurement, and an individualized criterion.
 - A possible plateau describes a pattern, not its cause. Consider too few observations, inconsistent opportunities, task difficulty, prompt drift, environment, fatigue, attendance, instructional fidelity, and measurement reliability.
 - Sender role is one cue in email triage; urgency should depend on verified deadline, impact, and time sensitivity.

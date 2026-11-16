@@ -2,11 +2,6 @@
 
 These resources are starting points. Verify current versions and district/state requirements before applying them to practice.
 
-## Expanded Core Curriculum and visual impairment
-
-- [Perkins School for the Blind: Expanded Core Curriculum](https://www.perkins.org/resource/expanded-core-curriculum/) — overview and resources related to the ECC.
-- [American Foundation for the Blind](https://www.afb.org/) — resources for educators, families, and professionals supporting people who are blind or have low vision.
-
 ## IEP requirements
 
 - [IDEA regulation: 34 CFR § 300.320 — Definition of individualized education program](https://sites.ed.gov/idea/regs/b/d/300.320) — includes present levels, measurable annual goals, progress measurement, and progress reporting requirements.

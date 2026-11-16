@@ -76,13 +76,7 @@ Microsoft Copilot availability and features vary by license, tenant configuratio
 
 Review approved tools and use cases at least annually and whenever vendor terms, licensing, district policy, or product capabilities change. Provide a clear way for staff to report inaccurate or harmful outputs.
 
-## Responsible LLM use in TVI and ECC work
-
-An LLM may help generate observation questions, brainstorm task-analysis steps, improve generic form clarity, draft candidate wording for professional review, identify missing data fields, summarize synthetic data, and prepare generic checklists.
-
-Do not delegate diagnosis, eligibility, evaluation, placement, service selection or reduction, final IEP goals, accommodations, progress determinations, functional vision or learning media assessment, O&M safety decisions, or determinations about student preferences and capabilities.
-
-### Check for bias and overreach
+## Check for bias and overreach
 
 Ask whether the model treated disability as a deficit; assumed a device is available or appropriate; ignored student preference, fatigue, environment, or access barriers; treated grades as proof of efficient access; recommended replacing one access medium without assessment; or framed a system barrier as a student failure.
 

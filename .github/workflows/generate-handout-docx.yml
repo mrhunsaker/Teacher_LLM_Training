@@ -8,6 +8,13 @@ on:
       - "my-book/handouts/markdown/**"
       - "my-book/handouts/scripts/**"
       - ".github/workflows/generate-handout-docx.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "my-book/handouts/markdown/**"
+      - "my-book/handouts/scripts/**"
+      - ".github/workflows/generate-handout-docx.yml"
 
 permissions:
   contents: write

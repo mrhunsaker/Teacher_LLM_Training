@@ -71,6 +71,28 @@ def build_docx(source_path):
             add_paragraph(doc, line[3:], "Heading 1")
             i += 1
             continue
+        # Convert Markdown pipe tables into native Word tables.
+        if line.startswith("|") and i + 1 < len(lines) and re.match(r"^\\s*\\|?\\s*:?-{3,}", lines[i + 1]):
+            def cells(table_line):
+                return [cell.strip() for cell in table_line.strip().strip("|").split("|")]
+            headers = cells(line)
+            i += 2  # Skip the header and Markdown separator row.
+            rows = []
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                rows.append(cells(lines[i]))
+                i += 1
+            table = doc.add_table(rows=1, cols=len(headers))
+            table.style = "Table Grid"
+            for col, value in enumerate(headers):
+                table.rows[0].cells[col].text = clean_inline(value)
+                for run in table.rows[0].cells[col].paragraphs[0].runs:
+                    run.bold = True
+            for values in rows:
+                row_cells = table.add_row().cells
+                for col in range(len(headers)):
+                    row_cells[col].text = clean_inline(values[col]) if col < len(values) else ""
+            doc.add_paragraph()
+            continue
         if line.startswith(">"):
             quote = line[1:].strip()
             if re.fullmatch(r'[_\s]{8,}', quote):

@@ -90,8 +90,9 @@ Aureliano is a fictional fourth-grade student referred to a school problem-solvi
 - His perspective and strengths across settings.
 - Which interventions have been implemented, at what intensity, and with what fidelity.
 - Whether existing data are reliable, representative, and sufficient for any evaluation or eligibility question.
+- What the peer-directed aggressive behavior looks like in observable terms, whether anyone is at immediate risk, and which established school safety and behavior-support procedures apply. The vignette does not establish function or cause.
 
-**Practice task:** Build a hypothesis-neutral problem-solving record. Define the target behavior or outcome operationally, identify multiple testable hypotheses, and design a plan for comparable observations across relevant settings and tasks. Separate screening, progress monitoring, intervention response, and comprehensive evaluation questions.
+**Practice task:** Build a hypothesis-neutral problem-solving record. If selecting peer-directed behavior as the focus, document the prompt to resume unfinished multi-step work, the immediate context, observable behavior, peer proximity/impact, response, and relevant safety information without assuming a behavioral function. Define the target behavior or outcome operationally, identify multiple testable hypotheses, and design a plan for comparable observations across relevant settings and tasks. Separate screening, progress monitoring, intervention response, and comprehensive evaluation questions.
 
 **Professional boundaries:** An LLM must not diagnose, determine eligibility, select assessment instruments as a substitute for qualified judgment, interpret test protocols, or make placement/service recommendations. Qualified school psychologists and the multidisciplinary team retain responsibility for assessment design, interpretation, consultation, and decisions under applicable law and professional standards.
 
@@ -219,8 +220,9 @@ Petra is a fictional fifth-grade student whose school-day mobility and transitio
 - Her own priorities, fatigue or comfort reports, and preferred ways to request assistance.
 - Whether barriers relate to route design, congestion, timing, access to doors/elevators, equipment, physical demands, or other factors.
 - Whether PT assessment or consultation is indicated; the vignette does not establish this.
+- The exact stair configuration, number and height of steps, handrail arrangement, frequency of stair use, falls or near misses, fatigue/comfort, and Petra's own account are not supplied. Do not infer a diagnosis or prescribe a stair technique from the description.
 
-**Practice task:** Create a school-mobility observation plan for one routine transition. Record route, environmental conditions, task demands, available supports, assistance actually provided, student-reported access, and whether the transition permits meaningful participation in the next activity. Do not make speed the sole outcome.
+**Practice task:** Create a school-mobility observation plan for one routine transition, including a stair route only when it can be observed safely under the established mobility plan. Record congestion, handrail access, the left-foot-leading sequence, the reported right-leg drop-foot tendency, assistance actually provided, and any accessible alternative route. Do not stage a crowded-stair trial or ask Petra to use stairs without the handrail. Record route, environmental conditions, task demands, available supports, assistance actually provided, student-reported access, and whether the transition permits meaningful participation in the next activity. Do not make speed the sole outcome.
 
 **Professional boundaries:** Do not prescribe exercises, transfers, handling techniques, mobility devices, positioning, or changes to assistance. Do not trial unfamiliar equipment or alter an established mobility plan based on AI output. School PT services are provided by qualified physical therapists and are considered in relation to educational access and the student's individual needs. Assessment and service decisions remain with qualified professionals and the authorized team.
 
@@ -247,7 +249,7 @@ Melquíades is a fictional sixth-grade student who attends general physical educ
 - Whether changes to equipment, space, rules, pace, peer grouping, demonstration, or instruction would improve access.
 - Whether specially designed PE or an adapted PE assessment is warranted.
 
-**Practice task:** Design an inclusive PE observation matrix for one unit or activity. Record the intended skill, number and quality of practice opportunities, task adaptations, equipment, instruction and cues, peer participation, student choice, and evidence of learning. Compare access to instruction and meaningful practice—not simply presence in the gym or time on task.
+**Practice task:** Design an inclusive PE observation matrix for one unit or activity. Include ball rolling toward a partner or target and catching during typical PE scenarios, alongside another relevant skill if useful. Record the intended skill, number and quality of practice opportunities, ball type, distance, speed, task adaptations, equipment, instruction and cues, peer participation, student choice, and evidence of learning. Compare access to instruction and meaningful practice—not simply presence in the gym or time on task.
 
 **Professional boundaries:** Do not infer disability, prescribe a motor program, or treat APE as interchangeable with PT. Adapted PE is an instructional area that may involve specially designed physical education; it is not automatically a related service. Under IDEA, physical education includes adapted physical education in the definition of special education, and physical education must be specially designed when necessary. Qualified educators and the authorized team determine appropriate instruction and supports under applicable state and district requirements.
 

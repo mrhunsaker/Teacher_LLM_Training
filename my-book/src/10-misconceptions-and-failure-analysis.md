@@ -68,7 +68,6 @@ A participant should be able to explain the evidence for each E, the uncertainty
 Use only the fictional information below.
 
 - A learner uses a tablet for some classroom activities.
-- The learner has a visual impairment.
 - The learner earns mostly Bs.
 - The learner completes familiar routines in one classroom.
 - No information is supplied about the student's preferred access methods, efficiency, fatigue, performance in unfamiliar settings, or level of prompting.
@@ -77,7 +76,7 @@ Use only the fictional information below.
 
 The following response is intentionally incorrect and must not be used as educational advice.
 
-> "The student is clearly independent with technology because they own and use a tablet and earn good grades. Since the student has a visual impairment, they should use magnification for all digital tasks. The IEP should include a goal to complete every digital assignment with 95% accuracy independently within one month. The student does not need additional assessment because classroom grades are strong."
+> "The student is clearly independent with technology because they own and use a tablet and earn good grades. The IEP should include a goal to complete every digital assignment with 95% accuracy independently within one month. The student does not need additional assessment because classroom grades are strong."
 
 ### Participant task
 

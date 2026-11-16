@@ -13,6 +13,7 @@ Use these prompts with fictional or district-approved information only. Replace 
 7. **Email action report:** summarize possible actions without changing mailbox content.
 8. **Refinement prompt:** challenge an existing response before rewriting it.
 9. **Universal review checklist:** verify quality before retaining or sharing an output.
+10. **Prompt-design interview:** have the LLM ask the professional focused questions and use approved answers to assemble a task-specific prompt.
 
 Use one prompt at a time. Do not ask the model to complete the entire Plan → Refine → Build → Refine cycle in a single response.
 
@@ -227,7 +228,47 @@ Do not rewrite the response yet. First identify:
 Ask me which changes to make. Do not move to another task.
 ```
 
-## 9. Universal review checklist
+## 9. Optional prompt-design interview
+
+This is a companion to the bounded prompt template, not a replacement for it. Use it when the task is known but the professional wants help specifying the prompt before asking for the report, analysis, or other deliverable.
+
+**Interview prompt**
+
+```text
+I want to create a prompt for this purpose: [briefly name the desired report,
+analysis, plan, or response].
+
+Do not perform the task yet. Act as a prompt-design interviewer. Ask one
+focused question at a time and wait for my answer. Ask about:
+- My role, scope, and intended use of the output.
+- The exact task and question to be answered.
+- Audience, setting, and relevant context.
+- Available source material, known facts, and unknowns.
+- Learner strengths, access needs, and competing considerations.
+- Required sections, format, length, tone, and accessibility.
+- Evidence standards and verification requirements.
+- Prohibited actions and decisions reserved to qualified professionals.
+- Stop condition and what to do when information is missing.
+
+Do not request identifiable student information. Do not infer answers or
+fill gaps. Record unknowns explicitly. When enough information is available,
+summarize my answers and ask me to correct or approve the summary.
+Do not draft the final task prompt until I approve the summary.
+```
+
+**Prompt-assembly follow-up**
+
+```text
+Using only the answers I approved, draft the complete prompt for
+[desired report/analysis/response]. Organize it into role, task, context
+and sources, constraints, required output, verification requirements,
+and stop condition. Preserve unknowns; do not fill them. Include a short
+quality checklist. Do not perform the task. Show me the prompt for approval.
+```
+
+The professional reviews and edits the assembled prompt before running it. The interview does not replace the six-part bounded prompt structure, the existing prompts in this library, evidence collection, or professional judgment.
+
+## 10. Universal review checklist
 
 - Is this one bounded task?
 - Is the input fictional or approved?

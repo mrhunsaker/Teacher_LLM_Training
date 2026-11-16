@@ -7,6 +7,7 @@
 ## Select a continuing practice case
 
 - [Unified Buendía-Family Special Education Case Studies](multidisciplinary-case-studies.md)
+- [Standalone Participant Handouts — DOCX Downloads](standalone-handouts.md)
 
 ## Applied workflows: Sessions 1–6/
 
@@ -31,7 +32,6 @@
 - [AI Literacy and Misconception Assessment](ai-literacy-assessment.md)
 - [Participant Lesson Handouts](participant-lesson-handouts.md)
 - [Practical Competency Checklist](practical-competency-checklist.md)
-- [Standalone Participant Handouts — DOCX and Markdown Downloads](standalone-handouts.md)
 
 ## Self-directed learning resources
 

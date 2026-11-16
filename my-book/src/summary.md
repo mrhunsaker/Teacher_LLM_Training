@@ -1,8 +1,8 @@
 # Special Education Professional Learning: Practical LLM Use
 
-This course teaches special education professionals to use large language models (LLMs) and Microsoft 365 Copilot as bounded, privacy-conscious productivity tools. It is designed for special education teachers, teachers of students with visual impairments (TVIs), teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
+This course teaches special education professionals to use large language models (LLMs) and Microsoft 365 Copilot as bounded, privacy-conscious productivity tools. It is designed for special education teachers, teachers of deaf and hard-of-hearing students, school psychologists, speech-language pathologists (SLPs), occupational therapists (OTs), physical therapists (PTs), adapted physical education (APE) teachers, general education teachers, related-service providers, and classroom partners.
 
-Participants choose one fictional case from the unified [Buendía-family case collection](multidisciplinary-case-studies.md) and use it throughout **Plan → Refine → Build → Refine**. All ten cases have equal standing and use the same learning pathway; no discipline is the default. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication.
+Participants choose one fictional case from the unified [Buendía-family case collection](multidisciplinary-case-studies.md) and use it throughout **Plan → Refine → Build → Refine**. All nine cases have equal standing and use the same learning pathway; no discipline is the default. The course supports instructional planning, related-service workflows, IEP-related preparation, observation and progress monitoring, data review, critical evaluation, and professional communication.
 
 ## Start here: the participant pathway
 
@@ -31,7 +31,7 @@ By the end of the course, participants can:
 
 ## Select a case that fits your role
 
-Choose one of the ten fictional cases in the [unified Buendía-family case collection](multidisciplinary-case-studies.md): Úrsula (vision and access), José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), Arcadio (reading), Fernanda (occupational therapy), Petra (physical therapy), Melquíades (adaptive physical education), and Pilar (general-education Tier 3 reading intervention). These are equal options, not ten required assignments. Use your selected case throughout the modules and workbook. Each case includes known facts, unknowns, a bounded practice task, and professional boundaries.
+Choose one of the nine fictional cases in the [unified Buendía-family case collection](multidisciplinary-case-studies.md): José Arcadio (deaf and hard-of-hearing education), Aureliano (school psychology), Amaranta (speech-language pathology), Rebeca (mathematics reasoning), Arcadio (reading), Fernanda (occupational therapy), Petra (physical therapy), Melquíades (adaptive physical education), and Pilar (general-education Tier 3 reading intervention). These are equal options, not ten required assignments. Use your selected case throughout the modules and workbook. Each case includes known facts, unknowns, a bounded practice task, and professional boundaries.
 
 ## The ten-session sequence
 
@@ -81,13 +81,12 @@ The [Final Special Education Capstone Workbook](08-final-workbook.md) is the par
 The CSV files are spreadsheet-ready practice resources:
 
 - [Synthetic example progress-monitoring data](progress-monitoring-example.csv)
-- [TVI data-collection template](tvi-data-collection-template.csv)
 - [Classroom data-collection template](classroom-data-collection-template.csv)
 - [Synthetic dataset — improving progress](datasets/improving-progress.csv)
 - [Synthetic dataset — variable performance](datasets/variable-performance.csv)
 - [Synthetic dataset — possible plateau](datasets/possible-plateau.csv)
 
-The TVI template is intentionally vision-specific. Participants in other disciplines should adapt the classroom template or create a role-appropriate form using the data-collection module. No standalone Excel workbook file is included in this repository.
+No standalone Excel workbook file is included in this repository.
 
 ## Standalone participant handouts
 
@@ -98,7 +97,7 @@ In addition to the consolidated [Participant Lesson Handouts](participant-lesson
 - [Browse the individual Markdown sources](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/markdown)
 - [Handout index with file-by-file links](https://github.com/mrhunsaker/Teacher_LLM_Training/blob/main/my-book/handouts/README.md)
 
-The Markdown files are the source for the generated Word documents. To regenerate them after editing a source, run `python my-book/handouts/scripts/build_handouts.py` from the repository root. The standalone files are companion resources, not additional lessons or modules.
+The Word documents are the participant-facing files. The source Markdown and generation instructions are maintained for course authors in the repository root README.
 
 ## Complete resource index
 
@@ -147,7 +146,7 @@ The Markdown files are the source for the generated Word documents. To regenerat
 
 - Use fictional or synthetic information for course practice. Removing a name alone does not establish de-identification.
 - For real work, use only specifically district-approved tools and data workflows; follow privacy, retention, sharing, and reporting requirements.
-- Do not infer functional vision, communication, behavior, cognition, literacy, independence, or educational need from a diagnosis, eligibility label, test score, acuity, grades, or device ownership alone.
+- Do not infer communication, behavior, cognition, literacy, independence, or educational need from a diagnosis, eligibility label, test score, grades, or device ownership alone.
 - Distinguish independent from prompted performance. Define valid opportunities, operational measures, accommodations, communication modes, and task conditions.
 - The greater-than-90%-across-three-sessions rule is a configurable training convention, not an IDEA or universal legal standard.
 - LLM output and spreadsheet flags are aids, not authorities. Verify claims, calculations, and source material.

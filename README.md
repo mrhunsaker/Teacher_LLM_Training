@@ -121,4 +121,11 @@ The course is text-first. Essential content is not conveyed only through images 
 
 ## Standalone participant handouts
 
-Each participant handout is available as an editable [Word document (DOCX)](my-book/handouts/README.md) and as an individual Markdown source file for generating other formats.
+The participant handout collection is also distributed as **nine individual handouts plus one reusable session-close sheet**, each in two formats:
+
+- [Handout index and download links](my-book/handouts/README.md) — complete file-by-file inventory.
+- [Editable Word documents (DOCX)](my-book/handouts/docx/) — ready to open, edit, print, and distribute.
+- [Individual Markdown source files](my-book/handouts/markdown/) — source files for generating other formats or tailoring materials.
+- [Generation script](my-book/handouts/scripts/build_handouts.py) — regenerates the DOCX files from the Markdown sources.
+
+The consolidated [Participant Lesson Handouts](my-book/src/participant-lesson-handouts.md) chapter remains in the mdBook. The standalone files are companion resources, not additional lessons. Markdown is the source of truth for the generated Word files; run `python my-book/handouts/scripts/build_handouts.py` from the repository root after editing a source file. GitHub Actions also regenerates DOCX files when handout sources or the generator change.

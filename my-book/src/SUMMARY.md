@@ -31,6 +31,7 @@
 - [AI Literacy and Misconception Assessment](ai-literacy-assessment.md)
 - [Participant Lesson Handouts](participant-lesson-handouts.md)
 - [Practical Competency Checklist](practical-competency-checklist.md)
+- [Standalone Participant Handouts — DOCX and Markdown Downloads](standalone-handouts.md)
 
 ## Facilitator and practice resources
 

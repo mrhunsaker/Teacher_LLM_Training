@@ -78,6 +78,12 @@ from `.env`.
 
 The directory containing `SUMMARY.md` automatically becomes the mdBook source directory unless overridden by `--source-dir`.
 
+## Companion participant handouts
+
+The repository also maintains nine individual participant handouts and one reusable session-close sheet under `my-book/handouts/`. Each is available as an editable DOCX file and as an individual Markdown source file; see [the handout index](my-book/handouts/README.md).
+
+These are companion downloads outside the mdBook source directory (`my-book/src/`). They are not automatically included in the mdBook HTML, companion PDF, or an IMS Common Cartridge export. Distribute them separately, or deliberately copy the required files into an approved course asset location and reference them from the course content before creating a package.
+
 ---
 
 # Installing Dependencies

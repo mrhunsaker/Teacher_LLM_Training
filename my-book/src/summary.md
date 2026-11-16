@@ -95,6 +95,17 @@ The CSV files are spreadsheet-ready practice resources:
 
 The TVI template is intentionally vision-specific. Participants in other disciplines should adapt the classroom template or create a role-appropriate form using the data-collection module. No standalone Excel workbook file is included in this repository.
 
+## Standalone participant handouts
+
+In addition to the consolidated [Participant Lesson Handouts](participant-lesson-handouts.md) chapter, the curriculum includes **nine individual handouts plus one reusable session-close sheet**. Each is available as an editable Word document (DOCX) and as an individual Markdown source file.
+
+- [Standalone handout guide and complete index](standalone-handouts.md)
+- [Download the DOCX files](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/docx)
+- [Browse the individual Markdown sources](https://github.com/mrhunsaker/Teacher_LLM_Training/tree/main/my-book/handouts/markdown)
+- [Handout index with file-by-file links](https://github.com/mrhunsaker/Teacher_LLM_Training/blob/main/my-book/handouts/README.md)
+
+The Markdown files are the source for the generated Word documents. To regenerate them after editing a source, run `python my-book/handouts/scripts/build_handouts.py` from the repository root. The standalone files are companion resources, not additional lessons or modules.
+
 ## Complete resource index
 
 ### Core course chapters — follow in this order

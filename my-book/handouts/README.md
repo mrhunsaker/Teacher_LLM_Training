@@ -1,6 +1,6 @@
 # Standalone Participant Handouts
 
-This collection provides each participant handout as an individual Markdown source file and an editable Microsoft Word document.
+This collection contains **nine individual participant handouts plus one reusable session-close sheet**. Each item is provided as an individual Markdown source file and an editable Microsoft Word document.
 
 ## Use the files
 

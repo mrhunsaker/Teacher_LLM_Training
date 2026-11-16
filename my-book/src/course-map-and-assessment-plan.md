@@ -90,7 +90,7 @@ The standard sequence is ten sessions of 75–90 minutes (approximately 12.5–1
 - Keyboard and screen-reader workflows used by participants.
 - Simulated email for the Copilot triage activity; personal or district inbox access is not required.
 
-No programming experience or ECC background is required for participants using non-vision cases. Participants should know the professional standards and scope-of-practice requirements relevant to their own roles.
+Participants should know the professional standards and scope-of-practice requirements relevant to their own roles.
 
 ## Decision boundaries
 
@@ -98,7 +98,7 @@ AI may help brainstorm, organize, draft, check consistency, and identify questio
 
 ## Release validation
 
-Before publishing or distributing the course, run the mdBook build and complete the [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md). Build success, internal-link review, keyboard testing, and screen-reader testing are separate checks; record the actual results rather than assuming one proves the others.
+Complete the [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md) as part of course review. Record actual test results; a successful build does not establish accessibility.
 
 ## Completion and transfer
 

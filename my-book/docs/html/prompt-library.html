@@ -1,0 +1,891 @@
+<!DOCTYPE HTML>
+<html lang="en" class="rust sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Reusable Prompt Library - Special Education Professional Learning: Practical LLM Use</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "rust";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-a7e8a151.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-b431280c.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Special Education Professional Learning: Practical LLM Use</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mrhunsaker/Teacher_LLM_Training" title="Git repository" aria-label="Git repository">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/mrhunsaker/Teacher_LLM_Training/edit/master/guide/src/prompt-library.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                            <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="reusable-prompt-library"><a class="header" href="#reusable-prompt-library">Reusable Prompt Library</a></h1>
+<p>Use these prompts with fictional or district-approved information only. Replace bracketed text before use. Each prompt is limited to a defined task and requires professional review before any decision or implementation. Do not paste identifiable student or staff information into an unapproved system.</p>
+<h2 id="how-to-use-the-qa-format"><a class="header" href="#how-to-use-the-qa-format">How to use the Q&amp;A format</a></h2>
+<p>Every prompt type below includes a short, task-specific Q&amp;A intake. The model should interview the professional before producing the requested artifact.</p>
+<ol>
+<li>Paste the prompt and provide only the information already known.</li>
+<li>The model asks <strong>one focused question at a time</strong>. Answer it, or say “unknown” or “not applicable.” Do not guess to satisfy the interview.</li>
+<li>The model continues only with questions that materially affect the requested output. It should not repeat information already supplied.</li>
+<li>When intake is complete, the model presents a concise <strong>Q&amp;A confirmation</strong>: each important question paired with the professional’s answer, plus a separate list of unknowns and assumptions.</li>
+<li>Correct the confirmation. The model must wait for approval before creating the deliverable.</li>
+<li>Review the result, verify facts and calculations, and retain professional decision authority.</li>
+</ol>
+<p>If the user asks for a direct response without an interview, the model may proceed using supplied information, but it must identify gaps rather than invent answers. Q&amp;A is a way to clarify the task, not a substitute for evidence, student/family input, observation, or team decisions.</p>
+<h2 id="choose-a-prompt"><a class="header" href="#choose-a-prompt">Choose a prompt</a></h2>
+<ol>
+<li><strong>Bounded prompt and task specification:</strong> define role, task, context, constraints, output, and stop condition.</li>
+<li><strong>Student, learner, and task analysis:</strong> separate facts, unknowns, hypotheses, and questions.</li>
+<li><strong>Goal or outcome development:</strong> brainstorm measurable options for professional review.</li>
+<li><strong>Task analysis and instructional sequence:</strong> break an activity into observable steps.</li>
+<li><strong>Data-collection tool design:</strong> align operational definitions, opportunities, prompts, and recording methods.</li>
+<li><strong>Data analysis and progress review:</strong> check calculations and describe patterns without overclaiming.</li>
+<li><strong>Instructional refinement:</strong> compare an artifact with test evidence and propose small revisions.</li>
+<li><strong>Lesson, material, or activity adaptation:</strong> improve alignment, usability, differentiation, and accessibility.</li>
+<li><strong>Accommodation and access-planning review:</strong> organize task-specific barriers, supports to investigate, and evidence still needed.</li>
+<li><strong>Behavior or participation pattern review:</strong> organize observable antecedents, actions, consequences, context, and questions without diagnosing or prescribing.</li>
+<li><strong>Rubric, checklist, or performance-criteria design:</strong> make success criteria observable and usable.</li>
+<li><strong>Family or caregiver communication draft:</strong> prepare clear, respectful, human-reviewed communication.</li>
+<li><strong>Meeting preparation and decision log:</strong> organize questions, evidence, options, and follow-up responsibilities.</li>
+<li><strong>Email action report:</strong> summarize possible actions without changing mailbox content.</li>
+<li><strong>Source and claim verification:</strong> check claims, references, dates, and evidence quality.</li>
+<li><strong>Spreadsheet and calculation quality check:</strong> audit formulas, denominators, data handling, and interpretations.</li>
+<li><strong>Implementation or project plan:</strong> define a bounded sequence, roles, dependencies, and review points.</li>
+<li><strong>Reflection and professional learning:</strong> turn experience into evidence-based next steps.</li>
+<li><strong>Refinement prompt:</strong> challenge an existing response before rewriting it.</li>
+<li><strong>Prompt-design interview:</strong> collaboratively assemble a task-specific prompt.</li>
+<li><strong>Universal review checklist:</strong> verify quality before retaining or sharing an output.</li>
+</ol>
+<p>Use one prompt at a time. Do not ask the model to complete the entire Plan → Refine → Build → Refine cycle in a single response.</p>
+<h2 id="1-bounded-prompt-and-task-specification"><a class="header" href="#1-bounded-prompt-and-task-specification">1. Bounded prompt and task specification</a></h2>
+<pre><code class="language-text">Act as a prompt-design assistant. Do not perform the task until I approve
+the Q&amp;A confirmation.
+
+Q&amp;A INTAKE — ask one question at a time:
+- What is my professional role and scope?
+- What single task should the prompt support, and why?
+- Who will use or read the output?
+- What context and source material are relevant?
+- What must the model not do?
+- What output format, length, and accessibility requirements apply?
+- What needs independent verification, and where should the model stop?
+
+After the interview, show a Q&amp;A confirmation with my answers, unknowns,
+and assumptions. Ask me to approve or correct it.
+
+ROLE
+Act as a planning and drafting assistant for a special education professional.
+My role and scope of practice are: [state role]. Do not act as an evaluator,
+diagnostician, IEP decision-maker, or legal authority.
+
+TASK
+Complete one task: [specific task and purpose].
+
+CONTEXT
+Use only these relevant facts: [brief de-identified information].
+Audience: [professional, student, family, classroom team, or other audience].
+Task and setting: [relevant conditions].
+
+BOUNDARIES
+- Do not invent facts or infer skills from diagnosis, eligibility, test score,
+  grades, or device ownership.
+- Separate provided facts, hypotheses, and unknowns.
+- Identify information needed before recommending an approach.
+- Offer options and trade-offs rather than a single prescribed answer.
+- Do not complete adjacent tasks.
+- Keep professional and team decisions with educators.
+
+OUTPUT
+Return: [format, headings, length, intended audience].
+Use accessible text; do not rely on images or color-only cues.
+
+QUALITY CHECK
+List assumptions, uncertainties, accessibility risks, and claims
+requiring independent verification.
+
+STOP CONDITION
+Stop after [specific deliverable]. Ask before proceeding.
+</code></pre>
+<h2 id="2-student-learner-and-task-analysis"><a class="header" href="#2-student-learner-and-task-analysis">2. Student, learner, and task analysis</a></h2>
+<pre><code class="language-text">Before analyzing, conduct a brief Q&amp;A intake. Ask one question at a time:
+- What meaningful task or participation outcome are we examining?
+- What facts are directly documented or observed?
+- In what setting and under what conditions?
+- What does the learner say is helpful, difficult, or important?
+- Which relevant people or professionals have information we do not?
+- What decisions must remain outside this analysis?
+
+Show a Q&amp;A confirmation and list unknowns separately. Wait for approval.
+
+Analyze this fictional or approved de-identified profile:
+Profile: [relevant facts]
+Task and purpose: [meaningful activity and setting]
+
+Return:
+1. Facts explicitly stated and their sources.
+2. Unknowns that cannot be inferred.
+3. Hypotheses worth investigating, clearly labeled.
+4. Questions for the learner, family, relevant service providers, classroom
+   teacher, or related-service staff.
+5. Possible task, environmental, communication, or access variables to observe.
+6. Possible educational or related-service connections and a reason for each.
+7. Evidence needed before selecting an instructional target.
+
+Do not infer communication, behavior, cognition, motivation, independence,
+or academic skill from diagnosis, eligibility label, test score, grades, or
+device ownership. Do not recommend reducing or replacing services.
+Do not write a goal yet. Stop after the analysis.
+</code></pre>
+<h2 id="3-goal-or-outcome-development-and-measurement"><a class="header" href="#3-goal-or-outcome-development-and-measurement">3. Goal or outcome development and measurement</a></h2>
+<pre><code class="language-text">Start with Q&amp;A. Ask one question at a time:
+- What meaningful skill, behavior, or participation outcome is being considered?
+- What baseline observations exist, over how many sessions and opportunities?
+- How are independent, prompted, and incomplete responses defined?
+- Under what conditions was performance measured?
+- What measurement method and criterion are appropriate to consider?
+- Who will review and approve any final target?
+
+Summarize answers and unknowns in Q&amp;A format. Wait for my approval.
+
+Context: [task, setting, relevant facts]
+Baseline: [sessions, opportunities, independent and prompted performance,
+conditions, and notes]
+
+Please:
+1. State whether baseline information is sufficient to brainstorm options.
+2. List missing information.
+3. Draft up to three alternative target statements.
+4. For each, identify observable behavior, conditions, opportunities,
+   prompt/independence definition, measurement method, and criterion.
+5. Explain trade-offs in meaningfulness, feasibility, and generalization.
+6. Flag vague, compound, or difficult-to-measure wording.
+7. List decisions for the educator and team.
+
+Do not assume a universal accuracy threshold. Do not present a suggested
+criterion as a legal standard. Do not infer need from diagnosis, eligibility,
+test scores, or grades. Stop after alternatives and review questions.
+</code></pre>
+<h2 id="4-task-analysis-and-instructional-sequence"><a class="header" href="#4-task-analysis-and-instructional-sequence">4. Task analysis and instructional sequence</a></h2>
+<pre><code class="language-text">Conduct a Q&amp;A intake, one question at a time:
+- What activity and meaningful purpose are being addressed?
+- Where, when, and with what materials or tools does it occur?
+- Which steps are already known to be successful?
+- What counts as completion for the whole task?
+- What prompts or supports are currently used, if known?
+- What needs direct observation before the sequence can be finalized?
+
+Show a Q&amp;A confirmation and wait for approval.
+
+Activity and purpose: [describe]
+Verified task conditions and tools: [describe]
+Known successful steps: [list]
+Unknowns to observe: [list]
+Audience: [intended audience]
+
+Return:
+1. Numbered, observable steps.
+2. Definition of completion for each step.
+3. Possible prompt levels, defined in plain language.
+4. Environmental or task variables to record.
+5. Steps that may need individualization.
+6. A brief learner feedback check.
+
+Do not assume a particular tool is needed. Do not present a proposed sequence
+as a claim about current ability. Label suggestions requiring observation.
+Stop after the draft sequence.
+</code></pre>
+<h2 id="5-data-collection-tool-design"><a class="header" href="#5-data-collection-tool-design">5. Data-collection tool design</a></h2>
+<pre><code class="language-text">Ask one Q&amp;A question at a time:
+- What specific skill or outcome will be observed?
+- What is the operational definition, including examples and non-examples?
+- What counts as one valid opportunity?
+- Which conditions, prompts, supports, or context variables matter?
+- Who will collect data, when, and in what setting?
+- What recording method is practical and how will missing data be marked?
+
+Provide a Q&amp;A confirmation, highlight unresolved measurement decisions,
+and wait for approval.
+
+Target: [skill or outcome]
+Setting and routine: [context]
+Known measurement constraints: [time, staff, materials]
+
+Design a simple data-collection tool. Include:
+1. Field names and plain-language definitions.
+2. A usable recording layout with date/session and opportunity fields.
+3. Operational definitions and prompt/support codes where relevant.
+4. Rules for invalid, missed, or not-applicable opportunities.
+5. A brief example row using synthetic data.
+6. Directions for summarizing results without confusing counts,
+   percentages, rates, and opportunities.
+7. A short reliability check for two observers, if appropriate.
+
+Do not invent baseline values or imply the tool has been validated.
+Do not collect unnecessary personal information. Stop after the tool and
+its instructions.
+</code></pre>
+<h2 id="6-data-analysis-and-progress-review"><a class="header" href="#6-data-analysis-and-progress-review">6. Data analysis and progress review</a></h2>
+<pre><code class="language-text">Before analysis, ask one question at a time:
+- What does each row and column represent?
+- What are the numerator, denominator, and unit of measurement?
+- How are prompts, independent responses, and missing values coded?
+- Were procedures, settings, observers, or materials changed?
+- What decision, if any, will this review inform?
+
+Show the answers as a Q&amp;A confirmation. Flag ambiguous data definitions
+and wait for approval before calculating.
+
+Review this synthetic or approved de-identified dataset.
+Target and operational definition: [insert]
+Measurement and denominator: [insert]
+Prompt/independence definitions: [insert]
+Conditions and changes: [insert]
+Data: [paste rows without identifiers]
+
+Please:
+1. Restate the data structure and identify missing, duplicate, or invalid values.
+2. Recalculate key values and show arithmetic.
+3. Describe level, trend, variability, and notable changes.
+4. Separate data descriptions from possible explanations.
+5. Offer at least three competing explanations.
+6. State what additional evidence could distinguish them.
+7. Describe the strength and limits of any conclusion.
+8. Suggest one small testable next step and what data to review.
+
+Do not claim causation from a small dataset. Do not treat missing values as
+zero. Do not combine independent and prompted performance. Do not declare
+mastery or plateau from a spreadsheet flag alone. Stop after analysis.
+</code></pre>
+<h2 id="7-instructional-refinement-after-testing"><a class="header" href="#7-instructional-refinement-after-testing">7. Instructional refinement after testing</a></h2>
+<pre><code class="language-text">Conduct Q&amp;A before recommending revisions:
+- What was the intended outcome and what was actually tested?
+- What observations or data were collected?
+- What did the learner and staff report?
+- What conditions, materials, or procedures changed?
+- What must remain unchanged, and what can be adjusted?
+
+Ask one question at a time. Present a Q&amp;A confirmation and wait for approval.
+
+Artifact and context: [plan, tool, lesson, or material]
+Observed results: [observations, learner feedback, staff feedback, data]
+Original intended outcome: [target and conditions]
+
+Please:
+1. Compare intended outcome with observed evidence.
+2. Separate observations from interpretations.
+3. Identify what worked and what created friction or barriers.
+4. Offer two or three small revisions with trade-offs.
+5. State what should remain unchanged.
+6. Suggest how to test one revision and what data to collect.
+7. List questions for the learner and team.
+
+Do not assume the learner caused a failure. Consider task design,
+environment, materials, instruction, time, and measurement quality.
+Do not infer a diagnosis or make a team decision. Stop after options.
+</code></pre>
+<h2 id="8-lesson-material-or-activity-adaptation"><a class="header" href="#8-lesson-material-or-activity-adaptation">8. Lesson, material, or activity adaptation</a></h2>
+<pre><code class="language-text">Ask one question at a time:
+- What learning objective or standard must remain central?
+- Who is the intended audience and what prior knowledge is assumed?
+- What part of the current lesson or material is not working?
+- What learner strengths, preferences, and documented needs are relevant?
+- What format, time, technology, and resource constraints apply?
+- How will we know whether the adaptation helped?
+
+Summarize in Q&amp;A format and wait for approval.
+
+Current lesson/material: [paste or describe]
+Learning objective: [objective]
+Learner and setting context: [de-identified and relevant information]
+Constraints: [time, materials, technology, format]
+
+Create an adapted version that:
+1. Preserves the stated learning objective.
+2. Uses clear, age-respectful language and an appropriate level of challenge.
+3. Provides more than one way to engage with or respond to the task where
+   appropriate.
+4. Identifies needed materials, preparation, and instructional steps.
+5. Includes a brief check for understanding.
+6. Explains what was changed and why.
+7. Lists adaptations that require educator or team review.
+
+Do not lower the learning objective without an explicit rationale and
+professional approval. Do not assume an accommodation is appropriate
+without evidence. Stop after the adapted draft and change log.
+</code></pre>
+<h2 id="9-accommodation-and-access-planning-review"><a class="header" href="#9-accommodation-and-access-planning-review">9. Accommodation and access-planning review</a></h2>
+<pre><code class="language-text">Begin with a Q&amp;A interview, one question at a time:
+- What task or activity must the learner access or complete?
+- What barrier has been directly observed, and in what conditions?
+- What does the learner report about the task?
+- What supports, strategies, or tools have actually been tried?
+- What was the observed result of each trial?
+- Which qualified staff or team members need to be consulted?
+
+Show answers, unknowns, and assumptions in a Q&amp;A confirmation. Wait for approval.
+
+Task and setting: [describe]
+Observed barrier: [describe without interpretation]
+Strategies tried and evidence: [list]
+Relevant constraints: [list]
+
+Return:
+1. The task demand and observed barrier, kept distinct.
+2. Known facts, unknowns, and hypotheses.
+3. Possible supports or adjustments to investigate, with rationale.
+4. How to trial each option and what evidence to collect.
+5. Learner input and team questions still needed.
+6. Potential unintended effects or trade-offs.
+7. A concise review plan.
+
+Do not prescribe accommodations, determine eligibility, or change services.
+Do not infer needs from a label or diagnosis. Do not treat a possible support
+as an approved accommodation. Stop after options and evidence plan.
+</code></pre>
+<h2 id="10-behavior-or-participation-pattern-review"><a class="header" href="#10-behavior-or-participation-pattern-review">10. Behavior or participation pattern review</a></h2>
+<pre><code class="language-text">Ask one question at a time:
+- What observable action or participation pattern is being discussed?
+- What happens immediately before and after it?
+- When and where does it occur, and when does it not occur?
+- How often, how long, or under what measurement is it recorded?
+- What contextual, communication, health, environmental, or task variables
+  are already documented by qualified staff?
+- What immediate safety or support procedures already exist?
+
+Present a Q&amp;A confirmation and separate facts from hypotheses. Wait for approval.
+
+De-identified observation notes: [insert]
+Operational definition, if available: [insert]
+Setting and context: [insert]
+
+Organize the information as:
+1. Observable description, avoiding labels and inferred intent.
+2. Antecedent, behavior/action, and consequence/context sequence where useful.
+3. Patterns across settings, times, tasks, and conditions.
+4. Missing information and competing hypotheses.
+5. Questions for the learner, family, and qualified team members.
+6. Non-prescriptive environmental or instructional variables to review.
+7. Data that could clarify the pattern.
+
+Do not diagnose, assign motive or function as fact, recommend restrictive
+procedures, or replace a qualified functional assessment or safety plan.
+Do not treat correlation as causation. Stop after organizing evidence.
+</code></pre>
+<h2 id="11-rubric-checklist-or-performance-criteria-design"><a class="header" href="#11-rubric-checklist-or-performance-criteria-design">11. Rubric, checklist, or performance-criteria design</a></h2>
+<pre><code class="language-text">Conduct a Q&amp;A intake:
+- What skill, product, or process will be evaluated?
+- What objective or standard should the criteria align with?
+- Who will use the rubric and who is being assessed?
+- What are the essential dimensions of quality?
+- How many performance levels are useful?
+- What evidence would distinguish one level from another?
+- How will accessibility, bias, and consistent scoring be checked?
+
+Ask one question at a time. Confirm answers in Q&amp;A format and wait for approval.
+
+Task/product: [describe]
+Objective: [insert]
+Audience and use: [insert]
+
+Create a rubric or checklist with:
+1. A small number of distinct, observable criteria.
+2. Plain-language performance descriptors for each level.
+3. Clear distinction between levels; avoid vague terms such as "good."
+4. Scoring guidance and rules for not observed/not applicable.
+5. An example using fictional work, if useful.
+6. A brief consistency and bias review.
+
+Do not equate a score with a diagnosis, eligibility decision, or overall
+learner ability. Identify criteria requiring professional agreement.
+Stop after the draft instrument.
+</code></pre>
+<h2 id="12-family-or-caregiver-communication-draft"><a class="header" href="#12-family-or-caregiver-communication-draft">12. Family or caregiver communication draft</a></h2>
+<pre><code class="language-text">Before drafting, ask one question at a time:
+- What is the purpose of the communication?
+- Who is the audience and what relationship or context matters?
+- What verified information should be communicated?
+- What action or response, if any, is requested?
+- What tone, language, translation, and accessibility needs apply?
+- What information must be omitted or confirmed by the sender?
+
+Show a Q&amp;A confirmation, distinguish verified facts from pending details,
+and wait for approval.
+
+Purpose: [inform, invite, explain, follow up, or request input]
+Verified facts: [insert]
+Requested action and deadline: [insert or "none"]
+Tone and format: [insert]
+
+Draft a clear, respectful, family-centered message that:
+1. States the purpose early.
+2. Uses plain language and explains necessary professional terms.
+3. Separates facts from proposed next steps.
+4. Invites questions or the family's perspective where appropriate.
+5. Avoids blame, jargon, unsupported conclusions, and promises the sender
+   cannot make.
+6. Includes only approved contact and logistical details.
+
+Do not invent dates, decisions, services, or commitments. Do not send the
+message. Mark any detail the sender must verify. Stop after the draft.
+</code></pre>
+<h2 id="13-meeting-preparation-and-decision-log"><a class="header" href="#13-meeting-preparation-and-decision-log">13. Meeting preparation and decision log</a></h2>
+<pre><code class="language-text">Ask one question at a time:
+- What is the meeting purpose and what decisions are within its scope?
+- Who is expected to participate, by role?
+- What evidence and documents are available and verified?
+- What questions or disagreements need respectful clarification?
+- What decisions must be made by the team or another authorized person?
+- What follow-up actions, owners, and due dates should be recorded?
+
+Present a Q&amp;A confirmation and wait for approval.
+
+Meeting type and purpose: [insert]
+Participants by role: [insert]
+Verified evidence: [insert]
+Known questions: [insert]
+
+Prepare:
+1. A concise agenda with time estimates.
+2. Questions organized by topic and responsible role.
+3. Evidence to bring and items still missing.
+4. Options and trade-offs for discussion, not predetermined decisions.
+5. A neutral decision-log template with decision, rationale/evidence,
+   responsible person, and follow-up date.
+6. A follow-up action list.
+
+Do not fabricate consensus, meeting outcomes, attendance, or commitments.
+Do not make eligibility, placement, service, or IEP decisions. Stop before
+the meeting and leave outcome fields blank until confirmed.
+</code></pre>
+<h2 id="14-morning-email-action-report"><a class="header" href="#14-morning-email-action-report">14. Morning email action report</a></h2>
+<p>Use only in a district-approved Microsoft 365 Copilot environment and only as permitted by policy. For practice, use the simulated inbox in the email lab.</p>
+<pre><code class="language-text">First ask in Q&amp;A format:
+- Which mailbox, folder, sender, or date range should be reviewed?
+- What time period counts as "today" for this report?
+- Are there priority deadlines or categories to flag?
+- Should the report include only actionable messages or also FYI items?
+
+Ask one question at a time, confirm scope, then review only the specified messages.
+Do not send, delete, archive, forward, or mark messages complete.
+
+For each possible action item, return:
+- Task or requested action
+- Sender and subject (source)
+- Due date exactly as stated, or "not stated / unclear"
+- Suggested urgency from 1 to 5
+- Reason based on deadline, impact, and time sensitivity
+- Recommended next step
+- What I must verify in the original message
+
+Urgency guide:
+5 = immediate safety, service, or hard-deadline risk
+4 = time-sensitive deadline or significant impact within 1 business day
+3 = important work due soon, generally within several days
+2 = routine follow-up without a near deadline
+1 = informational or low-action item
+
+Do not infer a due date. Do not rank solely by sender title.
+If urgency is uncertain, explain why. Separate tasks from FYI items.
+Identify possible duplicate requests. Return a concise numbered list.
+Stop after the report and wait for my review.
+</code></pre>
+<h2 id="15-source-and-claim-verification"><a class="header" href="#15-source-and-claim-verification">15. Source and claim verification</a></h2>
+<pre><code class="language-text">Start with Q&amp;A:
+- Which claims or statements need verification?
+- What jurisdiction, organization, or date range applies?
+- Are there required authoritative sources?
+- Is the supplied source material complete and current?
+- How should uncertainty or conflicting sources be reported?
+
+Ask one question at a time and confirm scope in Q&amp;A format.
+
+Claims to check: [list]
+Context/jurisdiction: [insert]
+Sources supplied or required: [insert]
+
+For each claim:
+1. Restate it precisely.
+2. Identify what evidence would support or contradict it.
+3. Check the original authoritative source when available.
+4. Provide source title, issuing organization, publication/update date,
+   and a working citation or link where possible.
+5. Distinguish confirmed, partially supported, outdated, disputed,
+   and unverified claims.
+6. Quote only what is necessary and explain limitations.
+7. List claims that need human or legal review.
+
+Do not fabricate citations, titles, quotations, or dates. If browsing or
+source access is unavailable, say so. Do not present a model's recollection
+as current verification. Stop after the verification report.
+</code></pre>
+<h2 id="16-spreadsheet-and-calculation-quality-check"><a class="header" href="#16-spreadsheet-and-calculation-quality-check">16. Spreadsheet and calculation quality check</a></h2>
+<pre><code class="language-text">Conduct a Q&amp;A intake:
+- What is the purpose of the spreadsheet and what does each row represent?
+- What are the units, numerator, denominator, and expected ranges?
+- Which cells contain raw data, formulas, or manually entered values?
+- How are blanks, errors, duplicates, and not-applicable values handled?
+- What formulas or summaries are most important to audit?
+- What output or decision will use these results?
+
+Show Q&amp;A confirmation and wait for approval before analysis.
+
+Spreadsheet structure or sample: [paste de-identified rows/formulas]
+Expected calculations: [describe]
+Known issues: [describe]
+
+Audit:
+1. Formula logic and cell references.
+2. Numerators, denominators, units, and percentage/rate calculations.
+3. Blank, duplicate, invalid, and out-of-range values.
+4. Whether formulas treat missing data appropriately.
+5. Whether charts and labels represent the data accurately.
+6. A small hand-calculated verification example.
+7. Specific corrections, with cell references where available.
+
+Do not alter the source file or assume a formula is correct because it
+returns a plausible value. Do not treat missing values as zero unless the
+measurement rules explicitly require it. Stop after the audit and proposed
+corrections.
+</code></pre>
+<h2 id="17-implementation-or-project-plan"><a class="header" href="#17-implementation-or-project-plan">17. Implementation or project plan</a></h2>
+<pre><code class="language-text">Ask one question at a time:
+- What specific outcome should this project achieve?
+- What is in scope and explicitly out of scope?
+- What resources, roles, and approvals are available?
+- What dependencies, risks, and deadlines are known?
+- What milestones and evidence will show progress?
+- Who can approve changes or decide to stop?
+
+Summarize answers in Q&amp;A format and wait for approval.
+
+Project/outcome: [insert]
+Timeframe: [insert]
+Known resources and constraints: [insert]
+
+Create a bounded implementation plan with:
+1. Outcome and scope.
+2. Phases or steps in sequence.
+3. Responsible roles (not invented names).
+4. Dependencies and required approvals.
+5. Risks, mitigations, and unresolved assumptions.
+6. Milestones and observable completion criteria.
+7. Review points and stop/change conditions.
+
+Do not invent commitments, staff availability, budgets, or approvals.
+Keep decisions with authorized people. Stop after the plan.
+</code></pre>
+<h2 id="18-reflection-and-professional-learning"><a class="header" href="#18-reflection-and-professional-learning">18. Reflection and professional learning</a></h2>
+<pre><code class="language-text">Begin with a reflective Q&amp;A, one question at a time:
+- What did you intend to accomplish?
+- What did you actually do, and what evidence is available?
+- What worked, what did not, and for whom?
+- What feedback did the learner, family, or colleagues provide?
+- What surprised you or challenged an assumption?
+- What is one small next step within your role?
+
+Show a Q&amp;A summary and wait for approval.
+
+Experience or artifact: [describe]
+Evidence and feedback: [insert]
+Reflection purpose: [insert]
+
+Return:
+1. Intended outcome compared with observed outcome.
+2. Evidence, interpretation, and unknowns in separate sections.
+3. Assumptions that were confirmed or challenged.
+4. One or two lessons for future practice.
+5. A specific next step and evidence to collect.
+6. A question for continued professional learning.
+
+Do not turn limited evidence into a broad judgment about a learner or
+professional. Do not invent feedback. Stop after the reflection.
+</code></pre>
+<h2 id="19-refinement-prompt"><a class="header" href="#19-refinement-prompt">19. Refinement prompt</a></h2>
+<p>After reviewing any model response, ask:</p>
+<pre><code class="language-text">Do not rewrite the response yet. First identify:
+1. Unsupported claims and missing citations.
+2. Assumptions requiring confirmation.
+3. Missing information that could change the result.
+4. Internal contradictions, calculation errors, or ambiguous wording.
+5. Accessibility, privacy, bias, or implementation risks.
+6. Two alternative approaches and their trade-offs.
+
+Present your findings in Q&amp;A format:
+- Question or issue
+- What the current response says
+- Evidence or clarification needed
+- Possible revision
+
+Ask me which changes to make. Ask one question at a time.
+Do not move to another task or rewrite until I approve.
+</code></pre>
+<h2 id="20-optional-prompt-design-interview"><a class="header" href="#20-optional-prompt-design-interview">20. Optional prompt-design interview</a></h2>
+<p>This is a companion to the bounded prompt template, not a replacement for it. Use it when the task is known but the professional wants help specifying the prompt before asking for a report, analysis, or other deliverable.</p>
+<p><strong>Interview prompt</strong></p>
+<pre><code class="language-text">I want to create a prompt for this purpose: [briefly name the desired report,
+analysis, plan, or response].
+
+Do not perform the task yet. Act as a prompt-design interviewer. Ask one
+focused question at a time and wait for my answer. Ask about:
+- My role, scope, and intended use of the output.
+- The exact task and question to be answered.
+- Audience, setting, and relevant context.
+- Available source material, known facts, and unknowns.
+- Learner strengths, preferences, and task-specific considerations.
+- Required sections, format, length, tone, and accessibility.
+- Evidence standards and verification requirements.
+- Prohibited actions and decisions reserved to qualified professionals.
+- Stop condition and what to do when information is missing.
+
+Do not request identifiable information. Do not infer answers or fill gaps.
+Record unknowns explicitly. When enough information is available, present
+a Q&amp;A confirmation with each question paired to my answer, plus unknowns.
+Ask me to correct or approve it. Do not draft the final task prompt until
+I approve the summary.
+</code></pre>
+<p><strong>Prompt-assembly follow-up</strong></p>
+<pre><code class="language-text">Using only the answers I approved, draft the complete prompt for
+[desired report/analysis/response]. Organize it into role, task, context
+and sources, constraints, required output, verification requirements,
+and stop condition. Preserve unknowns; do not fill them. Include a short
+quality checklist. Do not perform the task. Show me the prompt for approval.
+</code></pre>
+<p>The professional reviews and edits the assembled prompt before running it. The interview does not replace evidence collection, the existing prompts in this library, or professional judgment.</p>
+<h2 id="21-universal-review-checklist"><a class="header" href="#21-universal-review-checklist">21. Universal review checklist</a></h2>
+<p>Use this Q&amp;A-style review before retaining or sharing any output. Answer each question with <strong>Yes</strong>, <strong>No</strong>, or <strong>Needs verification</strong>, and add evidence or a corrective action.</p>
+<ul>
+<li>Is this one bounded task with a clear stop condition?</li>
+<li>Was the intended audience and professional role specified?</li>
+<li>Is the input fictional or approved for this system?</li>
+<li>Are facts, hypotheses, assumptions, and unknowns separated?</li>
+<li>Did the model avoid inventing facts, sources, deadlines, or commitments?</li>
+<li>Is the output aligned with the intended purpose and evidence?</li>
+<li>Are language, format, and accessibility appropriate?</li>
+<li>Are calculations, links, dates, and factual claims independently checked?</li>
+<li>Are privacy, bias, and implementation risks addressed?</li>
+<li>Is a human decision-maker clearly identified?</li>
+<li>Did the model stop where requested?</li>
+<li>What must be corrected or verified before the output is used?</li>
+</ul>
+<p>Record the reviewer, date, artifact version, unresolved issues, and approval status when the document is used in a formal workflow.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="accessibility-and-release-checklist.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="responsible-use-and-implementation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="accessibility-and-release-checklist.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="responsible-use-and-implementation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

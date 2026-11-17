@@ -52,5 +52,11 @@ file-scope = true
 number-sections = true 
 standalone = true 
 table-of-contents = true 
+list-tables = true
+
+[output.pandoc.markdown.extensions]
+math = true
+superscript = true
+subscript = true
 
 [output.markdown]

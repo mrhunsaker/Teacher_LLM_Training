@@ -41,7 +41,6 @@
 - [Module 9 — Critical Evaluation Lab](11-critical-evaluation-lab.md)
 - [Module 10 — Independent Performance Capstone](12-independent-performance-capstone.md)
 - [AI Literacy and Misconception Assessment](ai-literacy-assessment.md)
-- 
 ---
 
 - [Accessibility and Release QA Checklist](accessibility-and-release-checklist.md)

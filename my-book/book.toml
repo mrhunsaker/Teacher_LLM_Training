@@ -4,11 +4,6 @@ authors = ["Michael Ryan Hunsaker, M.Ed., Ph.D."]
 language = "en"
 src = "src"
 
-[preprocessor.numbering]         
-[preprocessor.numbering.heading] 
-enable = true
-numbering-style = "top"
-
 [output.html]
 default-theme = "rust"
 preferred-dark-theme = "navy"
